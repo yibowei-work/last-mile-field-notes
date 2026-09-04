@@ -5,6 +5,7 @@ import hostingConfig from "./.openai/hosting.json";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
   "00000000-0000-4000-8000-000000000000";
+const isGithubPages = process.env.GITHUB_PAGES === "true";
 
 const { d1, r2 } = hostingConfig;
 
@@ -44,6 +45,8 @@ export default defineConfig(async () => {
   const { cloudflare } = await import("@cloudflare/vite-plugin");
 
   return {
+    // Relative URLs keep the static export working at /<repository>/ on Pages.
+    base: isGithubPages ? "./" : undefined,
     server: isCodexSeatbeltSandbox
       ? { watch: { useFsEvents: false, usePolling: true } }
       : undefined,

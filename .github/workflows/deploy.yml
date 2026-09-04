@@ -24,10 +24,10 @@ jobs:
           node-version: 22
           cache: npm
 
-            - name: Install dependencies
-              # npm install resolves platform-specific optional packages on the
-              # Linux runner (Tailwind's native bindings in particular).
-              run: npm install --no-audit --no-fund
+      - name: Install dependencies
+        # npm install resolves platform-specific optional packages on the
+        # Linux runner (Tailwind's native bindings in particular).
+        run: npm install --no-audit --no-fund
 
       - name: Build static site
         run: npm run build

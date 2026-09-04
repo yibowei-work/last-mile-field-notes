@@ -41,7 +41,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist/client
+          path: ./dist/client/last-mile-field-notes
 
   deploy:
     needs: build

@@ -135,15 +135,14 @@ export default function Home() {
     <main className="shell">
       <header className="topbar">
         <a className="brand-lockup" href="#top" aria-label="返回顶部">
-          <div className="brand-mark">LM</div>
-          <div><div className="eyebrow">LAST MILE / FIELD NOTES</div><div className="brand-name">即时物流情报台</div></div>
+          <div className="brand-mark shopee-mark" role="img" aria-label="Shopee 风格图标"><span className="shopee-mark-handle" /><span className="shopee-mark-face">S</span></div>
+          <div><div className="eyebrow">INSTANT SERVICE / FIELD NOTES</div><div className="brand-name">即时履约情报台</div></div>
         </a>
-        <div className="topbar-right"><span className="live-label"><span /> LIVE MONITOR</span><span className="top-sticker">SHOPEE ORANGE EDITION</span><span>首期整理 · 2026 年 8 月</span></div>
+        <div className="topbar-right"><span className="live-label"><span /> LIVE MONITOR</span><span>首期整理 · 2026 年 8 月</span></div>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="kicker">给产品、运营与战略团队的月度底稿</p>
           <h1>把每一天的末端变化，<em>变成可用判断。</em></h1>
           <p className="hero-text">聚合中国、东南亚、拉美与中东的即时零售、同城配送、国际物流和运力监管动态。</p>
           <div className="hero-actions"><button className="button button-dark" onClick={() => { setView("brief"); document.querySelector("#brief")?.scrollIntoView(); }}>查看老板简报 <span>↓</span></button><button className="text-link" onClick={() => { setView("table"); document.querySelector("#feed")?.scrollIntoView(); }}>浏览明细表 <span>→</span></button></div>

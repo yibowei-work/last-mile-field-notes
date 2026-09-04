@@ -38,10 +38,15 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Inspect static output
+        run: |
+          echo "Static files generated:"
+          find dist/client -maxdepth 4 -type f | sort
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./dist/client/last-mile-field-notes
+          path: ./dist/client
 
   deploy:
     needs: build

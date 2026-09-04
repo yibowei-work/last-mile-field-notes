@@ -2,6 +2,9 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 
+// Keep the dashboard eligible for GitHub Pages static export.
+export const dynamic = "force-static";
+
 type Intelligence = {
   id: string;
   date: string;

@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
-const isGithubPages = process.env.GITHUB_PAGES === "true";
-const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "last-mile-field-notes";
-
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: isGithubPages ? `/${repoName}` : "",
+  // Keep the route at "/" while exporting; GitHub Pages serves the artifact
+  // from a project subpath, and Vite handles the asset prefix separately.
+  basePath: "",
   images: { unoptimized: true },
 };
 

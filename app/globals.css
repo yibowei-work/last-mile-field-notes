@@ -185,6 +185,9 @@ body, .shell { background:#fffdfb; }
 .metric-card:nth-child(3) { border-color:#3f5bea; color:#3f5bea; }
 .metric-card .metric-label,
 .metric-card strong { color:currentColor; }
+.metric-card:nth-child(1) .metric-label,
+.metric-card:nth-child(1) strong { color:#ee4d2d; }
+.metric-card:nth-child(1) .metric-foot { color:var(--muted); }
 .metric-card .metric-label { font-size:10px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
 .metric-card strong { font-size:42px; }
 .metric-card .metric-foot { color:var(--muted); }

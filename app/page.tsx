@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 type Intelligence = {
   id: string;
   date: string;
-  region: "中国" | "东南亚" | "拉美" | "中东";
+  region: "中国" | "东南亚" | "拉美" | "中东" | "欧洲";
   market: string;
   company: string;
   track: string;
@@ -73,9 +73,95 @@ const seedItems: Intelligence[] = [...september6Items, ...september4Items, ...ju
   { id: "cn-0820-alibaba", date: "2026-08-20", region: "中国", market: "全国", company: "阿里巴巴 / 淘宝闪购", track: "行业变化", service: "即时零售 · 闪购 · 闪电仓", title: "阿里披露快商业收入同比增长 45%，规模与单位经济性同步改善", summary: "阿里巴巴 2026 年 8 月业绩材料显示，快商业收入同比增长 45%，规模扩大、单位经济性改善并加速减亏。", implication: "闪购进入效率与供给密度并重阶段，前置仓、商家网络与即时履约的经营指标需要放在同一张表里。", focus: true, status: "已核验", source: "https://www.alibabagroup.com/en-US/document-2027233133950140416", sourceLabel: "Alibaba Group" },
 ];
 
-const regionOptions = ["全部地区", "中国", "东南亚", "拉美", "中东"] as const;
-const trackOptions = ["全部端", "用户侧", "商家侧", "运力侧", "行业 / 监管"] as const;
-const serviceOptions = ["全部服务", "即时零售", "国际物流", "尾程配送", "即时配送", "本地生活", "同城跑腿", "闪购", "闪电仓", "最后一公里", "COD"] as const;
+const regionOptions = ["全部区域", "中国", "东南亚", "拉美", "中东", "欧洲"] as const;
+const subjectOptions = ["全部业务主体", "平台侧", "运力端", "用户端", "商家端", "行业监管"] as const;
+const scenarioOptions = ["全部业务场景", "产品与体验", "履约与调度", "骑手管理与权益", "新业务与拓展", "商业化与费率", "品牌跨境出海", "国际物流与供应链"] as const;
+
+const sourceChannels = [
+  { name: "美团新闻中心", scope: "平台公告", url: "https://www.meituan.com/news/" },
+  { name: "美团技术团队", scope: "算法 / AI", url: "https://tech.meituan.com/" },
+  { name: "美团商家外卖课堂", scope: "商家运营", url: "https://collegewm.meituan.com/" },
+  { name: "淘宝技术", scope: "技术 / 履约", url: "https://tech.taobao.org/" },
+  { name: "淘宝闪购商家培训", scope: "商家规则", url: "https://alins.ele.me/" },
+  { name: "京东零售开放平台", scope: "开放平台", url: "https://open.jd.com/" },
+  { name: "京东投资者关系", scope: "财报 / 战略", url: "https://ir.jd.com/" },
+  { name: "蜂鸟即时配送开放平台", scope: "配送服务", url: "https://open.ele.me/about-us" },
+  { name: "顺丰同城投资者关系", scope: "经营 / 战略", url: "https://ir.sf-cityrush.com/en/investor-relations/performance-promotion/financial-reports/" },
+  { name: "顺丰同城官网", scope: "配送 / 合作", url: "https://www.sf-cityrush.com/" },
+  { name: "闪送 App Store", scope: "版本 / 产品", url: "https://apps.apple.com/cn/app/%E9%97%AA%E9%80%81%E5%95%86%E5%AE%B6%E7%89%88-%E4%B8%80%E5%AF%B9%E4%B8%80%E6%80%A5%E9%80%81-%E6%9B%B4%E5%BF%AB%E6%9B%B4%E6%94%BE%E5%BF%83/id1438700286" },
+  { name: "闪送官网", scope: "急送 / 产品", url: "https://www.ishansong.com/" },
+  { name: "达达集团官网", scope: "即时配送", url: "https://www.imdada.cn/" },
+  { name: "京东到家官网", scope: "即时零售", url: "https://www.jddj.com/" },
+  { name: "饿了么官网", scope: "本地生活", url: "https://www.ele.me/" },
+  { name: "UU 跑腿官网", scope: "跑腿 / 服务", url: "https://uupt.com/" },
+  { name: "千问开放平台", scope: "AI / 接入", url: "https://open.qianwen.com/" },
+  { name: "36 氪", scope: "行业研究", url: "https://36kr.com/" },
+  { name: "虎嗅", scope: "竞争 / 监管", url: "https://www.huxiu.com/" },
+  { name: "亿邦动力", scope: "电商 / 零售", url: "https://www.ebrun.com/" },
+  { name: "联商网", scope: "零售供给", url: "https://www.linkshop.com/" },
+  { name: "21 世纪经济报道", scope: "产业 / 政策", url: "https://www.21jingji.com/" },
+  { name: "第一财经", scope: "公司 / 消费", url: "https://www.yicai.com/" },
+  { name: "界面新闻", scope: "消费 / 公司", url: "https://www.jiemian.com/" },
+  { name: "南方网", scope: "地方 / 民生", url: "https://www.southcn.com/" },
+  { name: "人民网 / 新华网 / 央视网", scope: "政策 / 监管", url: "https://www.people.com.cn/" },
+  { name: "澎湃新闻 / 新京报", scope: "治理 / 民生", url: "https://www.thepaper.cn/" },
+  { name: "每日经济新闻 / 证券时报", scope: "公司 / 资本市场", url: "https://www.nbd.com.cn/" },
+  { name: "财联社 / 东方财富", scope: "公司 / 快讯", url: "https://www.cls.cn/" },
+  { name: "网经社 / 亿欧", scope: "电商 / 平台", url: "https://www.100ec.cn/" },
+  { name: "雷峰网 / IT之家 / TechWeb", scope: "AI / 产品", url: "https://www.leiphone.com/" },
+  { name: "新浪财经 / 新浪新闻", scope: "转载 / 快讯", url: "https://finance.sina.com.cn/" },
+  { name: "今日头条 / 搜狐 / 网易", scope: "扩展检索", url: "https://www.toutiao.com/" },
+  { name: "Grab Inside Scoop", scope: "东南亚平台", url: "https://www.grab.com/inside-grab/inside-scoop/news/" },
+  { name: "foodpanda Developer Portal", scope: "商家 / 订单 API", url: "https://developer.foodpanda.com/en" },
+  { name: "Careem Developer Hub", scope: "中东配送 API", url: "https://engineering.careem.com/tech/developerhub" },
+  { name: "talabat Newsroom", scope: "中东平台 / 骑手", url: "https://corporate.talabat.com/newsroom/" },
+  { name: "Mercado Libre Developers", scope: "拉美 / 订单 API", url: "https://developers.mercadolibre.com/" },
+  { name: "Rappi 官方", scope: "拉美即时零售", url: "https://about.rappi.com/" },
+  { name: "iFood 官方", scope: "巴西本地生活", url: "https://institucional.ifood.com.br/" },
+  { name: "DHL API Developer Portal", scope: "国际物流 API", url: "https://developer.dhl.com/?lang=en" },
+  { name: "FedEx Developer Portal", scope: "国际物流 API", url: "https://developer.fedex.com/api/en-us/home.html" },
+  { name: "Maersk News", scope: "海运 / 中东", url: "https://www.maersk.com/news" },
+  { name: "Aramex Newsroom", scope: "中东 / 货代", url: "https://www.aramex.com/ae/en/media-details/news" },
+  { name: "project44", scope: "可视化 / API", url: "https://www.project44.com/news/" },
+  { name: "Uber Newsroom", scope: "全球平台", url: "https://www.uber.com/newsroom/" },
+  { name: "Wolt Press", scope: "欧洲即时配送", url: "https://press.wolt.com/" },
+  { name: "Deliveroo News", scope: "欧洲即时配送", url: "https://deliveroo.co.uk/more/news" },
+  { name: "新加坡人力部 MOM", scope: "东南亚监管", url: "https://www.mom.gov.sg/" },
+  { name: "印尼通信与数字部", scope: "东南亚监管", url: "https://portal.komdigi.go.id/" },
+  { name: "巴西 Anvisa", scope: "拉美监管", url: "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa" },
+  { name: "墨西哥经济部", scope: "拉美政策", url: "https://www.gob.mx/se/prensa" },
+  { name: "阿联酋 MoHRE", scope: "中东劳动 / 安全", url: "https://www.mohre.gov.ae/" },
+  { name: "百度资讯 / Google Alerts", scope: "新闻检索", url: "https://www.google.com/alerts" },
+  { name: "华泰 / 中金 / 中信", scope: "券商研报", url: "https://www.htsc.com.cn/" },
+  { name: "国海 / 招商 / 交银国际", scope: "券商研报", url: "https://www.ghzq.com.cn/" },
+  { name: "广发 / 国泰君安 / 国信", scope: "券商研报", url: "https://www.gf.com.cn/" },
+  { name: "海通证券", scope: "券商研报", url: "https://www.htsec.com/" },
+  { name: "Goldman Sachs / JP Morgan", scope: "海外研报", url: "https://www.goldmansachs.com/" },
+];
+
+type BusinessSubject = Exclude<(typeof subjectOptions)[number], "全部业务主体">;
+type BusinessScenario = Exclude<(typeof scenarioOptions)[number], "全部业务场景">;
+
+function businessSubject(item: Pick<Intelligence, "track">): BusinessSubject {
+  if (["平台侧", "运力端", "用户端", "商家端", "行业监管"].includes(item.track)) return item.track as BusinessSubject;
+  if (item.track.includes("监管")) return "行业监管";
+  if (item.track.includes("运力")) return "运力端";
+  if (item.track.includes("商家")) return "商家端";
+  if (item.track.includes("用户")) return "用户端";
+  return "平台侧";
+}
+
+function businessScenario(item: Pick<Intelligence, "service" | "title" | "summary" | "implication">): BusinessScenario {
+  if (scenarioOptions.slice(1).includes(item.service as BusinessScenario)) return item.service as BusinessScenario;
+  const text = `${item.service} ${item.title} ${item.summary} ${item.implication}`;
+  if (["国际物流", "跨境", "港口", "海运", "货代", "供应链"].some((term) => text.includes(term))) return "国际物流与供应链";
+  if (["配送费", "附加费", "费率", "成本", "补贴", "奖励", "免运", "红包", "券包", "会员", "信贷", "抽佣"].some((term) => text.includes(term))) return "商业化与费率";
+  if (["算法", "调度", "派单", "红灯", "等灯", "配送时效", "送达", "取餐", "出餐", "时效", "ETA"].some((term) => text.includes(term))) return "履约与调度";
+  if (["骑手", "配送员", "工会", "安全", "培训", "招募", "积分", "权益", "超时免罚", "车辆", "电池"].some((term) => text.includes(term))) return "骑手管理与权益";
+  if (["前置仓", "无人车", "无人机", "自营", "99Compras", "团餐", "闪购", "闪电仓", "即时零售", "拓展", "新业务"].some((term) => text.includes(term))) return "新业务与拓展";
+  if (["出海", "海外", "品牌"].some((term) => text.includes(term))) return "品牌跨境出海";
+  return "产品与体验";
+}
 
 function displayDate(date: string) { return date.slice(5).replace("-", "."); }
 function monthLabel(month: string) { return `${month.slice(0, 4)} 年 ${month.slice(5)} 月`; }
@@ -88,10 +174,10 @@ export default function Home() {
   const [activeMonth, setActiveMonth] = useState("2026-09");
   const [draftRegion, setDraftRegion] = useState("");
   const [activeRegion, setActiveRegion] = useState("");
-  const [draftTrack, setDraftTrack] = useState("");
-  const [activeTrack, setActiveTrack] = useState("");
-  const [draftService, setDraftService] = useState("");
-  const [activeService, setActiveService] = useState("");
+  const [draftSubject, setDraftSubject] = useState("");
+  const [activeSubject, setActiveSubject] = useState("");
+  const [draftScenario, setDraftScenario] = useState("");
+  const [activeScenario, setActiveScenario] = useState("");
   const [draftQuery, setDraftQuery] = useState("");
   const [query, setQuery] = useState("");
   const [showAdd, setShowAdd] = useState(false);
@@ -118,24 +204,24 @@ export default function Home() {
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
     const matchesMonth = !activeMonth || activeMonth === item.date.slice(0, 7);
     const matchesRegion = !activeRegion || activeRegion === item.region;
-    const matchesTrack = !activeTrack || item.track.includes(activeTrack === "行业 / 监管" ? "行业" : activeTrack);
-    const matchesService = !activeService || item.service.includes(activeService);
-    return matchesQuery && matchesMonth && matchesRegion && matchesTrack && matchesService;
-  }), [activeMonth, activeRegion, activeService, activeTrack, orderedItems, query]);
+    const matchesSubject = !activeSubject || businessSubject(item) === activeSubject;
+    const matchesScenario = !activeScenario || businessScenario(item) === activeScenario;
+    return matchesQuery && matchesMonth && matchesRegion && matchesSubject && matchesScenario;
+  }), [activeMonth, activeRegion, activeScenario, activeSubject, orderedItems, query]);
 
   const focusItems = filteredItems.filter((item) => item.focus);
   const visibleFocus = showAllBrief ? focusItems : focusItems.slice(0, 5);
   const regionCount = new Set(filteredItems.map((item) => item.region)).size;
-  const fulfillmentTerms = ["即时零售", "国际物流", "尾程配送", "即时配送", "本地生活", "同城跑腿", "闪购", "闪电仓", "最后一公里", "COD"];
-  const fulfillmentCount = filteredItems.filter((item) => fulfillmentTerms.some((term) => item.service.includes(term))).length;
+  const fulfillmentScenarios = ["履约与调度", "骑手管理与权益", "新业务与拓展", "国际物流与供应链"];
+  const fulfillmentCount = filteredItems.filter((item) => fulfillmentScenarios.includes(businessScenario(item))).length;
   const otherCount = filteredItems.length - fulfillmentCount;
   const periodLabel = activeMonth ? monthLabel(activeMonth) : "全部年月";
 
   function applyFilters() {
     setActiveMonth(draftMonth);
     setActiveRegion(draftRegion);
-    setActiveTrack(draftTrack);
-    setActiveService(draftService);
+    setActiveSubject(draftSubject);
+    setActiveScenario(draftScenario);
     setQuery(draftQuery);
     setNotice("筛选条件已应用，列表已按发生时间倒序更新。");
     window.setTimeout(() => setNotice(""), 3000);
@@ -150,8 +236,8 @@ export default function Home() {
   }
 
   function exportCsv() {
-    const headers = ["发生时间", "地区", "市场", "公司", "涉及端", "服务", "标题", "改动内容", "产品影响", "状态", "资料链接"];
-    const rows = filteredItems.map((item) => [item.date, item.region, item.market, item.company, item.track, item.service, item.title, item.summary, item.implication, item.status, item.source]);
+    const headers = ["发生时间", "区域", "市场", "公司", "业务主体", "业务场景", "标题", "改动内容", "产品影响", "状态", "资料链接"];
+    const rows = filteredItems.map((item) => [item.date, item.region, item.market, item.company, businessSubject(item), businessScenario(item), item.title, item.summary, item.implication, item.status, item.source]);
     const csv = [headers, ...rows].map((row) => row.map((cell) => `"${String(cell).replaceAll('"', '""')}"`).join(",")).join("\n");
     const blob = new Blob(["\\ufeff" + csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
@@ -170,8 +256,8 @@ export default function Home() {
       region: String(form.get("region") || "中国") as Intelligence["region"],
       market: String(form.get("market") || "待补充"),
       company: String(form.get("company") || "待补充"),
-      track: String(form.get("track") || "行业 / 监管"),
-      service: String(form.get("service") || "即时配送"),
+      track: String(form.get("track") || "平台侧"),
+      service: String(form.get("service") || "产品与体验"),
       title: String(form.get("title") || "未命名情报"),
       summary: String(form.get("summary") || "待补充"),
       implication: "待补充产品影响判断。",
@@ -215,19 +301,21 @@ export default function Home() {
 
       <section className="section-head" id="brief"><div><span className="section-index">01</span><h2>物流履约简报</h2></div></section>
       <section className="brief-grid">
-        {visibleFocus.map((item, index) => <article className={`brief-card brief-${(index % 3) + 1}`} key={item.id}><div className="card-topline"><span className="card-track">{item.track}</span><span>{displayDate(item.date)}</span></div><div className="card-region">{item.region} <span>·</span> {item.company}</div><h3>{item.title}</h3><p>{item.summary}</p><div className="brief-impact"><span>产品影响</span>{item.implication}</div><a className="source-link" href={item.source} target="_blank" rel="noreferrer">查看原文 <span>↗</span></a></article>)}
+        {visibleFocus.map((item, index) => <article className={`brief-card brief-${(index % 3) + 1}`} key={item.id}><div className="card-topline"><span className="card-track">{businessSubject(item)}</span><span>{displayDate(item.date)}</span></div><div className="card-region">{item.region} <span>·</span> {item.company}</div><h3>{item.title}</h3><p>{item.summary}</p><div className="brief-impact"><span>产品影响</span>{item.implication}</div><a className="source-link" href={item.source} target="_blank" rel="noreferrer">查看原文 <span>↗</span></a></article>)}
       </section>
       <div className="section-action"><button className="outline-button" onClick={() => setShowAllBrief((current) => !current)}>{showAllBrief ? "收起" : `查看全部（${focusItems.length}）`} <span>{showAllBrief ? "↑" : "↓"}</span></button></div>
 
       <section className="section-head feed-heading" id="feed"><div><span className="section-index">02</span><h2>情报流</h2></div><div className="feed-heading-right"><span className="section-caption">用户、商家、运力、系统与监管的全链路变化</span><div className="view-switch"><button className={view === "brief" ? "active" : ""} onClick={() => setView("brief")}>看板</button><button className={view === "table" ? "active" : ""} onClick={() => setView("table")}>表格</button></div></div></section>
-      <section className="control-panel" aria-label="情报筛选与操作"><div className="search-wrap"><span>⌕</span><input value={draftQuery} onChange={(event) => setDraftQuery(event.target.value)} placeholder="搜索公司、市场、关键词" aria-label="搜索公司、市场、关键词" /></div><div className="select-row"><label>年月<select value={draftMonth} onChange={(event) => setDraftMonth(event.target.value)} aria-label="按年月筛选"><option value="">全部年月</option>{monthOptions.map((month) => <option key={month} value={month}>{monthLabel(month)}</option>)}</select></label><label>地区<select value={draftRegion} onChange={(event) => setDraftRegion(event.target.value)} aria-label="按地区筛选"><option value="">全部地区</option>{regionOptions.slice(1).map((region) => <option key={region} value={region}>{region}</option>)}</select></label><label>涉及端<select value={draftTrack} onChange={(event) => setDraftTrack(event.target.value)} aria-label="按涉及端筛选"><option value="">全部涉及端</option>{trackOptions.slice(1).map((track) => <option key={track} value={track}>{track}</option>)}</select></label><label>服务<select value={draftService} onChange={(event) => setDraftService(event.target.value)} aria-label="按服务筛选"><option value="">全部服务</option>{serviceOptions.slice(1).map((service) => <option key={service} value={service}>{service}</option>)}</select></label></div><div className="control-actions"><button className="button button-dark query-button" onClick={applyFilters}>查询 <span>→</span></button><button className="outline-button" onClick={() => setShowAdd(true)}>＋ 新增情报</button><button className="export-button" onClick={exportCsv}>导出 CSV <span>↓</span></button></div></section>
+      <section className="control-panel" aria-label="情报筛选与操作"><div className="search-wrap"><span>⌕</span><input value={draftQuery} onChange={(event) => setDraftQuery(event.target.value)} placeholder="搜索公司、市场、关键词" aria-label="搜索公司、市场、关键词" /></div><div className="select-row"><label>年月<select value={draftMonth} onChange={(event) => setDraftMonth(event.target.value)} aria-label="按年月筛选"><option value="">全部年月</option>{monthOptions.map((month) => <option key={month} value={month}>{monthLabel(month)}</option>)}</select></label><label>区域<select value={draftRegion} onChange={(event) => setDraftRegion(event.target.value)} aria-label="按区域筛选"><option value="">全部区域</option>{regionOptions.slice(1).map((region) => <option key={region} value={region}>{region}</option>)}</select></label><label>业务主体<select value={draftSubject} onChange={(event) => setDraftSubject(event.target.value)} aria-label="按业务主体筛选"><option value="">全部业务主体</option>{subjectOptions.slice(1).map((subject) => <option key={subject} value={subject}>{subject}</option>)}</select></label><label>业务场景<select value={draftScenario} onChange={(event) => setDraftScenario(event.target.value)} aria-label="按业务场景筛选"><option value="">全部业务场景</option>{scenarioOptions.slice(1).map((scenario) => <option key={scenario} value={scenario}>{scenario}</option>)}</select></label></div><div className="control-actions"><button className="button button-dark query-button" onClick={applyFilters}>查询 <span>→</span></button><button className="outline-button" onClick={() => setShowAdd(true)}>＋ 新增情报</button><button className="export-button" onClick={exportCsv}>导出 CSV <span>↓</span></button></div></section>
 
-      {view === "brief" ? <section className="feed-list"><div className="feed-list-head"><span>{filteredItems.length} 条记录</span><span>按发生时间倒序 · 越新的变化越靠前</span></div>{filteredItems.map((item) => <article className="feed-item" key={item.id}><div className="feed-date"><strong>{displayDate(item.date)}</strong><span>{item.date.slice(0, 4)}</span></div><div className="feed-main"><div className="feed-meta"><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span><span>{item.region} · {item.market}</span><span>{item.track}</span><span>{item.service}</span><span className="source-label">{item.sourceLabel}</span></div><h3>{item.title}</h3><p>{item.summary}</p><div className="feed-implication"><span>→ 产品影响</span>{item.implication}</div></div><div className="feed-side"><span>{item.company}</span><a href={item.source} target="_blank" rel="noreferrer">资料 ↗</a></div></article>)}</section> : <section className="table-wrap"><table><thead><tr><th>时间</th><th>地区 / 市场</th><th>公司</th><th>涉及端</th><th>服务</th><th>改动内容</th><th>来源</th><th>状态</th><th>资料</th></tr></thead><tbody>{filteredItems.map((item) => <tr key={item.id}><td className="table-date">{item.date}</td><td><strong>{item.region}</strong><small>{item.market}</small></td><td>{item.company}</td><td><span className="table-tag">{item.track}</span></td><td>{item.service}</td><td><strong>{item.title}</strong><small>{item.summary}</small></td><td><small className="source-label">{item.sourceLabel}</small></td><td><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span></td><td><a href={item.source} target="_blank" rel="noreferrer">打开 ↗</a></td></tr>)}</tbody></table></section>}
+      <details className="source-coverage"><summary><span className="source-coverage-head"><span className="eyebrow">SOURCE COVERAGE</span><span>补充平台公告、开放平台、App 版本、投资者关系、区域媒体与监管入口</span></span><span>查看 {sourceChannels.length} 个入口</span></summary><div className="source-coverage-links">{sourceChannels.map((channel) => <a key={channel.name} href={channel.url} target="_blank" rel="noreferrer"><strong>{channel.name}</strong><small>{channel.scope}</small><span>↗</span></a>)}</div></details>
+
+      {view === "brief" ? <section className="feed-list"><div className="feed-list-head"><span>{filteredItems.length} 条记录</span><span>按发生时间倒序 · 越新的变化越靠前</span></div>{filteredItems.map((item) => <article className="feed-item" key={item.id}><div className="feed-date"><strong>{displayDate(item.date)}</strong><span>{item.date.slice(0, 4)}</span></div><div className="feed-main"><div className="feed-meta"><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span><span>{item.region} · {item.market}</span><span>{businessSubject(item)}</span><span>{businessScenario(item)}</span><span className="source-label">{item.sourceLabel}</span></div><h3>{item.title}</h3><p>{item.summary}</p><div className="feed-implication"><span>→ 产品影响</span>{item.implication}</div></div><div className="feed-side"><span>{item.company}</span><a href={item.source} target="_blank" rel="noreferrer">资料 ↗</a></div></article>)}</section> : <section className="table-wrap"><table><thead><tr><th>时间</th><th>区域 / 市场</th><th>公司</th><th>业务主体</th><th>业务场景</th><th>改动内容</th><th>来源</th><th>状态</th><th>资料</th></tr></thead><tbody>{filteredItems.map((item) => <tr key={item.id}><td className="table-date">{item.date}</td><td><strong>{item.region}</strong><small>{item.market}</small></td><td>{item.company}</td><td><span className="table-tag">{businessSubject(item)}</span></td><td>{businessScenario(item)}</td><td><strong>{item.title}</strong><small>{item.summary}</small></td><td><small className="source-label">{item.sourceLabel}</small></td><td><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span></td><td><a href={item.source} target="_blank" rel="noreferrer">打开 ↗</a></td></tr>)}</tbody></table></section>}
 
       <footer className="footer"><div><span className="eyebrow">RESEARCH LOG / JUL 2026</span><p>来源以政府、公司公告、开发者文档、权威媒体与区域监管资料为主。手工新增记录默认标为“待复核”。</p></div><div className="footer-right"><span>覆盖 {regionCount} 个区域</span><span>每日刷新 · UTC+8</span></div></footer>
 
       {notice && <div className="toast" role="status">{notice}</div>}
-      {showAdd && <div className="modal-backdrop"><section className="modal" role="dialog" aria-modal="true" aria-labelledby="add-title"><div className="modal-head"><div><span className="eyebrow">QUICK CAPTURE</span><h2 id="add-title">新增一条情报</h2></div><button className="close-button" onClick={() => setShowAdd(false)} aria-label="关闭">×</button></div><form onSubmit={addItem}><div className="form-grid"><label>发生时间<input name="date" type="date" defaultValue="2026-09-04" required /></label><label>公司 / 机构<input name="company" placeholder="例如：Grab / 交通部" required /></label><label>地区<select name="region" defaultValue="中国">{regionOptions.slice(1).map((region) => <option key={region}>{region}</option>)}</select></label><label>国家 / 城市<input name="market" placeholder="例如：印尼 / 雅加达" required /></label><label>涉及端<select name="track" defaultValue="行业 / 监管">{trackOptions.slice(1).map((track) => <option key={track}>{track}</option>)}</select></label><label>服务<input name="service" placeholder="即时配送 / COD" required /></label></div><label>标题<input name="title" placeholder="这条变化发生了什么？" required /></label><label>改动内容<textarea name="summary" rows={3} placeholder="用 1-2 句话记录改动内容" required /></label><label>资料链接<input name="source" type="url" placeholder="https://" required /></label><div className="modal-actions"><button type="button" className="outline-button" onClick={() => setShowAdd(false)}>取消</button><button type="submit" className="button button-dark">保存记录 <span>→</span></button></div></form></section></div>}
+      {showAdd && <div className="modal-backdrop"><section className="modal" role="dialog" aria-modal="true" aria-labelledby="add-title"><div className="modal-head"><div><span className="eyebrow">QUICK CAPTURE</span><h2 id="add-title">新增一条情报</h2></div><button className="close-button" onClick={() => setShowAdd(false)} aria-label="关闭">×</button></div><form onSubmit={addItem}><div className="form-grid"><label>发生时间<input name="date" type="date" defaultValue="2026-09-04" required /></label><label>公司 / 机构<input name="company" placeholder="例如：Grab / 交通部" required /></label><label>区域<select name="region" defaultValue="中国">{regionOptions.slice(1).map((region) => <option key={region}>{region}</option>)}</select></label><label>国家 / 城市<input name="market" placeholder="例如：印尼 / 雅加达" required /></label><label>业务主体<select name="track" defaultValue="平台侧">{subjectOptions.slice(1).map((subject) => <option key={subject}>{subject}</option>)}</select></label><label>业务场景<select name="service" defaultValue="产品与体验">{scenarioOptions.slice(1).map((scenario) => <option key={scenario}>{scenario}</option>)}</select></label></div><label>标题<input name="title" placeholder="这条变化发生了什么？" required /></label><label>改动内容<textarea name="summary" rows={3} placeholder="用 1-2 句话记录改动内容" required /></label><label>资料链接<input name="source" type="url" placeholder="https://" required /></label><div className="modal-actions"><button type="button" className="outline-button" onClick={() => setShowAdd(false)}>取消</button><button type="submit" className="button button-dark">保存记录 <span>→</span></button></div></form></section></div>}
     </main>
   );
 }

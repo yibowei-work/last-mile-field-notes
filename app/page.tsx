@@ -22,76 +22,6 @@ type Intelligence = {
   sourceLabel: string;
 };
 
-type SourceLink = { label: string; scope: string; url: string };
-type SourceGroup = { eyebrow: string; title: string; description: string; links: SourceLink[] };
-
-const sourceGroups: SourceGroup[] = [
-  {
-    eyebrow: "PRIMARY SOURCES",
-    title: "平台、公司与监管",
-    description: "优先确认新功能、规则、接口、运力与官方经营口径。",
-    links: [
-      { label: "美团新闻中心", scope: "中国", url: "https://www.meituan.com/news" },
-      { label: "美团技术团队", scope: "中国", url: "https://tech.meituan.com/" },
-      { label: "淘宝开放平台", scope: "中国", url: "https://developer.alibaba.com/en/index.htm" },
-      { label: "顺丰同城开放平台", scope: "中国", url: "https://openic.sf-express.com/" },
-      { label: "京东秒送开放平台", scope: "中国", url: "https://opendj.jd.com/" },
-      { label: "Grab Press Centre", scope: "东南亚", url: "https://www.grab.com/sg/press/" },
-      { label: "Mercado Libre IR", scope: "拉美", url: "https://investor.mercadolibre.com/" },
-      { label: "Aramex Newsroom", scope: "中东", url: "https://www.aramex.com/ae/en/media-details/news" },
-      { label: "Careem Newsroom", scope: "中东", url: "https://blog.careem.com/categories/newsroom" },
-    ],
-  },
-  {
-    eyebrow: "INDUSTRY SIGNALS",
-    title: "行业媒体与研究",
-    description: "用深度报道、消费趋势、平台竞争与产业研究补足官方口径之外的线索。",
-    links: [
-      { label: "晚点 LatePost", scope: "商业深度", url: "https://www.latepost.com/" },
-      { label: "虎嗅", scope: "商业科技", url: "https://www.huxiu.com/" },
-      { label: "36氪 / 未来消费", scope: "消费科技", url: "https://36kr.com/" },
-      { label: "雷峰网", scope: "科技产业", url: "https://www.leiphone.com/" },
-      { label: "DT商业观察", scope: "消费研究", url: "https://dt.yicai.com/" },
-      { label: "亿邦动力", scope: "电商物流", url: "https://www.ebrun.com/" },
-      { label: "联商网", scope: "零售商业", url: "https://www.linkshop.com.cn/" },
-      { label: "钛媒体 / 亿欧", scope: "产业观察", url: "https://www.tmtpost.com/" },
-      { label: "界面新闻 / 第一财经", scope: "财经新闻", url: "https://www.yicai.com/" },
-    ],
-  },
-  {
-    eyebrow: "NEWS / RESEARCH",
-    title: "新闻、研报与定向检索",
-    description: "追踪政策、诉讼、资本市场与行业舆情，并将券商观点作为趋势线索而非事实替代。",
-    links: [
-      { label: "中国政府网", scope: "政策法规", url: "https://www.gov.cn/" },
-      { label: "市场监管总局", scope: "行业监管", url: "https://www.samr.gov.cn/" },
-      { label: "21世纪经济报道", scope: "财经新闻", url: "https://www.21jingji.com/" },
-      { label: "新京报 / 澎湃", scope: "社会新闻", url: "https://www.thepaper.cn/" },
-      { label: "财联社", scope: "快讯舆情", url: "https://www.cls.cn/" },
-      { label: "新浪财经", scope: "市场检索", url: "https://finance.sina.com.cn/" },
-      { label: "百度资讯", scope: "全网检索", url: "https://news.baidu.com/" },
-      { label: "起点财经", scope: "研报检索", url: "https://www.baidu.com/s?wd=%E8%B5%B7%E7%82%B9%E8%B4%A2%E7%BB%8F" },
-      { label: "创新零售社", scope: "零售检索", url: "https://www.baidu.com/s?wd=%E5%88%9B%E6%96%B0%E9%9B%B6%E5%94%AE%E7%A4%BE" },
-      { label: "海豚投研", scope: "投研检索", url: "https://www.baidu.com/s?wd=%E6%B5%B7%E8%B1%9A%E6%8A%95%E7%A0%94" },
-    ],
-  },
-  {
-    eyebrow: "GLOBAL LENS",
-    title: "海外履约与供应链",
-    description: "按“公司 newsroom / IR / 开发者文档 → 当地监管 → 区域行业媒体”交叉验证。",
-    links: [
-      { label: "ASEAN Main Portal", scope: "东南亚", url: "https://asean.org/" },
-      { label: "The Loadstar", scope: "全球物流", url: "https://theloadstar.com/" },
-      { label: "FreightWaves", scope: "北美物流", url: "https://www.freightwaves.com/" },
-      { label: "Retail Dive", scope: "零售履约", url: "https://www.retaildive.com/" },
-      { label: "Modern Retail", scope: "零售科技", url: "https://www.modernretail.co/" },
-      { label: "Logistics Middle East", scope: "中东物流", url: "https://www.logisticsmiddleeast.com/" },
-      { label: "Brazil Anvisa", scope: "拉美监管", url: "https://www.gov.br/anvisa/" },
-      { label: "Saudi Official Gazette", scope: "中东监管", url: "https://www.uqn.gov.sa/" },
-    ],
-  },
-];
-
 const september6Items: Intelligence[] = [
   { id: "cn-0906-chongqing-heat", date: "2026-09-06", region: "中国", market: "重庆", company: "重庆市气象台 / 重庆市应急管理局", track: "运力侧 / 行业 / 监管", service: "即时配送 · 本地生活", title: "重庆发布高温橙色预警，19个区县最高气温将达37–39℃", summary: "重庆市气象台9月6日10时30分发布高温橙色预警，预计当日13:00–20:00，19个区县海拔500米以下地区最高气温将升至37–39℃。", implication: "平台需要把高温预警联动到骑手休息、派单半径、预计送达时间和异常免责，避免用单量或时效考核诱发高温风险。", focus: true, status: "已核验", source: "https://yjj.cq.gov.cn/zwxx_230/yjxx/202609/t20260906_16038147.html", sourceLabel: "重庆市应急管理局" },
   { id: "sea-0906-anak-krakatau", date: "2026-09-06", region: "东南亚", market: "印度尼西亚 / 雅加达", company: "Soekarno–Hatta 机场 / 印尼航空与物流网络", track: "运力侧 / 行业变化", service: "国际物流 · 尾程配送", title: "Anak Krakatau 火山灰导致雅加达机场暂停航班，跨境履约需关注改道", summary: "《雅加达邮报》9月6日报道，Anak Krakatau 火山喷发产生的火山灰导致 Soekarno–Hatta 机场暂停航班；机场中断会影响航空货运、跨境包裹转运和雅加达末端时效。", implication: "突发航空中断需要平台与货代预设替代机场、陆路接驳和 ETA 重算机制，并及时向商家与用户解释延误。", focus: true, status: "已核验", source: "https://www.thejakartapost.com/indonesia/2026/09/06/soekarno-hatta-airport-suspends-flights-due-to-ash-from-anak-krakatau", sourceLabel: "The Jakarta Post" },
@@ -154,14 +84,14 @@ function sortByOccurredAt(items: Intelligence[]) { return [...items].sort((left,
 export default function Home() {
   const [items, setItems] = useState(seedItems);
   const [view, setView] = useState<"brief" | "table">("brief");
-  const [draftMonths, setDraftMonths] = useState<string[]>(["2026-09"]);
-  const [activeMonths, setActiveMonths] = useState<string[]>(["2026-09"]);
-  const [draftRegions, setDraftRegions] = useState<string[]>([]);
-  const [activeRegions, setActiveRegions] = useState<string[]>([]);
-  const [draftTracks, setDraftTracks] = useState<string[]>([]);
-  const [activeTracks, setActiveTracks] = useState<string[]>([]);
-  const [draftServices, setDraftServices] = useState<string[]>([]);
-  const [activeServices, setActiveServices] = useState<string[]>([]);
+  const [draftMonth, setDraftMonth] = useState("2026-09");
+  const [activeMonth, setActiveMonth] = useState("2026-09");
+  const [draftRegion, setDraftRegion] = useState("");
+  const [activeRegion, setActiveRegion] = useState("");
+  const [draftTrack, setDraftTrack] = useState("");
+  const [activeTrack, setActiveTrack] = useState("");
+  const [draftService, setDraftService] = useState("");
+  const [activeService, setActiveService] = useState("");
   const [draftQuery, setDraftQuery] = useState("");
   const [query, setQuery] = useState("");
   const [showAdd, setShowAdd] = useState(false);
@@ -186,24 +116,24 @@ export default function Home() {
   const filteredItems = useMemo(() => orderedItems.filter((item) => {
     const haystack = `${item.title} ${item.company} ${item.summary} ${item.implication} ${item.market}`.toLowerCase();
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
-    const matchesMonth = activeMonths.length === 0 || activeMonths.includes(item.date.slice(0, 7));
-    const matchesRegion = activeRegions.length === 0 || activeRegions.includes(item.region);
-    const matchesTrack = activeTracks.length === 0 || activeTracks.some((track) => item.track.includes(track === "行业 / 监管" ? "行业" : track));
-    const matchesService = activeServices.length === 0 || activeServices.some((service) => item.service.includes(service));
+    const matchesMonth = !activeMonth || activeMonth === item.date.slice(0, 7);
+    const matchesRegion = !activeRegion || activeRegion === item.region;
+    const matchesTrack = !activeTrack || item.track.includes(activeTrack === "行业 / 监管" ? "行业" : activeTrack);
+    const matchesService = !activeService || item.service.includes(activeService);
     return matchesQuery && matchesMonth && matchesRegion && matchesTrack && matchesService;
-  }), [activeMonths, activeRegions, activeServices, activeTracks, orderedItems, query]);
+  }), [activeMonth, activeRegion, activeService, activeTrack, orderedItems, query]);
 
   const focusItems = filteredItems.filter((item) => item.focus);
   const visibleFocus = showAllBrief ? focusItems : focusItems.slice(0, 5);
   const regionCount = new Set(filteredItems.map((item) => item.region)).size;
   const regulationCount = filteredItems.filter((item) => item.track.includes("监管") || item.track.includes("行业")).length;
-  const periodLabel = activeMonths.length === 0 ? "全部年月" : activeMonths.length === 1 ? monthLabel(activeMonths[0]) : `${activeMonths.length} 个年月`;
+  const periodLabel = activeMonth ? monthLabel(activeMonth) : "全部年月";
 
   function applyFilters() {
-    setActiveMonths(draftMonths);
-    setActiveRegions(draftRegions);
-    setActiveTracks(draftTracks);
-    setActiveServices(draftServices);
+    setActiveMonth(draftMonth);
+    setActiveRegion(draftRegion);
+    setActiveTrack(draftTrack);
+    setActiveService(draftService);
     setQuery(draftQuery);
     setNotice("筛选条件已应用，列表已按发生时间倒序更新。");
     window.setTimeout(() => setNotice(""), 3000);
@@ -289,11 +219,9 @@ export default function Home() {
       <div className="section-action"><button className="outline-button" onClick={() => setShowAllBrief((current) => !current)}>{showAllBrief ? "收起" : `查看全部（${focusItems.length}）`} <span>{showAllBrief ? "↑" : "↓"}</span></button></div>
 
       <section className="section-head feed-heading" id="feed"><div><span className="section-index">02</span><h2>情报流</h2></div><div className="view-switch"><button className={view === "brief" ? "active" : ""} onClick={() => setView("brief")}>看板</button><button className={view === "table" ? "active" : ""} onClick={() => setView("table")}>表格</button></div></section>
-      <section className="control-panel" aria-label="情报筛选与操作"><div className="search-wrap"><span>⌕</span><input value={draftQuery} onChange={(event) => setDraftQuery(event.target.value)} placeholder="搜索公司、市场、关键词" aria-label="搜索公司、市场、关键词" /></div><div className="select-row"><label>年月（多选）<select className="multi-select" multiple size={2} value={draftMonths} onChange={(event) => setDraftMonths(Array.from(event.currentTarget.selectedOptions, (option) => option.value))} aria-label="按年月多选">{monthOptions.map((month) => <option key={month} value={month}>{monthLabel(month)}</option>)}</select><small>不选 = 全部年月</small></label><label>地区（多选）<select className="multi-select" multiple size={4} value={draftRegions} onChange={(event) => setDraftRegions(Array.from(event.currentTarget.selectedOptions, (option) => option.value))} aria-label="按地区多选">{regionOptions.slice(1).map((region) => <option key={region} value={region}>{region}</option>)}</select><small>不选 = 全部地区</small></label><label>涉及端（多选）<select className="multi-select" multiple size={4} value={draftTracks} onChange={(event) => setDraftTracks(Array.from(event.currentTarget.selectedOptions, (option) => option.value))} aria-label="按涉及端多选">{trackOptions.slice(1).map((track) => <option key={track} value={track}>{track}</option>)}</select><small>不选 = 全部涉及端</small></label><label>服务（多选）<select className="multi-select" multiple size={5} value={draftServices} onChange={(event) => setDraftServices(Array.from(event.currentTarget.selectedOptions, (option) => option.value))} aria-label="按服务多选">{serviceOptions.slice(1).map((service) => <option key={service} value={service}>{service}</option>)}</select><small>不选 = 全部服务</small></label></div><div className="control-actions"><button className="button button-dark query-button" onClick={applyFilters}>查询 <span>→</span></button><button className="outline-button" onClick={() => setShowAdd(true)}>＋ 新增情报</button><button className="export-button" onClick={exportCsv}>导出 CSV <span>↓</span></button></div></section>
+      <section className="control-panel" aria-label="情报筛选与操作"><div className="search-wrap"><span>⌕</span><input value={draftQuery} onChange={(event) => setDraftQuery(event.target.value)} placeholder="搜索公司、市场、关键词" aria-label="搜索公司、市场、关键词" /></div><div className="select-row"><label>年月<select value={draftMonth} onChange={(event) => setDraftMonth(event.target.value)} aria-label="按年月筛选"><option value="">全部年月</option>{monthOptions.map((month) => <option key={month} value={month}>{monthLabel(month)}</option>)}</select></label><label>地区<select value={draftRegion} onChange={(event) => setDraftRegion(event.target.value)} aria-label="按地区筛选"><option value="">全部地区</option>{regionOptions.slice(1).map((region) => <option key={region} value={region}>{region}</option>)}</select></label><label>涉及端<select value={draftTrack} onChange={(event) => setDraftTrack(event.target.value)} aria-label="按涉及端筛选"><option value="">全部涉及端</option>{trackOptions.slice(1).map((track) => <option key={track} value={track}>{track}</option>)}</select></label><label>服务<select value={draftService} onChange={(event) => setDraftService(event.target.value)} aria-label="按服务筛选"><option value="">全部服务</option>{serviceOptions.slice(1).map((service) => <option key={service} value={service}>{service}</option>)}</select></label></div><div className="control-actions"><button className="button button-dark query-button" onClick={applyFilters}>查询 <span>→</span></button><button className="outline-button" onClick={() => setShowAdd(true)}>＋ 新增情报</button><button className="export-button" onClick={exportCsv}>导出 CSV <span>↓</span></button></div></section>
 
       {view === "brief" ? <section className="feed-list"><div className="feed-list-head"><span>{filteredItems.length} 条记录</span><span>按发生时间倒序 · 越新的变化越靠前</span></div>{filteredItems.map((item) => <article className="feed-item" key={item.id}><div className="feed-date"><strong>{displayDate(item.date)}</strong><span>{item.date.slice(0, 4)}</span></div><div className="feed-main"><div className="feed-meta"><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span><span>{item.region} · {item.market}</span><span>{item.track}</span><span>{item.service}</span><span className="source-label">{item.sourceLabel}</span></div><h3>{item.title}</h3><p>{item.summary}</p><div className="feed-implication"><span>→ 产品影响</span>{item.implication}</div></div><div className="feed-side"><span>{item.company}</span><a href={item.source} target="_blank" rel="noreferrer">资料 ↗</a></div></article>)}</section> : <section className="table-wrap"><table><thead><tr><th>时间</th><th>地区 / 市场</th><th>公司</th><th>涉及端</th><th>服务</th><th>改动内容</th><th>来源</th><th>状态</th><th>资料</th></tr></thead><tbody>{filteredItems.map((item) => <tr key={item.id}><td className="table-date">{item.date}</td><td><strong>{item.region}</strong><small>{item.market}</small></td><td>{item.company}</td><td><span className="table-tag">{item.track}</span></td><td>{item.service}</td><td><strong>{item.title}</strong><small>{item.summary}</small></td><td><small className="source-label">{item.sourceLabel}</small></td><td><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{item.status}</span></td><td><a href={item.source} target="_blank" rel="noreferrer">打开 ↗</a></td></tr>)}</tbody></table></section>}
-
-      <section className="sources-section" id="sources"><div className="section-head sources-heading"><div><span className="section-index">03</span><h2>来源池</h2></div><span className="section-caption">官方口径 + 行业媒体 + 研报与区域监管</span></div><div className="sources-grid">{sourceGroups.map((group) => <article className="source-group" key={group.title}><div className="source-group-head"><span className="eyebrow">{group.eyebrow}</span><h3>{group.title}</h3><p>{group.description}</p></div><div className="source-links">{group.links.map((source) => <a className="source-chip" href={source.url} key={source.label} target="_blank" rel="noreferrer"><span>{source.label}</span><small>{source.scope}</small><b>↗</b></a>)}</div></article>)}</div><div className="source-method"><span className="eyebrow">COLLECTION RULE</span><p>每条情报优先保留原始资料链接；国内按“平台官方 → 监管公告 → 行业媒体 → 研报 / 舆情”交叉验证，海外按“公司官方 → 当地监管 → 区域行业媒体”补齐区域差异。</p></div></section>
 
       <footer className="footer"><div><span className="eyebrow">RESEARCH LOG / JUL 2026</span><p>来源以政府、公司公告、开发者文档、权威媒体与区域监管资料为主。手工新增记录默认标为“待复核”。</p></div><div className="footer-right"><span>覆盖 {regionCount} 个区域</span><span>每日刷新 · UTC+8</span></div></footer>
 

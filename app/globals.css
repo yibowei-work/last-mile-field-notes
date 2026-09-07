@@ -181,7 +181,7 @@ body, .shell { background:#fffdfb; }
 .metric-card:nth-child(3) { min-height:126px; border:1.5px solid var(--line); border-radius:10px; background:transparent; box-shadow:none; transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
 .metric-card:hover { transform:translateY(-3px); box-shadow:5px 5px 0 #ee4d2d18; }
 .metric-card:nth-child(1) { border-color:#ee4d2d; color:#ee4d2d; }
-.metric-card:nth-child(2) { border-color:#e5b21f; color:#b88700; }
+.metric-card:nth-child(2) { border-color:#ffc82e; color:#ee4d2d; }
 .metric-card:nth-child(3) { border-color:#3f5bea; color:#3f5bea; }
 .metric-card .metric-label,
 .metric-card strong { color:currentColor; }
@@ -192,7 +192,7 @@ body, .shell { background:#fffdfb; }
 .metric-card strong { font-size:42px; }
 .metric-card .metric-foot { color:var(--muted); }
 .metric-card:nth-child(2) .metric-label,
-.metric-card:nth-child(2) strong { color:#b88700; }
+.metric-card:nth-child(2) strong { color:#ee4d2d; }
 .metric-card:nth-child(3) .metric-label,
 .metric-card:nth-child(3) strong { color:#3f5bea; }
 @media (max-width:760px) { .metric-card { min-height:118px; } }

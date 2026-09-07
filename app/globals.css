@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root { --ink:#251e1c; --muted:#7d6f68; --line:#f0d9d0; --paper:#fff8f5; --lime:#ffc82e; --teal:#ee4d2d; --teal-dark:#d94425; --cream:#fff0ea; --mint:#fff7dc; --blue:#2f49e8; --white:#fff; }
+:root { --ink:#251e1c; --muted:#6b7280; --line:#e5e7eb; --paper:#f5f7fa; --lime:#ffc82e; --teal:#ee4d2d; --teal-dark:#d94425; --cream:#ffffff; --mint:#f1f5ff; --blue:#3f5bea; --white:#fff; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif; }
@@ -40,3 +40,16 @@ body { background:var(--paper); }
 @keyframes wiggle { 0%,100% { transform:rotate(-7deg); } 50% { transform:rotate(-2deg) translateY(-3px); } }
 @media (max-width:760px) { .hero-motif { height:88px; }.top-sticker { display:none; }.hero-note-copy { gap:12px; }.motif-ring { right:14px; }.motif-sticker { right:64px; } }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; } }
+
+/* Version 4: lighter canvas, explicit blue primary actions, and no template divider motif. */
+body, .shell { background:var(--paper); background-image:none !important; }
+body::before, body::after, .shell::before, .shell::after { display:none !important; content:none !important; }
+.button-dark { background:var(--blue) !important; color:#fff; }
+.button-dark:hover { background:#2944c3 !important; }
+.button-dark span { color:#e0e7ff; }
+.hero-motif { background:var(--blue); box-shadow:8px 8px 0 var(--lime); }
+.hero-motif::before { background-image:none; opacity:0; }
+.motif-dots { display:none; }
+.select-row { display:flex; align-items:flex-end; gap:14px; }
+.select-row label { flex:1; min-width:108px; }
+.select-row select { width:100%; }

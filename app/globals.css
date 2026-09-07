@@ -101,3 +101,45 @@ body::before, body::after, .shell::before, .shell::after { display:none !importa
 .brief-empty { min-height:210px; grid-column:1 / -1; display:flex; align-items:center; padding:28px; background:var(--cream); border:1px dashed var(--line); color:var(--muted); font-size:13px; line-height:1.7; }
 .brief-empty strong { max-width:620px; font-weight:600; }
 @media (max-width:760px) { .language-switch { margin-left:auto; }.brief-empty { min-height:170px; } }
+
+/* Version 8: bright warm-white canvas and a more deliberate Shopee orange / yellow / blue system. */
+:root { --paper:#fffdfb; --cream:#fffaf5; }
+body, .shell { background:#fffdfb; }
+
+.metric-row { gap:12px; border:0; }
+.metric-card { border:0; }
+.metric-card:nth-child(1) { background:#ee4d2d; color:#fff; }
+.metric-card:nth-child(2) { background:#ffc82e; color:#251e1c; }
+.metric-card:nth-child(3) { background:#3f5bea; color:#fff; }
+.metric-card:nth-child(1) .metric-label,
+.metric-card:nth-child(1) .metric-foot,
+.metric-card:nth-child(3) .metric-label,
+.metric-card:nth-child(3) .metric-foot { color:#fff; }
+.metric-card:nth-child(2) .metric-label,
+.metric-card:nth-child(2) .metric-foot { color:#594819; }
+.metric-card:nth-child(1) strong,
+.metric-card:nth-child(3) strong { color:#fff; }
+.metric-card:nth-child(2) strong { color:#251e1c; }
+
+.brief-1 { background:#ee4d2d; border-color:#ee4d2d; }
+.brief-2 { background:#ffc82e; border-color:#ffc82e; color:#251e1c; }
+.brief-3 { background:#3f5bea; border-color:#3f5bea; color:#fff; }
+.brief-2 .card-topline,
+.brief-2 .card-region,
+.brief-2 p,
+.brief-2 .source-count,
+.brief-2 .brief-impact { color:#594819; }
+.brief-2 .card-track,
+.brief-2 .brief-impact span,
+.brief-2 .source-link { color:#b63d28; }
+.brief-3 .card-topline,
+.brief-3 .card-region,
+.brief-3 p,
+.brief-3 .source-count,
+.brief-3 .brief-impact { color:#eef0ff; }
+.brief-3 .card-track,
+.brief-3 .brief-impact span,
+.brief-3 .source-link { color:#ffc82e; }
+.brief-3 .card-region { color:#dfe3ff; }
+.brief-3::before { background:#ffc82e; box-shadow:-14px 8px 0 #fff, -28px 2px 0 #ffc82e; }
+.brief-2::before { background:#ee4d2d; box-shadow:-14px 8px 0 #fff8e2, -28px 2px 0 #ee4d2d; }

@@ -92,6 +92,12 @@ const sourceGroups: SourceGroup[] = [
   },
 ];
 
+const september6Items: Intelligence[] = [
+  { id: "cn-0906-chongqing-heat", date: "2026-09-06", region: "中国", market: "重庆", company: "重庆市气象台 / 重庆市应急管理局", track: "运力侧 / 行业 / 监管", service: "即时配送 · 本地生活", title: "重庆发布高温橙色预警，19个区县最高气温将达37–39℃", summary: "重庆市气象台9月6日10时30分发布高温橙色预警，预计当日13:00–20:00，19个区县海拔500米以下地区最高气温将升至37–39℃。", implication: "平台需要把高温预警联动到骑手休息、派单半径、预计送达时间和异常免责，避免用单量或时效考核诱发高温风险。", focus: true, status: "已核验", source: "https://yjj.cq.gov.cn/zwxx_230/yjxx/202609/t20260906_16038147.html", sourceLabel: "重庆市应急管理局" },
+  { id: "sea-0906-anak-krakatau", date: "2026-09-06", region: "东南亚", market: "印度尼西亚 / 雅加达", company: "Soekarno–Hatta 机场 / 印尼航空与物流网络", track: "运力侧 / 行业变化", service: "国际物流 · 尾程配送", title: "Anak Krakatau 火山灰导致雅加达机场暂停航班，跨境履约需关注改道", summary: "《雅加达邮报》9月6日报道，Anak Krakatau 火山喷发产生的火山灰导致 Soekarno–Hatta 机场暂停航班；机场中断会影响航空货运、跨境包裹转运和雅加达末端时效。", implication: "突发航空中断需要平台与货代预设替代机场、陆路接驳和 ETA 重算机制，并及时向商家与用户解释延误。", focus: true, status: "已核验", source: "https://www.thejakartapost.com/indonesia/2026/09/06/soekarno-hatta-airport-suspends-flights-due-to-ash-from-anak-krakatau", sourceLabel: "The Jakarta Post" },
+  { id: "me-0906-pif-hackathon", date: "2026-09-06", region: "中东", market: "沙特", company: "沙特公共投资基金 PIF / Digital Government Authority / Tuwaiq Academy", track: "行业变化 / 商家侧", service: "国际物流 · 尾程配送", title: "沙特 PIF 供应链可视化与采购智能 Hackathon 进入培训辅导阶段", summary: "PIF 官方页面显示，面向本地供应链、供应商发现和采购智能的 Innovate Hackathon 于9月6日进入培训与辅导阶段，参赛团队将参加技术工作坊，并探索在 PIF 组合企业落地。", implication: "中东大型企业的供应链数字化正在从概念展示走向数据系统和采购运营场景，后续可关注其对本地供应商、仓配和履约可视化的影响。", focus: false, status: "已核验", source: "https://www.pif.gov.sa/en/private-sector-hub/private-sector-initiatives/musahama-program/hackathon-2026/", sourceLabel: "Saudi PIF" },
+];
+
 const september4Items: Intelligence[] = [
   { id: "cn-0904-fedex", date: "2026-09-04", region: "中国", market: "中国大陆 / 跨境发货", company: "联邦快递 FedEx", track: "商家侧 / 行业变化", service: "国际物流 · 尾程配送", title: "FedEx 中国发布非标准货件需求附加费，9月21日起生效", summary: "FedEx 中国服务新闻在9月4日发布通知：需求增加期间，对符合适用条件的国际非标准包裹收取非标准货件需求附加费；客户需在报价时准确提供重量、尺寸、包装等信息。", implication: "跨境商家与平台的报价、商品尺寸采集和大件履约成本需要提前留出附加费规则，服务商侧也要更新费用提示与报价逻辑。", focus: true, status: "已核验", source: "https://www.fedex.com/zh-cn/service-news.html", sourceLabel: "FedEx 中国服务新闻" },
   { id: "cn-0904-seko", date: "2026-09-04", region: "中国", market: "上海 / 宁波 / 华东", company: "SEKO Logistics / 港口运营", track: "商家侧 / 行业变化", service: "国际物流 · 尾程配送", title: "台风沙德尔、科罗旺导致华东港口拥堵，物流商启动分流与空运应急", summary: "SEKO 在9月4日北京10:00更新亚太供应链天气中心：上海、宁波等港口处于疏解积压与恢复协调阶段，并评估替代港口、快船、海空联运和优先空运舱位。", implication: "干线不稳定会传导到跨境尾程 ETA、库存与商家赔付；需要准备港口切换、预约管理、堆存费和空运转运方案。", focus: true, status: "已核验", source: "https://www.sekologistics.com/zh/resources/asia-supply-chain-weather-center-live-port-freight-updates/", sourceLabel: "SEKO 亚太供应链天气中心" },
@@ -118,7 +124,7 @@ const julyItems: Intelligence[] = [
   { id: "me-0721-uae-heat", date: "2026-07-21", region: "中东", market: "阿联酋", company: "Careem / Talabat / UAE MoHRE", track: "运力侧 / 行业 / 监管", service: "即时配送 · 本地生活", title: "阿联酋高温时段限制配送：平台限单并启用冷却站", summary: "阿联酋高温禁工时段内，Careem、Talabat 等平台设置每名骑手最多3单、总配送时间不超过60分钟，并通过 App 引导骑手寻找冷却站。", implication: "极端天气将直接改变派单上限、用户 ETA、骑手休息与站点运营，平台需要把安全约束写进调度系统。", focus: true, status: "已核验", source: "https://www.khaleejtimes.com/uae/uae-delivery-platforms-summer-heat-midday-break-rules-cooling-stations-health?amp=1", sourceLabel: "Khaleej Times / UAE MoHRE" },
 ];
 
-const seedItems: Intelligence[] = [...september4Items, ...julyItems,
+const seedItems: Intelligence[] = [...september6Items, ...september4Items, ...julyItems,
   { id: "cn-0801-light", date: "2026-08-01", region: "中国", market: "苏州", company: "美团 / 苏州交管", track: "运力侧", service: "即时配送 · 本地生活", title: "骑手“等灯停表”上线，覆盖 1,100 个路口", summary: "苏州公安交管支队与美团上线“等灯停表”服务，红灯等待时长通过警企数据互通自动顺延配送时效。", implication: "把合规骑行直接写进履约算法，可能成为其他城市复制的骑手安全标配。", focus: true, status: "已核验", source: "https://www.sipac.gov.cn/szgyyq/mtjj/202608/610189585dd940898eb31b456e71351c.shtml", sourceLabel: "苏州工业园区管委会" },
   { id: "cn-0801-beijing", date: "2026-08-01", region: "中国", market: "北京", company: "北京市商务局等 4 部门", track: "行业 / 监管", service: "尾程配送 · 最后一公里", title: "快递、外卖非机动车管理办法正式实施", summary: "平台需考虑交通安全设定配送时间与路线，不得推荐逆行、禁行路线，并建立车辆、人员联合监管机制。", implication: "北京的车辆合规、培训、路线与平台算法责任被放到同一监管框架，城市运营要重新检查 SOP。", focus: true, status: "已核验", source: "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260729_4797100.html", sourceLabel: "首都之窗" },
   { id: "me-0805-aramex", date: "2026-08-05", region: "中东", market: "阿联酋 / 沙特 / 埃及", company: "Aramex", track: "行业变化", service: "国际物流 · 尾程配送", title: "Q2 / H1 货运代理收入创历史新高", summary: "Aramex 公布 2026 年第二季度与上半年业绩，货运代理收入达到历史最高水平，覆盖其核心市场。", implication: "跨境与干线货代增长仍在给末端网络输送增量，值得关注其数字化与网络协同对时效的反哺。", focus: true, status: "已核验", source: "https://www.aramex.com/ae/en/media-details/news", sourceLabel: "Aramex Newsroom" },
@@ -160,7 +166,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [showAdd, setShowAdd] = useState(false);
   const [showAllBrief, setShowAllBrief] = useState(false);
-  const [lastRefresh, setLastRefresh] = useState("2026.09.05 08:30");
+  const [lastRefresh, setLastRefresh] = useState("2026.09.07 08:30");
   const [notice, setNotice] = useState("");
 
   useEffect(() => {

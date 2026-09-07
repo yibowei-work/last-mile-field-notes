@@ -92,3 +92,12 @@ body::before, body::after, .shell::before, .shell::after { display:none !importa
   .source-coverage-head > span:last-child { display:block; margin-top:6px; line-height:1.5; }
   .source-coverage-links { grid-template-columns:repeat(2,minmax(0,1fr)); }
 }
+
+/* Version 7: English-first bilingual controls and platform-only brief states. */
+.language-switch { display:inline-flex; align-items:center; gap:7px; color:var(--muted); font-size:10px; letter-spacing:.08em; }
+.language-switch button { border:0; padding:3px 0; background:transparent; color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.08em; }
+.language-switch button.active { color:var(--teal); }
+.language-switch button:hover { color:var(--teal); }
+.brief-empty { min-height:210px; grid-column:1 / -1; display:flex; align-items:center; padding:28px; background:var(--cream); border:1px dashed var(--line); color:var(--muted); font-size:13px; line-height:1.7; }
+.brief-empty strong { max-width:620px; font-weight:600; }
+@media (max-width:760px) { .language-switch { margin-left:auto; }.brief-empty { min-height:170px; } }

@@ -160,3 +160,15 @@ body, .shell { background:#fffdfb; }
   .language-switch { overflow-x:auto; box-shadow:2px 2px 0 var(--lime); }
   .language-switch button { min-width:34px; padding:7px 6px; }
 }
+
+/* Version 10: restore the warm orange motion panel from the reference artwork. */
+.hero-motif { background:#ee4d2d; box-shadow:8px 8px 0 #ffc82e; }
+.hero-motif::before { inset:0; background-image:linear-gradient(90deg,rgba(255,255,255,.14) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.14) 1px,transparent 1px); background-size:28px 28px; opacity:1; }
+.motif-dots { display:block; left:17px; top:16px; color:#fff; font-size:18px; letter-spacing:7px; writing-mode:vertical-rl; line-height:.7; }
+.motif-orange { z-index:1; width:70px; height:70px; left:22px; bottom:-27px; background:#ffc82e; }
+.motif-blue { z-index:2; width:70px; height:70px; left:76px; top:-17px; background:#3f5bea; animation-name:floaty-blue; }
+.motif-orb { z-index:2; right:61px; top:21px; width:40px; height:40px; background:#fff; }
+.motif-ring { z-index:1; right:22px; bottom:9px; width:66px; height:66px; border-color:#ffc82e; }
+.motif-sticker { z-index:3; right:88px; bottom:6px; color:#ee4d2d; background:#fff; box-shadow:4px 4px 0 #3f5bea; }
+@keyframes floaty-blue { 0%,100% { transform:translateY(0) rotate(-12deg); } 50% { transform:translateY(-7px) rotate(-6deg); } }
+@media (max-width:760px) { .motif-blue { left:58px; }.motif-orb { right:50px; }.motif-sticker { right:64px; } }

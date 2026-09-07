@@ -172,3 +172,24 @@ body, .shell { background:#fffdfb; }
 .motif-sticker { z-index:3; right:88px; bottom:6px; color:#ee4d2d; background:#fff; box-shadow:4px 4px 0 #3f5bea; }
 @keyframes floaty-blue { 0%,100% { transform:translateY(0) rotate(-12deg); } 50% { transform:translateY(-7px) rotate(-6deg); } }
 @media (max-width:760px) { .motif-blue { left:58px; }.motif-orb { right:50px; }.motif-sticker { right:64px; } }
+
+/* Version 11: outlined intelligence metrics, kept visually separate from the filled brief cards. */
+.metric-row { gap:14px; border:0; background:transparent; }
+.metric-card,
+.metric-card:nth-child(1),
+.metric-card:nth-child(2),
+.metric-card:nth-child(3) { min-height:126px; border:1.5px solid var(--line); border-radius:10px; background:transparent; box-shadow:none; transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.metric-card:hover { transform:translateY(-3px); box-shadow:5px 5px 0 #ee4d2d18; }
+.metric-card:nth-child(1) { border-color:#ee4d2d; color:#ee4d2d; }
+.metric-card:nth-child(2) { border-color:#e5b21f; color:#b88700; }
+.metric-card:nth-child(3) { border-color:#3f5bea; color:#3f5bea; }
+.metric-card .metric-label,
+.metric-card strong { color:currentColor; }
+.metric-card .metric-label { font-size:10px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+.metric-card strong { font-size:42px; }
+.metric-card .metric-foot { color:var(--muted); }
+.metric-card:nth-child(2) .metric-label,
+.metric-card:nth-child(2) strong { color:#b88700; }
+.metric-card:nth-child(3) .metric-label,
+.metric-card:nth-child(3) strong { color:#3f5bea; }
+@media (max-width:760px) { .metric-card { min-height:118px; } }

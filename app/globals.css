@@ -201,3 +201,13 @@ body, .shell { background:#fffdfb; }
 .hero h1 { font-size:clamp(36px,4.8vw,58px); line-height:1.08; letter-spacing:-.06em; }
 @media (max-width:760px) { .hero h1 { font-size:clamp(36px,10vw,46px); line-height:1.08; } }
 @media (max-width:440px) { .hero h1 { font-size:38px; } }
+
+/* Version 15: restore the original large-title / subtitle hierarchy. */
+.hero h1 { font-size:clamp(42px,6vw,74px); line-height:1.02; letter-spacing:-.075em; }
+@media (max-width:760px) { .hero h1 { font-size:48px; line-height:1.05; } }
+@media (max-width:440px) { .hero h1 { font-size:42px; } }
+
+/* Version 17: keep the middle intelligence metric card typography bright yellow. */
+.metric-row > .metric-card:nth-child(2) { border-color:#ffc82e; color:#ffc82e !important; }
+.metric-row > .metric-card:nth-child(2) .metric-label,
+.metric-row > .metric-card:nth-child(2) strong { color:#ffc82e !important; }

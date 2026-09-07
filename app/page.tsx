@@ -92,6 +92,14 @@ const sourceGroups: SourceGroup[] = [
   },
 ];
 
+const september4Items: Intelligence[] = [
+  { id: "cn-0904-fedex", date: "2026-09-04", region: "中国", market: "中国大陆 / 跨境发货", company: "联邦快递 FedEx", track: "商家侧 / 行业变化", service: "国际物流 · 尾程配送", title: "FedEx 中国发布非标准货件需求附加费，9月21日起生效", summary: "FedEx 中国服务新闻在9月4日发布通知：需求增加期间，对符合适用条件的国际非标准包裹收取非标准货件需求附加费；客户需在报价时准确提供重量、尺寸、包装等信息。", implication: "跨境商家与平台的报价、商品尺寸采集和大件履约成本需要提前留出附加费规则，服务商侧也要更新费用提示与报价逻辑。", focus: true, status: "已核验", source: "https://www.fedex.com/zh-cn/service-news.html", sourceLabel: "FedEx 中国服务新闻" },
+  { id: "cn-0904-seko", date: "2026-09-04", region: "中国", market: "上海 / 宁波 / 华东", company: "SEKO Logistics / 港口运营", track: "商家侧 / 行业变化", service: "国际物流 · 尾程配送", title: "台风沙德尔、科罗旺导致华东港口拥堵，物流商启动分流与空运应急", summary: "SEKO 在9月4日北京10:00更新亚太供应链天气中心：上海、宁波等港口处于疏解积压与恢复协调阶段，并评估替代港口、快船、海空联运和优先空运舱位。", implication: "干线不稳定会传导到跨境尾程 ETA、库存与商家赔付；需要准备港口切换、预约管理、堆存费和空运转运方案。", focus: true, status: "已核验", source: "https://www.sekologistics.com/zh/resources/asia-supply-chain-weather-center-live-port-freight-updates/", sourceLabel: "SEKO 亚太供应链天气中心" },
+  { id: "sea-0904-foodpanda", date: "2026-09-04", region: "东南亚", market: "新加坡", company: "foodpanda", track: "运力侧", service: "即时配送", title: "foodpanda 新加坡发布骑手午高峰任务奖励与挑战赛", summary: "foodpanda SG Riders Announcements 在9月4日发布：4日10:00–14:00完成最多13单可额外获得最高S$25；同时宣布 Top pandarider Challenge V2 将于9月5日启动，20名骑手各获S$388。", implication: "通过时段任务、连续任务与竞赛叠加来调节午高峰供给；骑手端需要清晰展示奖励可叠加、达标进度与合规要求。", focus: true, status: "已核验", source: "https://t.me/s/fpannouncements?before=9982", sourceLabel: "foodpanda SG Riders Announcements" },
+  { id: "latam-0904-route-logistica", date: "2026-09-04", region: "拉美", market: "墨西哥", company: "墨西哥经济部", track: "行业变化 / 商家侧", service: "国际物流 · 最后一公里", title: "墨西哥启动 Ruta Logística MX 2026 第二阶段，强化物流与供应链培训", summary: "墨西哥经济部9月4日发布公告：Ruta Logística MX 2026第二阶段将于9月22日至11月24日以线上免费形式开展，设置10个模块，覆盖物流、外贸和供应链，并获82个协会和商会支持。", implication: "行业人才、跨境合规与供应链方法论继续被公共机构系统化建设；对物流平台而言，培训与行业合作会成为拓展供给侧能力的长期抓手。", focus: false, status: "已核验", source: "https://www.gob.mx/se/prensa/inicia-la-segunda-fase-de-ruta-logistica-mx-2026-mexico-la-nueva-ruta-del-mundo", sourceLabel: "墨西哥经济部" },
+  { id: "latam-0904-avianca", date: "2026-09-04", region: "拉美", market: "哥伦比亚 / Armenia / Quibdó", company: "Avianca / Grupo Abra / Gol", track: "运力侧 / 行业变化", service: "国际物流 · 最后一公里", title: "Avianca 联动 Grupo Abra 与 Gol，向哥伦比亚灾区投入货运航班与日常运输通道", summary: "Avianca 9月4日在波哥大发布：已用60多个航班、货机和包机运送超过500吨人道物资；与Gol合作首次用B737货机飞抵Armenia，并持续通过日常航班向Quibdó运送援助。", implication: "航空网络、客货混运和跨航司协同可在突发场景快速转化为区域履约能力，值得关注其对最后一公里应急配送的启示。", focus: false, status: "已核验", source: "https://www.avianca.com/es/sobre-nosotros/noticias-corporativas/2026/avianca-vuela-con-proposito", sourceLabel: "Avianca 企业新闻" },
+];
+
 const julyItems: Intelligence[] = [
   { id: "cn-0717-meituan-light", date: "2026-07-17", region: "中国", market: "苏州", company: "美团 / 苏州交管", track: "运力侧 / 用户侧", service: "即时配送 · 本地生活", title: "美团披露“等灯停表”进入苏州交互测试", summary: "7月16日美团披露，已与苏州交管完成数据对接与测试准备：骑手等红灯时暂停配送计时，并把等灯时长顺延到订单截止时间。", implication: "红绿灯状态进入履约计时与用户沟通，安全治理开始从倡议变成可感知的产品机制。", focus: true, status: "已核验", source: "https://www.meituan.com/news/NN260717198006386", sourceLabel: "美团新闻中心 / 央广网" },
   { id: "cn-0715-meituan-tsinghua", date: "2026-07-15", region: "中国", market: "全国 / 深圳", company: "美团 / 清华大学", track: "运力侧 / 行业变化", service: "即时配送 · 最后一公里", title: "清华—美团数智生活联合研究中心启动，智能调度与无人配送继续落地", summary: "双方启动新一期合作；智能调度技术已结合距离、天气与商圈等因素优化外卖路线，无人机和无人车技术也在真实城市场景持续运营。", implication: "调度、无人机、无人车与人才培训被放到同一条技术链上，运力产品将更依赖算法与安全能力协同。", focus: false, status: "已核验", source: "https://www.meituan.com/news/NN260717250004882", sourceLabel: "美团新闻中心" },
@@ -110,7 +118,7 @@ const julyItems: Intelligence[] = [
   { id: "me-0721-uae-heat", date: "2026-07-21", region: "中东", market: "阿联酋", company: "Careem / Talabat / UAE MoHRE", track: "运力侧 / 行业 / 监管", service: "即时配送 · 本地生活", title: "阿联酋高温时段限制配送：平台限单并启用冷却站", summary: "阿联酋高温禁工时段内，Careem、Talabat 等平台设置每名骑手最多3单、总配送时间不超过60分钟，并通过 App 引导骑手寻找冷却站。", implication: "极端天气将直接改变派单上限、用户 ETA、骑手休息与站点运营，平台需要把安全约束写进调度系统。", focus: true, status: "已核验", source: "https://www.khaleejtimes.com/uae/uae-delivery-platforms-summer-heat-midday-break-rules-cooling-stations-health?amp=1", sourceLabel: "Khaleej Times / UAE MoHRE" },
 ];
 
-const seedItems: Intelligence[] = [...julyItems,
+const seedItems: Intelligence[] = [...september4Items, ...julyItems,
   { id: "cn-0801-light", date: "2026-08-01", region: "中国", market: "苏州", company: "美团 / 苏州交管", track: "运力侧", service: "即时配送 · 本地生活", title: "骑手“等灯停表”上线，覆盖 1,100 个路口", summary: "苏州公安交管支队与美团上线“等灯停表”服务，红灯等待时长通过警企数据互通自动顺延配送时效。", implication: "把合规骑行直接写进履约算法，可能成为其他城市复制的骑手安全标配。", focus: true, status: "已核验", source: "https://www.sipac.gov.cn/szgyyq/mtjj/202608/610189585dd940898eb31b456e71351c.shtml", sourceLabel: "苏州工业园区管委会" },
   { id: "cn-0801-beijing", date: "2026-08-01", region: "中国", market: "北京", company: "北京市商务局等 4 部门", track: "行业 / 监管", service: "尾程配送 · 最后一公里", title: "快递、外卖非机动车管理办法正式实施", summary: "平台需考虑交通安全设定配送时间与路线，不得推荐逆行、禁行路线，并建立车辆、人员联合监管机制。", implication: "北京的车辆合规、培训、路线与平台算法责任被放到同一监管框架，城市运营要重新检查 SOP。", focus: true, status: "已核验", source: "https://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260729_4797100.html", sourceLabel: "首都之窗" },
   { id: "me-0805-aramex", date: "2026-08-05", region: "中东", market: "阿联酋 / 沙特 / 埃及", company: "Aramex", track: "行业变化", service: "国际物流 · 尾程配送", title: "Q2 / H1 货运代理收入创历史新高", summary: "Aramex 公布 2026 年第二季度与上半年业绩，货运代理收入达到历史最高水平，覆盖其核心市场。", implication: "跨境与干线货代增长仍在给末端网络输送增量，值得关注其数字化与网络协同对时效的反哺。", focus: true, status: "已核验", source: "https://www.aramex.com/ae/en/media-details/news", sourceLabel: "Aramex Newsroom" },
@@ -140,8 +148,8 @@ function sortByOccurredAt(items: Intelligence[]) { return [...items].sort((left,
 export default function Home() {
   const [items, setItems] = useState(seedItems);
   const [view, setView] = useState<"brief" | "table">("brief");
-  const [draftMonths, setDraftMonths] = useState<string[]>(["2026-07"]);
-  const [activeMonths, setActiveMonths] = useState<string[]>(["2026-07"]);
+  const [draftMonths, setDraftMonths] = useState<string[]>(["2026-09"]);
+  const [activeMonths, setActiveMonths] = useState<string[]>(["2026-09"]);
   const [draftRegions, setDraftRegions] = useState<string[]>([]);
   const [activeRegions, setActiveRegions] = useState<string[]>([]);
   const [draftTracks, setDraftTracks] = useState<string[]>([]);
@@ -152,7 +160,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [showAdd, setShowAdd] = useState(false);
   const [showAllBrief, setShowAllBrief] = useState(false);
-  const [lastRefresh, setLastRefresh] = useState("2026.08.01 08:30");
+  const [lastRefresh, setLastRefresh] = useState("2026.09.05 08:30");
   const [notice, setNotice] = useState("");
 
   useEffect(() => {
@@ -210,7 +218,7 @@ export default function Home() {
     const blob = new Blob(["\\ufeff" + csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
-    link.href = url; link.download = "last-mile-field-notes-2026-07.csv"; link.click(); URL.revokeObjectURL(url);
+    link.href = url; link.download = "last-mile-field-notes-2026-09-04.csv"; link.click(); URL.revokeObjectURL(url);
     setNotice(`已导出 ${filteredItems.length} 条明细。`);
     window.setTimeout(() => setNotice(""), 3000);
   }

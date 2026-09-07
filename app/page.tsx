@@ -250,8 +250,8 @@ export default function Home() {
   const [language, setLanguage] = useState<Language>("en");
   const [items, setItems] = useState(seedItems);
   const [view, setView] = useState<"brief" | "table">("brief");
-  const [draftMonth, setDraftMonth] = useState("2026-09");
-  const [activeMonth, setActiveMonth] = useState("2026-09");
+  const [draftMonth, setDraftMonth] = useState("");
+  const [activeMonth, setActiveMonth] = useState("");
   const [draftRegion, setDraftRegion] = useState("");
   const [activeRegion, setActiveRegion] = useState("");
   const [draftSubject, setDraftSubject] = useState("");

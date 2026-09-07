@@ -143,3 +143,20 @@ body, .shell { background:#fffdfb; }
 .brief-3 .card-region { color:#dfe3ff; }
 .brief-3::before { background:#ffc82e; box-shadow:-14px 8px 0 #fff, -28px 2px 0 #ffc82e; }
 .brief-2::before { background:#ee4d2d; box-shadow:-14px 8px 0 #fff8e2, -28px 2px 0 #ee4d2d; }
+
+/* Version 9: sticky navigation, five-language switcher, and a quieter filter surface. */
+.topbar { position:sticky; top:0; z-index:50; padding-top:18px; padding-bottom:16px; background:rgba(255,253,251,.96); box-shadow:0 1px 0 var(--line); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); }
+.language-switch { display:inline-flex; align-items:center; gap:3px; max-width:100%; padding:4px; border:1px solid #efb9aa; border-radius:999px; background:#fff; box-shadow:3px 3px 0 var(--lime); }
+.language-switch button { min-width:38px; padding:7px 8px; border-radius:999px; color:var(--muted); font-size:10px; line-height:1; transition:background .2s ease, color .2s ease, transform .2s ease; }
+.language-switch button.active { background:var(--blue); color:#fff; box-shadow:2px 2px 0 #d8defe; }
+.language-switch button:hover { background:#fff0ea; color:var(--teal); transform:translateY(-1px); }
+.control-panel { border-top:0; }
+.search-wrap { border-bottom:0; border:1px solid var(--line); padding:0 10px; background:#fff; }
+.select-row select { border:1px solid var(--line); padding:8px 9px; background:#fff; }
+.select-row select:focus { border-color:var(--teal); }
+@media (max-width:760px) {
+  .topbar { padding-top:14px; padding-bottom:14px; }
+  .topbar-right { gap:10px; }
+  .language-switch { overflow-x:auto; box-shadow:2px 2px 0 var(--lime); }
+  .language-switch button { min-width:34px; padding:7px 6px; }
+}

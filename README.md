@@ -94,6 +94,20 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 - `npm test`: build the starter and verify its rendered loading skeleton
 - `npm run db:generate`: generate Drizzle migrations after schema changes
 
+## Daily Intelligence Refresh
+
+`.github/workflows/daily-intelligence.yml` runs every day at 00:30 UTC, which
+is 08:30 in Shenzhen (Asia/Shanghai). It searches the previous Shenzhen day,
+keeps only records with a verifiable original URL and date, writes the new
+records into `app/page.tsx`, builds the static site, commits the result to
+`main`, and deploys the same build to GitHub Pages.
+
+Before the first run, add a repository secret named `OPENAI_API_KEY` under
+GitHub → Settings → Secrets and variables → Actions. Do not put the key in
+source code. You can also run the workflow manually from the Actions tab to
+verify the setup; scheduled runs may start a few minutes after the nominal
+time because GitHub queues scheduled jobs.
+
 ## Learn More
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)

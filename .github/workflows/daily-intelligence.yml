@@ -1,0 +1,191 @@
+name: Daily intelligence refresh
+
+on:
+  # GitHub Actions schedules use UTC. 00:30 UTC = 08:30 in Asia/Shanghai.
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-intelligence-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-publish:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Collect the previous Shenzhen day
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          node <<'NODE'
+          import fs from "node:fs/promises";
+
+          const apiKey = process.env.OPENAI_API_KEY;
+          if (!apiKey) {
+            throw new Error("Missing OPENAI_API_KEY. Add it under Settings → Secrets and variables → Actions.");
+          }
+
+          const shanghaiDay = new Date(Date.now() + 8 * 60 * 60 * 1000);
+          shanghaiDay.setUTCHours(0, 0, 0, 0);
+          const targetDate = new Date(shanghaiDay.getTime() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
+          const schema = {
+            type: "object",
+            additionalProperties: false,
+            properties: {
+              items: {
+                type: "array",
+                items: {
+                  type: "object",
+                  additionalProperties: false,
+                  properties: {
+                    id: { type: "string" },
+                    date: { type: "string" },
+                    region: { type: "string", enum: ["中国", "东南亚", "拉美", "中东", "欧洲"] },
+                    market: { type: "string" },
+                    company: { type: "string" },
+                    track: { type: "string", enum: ["平台侧", "运力端", "用户端", "商家端", "行业监管"] },
+                    service: { type: "string" },
+                    title: { type: "string" },
+                    summary: { type: "string" },
+                    implication: { type: "string" },
+                    titleEn: { type: "string" },
+                    summaryEn: { type: "string" },
+                    implicationEn: { type: "string" },
+                    focus: { type: "boolean" },
+                    status: { type: "string", enum: ["已核验", "待复核"] },
+                    source: { type: "string" },
+                    sourceLabel: { type: "string" }
+                  },
+                  required: ["id", "date", "region", "market", "company", "track", "service", "title", "summary", "implication", "titleEn", "summaryEn", "implicationEn", "focus", "status", "source", "sourceLabel"]
+                }
+              }
+            },
+            required: ["items"]
+          };
+
+          const prompt = `你是即时履约行业研究员。今天按 Asia/Shanghai 计算；目标日期是 ${targetDate}。只收集发生或公开日期明确等于 ${targetDate} 的新信息，不要把抓取日期、更新日期或旧闻误当成发生日期。若某个区域没有可核验内容，返回空数组，不要编造。
+
+          覆盖区域：中国、东南亚、拉美、中东、欧洲。覆盖服务：即时零售、国际物流、尾程配送、即时配送、本地生活、同城跑腿、闪购、闪电仓、最后一公里、COD。覆盖业务主体：平台侧、运力端、用户端、商家端、行业监管。覆盖业务场景：产品与体验、履约与调度、骑手管理与权益、新业务与拓展、商业化与费率、品牌跨境出海、国际物流与供应链、AI相关。
+
+          优先检索并交叉核验：政府和监管机构、公司官网新闻与投资者关系、开发者/开放平台 changelog、App Store 与 Google Play 版本说明、商家服务平台、骑手/运力平台、行业媒体和区域物流媒体。重点覆盖中国的美团/淘宝闪购/京东秒送/达达/顺丰同城/闪送/UU跑腿，东南亚的 Grab/foodpanda/Gojek/Lalamove/Ninja Van/Flash Express，拉美的 Rappi/iFood/Mercado Libre/99，中东的 Careem/talabat/Aramex，欧洲的 Wolt/Deliveroo/DHL/DPD/Bring 等，以及当地监管入口。
+
+          每条只保留有原始网页链接且能确认日期的事项；title、summary 和 implication 用中文，同时提供准确、简洁的 titleEn、summaryEn 和 implicationEn 英文版本；source 必须是原始资料 URL，不要使用搜索结果页。重点事项 focus=true，普通事项 focus=false。status 只有在原始来源可直接核验时才用“已核验”，否则用“待复核”。返回严格 JSON，不要 Markdown。`;
+
+          const response = await fetch("https://api.openai.com/v1/responses", {
+            method: "POST",
+            headers: {
+              "Authorization": `Bearer ${apiKey}`,
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: "gpt-5",
+              tools: [{ type: "web_search", search_context_size: "high" }],
+              input: prompt,
+              text: { format: { type: "json_schema", name: "daily_intelligence", strict: true, schema } }
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error(`OpenAI Responses API failed (${response.status}): ${await response.text()}`);
+          }
+
+          const payload = await response.json();
+          const outputText = payload.output_text ?? payload.output
+            ?.flatMap((entry) => Array.isArray(entry.content) ? entry.content.map((part) => part.text ?? "") : [])
+            .filter(Boolean)
+            .join("\n");
+          if (!outputText) throw new Error("The research response did not contain structured output.");
+
+          const jsonText = outputText.match(/\{[\s\S]*\}/)?.[0] ?? outputText;
+          const parsed = JSON.parse(jsonText);
+          const allowedRegions = new Set(["中国", "东南亚", "拉美", "中东", "欧洲"]);
+          const allowedTracks = new Set(["平台侧", "运力端", "用户端", "商家端", "行业监管"]);
+          const items = parsed.items.map((item) => {
+            const requiredText = [item.id, item.date, item.market, item.company, item.service, item.title, item.summary, item.implication, item.titleEn, item.summaryEn, item.implicationEn, item.source, item.sourceLabel];
+            if (requiredText.some((value) => typeof value !== "string" || !value.trim())) throw new Error("A returned item has an empty required field.");
+            if (item.date !== targetDate) throw new Error(`Returned an item outside target date ${targetDate}: ${item.date}`);
+            if (!allowedRegions.has(item.region) || !allowedTracks.has(item.track)) throw new Error("A returned item has an unsupported region or business subject.");
+            if (!/^https?:\/\//.test(item.source)) throw new Error(`Source is not an original URL: ${item.source}`);
+            return item;
+          });
+
+          const source = await fs.readFile("app/page.tsx", "utf8");
+          const dailyMatch = source.match(/\/\* DAILY_INTELLIGENCE_START \*\/([\s\S]*?)\/\* DAILY_INTELLIGENCE_END \*\//);
+          const metaMatch = source.match(/\/\* REFRESH_META_START \*\/([\s\S]*?)\/\* REFRESH_META_END \*\//);
+          if (!dailyMatch || !metaMatch) throw new Error("Daily intelligence markers are missing from app/page.tsx.");
+
+          const existing = JSON.parse(dailyMatch[1].trim());
+          const byId = new Map(existing.map((item) => [item.id, item]));
+          const bySource = new Set(existing.map((item) => `${item.date}|${item.source}`));
+          for (const item of items) {
+            const sourceKey = `${item.date}|${item.source}`;
+            if (!byId.has(item.id) && !bySource.has(sourceKey)) {
+              byId.set(item.id, item);
+              bySource.add(sourceKey);
+            }
+          }
+          const merged = [...byId.values()];
+
+          const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+            timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false
+          }).formatToParts(new Date()).filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+          const lastRunLabel = `${parts.year}.${parts.month}.${parts.day} ${parts.hour}:${parts.minute}`;
+          const meta = { lastRunLabel, targetDate, recordCount: merged.filter((item) => item.date === targetDate).length };
+
+          const nextSource = source
+            .replace(dailyMatch[0], `/* DAILY_INTELLIGENCE_START */${JSON.stringify(merged, null, 2)}/* DAILY_INTELLIGENCE_END */`)
+            .replace(metaMatch[0], `/* REFRESH_META_START */${JSON.stringify(meta)}/* REFRESH_META_END */`);
+          await fs.writeFile("app/page.tsx", nextSource, "utf8");
+          console.log(`Collected ${items.length} new item(s) for ${targetDate}; ${meta.recordCount} item(s) are now stored for that date.`);
+          NODE
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build static site
+        run: npm run build
+        env:
+          GITHUB_PAGES: "true"
+          NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+
+      - name: Commit refreshed intelligence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/page.tsx
+          git diff --cached --quiet && echo "No source changes to commit." || (git commit -m "Refresh daily intelligence" && git push origin HEAD:main)
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./dist/client
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
+import { localizedItemCopies, type LocalizedItemCopy } from "./intelligence-translations";
 
 // Keep the dashboard eligible for GitHub Pages static export.
 export const dynamic = "force-static";
@@ -306,16 +307,16 @@ const regionLocalized: Record<Language, Record<Intelligence["region"], string>> 
 const subjectLocalized: Record<Language, Record<BusinessSubject, string>> = {
   en: subjectEnglish,
   zh: { 平台侧: "平台侧", 运力端: "运力端", 用户端: "用户端", 商家端: "商家端", 行业监管: "行业监管" },
-  id: { 平台侧: "Platform", 运力端: "Kurir / Armada", 用户端: "Pengguna", 商家端: "Merchant", 行业监管: "Industri / Regulator" },
+  id: { 平台侧: "Platform", 运力端: "Kurir / Armada", 用户端: "Pengguna", 商家端: "Mitra usaha", 行业监管: "Industri / Regulator" },
   vi: { 平台侧: "Nền tảng", 运力端: "Tài xế / Đội xe", 用户端: "Người dùng", 商家端: "Người bán", 行业监管: "Ngành / Quản lý" },
   pt: { 平台侧: "Plataforma", 运力端: "Entregadores / Frota", 用户端: "Usuário", 商家端: "Comerciante", 行业监管: "Setor / Regulatório" },
 };
 const scenarioLocalized: Record<Language, Record<BusinessScenario, string>> = {
   en: scenarioEnglish,
   zh: { 产品与体验: "产品与体验", 履约与调度: "履约与调度", 骑手管理与权益: "骑手管理与权益", 新业务与拓展: "新业务与拓展", 商业化与费率: "商业化与费率", 品牌跨境出海: "品牌跨境出海", 国际物流与供应链: "国际物流与供应链", AI相关: "AI相关" },
-  id: { 产品与体验: "Produk & UX", 履约与调度: "Fulfillment & Dispatch", 骑手管理与权益: "Operasi Kurir", 新业务与拓展: "Bisnis Baru & Ekspansi", 商业化与费率: "Monetisasi & Harga", 品牌跨境出海: "Merek & Ekspansi Lintas Negara", 国际物流与供应链: "Logistik Internasional & Rantai Pasok", AI相关: "AI & Otomasi" },
-  vi: { 产品与体验: "Sản phẩm & UX", 履约与调度: "Thực hiện & Điều phối", 骑手管理与权益: "Vận hành tài xế", 新业务与拓展: "Kinh doanh mới & Mở rộng", 商业化与费率: "Kiếm tiền & Giá", 品牌跨境出海: "Thương hiệu & Mở rộng xuyên biên giới", 国际物流与供应链: "Logistics quốc tế & Chuỗi cung ứng", AI相关: "AI & Tự động hóa" },
-  pt: { 产品与体验: "Produto & UX", 履约与调度: "Fulfillment & Despacho", 骑手管理与权益: "Operações de entregadores", 新业务与拓展: "Novos negócios & Expansão", 商业化与费率: "Monetização & Preços", 品牌跨境出海: "Marca & Expansão cross-border", 国际物流与供应链: "Logística Internacional & Cadeia de Suprimentos", AI相关: "IA & Automação" },
+  id: { 产品与体验: "Produk & UX", 履约与调度: "Pemenuhan & Penugasan", 骑手管理与权益: "Operasi Kurir", 新业务与拓展: "Bisnis Baru & Ekspansi", 商业化与费率: "Monetisasi & Harga", 品牌跨境出海: "Merek & Ekspansi Lintas Negara", 国际物流与供应链: "Logistik Internasional & Rantai Pasok", AI相关: "AI & Otomasi" },
+  vi: { 产品与体验: "Sản phẩm & UX", 履约与调度: "Hoàn tất đơn hàng & Điều phối", 骑手管理与权益: "Vận hành tài xế", 新业务与拓展: "Kinh doanh mới & Mở rộng", 商业化与费率: "Kiếm tiền & Giá", 品牌跨境出海: "Thương hiệu & Mở rộng xuyên biên giới", 国际物流与供应链: "Logistics quốc tế & Chuỗi cung ứng", AI相关: "AI & Tự động hóa" },
+  pt: { 产品与体验: "Produto & UX", 履约与调度: "Atendimento & Despacho", 骑手管理与权益: "Operações de entregadores", 新业务与拓展: "Novos negócios & Expansão", 商业化与费率: "Monetização & Preços", 品牌跨境出海: "Marca & Expansão internacional", 国际物流与供应链: "Logística Internacional & Cadeia de Suprimentos", AI相关: "IA & Automação" },
 };
 const dateLocales: Record<Language, string> = { en: "en-US", zh: "zh-CN", id: "id-ID", vi: "vi-VN", pt: "pt-BR" };
 
@@ -334,8 +335,12 @@ function displayMarket(market: string, language: Language) {
   return market.replaceAll("中国大陆", "Mainland China").replaceAll("全国", "Nationwide").replaceAll("全球", "Global").replaceAll("拉美可关注", "watch in Latin America").replaceAll("中国台湾", "Taiwan").replaceAll("东南亚", "Southeast Asia").replaceAll("重庆", "Chongqing").replaceAll("苏州", "Suzhou").replaceAll("北京", "Beijing").replaceAll("上海", "Shanghai").replaceAll("宁波", "Ningbo").replaceAll("华东", "East China").replaceAll("新加坡", "Singapore").replaceAll("墨西哥", "Mexico").replaceAll("哥伦比亚", "Colombia").replaceAll("阿根廷", "Argentina").replaceAll("巴西", "Brazil").replaceAll("圣保罗", "São Paulo").replaceAll("沙特", "Saudi Arabia").replaceAll("阿联酋", "UAE").replaceAll("埃及", "Egypt").replaceAll("海湾地区", "Gulf region").replaceAll("印度尼西亚", "Indonesia").replaceAll("马来西亚", "Malaysia").replaceAll("赣州", "Ganzhou").replaceAll("武汉", "Wuhan").replaceAll("全国", "Nationwide");
 }
 function displayItem(item: Intelligence, language: Language) {
-  const copy = language === "zh" ? undefined : englishItemCopies[item.id];
-  return { title: copy?.title ?? item.titleEn ?? item.title, summary: copy?.summary ?? item.summaryEn ?? item.summary, implication: copy?.implication ?? item.implicationEn ?? item.implication, company: displayCompany(item.company, language), market: displayMarket(item.market, language), sourceLabel: item.sourceLabel };
+  if (language === "zh") return { title: item.title, summary: item.summary, implication: item.implication, company: item.company, market: item.market, sourceLabel: item.sourceLabel };
+  const translatedCopies = localizedItemCopies as Record<Exclude<Language, "zh">, Record<string, LocalizedItemCopy>>;
+  const copy = translatedCopies[language][item.id];
+  if (copy) return copy;
+  const englishCopy = englishItemCopies[item.id];
+  return { title: englishCopy?.title ?? item.titleEn ?? item.title, summary: englishCopy?.summary ?? item.summaryEn ?? item.summary, implication: englishCopy?.implication ?? item.implicationEn ?? item.implication, company: displayCompany(item.company, language), market: displayMarket(item.market, language), sourceLabel: item.sourceLabel };
 }
 
 const wechatSearch = (name: string) => `https://weixin.sogou.com/weixin?type=2&query=${encodeURIComponent(name)}`;
@@ -520,7 +525,21 @@ const translatedUiCopy = {
   },
 } as const;
 
-const allUiCopy = { ...uiCopy, ...translatedUiCopy };
+const uiExtras = {
+  en: { kicker: "INSTANT SERVICE / FIELD NOTES", collapse: "Collapse", sourceCoverageLabel: "SOURCE COVERAGE", sourceUnit: "sources", sourceColumn: "Source", materialColumn: "Material", companyExample: "e.g. Grab / transport ministry", marketExample: "e.g. Jakarta, Indonesia", pendingImpact: "Product impact pending review." },
+  zh: { kicker: "即时服务 / 市场笔记", collapse: "收起", sourceCoverageLabel: "来源覆盖", sourceUnit: "个入口", sourceColumn: "来源", materialColumn: "资料", companyExample: "例如：Grab / 交通部", marketExample: "例如：印尼 / 雅加达", pendingImpact: "待补充产品影响判断。" },
+  id: { kicker: "LAYANAN INSTAN / CATATAN PASAR", brand: "Intelijen Pemenuhan Instan", heroTitle: "Tangkap sinyal pemenuhan, dorong keputusan yang presisi", heroText: "Fokus pada dinamika pemenuhan instan dan bidang terkait, dengan intelijen tajam untuk mendorong produk, operasional, dan pertumbuhan bisnis", fulfillmentFoot: "Ritel instan · penugasan pesanan · jarak terakhir", collapse: "Tutup", sourceCoverageLabel: "CAKUPAN SUMBER", sourceUnit: "sumber", sourceColumn: "Sumber", materialColumn: "Materi", companyExample: "mis. Grab / kementerian transportasi", marketExample: "mis. Jakarta, Indonesia", pendingImpact: "Dampak produk menunggu tinjauan." },
+  vi: { kicker: "DỊCH VỤ TỨC THỜI / GHI CHÚ THỊ TRƯỜNG", brand: "Bàn tin hoàn tất đơn hàng tức thời", heroTitle: "Nắm bắt tín hiệu hoàn tất đơn hàng, thúc đẩy quyết định chính xác", heroText: "Tập trung vào diễn biến hoàn tất đơn hàng tức thời và các lĩnh vực liên quan, với thông tin nhạy bén để thúc đẩy sản phẩm, vận hành và tăng trưởng kinh doanh", collapse: "Thu gọn", sourceCoverageLabel: "PHẠM VI NGUỒN", sourceUnit: "nguồn", sourceColumn: "Nguồn", materialColumn: "Tài liệu", companyExample: "ví dụ: Grab / bộ giao thông", marketExample: "ví dụ: Jakarta, Indonesia", pendingImpact: "Tác động sản phẩm đang chờ đánh giá." },
+  pt: { kicker: "SERVIÇO INSTANTÂNEO / NOTAS DE MERCADO", brand: "Inteligência de Atendimento Instantâneo", heroTitle: "Capture sinais de atendimento e impulsione decisões precisas", heroText: "Foco nas dinâmicas do atendimento instantâneo e áreas relacionadas, com inteligência precisa para impulsionar produto, operações e crescimento do negócio", collapse: "Recolher", sourceCoverageLabel: "COBERTURA DE FONTES", sourceUnit: "fontes", sourceColumn: "Fonte", materialColumn: "Material", companyExample: "ex.: Grab / ministério dos transportes", marketExample: "ex.: Jacarta, Indonésia", pendingImpact: "Impacto no produto pendente de revisão." },
+} as const;
+
+const allUiCopy = {
+  en: { ...uiCopy.en, ...uiExtras.en },
+  zh: { ...uiCopy.zh, ...uiExtras.zh },
+  id: { ...translatedUiCopy.id, ...uiExtras.id },
+  vi: { ...translatedUiCopy.vi, ...uiExtras.vi },
+  pt: { ...translatedUiCopy.pt, ...uiExtras.pt },
+};
 const filterLabels: Record<Language, { month: string; region: string; subject: string; scenario: string }> = {
   en: { month: "Month", region: "Region", subject: "Subject", scenario: "Scenario" },
   zh: { month: "年月", region: "区域", subject: "业务主体", scenario: "业务场景" },
@@ -562,17 +581,22 @@ export default function Home() {
     }
   }, []);
 
+  useEffect(() => {
+    document.documentElement.lang = { en: "en", zh: "zh-CN", id: "id-ID", vi: "vi-VN", pt: "pt-BR" }[language];
+  }, [language]);
+
   const monthOptions = useMemo(() => Array.from(new Set(items.map((item) => item.date.slice(0, 7)))).sort().reverse(), [items]);
   const orderedItems = useMemo(() => sortByOccurredAt(items), [items]);
   const filteredItems = useMemo(() => orderedItems.filter((item) => {
-    const haystack = `${item.title} ${item.company} ${item.summary} ${item.implication} ${item.market}`.toLowerCase();
+    const copy = displayItem(item, language);
+    const haystack = `${copy.title} ${copy.company} ${copy.summary} ${copy.implication} ${copy.market} ${copy.sourceLabel} ${displayRegion(item.region, language)} ${displaySubject(businessSubject(item), language)} ${displayScenario(businessScenario(item), language)}`.toLowerCase();
     const matchesQuery = !query.trim() || haystack.includes(query.trim().toLowerCase());
     const matchesMonth = !activeMonth || activeMonth === item.date.slice(0, 7);
     const matchesRegion = !activeRegion || activeRegion === item.region;
     const matchesSubject = !activeSubject || businessSubject(item) === activeSubject;
     const matchesScenario = !activeScenario || businessScenario(item) === activeScenario;
     return matchesQuery && matchesMonth && matchesRegion && matchesSubject && matchesScenario;
-  }), [activeMonth, activeRegion, activeScenario, activeSubject, orderedItems, query]);
+  }), [activeMonth, activeRegion, activeScenario, activeSubject, language, orderedItems, query]);
 
   const briefItems = filteredItems.filter((item) => businessSubject(item) === "平台侧" && businessScenario(item) !== "品牌跨境出海");
   const visibleBrief = showAllBrief ? briefItems : briefItems.slice(0, 5);
@@ -621,7 +645,7 @@ export default function Home() {
       service: String(form.get("service") || "产品与体验"),
       title: String(form.get("title") || "未命名情报"),
       summary: String(form.get("summary") || "待补充"),
-      implication: language === "en" ? "Product impact pending review." : "待补充产品影响判断。",
+      implication: ui.pendingImpact,
       focus: false,
       status: "待复核",
       source: String(form.get("source") || "#"),
@@ -664,19 +688,19 @@ export default function Home() {
       <section className="brief-grid">
         {visibleBrief.length ? visibleBrief.map((item, index) => { const copy = displayItem(item, language); return <article className={`brief-card brief-${(index % 3) + 1}`} key={item.id}><div className="card-topline"><span className="card-track">{displaySubject(businessSubject(item), language)}</span><span>{displayDate(item.date, language)}</span></div><div className="card-region">{displayRegion(item.region, language)} <span>·</span> {copy.company}</div><h3>{copy.title}</h3><p>{copy.summary}</p><div className="brief-impact"><span>{ui.productImpact}</span>{copy.implication}</div><a className="source-link" href={item.source} target="_blank" rel="noreferrer">{ui.source} <span>↗</span></a></article>; }) : <div className="brief-empty"><strong>{ui.briefEmpty}</strong></div>}
       </section>
-      <div className="section-action"><button className="outline-button" onClick={() => setShowAllBrief((current) => !current)}>{showAllBrief ? (language === "en" ? "Collapse" : "收起") : `${ui.briefCount}（${briefItems.length}）`} <span>{showAllBrief ? "↑" : "↓"}</span></button></div>
+      <div className="section-action"><button className="outline-button" onClick={() => setShowAllBrief((current) => !current)}>{showAllBrief ? ui.collapse : `${ui.briefCount}（${briefItems.length}）`} <span>{showAllBrief ? "↑" : "↓"}</span></button></div>
 
       <section className="section-head feed-heading" id="feed"><div><span className="section-index">{ui.feedIndex}</span><h2>{ui.feedTitle}</h2></div><div className="feed-heading-right"><div className="view-switch"><button className={view === "brief" ? "active" : ""} onClick={() => setView("brief")}>{ui.board}</button><button className={view === "table" ? "active" : ""} onClick={() => setView("table")}>{ui.table}</button></div></div></section>
       <section className="control-panel" aria-label={ui.feedTitle}><div className="search-wrap"><span>⌕</span><input value={draftQuery} onChange={(event) => setDraftQuery(event.target.value)} placeholder={ui.searchPlaceholder} aria-label={ui.searchAria} /></div><div className="select-row"><label>{filters.month}<select className={draftMonth ? "filter-select has-value" : "filter-select"} value={draftMonth} onChange={(event) => setDraftMonth(event.target.value)} aria-label={ui.byMonth}><option value="">{ui.allMonths}</option>{monthOptions.map((month) => <option key={month} value={month}>{monthLabel(month, language)}</option>)}</select></label><label>{filters.region}<select className={draftRegion ? "filter-select has-value" : "filter-select"} value={draftRegion} onChange={(event) => setDraftRegion(event.target.value)} aria-label={ui.byRegion}><option value="">{ui.allRegions}</option>{regionOptions.slice(1).map((region) => <option key={region} value={region}>{displayRegion(region, language)}</option>)}</select></label><label>{filters.subject}<select className={draftSubject ? "filter-select has-value" : "filter-select"} value={draftSubject} onChange={(event) => setDraftSubject(event.target.value)} aria-label={ui.bySubject}><option value="">{ui.allSubjects}</option>{subjectOptions.slice(1).map((subject) => <option key={subject} value={subject}>{displaySubject(subject, language)}</option>)}</select></label><label>{filters.scenario}<select className={draftScenario ? "filter-select has-value" : "filter-select"} value={draftScenario} onChange={(event) => setDraftScenario(event.target.value)} aria-label={ui.byScenario}><option value="">{ui.allScenarios}</option>{scenarioOptions.slice(1).map((scenario) => <option key={scenario} value={scenario}>{displayScenario(scenario, language)}</option>)}</select></label></div><div className="control-actions"><button className="button button-dark query-button" onClick={applyFilters}>{ui.query} <span>→</span></button><button className="outline-button" onClick={() => setShowAdd(true)}>{ui.add}</button><button className="export-button" onClick={exportCsv}>{ui.export} <span>↓</span></button></div></section>
 
-      <details className="source-coverage"><summary><span className="source-coverage-head"><span className="eyebrow">SOURCE COVERAGE</span><span>{ui.sourceCoverage}</span></span><span>{ui.expandSources} {sourceChannels.length} {language === "en" ? "sources" : "个入口"}</span></summary><div className="source-coverage-links">{sourceChannels.map((channel) => <a key={channel.name} href={channel.url} target="_blank" rel="noreferrer"><strong>{channel.name}</strong><small>{channel.scope}</small><span>↗</span></a>)}</div></details>
+      <details className="source-coverage"><summary><span className="source-coverage-head"><span className="eyebrow">{ui.sourceCoverageLabel}</span><span>{ui.sourceCoverage}</span></span><span>{ui.expandSources} {sourceChannels.length} {ui.sourceUnit}</span></summary><div className="source-coverage-links">{sourceChannels.map((channel, index) => <a key={`${channel.name}-${index}`} href={channel.url} target="_blank" rel="noreferrer"><strong>{channel.name}</strong><small>{channel.scope}</small><span>↗</span></a>)}</div></details>
 
-      {view === "brief" ? <section className="feed-list"><div className="feed-list-head"><span>{filteredItems.length} {ui.records}</span><span>{ui.newestFirst}</span></div>{filteredItems.map((item) => { const copy = displayItem(item, language); return <article className="feed-item" key={item.id}><div className="feed-date"><strong>{displayDate(item.date, language)}</strong><span>{item.date.slice(0, 4)}</span></div><div className="feed-main"><div className="feed-meta"><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{displayStatus(item.status, language)}</span><span>{displayRegion(item.region, language)} · {copy.market}</span><span>{displaySubject(businessSubject(item), language)}</span><span>{displayScenario(businessScenario(item), language)}</span><span className="source-label">{copy.sourceLabel}</span></div><h3>{copy.title}</h3><p>{copy.summary}</p><div className="feed-implication"><span>{ui.impact}</span>{copy.implication}</div></div><div className="feed-side"><span>{copy.company}</span><a href={item.source} target="_blank" rel="noreferrer">{ui.materials}</a></div></article>; })}</section> : <section className="table-wrap"><table><thead><tr><th>{ui.time}</th><th>{ui.regionMarket}</th><th>{ui.company}</th><th>{ui.subject}</th><th>{ui.scenario}</th><th>{ui.change}</th><th>{language === "en" ? "Source" : "来源"}</th><th>{ui.status}</th><th>{language === "en" ? "Material" : "资料"}</th></tr></thead><tbody>{filteredItems.map((item) => { const copy = displayItem(item, language); return <tr key={item.id}><td className="table-date">{item.date}</td><td><strong>{displayRegion(item.region, language)}</strong><small>{copy.market}</small></td><td>{copy.company}</td><td><span className="table-tag">{displaySubject(businessSubject(item), language)}</span></td><td>{displayScenario(businessScenario(item), language)}</td><td><strong>{copy.title}</strong><small>{copy.summary}</small></td><td><small className="source-label">{copy.sourceLabel}</small></td><td><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{displayStatus(item.status, language)}</span></td><td><a href={item.source} target="_blank" rel="noreferrer">{ui.open}</a></td></tr>; })}</tbody></table></section>}
+      {view === "brief" ? <section className="feed-list"><div className="feed-list-head"><span>{filteredItems.length} {ui.records}</span><span>{ui.newestFirst}</span></div>{filteredItems.map((item) => { const copy = displayItem(item, language); return <article className="feed-item" key={item.id}><div className="feed-date"><strong>{displayDate(item.date, language)}</strong><span>{item.date.slice(0, 4)}</span></div><div className="feed-main"><div className="feed-meta"><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{displayStatus(item.status, language)}</span><span>{displayRegion(item.region, language)} · {copy.market}</span><span>{displaySubject(businessSubject(item), language)}</span><span>{displayScenario(businessScenario(item), language)}</span><span className="source-label">{copy.sourceLabel}</span></div><h3>{copy.title}</h3><p>{copy.summary}</p><div className="feed-implication"><span>{ui.impact}</span>{copy.implication}</div></div><div className="feed-side"><span>{copy.company}</span><a href={item.source} target="_blank" rel="noreferrer">{ui.materials}</a></div></article>; })}</section> : <section className="table-wrap"><table><thead><tr><th>{ui.time}</th><th>{ui.regionMarket}</th><th>{ui.company}</th><th>{ui.subject}</th><th>{ui.scenario}</th><th>{ui.change}</th><th>{ui.sourceColumn}</th><th>{ui.status}</th><th>{ui.materialColumn}</th></tr></thead><tbody>{filteredItems.map((item) => { const copy = displayItem(item, language); return <tr key={item.id}><td className="table-date">{item.date}</td><td><strong>{displayRegion(item.region, language)}</strong><small>{copy.market}</small></td><td>{copy.company}</td><td><span className="table-tag">{displaySubject(businessSubject(item), language)}</span></td><td>{displayScenario(businessScenario(item), language)}</td><td><strong>{copy.title}</strong><small>{copy.summary}</small></td><td><small className="source-label">{copy.sourceLabel}</small></td><td><span className={`status status-${item.status === "已核验" ? "verified" : "review"}`}>{displayStatus(item.status, language)}</span></td><td><a href={item.source} target="_blank" rel="noreferrer">{ui.open}</a></td></tr>; })}</tbody></table></section>}
 
       <footer className="footer"><div><span className="eyebrow">{ui.footerEyebrow}</span><p>{ui.footerText}</p></div><div className="footer-right"><span>{regionCount} {ui.covered}</span><span>{ui.daily}</span></div></footer>
 
       {notice && <div className="toast" role="status">{notice}</div>}
-      {showAdd && <div className="modal-backdrop"><section className="modal" role="dialog" aria-modal="true" aria-labelledby="add-title"><div className="modal-head"><div><span className="eyebrow">{ui.quickCapture}</span><h2 id="add-title">{ui.addTitle}</h2></div><button className="close-button" onClick={() => setShowAdd(false)} aria-label={ui.close}>×</button></div><form onSubmit={addItem}><div className="form-grid"><label>{ui.occurred}<input name="date" type="date" defaultValue="2026-09-04" required /></label><label>{ui.companyOrg}<input name="company" placeholder={language === "en" ? "e.g. Grab / transport ministry" : "例如：Grab / 交通部"} required /></label><label>{ui.region}<select name="region" defaultValue="中国">{regionOptions.slice(1).map((region) => <option key={region} value={region}>{displayRegion(region, language)}</option>)}</select></label><label>{ui.countryCity}<input name="market" placeholder={language === "en" ? "e.g. Jakarta, Indonesia" : "例如：印尼 / 雅加达"} required /></label><label>{ui.subject}<select name="track" defaultValue="平台侧">{subjectOptions.slice(1).map((subject) => <option key={subject} value={subject}>{displaySubject(subject, language)}</option>)}</select></label><label>{ui.scenario}<select name="service" defaultValue="产品与体验">{scenarioOptions.slice(1).map((scenario) => <option key={scenario} value={scenario}>{displayScenario(scenario, language)}</option>)}</select></label></div><label>{ui.title}<input name="title" placeholder={ui.titlePlaceholder} required /></label><label>{ui.changeContent}<textarea name="summary" rows={3} placeholder={ui.changePlaceholder} required /></label><label>{ui.materialLink}<input name="source" type="url" placeholder="https://" required /></label><div className="modal-actions"><button type="button" className="outline-button" onClick={() => setShowAdd(false)}>{ui.cancel}</button><button type="submit" className="button button-dark">{ui.save} <span>→</span></button></div></form></section></div>}
+      {showAdd && <div className="modal-backdrop"><section className="modal" role="dialog" aria-modal="true" aria-labelledby="add-title"><div className="modal-head"><div><span className="eyebrow">{ui.quickCapture}</span><h2 id="add-title">{ui.addTitle}</h2></div><button className="close-button" onClick={() => setShowAdd(false)} aria-label={ui.close}>×</button></div><form onSubmit={addItem}><div className="form-grid"><label>{ui.occurred}<input name="date" type="date" defaultValue="2026-09-04" required /></label><label>{ui.companyOrg}<input name="company" placeholder={ui.companyExample} required /></label><label>{ui.region}<select name="region" defaultValue="中国">{regionOptions.slice(1).map((region) => <option key={region} value={region}>{displayRegion(region, language)}</option>)}</select></label><label>{ui.countryCity}<input name="market" placeholder={ui.marketExample} required /></label><label>{ui.subject}<select name="track" defaultValue="平台侧">{subjectOptions.slice(1).map((subject) => <option key={subject} value={subject}>{displaySubject(subject, language)}</option>)}</select></label><label>{ui.scenario}<select name="service" defaultValue="产品与体验">{scenarioOptions.slice(1).map((scenario) => <option key={scenario} value={scenario}>{displayScenario(scenario, language)}</option>)}</select></label></div><label>{ui.title}<input name="title" placeholder={ui.titlePlaceholder} required /></label><label>{ui.changeContent}<textarea name="summary" rows={3} placeholder={ui.changePlaceholder} required /></label><label>{ui.materialLink}<input name="source" type="url" placeholder="https://" required /></label><div className="modal-actions"><button type="button" className="outline-button" onClick={() => setShowAdd(false)}>{ui.cancel}</button><button type="submit" className="button button-dark">{ui.save} <span>→</span></button></div></form></section></div>}
     </main>
   );
 }

@@ -90,7 +90,7 @@ const recentSourcedItems: Intelligence[] = [
   { id: "me-0817-tainiu", date: "2026-08-17", region: "中国", market: "全国 / 美团 App", company: "美团 / 钛牛数码", track: "平台侧", service: "即时零售 · 闪电仓 · 最后一公里", title: "美团自营数码品牌“钛牛数码”上线，探索 24 小时 3C 即时零售", summary: "美团自营数码品牌“钛牛数码”于 8 月 17 日上线，覆盖摄影摄像、游戏键鼠、办公设备和手机周边，提供 24 小时营业、七天无理由退货、假一赔四、退货免运费和“满电服务”等履约保障。", implication: "平台开始用自营/平台背书方式把 3C 货盘、全天供给与即时履约打包，后续要观察它与品牌授权门店、闪电仓和商家侧流量分配的边界。", focus: true, status: "已核验", source: "https://finance.sina.com.cn/tech/roll/2026-08-17/doc-ininqtnx7905574.shtml", sourceLabel: "新浪科技 / 亿邦动力" },
 ];
 
-const automatedRefreshMeta = /* REFRESH_META_START */{"lastRunLabel":"2026.09.14 08:30","targetDate":"2026-09-13","recordCount":1}/* REFRESH_META_END */ as const;
+const automatedRefreshMeta = /* REFRESH_META_START */{"lastRunLabel":"2026.09.22 14:10","targetDate":"2026-09-21","recordCount":1}/* REFRESH_META_END */ as const;
 
 const dailyIntelligence: Intelligence[] = /* DAILY_INTELLIGENCE_START */[
   {"id":"sea-0907-grabmall-99","date":"2026-09-07","region":"东南亚","market":"马来西亚","company":"GrabMall","track":"用户端","service":"即时零售 · 闪购","title":"GrabMall 马来西亚 9.9 大促上线，配送费优惠与商品折扣同步投放","summary":"Grab 官方活动页显示，GrabMall 9.9 活动于 9 月 7 日 00:00 在马来西亚开始，指定商品最高折扣 69%，并提供满 RM80 减 RM3 配送费等优惠；活动适用于指定商家，且不适用于 Pickup。","implication":"即时零售大促把商品折扣、配送费补贴、商家资格与履约方式绑定在同一活动规则中；用户端需要清晰呈现适用门店、最低消费、配送优惠和自提排除条件。","focus":false,"status":"已核验","source":"https://www.grab.com/my/blog/9-9-double-days/","sourceLabel":"Grab Malaysia 官方活动页"},

@@ -96,17 +96,22 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 ## Daily Intelligence Refresh
 
-`.github/workflows/daily-intelligence.yml` runs every day at 00:30 UTC, which
-is 08:30 in Shenzhen (Asia/Shanghai). It searches the previous Shenzhen day,
-keeps only records with a verifiable original URL and date, writes the new
-records into `app/page.tsx`, builds the static site, commits the result to
-`main`, and deploys the same build to GitHub Pages.
+The local Codex scheduled task runs at 08:30 in Shenzhen (Asia/Shanghai). It
+opens original source pages, verifies publication dates, updates
+`app/page.tsx`, runs the static build, and pushes the verified result to
+`main`. `.github/workflows/deploy.yml` then builds and publishes GitHub Pages.
 
-Before the first run, add a repository secret named `OPENAI_API_KEY` under
-GitHub → Settings → Secrets and variables → Actions. Do not put the key in
-source code. You can also run the workflow manually from the Actions tab to
-verify the setup; scheduled runs may start a few minutes after the nominal
-time because GitHub queues scheduled jobs.
+No `OPENAI_API_KEY` or paid OpenAI API call is required. The legacy
+`.github/workflows/daily-intelligence.yml` file is retained as a manual-only
+notice so an old GitHub schedule cannot trigger paid collection. The computer
+must be on with Codex running at the scheduled time; after a shutdown, sleep,
+network outage, or missed run, the next task run detects the gap, reports it,
+and backfills every missing Shenzhen date before the normal review window.
+
+For unattended GitHub publication, the Codex task's permission profile must
+allow writes to this workspace including `.git`, outbound access to GitHub,
+and local loopback binding for the static prerender step. GitHub CLI must be
+logged in and the repository must have an `origin` remote.
 
 ## Learn More
 

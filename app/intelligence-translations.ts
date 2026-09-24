@@ -812,6 +812,22 @@ export const localizedItemCopies = {
       "market": "Indonesia / Multi-city",
       "sourceLabel": "Grab Indonesia Official Activities Page"
     },
+    "sea-0922-perform-ai-commerce-os": {
+      "title": "Parcel Perform becomes Perform.AI and launches an AI commerce operating system spanning fulfillment and returns",
+      "summary": "Perform.AI announced on September 22 that Parcel Perform had rebranded and launched the AI Commerce Operating System, combining product discovery, checkout, post-purchase, returns and logistics collaboration. Its logistics layer manages delivery promises and carrier coordination, while teams can query operating data through MCP in their existing AI tools.",
+      "implication": "E-commerce fulfillment software is moving from tracking and post-purchase tools to an end-to-end operating system for people and AI agents. Platforms and merchants need one data chain for delivery promises, exception alerts, carrier selection, returns and margin decisions.",
+      "company": "Perform.AI (formerly Parcel Perform)",
+      "market": "Singapore / Germany / Global",
+      "sourceLabel": "Perform.AI official release"
+    },
+    "sea-0923-grab-openai-training": {
+      "title": "Grab and OpenAI launch Southeast Asia AI training for 30,000 driver, delivery and merchant partners",
+      "summary": "Grab and OpenAI announced GO Forward with AI under GrabAcademy on September 23, targeting 30,000 driver, delivery and merchant partners over two years. The program starts in Singapore before expanding to Thailand, Indonesia and the Philippines, covering business analysis, inventory planning, earnings improvement and entrepreneurial workflows.",
+      "implication": "Platform AI is expanding from in-app assistants into partner training and daily operating workflows. Rider and merchant products should connect courses, permissions, data templates, executable tasks and outcome metrics while keeping responsible-use and human-review boundaries clear.",
+      "company": "Grab / OpenAI / GrabAcademy",
+      "market": "Singapore / Thailand, Indonesia and the Philippines",
+      "sourceLabel": "Grab Singapore Press Centre"
+    },
     "cn-0801-light": {
       "title": "Meituan’s red-light timer pause goes live across 1,100 Suzhou intersections",
       "summary": "Suzhou traffic police and Meituan launched a service that automatically extends delivery time through police–platform data exchange while riders wait at red lights.",
@@ -1741,6 +1757,22 @@ export const localizedItemCopies = {
       "company": "GrabFood Indonesia / OVO",
       "market": "Indonesia / Multi- kota",
       "sourceLabel": "Grab Halaman Aktivitas Resmi Indonesia"
+    },
+    "sea-0922-perform-ai-commerce-os": {
+      "title": "Parcel Perform berganti nama menjadi Perform.AI dan meluncurkan sistem operasi perdagangan AI untuk pemenuhan dan retur",
+      "summary": "Perform.AI mengumumkan pada 22 September bahwa Parcel Perform telah berganti nama dan meluncurkan AI Commerce Operating System yang menyatukan penemuan produk, checkout, layanan pascapembelian, retur, dan kolaborasi logistik. Lapisan logistiknya mengelola janji pengiriman serta koordinasi operator, sementara tim dapat mengakses data operasi melalui MCP di alat AI yang sudah digunakan.",
+      "implication": "Perangkat lunak pemenuhan e-commerce berkembang dari pelacakan dan layanan pascapembelian menjadi sistem operasi menyeluruh bagi manusia dan agen AI. Platform serta merchant memerlukan satu rantai data untuk janji pengiriman, peringatan masalah, pemilihan operator, retur, dan keputusan margin.",
+      "company": "Perform.AI (sebelumnya Parcel Perform)",
+      "market": "Singapura / Jerman / Global",
+      "sourceLabel": "Rilis resmi Perform.AI"
+    },
+    "sea-0923-grab-openai-training": {
+      "title": "Grab dan OpenAI meluncurkan pelatihan AI Asia Tenggara bagi 30.000 mitra pengemudi, kurir, dan merchant",
+      "summary": "Grab dan OpenAI mengumumkan GO Forward with AI di bawah GrabAcademy pada 23 September, dengan target 30.000 mitra pengemudi, kurir, dan merchant selama dua tahun. Program dimulai di Singapura sebelum diperluas ke Thailand, Indonesia, dan Filipina, mencakup analisis bisnis, perencanaan persediaan, peningkatan pendapatan, dan alur kerja kewirausahaan.",
+      "implication": "AI platform berkembang dari asisten dalam aplikasi menjadi pelatihan mitra dan alur kerja operasional sehari-hari. Produk kurir dan merchant perlu menghubungkan kursus, izin data, templat, tugas yang dapat dijalankan, serta metrik hasil dengan batas penggunaan bertanggung jawab dan tinjauan manusia yang jelas.",
+      "company": "Grab / OpenAI / GrabAcademy",
+      "market": "Singapura / Thailand, Indonesia, dan Filipina",
+      "sourceLabel": "Pusat Pers Grab Singapura"
     },
     "cn-0801-light": {
       "title": "MeituanJeda timer merah-ringan berlangsung langsung di 1.100 persimpangan Suzhou",
@@ -2672,6 +2704,22 @@ export const localizedItemCopies = {
       "market": "Indonesia/ Multiity",
       "sourceLabel": "Trang hoạt động chính thức của Grab Indonesia"
     },
+    "sea-0922-perform-ai-commerce-os": {
+      "title": "Parcel Perform đổi tên thành Perform.AI và ra mắt hệ điều hành thương mại AI cho khâu hoàn tất đơn và hoàn trả",
+      "summary": "Perform.AI công bố ngày 22 tháng 9 rằng Parcel Perform đã đổi tên và ra mắt AI Commerce Operating System, hợp nhất khám phá sản phẩm, thanh toán, hậu mãi, hoàn trả và phối hợp logistics. Lớp logistics quản lý cam kết giao hàng và phối hợp hãng vận chuyển; các nhóm có thể truy vấn dữ liệu vận hành qua MCP trong công cụ AI hiện có.",
+      "implication": "Phần mềm hoàn tất đơn hàng thương mại điện tử đang chuyển từ theo dõi và hậu mãi sang hệ điều hành đầu-cuối cho con người và tác nhân AI. Nền tảng và nhà bán hàng cần một chuỗi dữ liệu thống nhất cho cam kết giao hàng, cảnh báo ngoại lệ, chọn hãng vận chuyển, hoàn trả và quyết định biên lợi nhuận.",
+      "company": "Perform.AI (trước đây là Parcel Perform)",
+      "market": "Singapore / Đức / Toàn cầu",
+      "sourceLabel": "Thông báo chính thức của Perform.AI"
+    },
+    "sea-0923-grab-openai-training": {
+      "title": "Grab và OpenAI triển khai đào tạo AI tại Đông Nam Á cho 30.000 đối tác tài xế, giao hàng và nhà bán hàng",
+      "summary": "Grab và OpenAI công bố GO Forward with AI thuộc GrabAcademy vào ngày 23 tháng 9, hướng tới 30.000 đối tác tài xế, giao hàng và nhà bán hàng trong hai năm. Chương trình bắt đầu tại Singapore rồi mở rộng sang Thái Lan, Indonesia và Philippines, gồm phân tích kinh doanh, lập kế hoạch tồn kho, cải thiện thu nhập và quy trình khởi nghiệp.",
+      "implication": "AI nền tảng đang mở rộng từ trợ lý trong ứng dụng sang đào tạo đối tác và quy trình vận hành hằng ngày. Sản phẩm cho tài xế và nhà bán hàng cần kết nối khóa học, quyền dữ liệu, mẫu tác vụ, công việc có thể thực thi và chỉ số kết quả, đồng thời nêu rõ ranh giới sử dụng có trách nhiệm và kiểm tra của con người.",
+      "company": "Grab / OpenAI / GrabAcademy",
+      "market": "Singapore / Thái Lan, Indonesia và Philippines",
+      "sourceLabel": "Trung tâm Báo chí Grab Singapore"
+    },
     "cn-0801-light": {
       "title": "MeituanSự dừng chân của đèn đỏ được truyền trực tiếp qua 1,100 giao lộ Tô Châu",
       "summary": "Tô Châu cảnh sát và Meituan khởi động một dịch vụ tự động mở rộng thời gian giao hàng thông qua trao đổi dữ liệu cảnh sát–Platform trong khi nhân viên giao hàng chờ đợi tại đèn đỏ.",
@@ -3601,6 +3649,22 @@ export const localizedItemCopies = {
       "company": "GrabFood Indonésia / OVO",
       "market": "Indonésia / Multi-cidade",
       "sourceLabel": "Grab Página de Atividades Oficiais da Indonésia"
+    },
+    "sea-0922-perform-ai-commerce-os": {
+      "title": "Parcel Perform passa a chamar-se Perform.AI e lança um sistema operacional de comércio com IA para fulfillment e devoluções",
+      "summary": "A Perform.AI anunciou em 22 de setembro que a Parcel Perform mudou de nome e lançou o AI Commerce Operating System, reunindo descoberta de produtos, checkout, pós-compra, devoluções e colaboração logística. A camada logística gere promessas de entrega e coordenação de transportadoras, enquanto as equipas podem consultar dados operacionais via MCP nas ferramentas de IA que já utilizam.",
+      "implication": "O software de fulfillment do comércio eletrónico está a evoluir de rastreamento e pós-compra para um sistema operacional de ponta a ponta para pessoas e agentes de IA. Plataformas e comerciantes precisam de uma única cadeia de dados para promessas de entrega, alertas de exceção, seleção de transportadoras, devoluções e decisões de margem.",
+      "company": "Perform.AI (anteriormente Parcel Perform)",
+      "market": "Singapura / Alemanha / Global",
+      "sourceLabel": "Comunicado oficial da Perform.AI"
+    },
+    "sea-0923-grab-openai-training": {
+      "title": "Grab e OpenAI lançam formação em IA no Sudeste Asiático para 30.000 parceiros motoristas, entregadores e comerciantes",
+      "summary": "Grab e OpenAI anunciaram em 23 de setembro o GO Forward with AI, no âmbito da GrabAcademy, para formar 30.000 parceiros motoristas, entregadores e comerciantes em dois anos. O programa começa em Singapura e será ampliado para Tailândia, Indonésia e Filipinas, abrangendo análise de negócios, planeamento de estoque, melhoria de rendimentos e fluxos de trabalho empreendedores.",
+      "implication": "A IA de plataforma está a expandir-se de assistentes no aplicativo para formação de parceiros e fluxos operacionais diários. Os produtos para entregadores e comerciantes devem ligar cursos, permissões de dados, modelos, tarefas executáveis e métricas de resultado, mantendo claros os limites de uso responsável e revisão humana.",
+      "company": "Grab / OpenAI / GrabAcademy",
+      "market": "Singapura / Tailândia, Indonésia e Filipinas",
+      "sourceLabel": "Centro de Imprensa da Grab Singapura"
     },
     "cn-0801-light": {
       "title": "MeituanPausa do temporizador de luz vermelha vai ao vivo através de 1.100 cruzamentos Suzhou",

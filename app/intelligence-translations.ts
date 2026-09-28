@@ -828,6 +828,78 @@ export const localizedItemCopies = {
       "market": "Singapore / Thailand, Indonesia and the Philippines",
       "sourceLabel": "Grab Singapore Press Centre"
     },
+    "sea-0923-grab-carri": {
+      "title": "Grab pilots Carri to handle the final in-building leg of food delivery at its headquarters",
+      "summary": "Grab said on September 23 that Carri is already delivering meals inside its Singapore headquarters. Delivery partners place orders in a secure compartment; the robot navigates lobbies, corridors and elevators, and recipients unlock it with a unique code.",
+      "implication": "Robots can remove time spent parking, entering buildings, waiting for elevators and locating recipients. Scaling requires rider-to-robot handoff, compartment authentication, elevator and access-control integration, fallback handling and clear responsibility boundaries.",
+      "company": "Grab",
+      "market": "Singapore / Grab headquarters",
+      "sourceLabel": "Inside Grab official blog"
+    },
+    "sea-0924-grab-atlas": {
+      "title": "GrabAtlas expands to Taiwan to help four food brands test the Malaysian market",
+      "summary": "Grab announced on September 24 that its GrabAtlas merchant internationalisation programme is expanding to Taiwan, supporting four food-and-beverage brands entering Malaysia. It provides consumer insights, location analysis, merchant AI and local operating resources, while exploring pop-ups and packaged goods through Jaya Grocer.",
+      "implication": "Local-commerce platforms are extending merchant services into cross-border site selection, supply testing and offline channels. Brands can validate demand through pop-ups and retail products before committing to permanent stores and local teams.",
+      "company": "Grab / ACFPT / Jaya Grocer",
+      "market": "Taiwan / Malaysia",
+      "sourceLabel": "Inside Grab official blog"
+    },
+    "me-0924-careem-features": {
+      "title": "Careem upgrades instant-retail and at-home services, adding variant selection to Quik product pages",
+      "summary": "Careem published a feature update on September 24. Quik product pages now let users select flavour, weight and pack size without repeated searches, while the super app also added booking for at-home pet grooming and veterinary visits.",
+      "implication": "Instant retail needs native variant-to-inventory mapping, while local services require appointment slots, provider credentials, at-home fulfilment and after-sales protection. These two fulfilment types should not share an identical checkout flow.",
+      "company": "Careem / Quik",
+      "market": "Careem service markets",
+      "sourceLabel": "Careem official blog"
+    },
+    "sea-0924-lion-parcel-malaysia": {
+      "title": "Lion Parcel opens its first overseas office in Malaysia and starts international B2B and retail delivery",
+      "summary": "Lion Parcel announced on September 24 that its Subang Jaya office is its first location outside Indonesia. The operation serves business and retail customers and connects to Batik Air Malaysia's network of more than 60 destinations in 20 countries through KLIA Cargo Village.",
+      "implication": "An airline-backed parcel company can combine air capacity, cargo handling and retail access to build a cross-border network. Product priorities include route-based pricing, customs data, shipment visibility and handoff standards between Indonesia and Malaysia.",
+      "company": "Lion Parcel / Lion Group / Batik Air Malaysia",
+      "market": "Malaysia / Indonesia / International routes",
+      "sourceLabel": "Lion Parcel official release via PR Newswire Asia"
+    },
+    "sea-0924-gocomet-nova": {
+      "title": "GoComet launches Nova, an AI-native execution layer for enterprise logistics",
+      "summary": "GoComet launched Nova in Singapore on September 24. The system monitors inboxes, documents, contracts and spot quotes, supports booking, tracks exceptions and charges, and keeps human approval at key decision points.",
+      "implication": "Logistics AI is moving from recommendations to controlled execution across fragmented workflows. Enterprises need permission controls, audit trails, exception thresholds and approval rules before agents can act on bookings or charges.",
+      "company": "GoComet",
+      "market": "Singapore / Global",
+      "sourceLabel": "GoComet official release via PR Newswire"
+    },
+    "eu-0925-bpost-maldegem": {
+      "title": "Bpost opens a parcel-focused distribution centre in Maldegem",
+      "summary": "Bpost opened a 7,930-square-metre distribution centre in Maldegem on September 25. From September 28, 39 postal employees will process about 3,000 parcels a day in a 2,000-square-metre sorting hall supported by 44 charging points and 620 solar panels.",
+      "implication": "Parcel-led facility design combines sorting capacity, electric-fleet charging and energy generation. Network planning should evaluate parcel density, vehicle charging windows and the shift of staff and routes before opening.",
+      "company": "Bpost / Bnode",
+      "market": "Belgium / Maldegem",
+      "sourceLabel": "Bnode official newsroom"
+    },
+    "eu-0925-gw-home-delivery": {
+      "title": "Gebrüder Weiss uses customer research to improve home-delivery tracking and appointment communication",
+      "summary": "Gebrüder Weiss reported on September 25 that 92.5% of nearly 2,000 surveyed recipients in Austria were satisfied with its home-delivery service. Customers asked for narrower delivery windows and clearer status information, prompting improvements to real-time tracking, SMS and email updates, and old-appliance collection in appointment booking.",
+      "implication": "For bulky-goods delivery, satisfaction depends as much on predictability and reverse-service coordination as on arrival. Appointment products should join time windows, live status, notifications and take-back options in one flow.",
+      "company": "Gebrüder Weiss",
+      "market": "Austria",
+      "sourceLabel": "Gebrüder Weiss official newsroom"
+    },
+    "latam-0916-ifood-envios": {
+      "title": "iFood opens its delivery network to orders from merchants' own channels through Envios iFood",
+      "summary": "iFood disclosed on September 16 that Envios iFood lets websites, apps and other merchant-owned channels use its dispatch technology and network of 600,000 active delivery partners. The pilot completed 500,000 deliveries in about six weeks and is integrating fashion, electronics and pharmacy through partners including Nuvemshop.",
+      "implication": "Food-delivery supply is becoming general-purpose same-city infrastructure that can fill off-peak capacity. Platforms need standard APIs, parcel-to-vehicle matching, same-day promises, merchant settlement and clear responsibility for off-platform support.",
+      "company": "iFood / Nuvemshop",
+      "market": "Brazil / Nationwide",
+      "sourceLabel": "Exame interview with iFood logistics executive"
+    },
+    "sea-0916-shopeefood-ph": {
+      "title": "ShopeeFood soft-launches in the Philippines inside the main Shopee app",
+      "summary": "ShopeeFood began a limited rollout in Metro Manila on September 16, making restaurant ordering available to selected users and areas without a separate app. The Philippines is its fifth Southeast Asian market after Indonesia, Malaysia, Thailand and Vietnam.",
+      "implication": "An e-commerce super app can reuse identity, payments and traffic to enter food delivery. Key follow-ups are city rollout, merchant supply, rider coverage, subsidies and fees, and cross-navigation with e-commerce fulfilment.",
+      "company": "ShopeeFood Philippines / Sea",
+      "market": "Philippines / Metro Manila",
+      "sourceLabel": "Inside Retail Asia / ShopeeFood"
+    },
     "cn-0801-light": {
       "title": "Meituan’s red-light timer pause goes live across 1,100 Suzhou intersections",
       "summary": "Suzhou traffic police and Meituan launched a service that automatically extends delivery time through police–platform data exchange while riders wait at red lights.",
@@ -1773,6 +1845,78 @@ export const localizedItemCopies = {
       "company": "Grab / OpenAI / GrabAcademy",
       "market": "Singapura / Thailand, Indonesia, dan Filipina",
       "sourceLabel": "Pusat Pers Grab Singapura"
+    },
+    "sea-0923-grab-carri": {
+      "title": "Grab menguji Carri untuk menangani tahap terakhir pengantaran makanan di dalam gedung kantor pusatnya",
+      "summary": "Grab menyatakan pada 23 September bahwa Carri telah mengantar makanan di dalam kantor pusatnya di Singapura. Mitra pengantaran menaruh pesanan di kompartemen aman; robot kemudian melewati lobi, koridor, dan lift, lalu penerima membukanya dengan kode unik.",
+      "implication": "Robot dapat mengurangi waktu untuk parkir, masuk gedung, menunggu lift, dan mencari penerima. Penerapan luas membutuhkan serah terima kurir-ke-robot, autentikasi kompartemen, integrasi lift dan akses gedung, penanganan gangguan, serta pembagian tanggung jawab yang jelas.",
+      "company": "Grab",
+      "market": "Singapura / Kantor pusat Grab",
+      "sourceLabel": "Blog resmi Inside Grab"
+    },
+    "sea-0924-grab-atlas": {
+      "title": "GrabAtlas diperluas ke Taiwan untuk membantu empat merek kuliner menguji pasar Malaysia",
+      "summary": "Grab mengumumkan pada 24 September bahwa program internasionalisasi merchant GrabAtlas diperluas ke Taiwan dan mendukung empat merek makanan-minuman masuk ke Malaysia. Program ini menyediakan wawasan konsumen, analisis lokasi, AI untuk merchant, dan sumber daya operasi lokal, termasuk eksplorasi pop-up dan produk kemasan melalui Jaya Grocer.",
+      "implication": "Platform perdagangan lokal memperluas layanan merchant ke pemilihan lokasi lintas negara, pengujian pasokan, dan kanal luring. Merek dapat menguji permintaan melalui pop-up dan produk ritel sebelum berinvestasi pada gerai permanen dan tim lokal.",
+      "company": "Grab / ACFPT / Jaya Grocer",
+      "market": "Taiwan / Malaysia",
+      "sourceLabel": "Blog resmi Inside Grab"
+    },
+    "me-0924-careem-features": {
+      "title": "Careem meningkatkan pengalaman ritel instan dan layanan ke rumah, dengan pilihan varian di halaman produk Quik",
+      "summary": "Careem menerbitkan pembaruan fitur pada 24 September. Halaman produk Quik kini memungkinkan pengguna memilih rasa, berat, dan ukuran kemasan tanpa pencarian berulang; super app itu juga menambahkan pemesanan grooming hewan dan kunjungan dokter hewan di rumah.",
+      "implication": "Ritel instan membutuhkan pemetaan varian ke stok secara native, sedangkan layanan lokal memerlukan slot janji, kredensial penyedia, pemenuhan di rumah, dan perlindungan purnajual. Kedua jenis layanan ini sebaiknya tidak memakai alur checkout yang sama.",
+      "company": "Careem / Quik",
+      "market": "Pasar layanan Careem",
+      "sourceLabel": "Blog resmi Careem"
+    },
+    "sea-0924-lion-parcel-malaysia": {
+      "title": "Lion Parcel membuka kantor luar negeri pertamanya di Malaysia dan memulai layanan internasional B2B serta ritel",
+      "summary": "Lion Parcel mengumumkan pada 24 September bahwa kantor Subang Jaya menjadi lokasi pertamanya di luar Indonesia. Operasi ini melayani pelanggan bisnis dan ritel serta terhubung ke jaringan Batik Air Malaysia yang mencakup lebih dari 60 tujuan di 20 negara melalui KLIA Cargo Village.",
+      "implication": "Perusahaan parcel yang didukung maskapai dapat memadukan kapasitas udara, penanganan kargo, dan akses ritel untuk membangun jaringan lintas negara. Prioritas produk mencakup tarif per rute, data bea cukai, visibilitas kiriman, dan standar serah terima Indonesia–Malaysia.",
+      "company": "Lion Parcel / Lion Group / Batik Air Malaysia",
+      "market": "Malaysia / Indonesia / Rute internasional",
+      "sourceLabel": "Rilis resmi Lion Parcel melalui PR Newswire Asia"
+    },
+    "sea-0924-gocomet-nova": {
+      "title": "GoComet meluncurkan Nova, lapisan eksekusi berbasis AI untuk logistik perusahaan",
+      "summary": "GoComet meluncurkan Nova di Singapura pada 24 September. Sistem ini memantau kotak masuk, dokumen, kontrak, dan penawaran spot; mendukung pemesanan; melacak pengecualian serta biaya; dan mempertahankan persetujuan manusia pada keputusan penting.",
+      "implication": "AI logistik bergerak dari rekomendasi menuju eksekusi terkendali di berbagai alur kerja. Perusahaan memerlukan kontrol izin, jejak audit, ambang pengecualian, dan aturan persetujuan sebelum agen dapat bertindak atas pemesanan atau biaya.",
+      "company": "GoComet",
+      "market": "Singapura / Global",
+      "sourceLabel": "Rilis resmi GoComet melalui PR Newswire"
+    },
+    "eu-0925-bpost-maldegem": {
+      "title": "Bpost membuka pusat distribusi khusus parcel di Maldegem",
+      "summary": "Bpost membuka pusat distribusi seluas 7.930 meter persegi di Maldegem pada 25 September. Mulai 28 September, 39 pekerja pos akan memproses sekitar 3.000 parcel per hari di ruang sortir seluas 2.000 meter persegi, didukung 44 titik pengisian daya dan 620 panel surya.",
+      "implication": "Desain fasilitas berorientasi parcel menggabungkan kapasitas sortir, pengisian armada listrik, dan pembangkitan energi. Perencanaan jaringan perlu menilai kepadatan parcel, waktu pengisian kendaraan, serta pemindahan staf dan rute sebelum pembukaan.",
+      "company": "Bpost / Bnode",
+      "market": "Belgia / Maldegem",
+      "sourceLabel": "Ruang berita resmi Bnode"
+    },
+    "eu-0925-gw-home-delivery": {
+      "title": "Gebrüder Weiss memakai riset pelanggan untuk meningkatkan pelacakan dan komunikasi jadwal home delivery",
+      "summary": "Gebrüder Weiss melaporkan pada 25 September bahwa 92,5% dari hampir 2.000 penerima yang disurvei di Austria puas dengan layanan home delivery. Pelanggan meminta jendela pengantaran lebih sempit dan status lebih jelas, sehingga perusahaan meningkatkan pelacakan real-time, notifikasi SMS dan email, serta pilihan pengambilan perangkat lama dalam pemesanan jadwal.",
+      "implication": "Untuk pengantaran barang besar, kepuasan bergantung pada kepastian waktu dan koordinasi layanan balik, bukan hanya kedatangan. Produk penjadwalan perlu menyatukan jendela waktu, status langsung, notifikasi, dan opsi pengambilan barang lama.",
+      "company": "Gebrüder Weiss",
+      "market": "Austria",
+      "sourceLabel": "Ruang berita resmi Gebrüder Weiss"
+    },
+    "latam-0916-ifood-envios": {
+      "title": "iFood membuka jaringan pengantarannya untuk pesanan dari kanal milik merchant melalui Envios iFood",
+      "summary": "iFood mengungkapkan pada 16 September bahwa Envios iFood memungkinkan situs web, aplikasi, dan kanal milik merchant memakai teknologi dispatch serta jaringan 600.000 mitra pengantaran aktif. Uji coba menyelesaikan 500.000 pengantaran dalam sekitar enam minggu dan mengintegrasikan kategori fesyen, elektronik, dan farmasi melalui mitra seperti Nuvemshop.",
+      "implication": "Pasokan kurir makanan berkembang menjadi infrastruktur pengantaran dalam kota yang dapat mengisi kapasitas di luar jam sibuk. Platform membutuhkan API standar, pencocokan parcel dan kendaraan, janji same-day, penyelesaian merchant, serta tanggung jawab dukungan di luar platform yang jelas.",
+      "company": "iFood / Nuvemshop",
+      "market": "Brasil / Nasional",
+      "sourceLabel": "Wawancara Exame dengan eksekutif logistik iFood"
+    },
+    "sea-0916-shopeefood-ph": {
+      "title": "ShopeeFood melakukan soft launch di Filipina melalui aplikasi utama Shopee",
+      "summary": "ShopeeFood memulai peluncuran terbatas di Metro Manila pada 16 September, menyediakan pemesanan restoran bagi pengguna dan area terpilih tanpa aplikasi terpisah. Filipina menjadi pasar Asia Tenggara kelima setelah Indonesia, Malaysia, Thailand, dan Vietnam.",
+      "implication": "Super app e-commerce dapat memanfaatkan identitas, pembayaran, dan trafik yang ada untuk memasuki pengantaran makanan. Hal yang perlu dipantau meliputi perluasan kota, pasokan merchant, jangkauan kurir, subsidi dan biaya, serta navigasi silang dengan pemenuhan e-commerce.",
+      "company": "ShopeeFood Filipina / Sea",
+      "market": "Filipina / Metro Manila",
+      "sourceLabel": "Inside Retail Asia / ShopeeFood"
     },
     "cn-0801-light": {
       "title": "MeituanJeda timer merah-ringan berlangsung langsung di 1.100 persimpangan Suzhou",
@@ -2720,6 +2864,78 @@ export const localizedItemCopies = {
       "market": "Singapore / Thái Lan, Indonesia và Philippines",
       "sourceLabel": "Trung tâm Báo chí Grab Singapore"
     },
+    "sea-0923-grab-carri": {
+      "title": "Grab thử nghiệm Carri để đảm nhiệm chặng giao đồ ăn cuối cùng bên trong trụ sở",
+      "summary": "Grab cho biết ngày 23 tháng 9 rằng Carri đã giao đồ ăn bên trong trụ sở tại Singapore. Đối tác giao hàng đặt đơn vào khoang an toàn; robot tự di chuyển qua sảnh, hành lang và thang máy, còn người nhận mở khoang bằng mã riêng.",
+      "implication": "Robot có thể giảm thời gian đỗ xe, vào tòa nhà, chờ thang máy và tìm người nhận. Mở rộng quy mô đòi hỏi quy trình bàn giao tài xế–robot, xác thực khoang, tích hợp thang máy và kiểm soát ra vào, phương án xử lý sự cố và phân định trách nhiệm rõ ràng.",
+      "company": "Grab",
+      "market": "Singapore / Trụ sở Grab",
+      "sourceLabel": "Blog chính thức Inside Grab"
+    },
+    "sea-0924-grab-atlas": {
+      "title": "GrabAtlas mở rộng tới Đài Loan, hỗ trợ bốn thương hiệu ẩm thực thử nghiệm thị trường Malaysia",
+      "summary": "Grab công bố ngày 24 tháng 9 rằng chương trình quốc tế hóa nhà bán hàng GrabAtlas mở rộng tới Đài Loan, hỗ trợ bốn thương hiệu thực phẩm và đồ uống vào Malaysia. Chương trình cung cấp thông tin người tiêu dùng, phân tích địa điểm, AI cho nhà bán hàng và nguồn lực vận hành địa phương, đồng thời thử nghiệm cửa hàng pop-up và hàng đóng gói qua Jaya Grocer.",
+      "implication": "Nền tảng thương mại địa phương đang mở rộng dịch vụ sang chọn địa điểm xuyên biên giới, thử nghiệm nguồn cung và kênh ngoại tuyến. Thương hiệu có thể kiểm chứng nhu cầu bằng pop-up và sản phẩm bán lẻ trước khi đầu tư cửa hàng cố định và đội ngũ địa phương.",
+      "company": "Grab / ACFPT / Jaya Grocer",
+      "market": "Đài Loan / Malaysia",
+      "sourceLabel": "Blog chính thức Inside Grab"
+    },
+    "me-0924-careem-features": {
+      "title": "Careem nâng cấp trải nghiệm bán lẻ tức thời và dịch vụ tại nhà, thêm chọn biến thể trên trang sản phẩm Quik",
+      "summary": "Careem công bố bản cập nhật tính năng ngày 24 tháng 9. Trang sản phẩm Quik nay cho phép chọn hương vị, trọng lượng và quy cách đóng gói mà không cần tìm kiếm lại; siêu ứng dụng cũng bổ sung đặt lịch chăm sóc thú cưng và khám thú y tại nhà.",
+      "implication": "Bán lẻ tức thời cần ánh xạ biến thể với tồn kho ngay trong hệ thống, còn dịch vụ địa phương cần khung giờ hẹn, chứng nhận nhà cung cấp, thực hiện tại nhà và bảo vệ sau bán. Hai loại hình này không nên dùng cùng một luồng thanh toán.",
+      "company": "Careem / Quik",
+      "market": "Các thị trường Careem hoạt động",
+      "sourceLabel": "Blog chính thức Careem"
+    },
+    "sea-0924-lion-parcel-malaysia": {
+      "title": "Lion Parcel mở văn phòng nước ngoài đầu tiên tại Malaysia và triển khai giao hàng quốc tế B2B lẫn bán lẻ",
+      "summary": "Lion Parcel công bố ngày 24 tháng 9 rằng văn phòng Subang Jaya là địa điểm đầu tiên ngoài Indonesia. Hoạt động phục vụ khách hàng doanh nghiệp và bán lẻ, kết nối với mạng lưới hơn 60 điểm đến tại 20 quốc gia của Batik Air Malaysia thông qua KLIA Cargo Village.",
+      "implication": "Doanh nghiệp bưu kiện có hậu thuẫn hàng không có thể kết hợp tải cung ứng, xử lý hàng hóa và điểm tiếp cận bán lẻ để xây mạng xuyên biên giới. Ưu tiên sản phẩm gồm giá theo tuyến, dữ liệu hải quan, khả năng theo dõi và tiêu chuẩn bàn giao Indonesia–Malaysia.",
+      "company": "Lion Parcel / Lion Group / Batik Air Malaysia",
+      "market": "Malaysia / Indonesia / Tuyến quốc tế",
+      "sourceLabel": "Thông cáo chính thức Lion Parcel qua PR Newswire Asia"
+    },
+    "sea-0924-gocomet-nova": {
+      "title": "GoComet ra mắt Nova, lớp thực thi logistics doanh nghiệp dựa trên AI",
+      "summary": "GoComet ra mắt Nova tại Singapore ngày 24 tháng 9. Hệ thống theo dõi hộp thư, tài liệu, hợp đồng và báo giá giao ngay; hỗ trợ đặt chỗ; giám sát ngoại lệ và phụ phí; đồng thời giữ bước phê duyệt của con người tại các quyết định quan trọng.",
+      "implication": "AI logistics đang chuyển từ khuyến nghị sang thực thi có kiểm soát trên nhiều quy trình rời rạc. Doanh nghiệp cần quyền truy cập, nhật ký kiểm toán, ngưỡng ngoại lệ và quy tắc phê duyệt trước khi tác nhân được phép xử lý đặt chỗ hoặc chi phí.",
+      "company": "GoComet",
+      "market": "Singapore / Toàn cầu",
+      "sourceLabel": "Thông cáo chính thức GoComet qua PR Newswire"
+    },
+    "eu-0925-bpost-maldegem": {
+      "title": "Bpost mở trung tâm phân phối chuyên về bưu kiện tại Maldegem",
+      "summary": "Bpost khai trương trung tâm phân phối rộng 7.930 mét vuông tại Maldegem ngày 25 tháng 9. Từ ngày 28 tháng 9, 39 nhân viên bưu chính sẽ xử lý khoảng 3.000 bưu kiện mỗi ngày trong khu phân loại 2.000 mét vuông, với 44 điểm sạc và 620 tấm pin mặt trời.",
+      "implication": "Thiết kế cơ sở chuyên bưu kiện kết hợp năng lực phân loại, sạc đội xe điện và phát điện. Trước khi mở, quy hoạch mạng lưới cần đánh giá mật độ bưu kiện, khung giờ sạc xe và việc điều chuyển nhân sự, tuyến giao.",
+      "company": "Bpost / Bnode",
+      "market": "Bỉ / Maldegem",
+      "sourceLabel": "Phòng tin tức chính thức Bnode"
+    },
+    "eu-0925-gw-home-delivery": {
+      "title": "Gebrüder Weiss dùng nghiên cứu khách hàng để cải thiện theo dõi và thông tin lịch giao hàng tận nhà",
+      "summary": "Gebrüder Weiss cho biết ngày 25 tháng 9 rằng 92,5% trong gần 2.000 người nhận được khảo sát tại Áo hài lòng với dịch vụ giao hàng tận nhà. Khách hàng muốn khung giờ hẹp hơn và trạng thái rõ hơn, nên công ty nâng cấp theo dõi thời gian thực, thông báo SMS và email, cùng lựa chọn thu hồi thiết bị cũ khi đặt lịch.",
+      "implication": "Với hàng cồng kềnh, mức hài lòng phụ thuộc vào tính dự đoán và phối hợp dịch vụ ngược không kém thời điểm giao. Sản phẩm đặt lịch cần hợp nhất khung giờ, trạng thái trực tiếp, thông báo và lựa chọn thu hồi trong một luồng.",
+      "company": "Gebrüder Weiss",
+      "market": "Áo",
+      "sourceLabel": "Phòng tin tức chính thức Gebrüder Weiss"
+    },
+    "latam-0916-ifood-envios": {
+      "title": "iFood mở mạng lưới giao hàng cho đơn từ kênh riêng của nhà bán hàng qua Envios iFood",
+      "summary": "iFood công bố ngày 16 tháng 9 rằng Envios iFood cho phép website, ứng dụng và các kênh riêng của nhà bán hàng dùng công nghệ điều phối cùng mạng lưới 600.000 đối tác giao hàng đang hoạt động. Thử nghiệm hoàn thành 500.000 đơn trong khoảng sáu tuần và tích hợp thời trang, điện tử, dược phẩm qua các đối tác như Nuvemshop.",
+      "implication": "Nguồn lực giao đồ ăn đang trở thành hạ tầng giao hàng nội thành đa dụng, có thể lấp công suất ngoài giờ cao điểm. Nền tảng cần API chuẩn, ghép bưu kiện với phương tiện, cam kết giao trong ngày, đối soát nhà bán hàng và trách nhiệm hỗ trợ ngoài nền tảng rõ ràng.",
+      "company": "iFood / Nuvemshop",
+      "market": "Brazil / Toàn quốc",
+      "sourceLabel": "Phỏng vấn của Exame với lãnh đạo logistics iFood"
+    },
+    "sea-0916-shopeefood-ph": {
+      "title": "ShopeeFood thử nghiệm tại Philippines ngay trong ứng dụng Shopee chính",
+      "summary": "ShopeeFood bắt đầu triển khai giới hạn tại Metro Manila ngày 16 tháng 9, cho phép một số người dùng và khu vực đặt món mà không cần ứng dụng riêng. Philippines là thị trường Đông Nam Á thứ năm sau Indonesia, Malaysia, Thái Lan và Việt Nam.",
+      "implication": "Siêu ứng dụng thương mại điện tử có thể tái sử dụng danh tính, thanh toán và lưu lượng để tham gia giao đồ ăn. Cần tiếp tục theo dõi mở rộng thành phố, nguồn cung nhà hàng, độ phủ tài xế, trợ giá và phí, cùng điều hướng chéo với hoàn tất đơn thương mại điện tử.",
+      "company": "ShopeeFood Philippines / Sea",
+      "market": "Philippines / Metro Manila",
+      "sourceLabel": "Inside Retail Asia / ShopeeFood"
+    },
     "cn-0801-light": {
       "title": "MeituanSự dừng chân của đèn đỏ được truyền trực tiếp qua 1,100 giao lộ Tô Châu",
       "summary": "Tô Châu cảnh sát và Meituan khởi động một dịch vụ tự động mở rộng thời gian giao hàng thông qua trao đổi dữ liệu cảnh sát–Platform trong khi nhân viên giao hàng chờ đợi tại đèn đỏ.",
@@ -3665,6 +3881,78 @@ export const localizedItemCopies = {
       "company": "Grab / OpenAI / GrabAcademy",
       "market": "Singapura / Tailândia, Indonésia e Filipinas",
       "sourceLabel": "Centro de Imprensa da Grab Singapura"
+    },
+    "sea-0923-grab-carri": {
+      "title": "Grab testa o Carri para assumir a etapa final da entrega de comida dentro da sua sede",
+      "summary": "A Grab informou em 23 de setembro que o Carri já entrega refeições dentro da sede em Singapura. O parceiro coloca o pedido num compartimento seguro; o robô percorre receções, corredores e elevadores, e o destinatário abre-o com um código único.",
+      "implication": "Robôs podem reduzir o tempo gasto com estacionamento, entrada no edifício, espera por elevadores e localização do destinatário. A expansão exige transferência entregador–robô, autenticação do compartimento, integração com elevadores e controlo de acesso, contingência e responsabilidades claras.",
+      "company": "Grab",
+      "market": "Singapura / Sede da Grab",
+      "sourceLabel": "Blog oficial Inside Grab"
+    },
+    "sea-0924-grab-atlas": {
+      "title": "GrabAtlas chega a Taiwan para ajudar quatro marcas de alimentação a testar o mercado da Malásia",
+      "summary": "A Grab anunciou em 24 de setembro a expansão para Taiwan do programa de internacionalização de comerciantes GrabAtlas, apoiando quatro marcas de alimentos e bebidas na entrada na Malásia. A iniciativa oferece dados de consumo, análise de localização, IA para comerciantes e recursos locais, além de explorar pop-ups e produtos embalados via Jaya Grocer.",
+      "implication": "Plataformas de comércio local estão a levar os serviços para seleção transfronteiriça de pontos, teste de oferta e canais físicos. Marcas podem validar a procura com pop-ups e produtos de retalho antes de investir em lojas permanentes e equipas locais.",
+      "company": "Grab / ACFPT / Jaya Grocer",
+      "market": "Taiwan / Malásia",
+      "sourceLabel": "Blog oficial Inside Grab"
+    },
+    "me-0924-careem-features": {
+      "title": "Careem melhora o retalho instantâneo e os serviços ao domicílio, com seleção de variantes nas páginas do Quik",
+      "summary": "A Careem publicou uma atualização de funcionalidades em 24 de setembro. As páginas do Quik agora permitem escolher sabor, peso e tamanho da embalagem sem repetir pesquisas; a superapp também adicionou marcação de cuidados e consultas veterinárias para animais em casa.",
+      "implication": "O retalho instantâneo precisa de mapear variantes ao estoque de forma nativa, enquanto serviços locais exigem horários, credenciais do prestador, atendimento em casa e proteção pós-venda. Os dois tipos de fulfillment não devem usar o mesmo fluxo de checkout.",
+      "company": "Careem / Quik",
+      "market": "Mercados atendidos pela Careem",
+      "sourceLabel": "Blog oficial da Careem"
+    },
+    "sea-0924-lion-parcel-malaysia": {
+      "title": "Lion Parcel abre o primeiro escritório internacional na Malásia e inicia entregas B2B e de retalho",
+      "summary": "A Lion Parcel anunciou em 24 de setembro que o escritório de Subang Jaya é a sua primeira unidade fora da Indonésia. A operação atende clientes empresariais e de retalho e liga-se à rede da Batik Air Malaysia, com mais de 60 destinos em 20 países, através do KLIA Cargo Village.",
+      "implication": "Uma empresa de encomendas apoiada por uma companhia aérea pode combinar capacidade aérea, tratamento de carga e acesso ao retalho para formar uma rede transfronteiriça. As prioridades incluem preços por rota, dados aduaneiros, visibilidade e padrões de transferência Indonésia–Malásia.",
+      "company": "Lion Parcel / Lion Group / Batik Air Malaysia",
+      "market": "Malásia / Indonésia / Rotas internacionais",
+      "sourceLabel": "Comunicado oficial da Lion Parcel via PR Newswire Asia"
+    },
+    "sea-0924-gocomet-nova": {
+      "title": "GoComet lança o Nova, uma camada de execução com IA para logística empresarial",
+      "summary": "A GoComet lançou o Nova em Singapura em 24 de setembro. O sistema monitoriza caixas de entrada, documentos, contratos e cotações spot; apoia reservas; acompanha exceções e cobranças; e mantém aprovação humana nos pontos de decisão essenciais.",
+      "implication": "A IA logística está a passar de recomendações para execução controlada entre fluxos fragmentados. Empresas precisam de permissões, trilhos de auditoria, limites de exceção e regras de aprovação antes de agentes atuarem em reservas ou cobranças.",
+      "company": "GoComet",
+      "market": "Singapura / Global",
+      "sourceLabel": "Comunicado oficial da GoComet via PR Newswire"
+    },
+    "eu-0925-bpost-maldegem": {
+      "title": "Bpost abre um centro de distribuição dedicado a encomendas em Maldegem",
+      "summary": "A Bpost abriu em 25 de setembro um centro de distribuição de 7.930 metros quadrados em Maldegem. A partir de 28 de setembro, 39 trabalhadores processarão cerca de 3.000 encomendas por dia numa área de triagem de 2.000 metros quadrados, apoiada por 44 pontos de carregamento e 620 painéis solares.",
+      "implication": "O desenho orientado a encomendas reúne capacidade de triagem, carregamento da frota elétrica e geração de energia. O planeamento deve avaliar densidade, janelas de carregamento e mudanças de pessoal e rotas antes da abertura.",
+      "company": "Bpost / Bnode",
+      "market": "Bélgica / Maldegem",
+      "sourceLabel": "Sala de imprensa oficial da Bnode"
+    },
+    "eu-0925-gw-home-delivery": {
+      "title": "Gebrüder Weiss usa pesquisa com clientes para melhorar rastreamento e comunicação de agendamentos no home delivery",
+      "summary": "A Gebrüder Weiss informou em 25 de setembro que 92,5% de quase 2.000 destinatários pesquisados na Áustria estavam satisfeitos com o serviço. Os clientes pediram janelas menores e informações de estado mais claras, levando a melhorias no rastreamento em tempo real, SMS e e-mail e recolha de aparelhos antigos durante o agendamento.",
+      "implication": "Na entrega de artigos volumosos, a satisfação depende tanto da previsibilidade e da logística reversa como da chegada. O agendamento deve unir janela de tempo, estado ao vivo, notificações e opção de recolha num único fluxo.",
+      "company": "Gebrüder Weiss",
+      "market": "Áustria",
+      "sourceLabel": "Sala de imprensa oficial da Gebrüder Weiss"
+    },
+    "latam-0916-ifood-envios": {
+      "title": "iFood abre a rede de entregas a pedidos dos canais próprios dos comerciantes com Envios iFood",
+      "summary": "O iFood informou em 16 de setembro que o Envios iFood permite a sites, aplicativos e outros canais próprios utilizar a sua tecnologia de despacho e a rede de 600.000 entregadores ativos. O piloto completou 500.000 entregas em cerca de seis semanas e integra moda, eletrónica e farmácia com parceiros como a Nuvemshop.",
+      "implication": "A oferta de entregadores de comida está a tornar-se infraestrutura urbana de uso geral e pode ocupar capacidade fora dos picos. Plataformas precisam de APIs padrão, correspondência entre encomenda e veículo, promessa no mesmo dia, liquidação com comerciantes e responsabilidade clara pelo suporte externo.",
+      "company": "iFood / Nuvemshop",
+      "market": "Brasil / Nacional",
+      "sourceLabel": "Entrevista da Exame com executivo de logística do iFood"
+    },
+    "sea-0916-shopeefood-ph": {
+      "title": "ShopeeFood inicia operação-piloto nas Filipinas dentro do aplicativo principal da Shopee",
+      "summary": "A ShopeeFood iniciou uma operação limitada em Metro Manila em 16 de setembro, permitindo encomendas de restaurantes a utilizadores e áreas selecionados sem aplicativo separado. As Filipinas são o quinto mercado do Sudeste Asiático depois de Indonésia, Malásia, Tailândia e Vietname.",
+      "implication": "Uma superapp de comércio eletrónico pode reutilizar identidade, pagamentos e tráfego para entrar na entrega de comida. É preciso acompanhar expansão por cidade, oferta de restaurantes, cobertura de entregadores, subsídios e taxas e a navegação cruzada com o fulfillment de comércio eletrónico.",
+      "company": "ShopeeFood Philippines / Sea",
+      "market": "Filipinas / Metro Manila",
+      "sourceLabel": "Inside Retail Asia / ShopeeFood"
     },
     "cn-0801-light": {
       "title": "MeituanPausa do temporizador de luz vermelha vai ao vivo através de 1.100 cruzamentos Suzhou",

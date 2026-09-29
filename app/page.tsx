@@ -186,6 +186,7 @@ const seedItems: Intelligence[] = [...september6Items, ...september4Items, ...re
 ];
 
 const regionOptions = ["全部区域", "中国", "东南亚", "拉美", "中东", "欧洲"] as const;
+const briefRegions = new Set<Intelligence["region"]>(["中国", "东南亚", "拉美"]);
 const subjectOptions = ["全部业务主体", "平台侧", "运力端", "用户端", "商家端", "行业监管"] as const;
 const scenarioOptions = ["全部业务场景", "产品与体验", "履约与调度", "骑手管理与权益", "新业务与拓展", "商业化与费率", "品牌跨境出海", "国际物流与供应链", "AI相关"] as const;
 
@@ -633,7 +634,7 @@ export default function Home() {
     return matchesQuery && matchesMonth && matchesRegion && matchesSubject && matchesScenario;
   }), [activeMonth, activeRegion, activeScenario, activeSubject, language, orderedItems, query]);
 
-  const briefItems = filteredItems.filter((item) => businessSubject(item) === "平台侧" && businessScenario(item) !== "品牌跨境出海");
+  const briefItems = filteredItems.filter((item) => briefRegions.has(item.region) && businessSubject(item) === "平台侧" && businessScenario(item) !== "品牌跨境出海");
   const visibleBrief = showAllBrief ? briefItems : briefItems.slice(0, 5);
   const regionCount = new Set(filteredItems.map((item) => item.region)).size;
   const fulfillmentScenarios = ["履约与调度", "骑手管理与权益", "新业务与拓展", "国际物流与供应链"];

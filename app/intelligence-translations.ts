@@ -1027,6 +1027,54 @@ export const localizedItemCopies = {
       "company": "Alibaba / Taobao Instant / Freshippo / Qwen",
       "market": "National",
       "sourceLabel": "Alibaba Group · June Quarter 2026"
+    },
+    "cn-0926-jd-merchant-app": {
+      "title": "JD Instant Delivery Merchant app 9.65.0 improves stability and operating smoothness",
+      "summary": "Apple App Store version history shows that JD Instant Delivery Merchant 9.65.0 was released on September 26. The notes say the system was optimized for a more stable and fluid merchant experience; no new business feature was disclosed.",
+      "implication": "Merchant-app reliability directly affects order acceptance, picking, preparation and rider handoff. Version monitoring should be paired with open-platform notices, merchant training and later release notes to identify workflow changes.",
+      "company": "JD Instant Delivery Merchant",
+      "market": "Mainland China / iOS",
+      "sourceLabel": "Apple App Store Version History"
+    },
+    "eu-0928-wolt-dayparts": {
+      "title": "Wolt strengthens breakfast and affordable-lunch discovery in Sweden through daypart merchandising",
+      "summary": "Wolt announced on September 28 that it would give breakfast and affordable lunch greater visibility and group restaurants with lunch offers. The initiative covers Stockholm, Gothenburg, Malmö and Örebro and links restaurants, cafés, bakeries and grocers to demand across the day.",
+      "implication": "On-demand homepages are moving from static category navigation to supply orchestration by time, value and occasion. Products must connect opening hours, menu and inventory, preparation time, ETA, offer eligibility and recommendation attribution.",
+      "company": "Wolt",
+      "market": "Sweden / Stockholm, Gothenburg, Malmö and Örebro",
+      "sourceLabel": "Wolt Sweden Newsroom"
+    },
+    "sea-0928-inter-express-flood": {
+      "title": "Inter Express Logistics suspends pickup and delivery in flood-affected areas",
+      "summary": "Inter Express Logistics published a flood service notice on September 28, asking customers to check affected areas and suspending acceptance and delivery there. Resumption depends on subsequent updates to the company's service coverage.",
+      "implication": "Flood operations need dynamic serviceability zones, order and waybill blocking, merchant and user alerts, temperature-controlled damage and return procedures, and explicit reopening criteria so orders do not enter unavailable routes.",
+      "company": "Inter Express Logistics",
+      "market": "Thailand / Flood-affected service areas",
+      "sourceLabel": "Inter Express Logistics Official Notice"
+    },
+    "eu-0928-waypoint-warehouse": {
+      "title": "Waypoint 3PL expands its Thurrock warehouse capacity and reopens onboarding for new merchants",
+      "summary": "Waypoint 3PL announced on September 28 that it will move into a larger Thurrock warehouse on December 1, remaining close to London Gateway, Tilbury and the London orbital network. Orders will continue during a staged move, while the client portal, APIs, store connections and pricing remain unchanged.",
+      "implication": "Warehouse expansion requires phased inventory migration, uninterrupted order flow and stable integrations and billing. 3PL products need capacity gating, location migration, dual-site transition, SLA alerts and proactive client communication.",
+      "company": "Waypoint 3PL",
+      "market": "United Kingdom / Thurrock, London Gateway and Tilbury",
+      "sourceLabel": "Waypoint 3PL Newsroom"
+    },
+    "latam-0928-ifood-ios": {
+      "title": "iFood app 10.142.0 improves navigation responsiveness and fault tolerance",
+      "summary": "Apple App Store version history shows that iFood 10.142.0 was released on September 28. The notes report faster responses across several flows, smoother navigation, stronger application structure and fault tolerance, plus preventive changes to reduce interruptions.",
+      "implication": "Checkout responsiveness and resilience directly affect conversion, payment and order-status confidence. Product teams should connect release notes with crash rates, page latency, payment failures and support feedback to confirm the operational benefit.",
+      "company": "iFood",
+      "market": "Brazil / iOS",
+      "sourceLabel": "Apple App Store Version History"
+    },
+    "cn-0928-jd-rider-app": {
+      "title": "JD Instant Delivery Rider app 12.34.0 continues rider-experience improvements",
+      "summary": "Apple App Store version history shows that JD Instant Delivery Rider 12.34.0 was released on September 28, with notes stating that some experience issues were optimized. No specific feature was disclosed, so this is a release-cadence signal rather than evidence of dispatch, evaluation or incentive changes.",
+      "implication": "Frequent rider-app releases should be compared with in-app notices, training material and interface checks. Effects on dispatch, routing, earnings display or safety should only be classified when explicit evidence appears.",
+      "company": "JD Instant Delivery Rider",
+      "market": "Mainland China / iOS",
+      "sourceLabel": "Apple App Store Version History"
     }
   },
   "id": {
@@ -2045,6 +2093,54 @@ export const localizedItemCopies = {
       "company": "Alibaba / Taobao Instant / Freshippo / Qwen",
       "market": "Nasional",
       "sourceLabel": "Alibaba Grup: Quarter 2026"
+    },
+    "cn-0926-jd-merchant-app": {
+      "title": "Aplikasi JD Instant Delivery Merchant 9.65.0 meningkatkan stabilitas dan kelancaran penggunaan",
+      "summary": "Riwayat versi Apple App Store menunjukkan JD Instant Delivery Merchant 9.65.0 dirilis pada 26 September. Catatan versi menyebut optimasi sistem agar pengalaman merchant lebih stabil dan lancar, tanpa mengumumkan fitur bisnis baru.",
+      "implication": "Keandalan aplikasi merchant berdampak langsung pada penerimaan pesanan, pengambilan barang, persiapan, dan serah terima kepada kurir. Pemantauan versi perlu dipadukan dengan pengumuman platform terbuka, pelatihan merchant, dan catatan rilis berikutnya.",
+      "company": "JD Instant Delivery Merchant",
+      "market": "Tiongkok daratan / iOS",
+      "sourceLabel": "Riwayat Versi Apple App Store"
+    },
+    "eu-0928-wolt-dayparts": {
+      "title": "Wolt memperkuat penemuan sarapan dan makan siang terjangkau di Swedia berdasarkan waktu",
+      "summary": "Wolt mengumumkan pada 28 September bahwa sarapan dan makan siang terjangkau akan dibuat lebih menonjol, termasuk pengelompokan restoran dengan penawaran makan siang. Program ini mencakup Stockholm, Gothenburg, Malmö, dan Örebro serta menghubungkan restoran, kafe, toko roti, dan toko bahan makanan dengan permintaan sepanjang hari.",
+      "implication": "Beranda layanan sesuai permintaan bergeser dari navigasi kategori statis menuju pengaturan pasokan berdasarkan waktu, nilai, dan momen konsumsi. Produk harus menghubungkan jam buka, menu dan stok, waktu persiapan, ETA, kelayakan promo, dan atribusi rekomendasi.",
+      "company": "Wolt",
+      "market": "Swedia / Stockholm, Gothenburg, Malmö, dan Örebro",
+      "sourceLabel": "Ruang Berita Wolt Swedia"
+    },
+    "sea-0928-inter-express-flood": {
+      "title": "Inter Express Logistics menghentikan sementara penjemputan dan pengantaran di wilayah terdampak banjir",
+      "summary": "Inter Express Logistics menerbitkan pemberitahuan layanan banjir pada 28 September, meminta pelanggan memeriksa wilayah terdampak dan menghentikan penerimaan serta pengantaran di wilayah tersebut. Pemulihan layanan menunggu pembaruan cakupan berikutnya dari perusahaan.",
+      "implication": "Operasi saat banjir memerlukan zona layanan dinamis, pemblokiran pesanan dan waybill, notifikasi untuk merchant dan pengguna, prosedur kerusakan serta retur untuk kiriman bersuhu terkendali, dan kriteria pembukaan kembali yang jelas.",
+      "company": "Inter Express Logistics",
+      "market": "Thailand / Wilayah layanan terdampak banjir",
+      "sourceLabel": "Pemberitahuan Resmi Inter Express Logistics"
+    },
+    "eu-0928-waypoint-warehouse": {
+      "title": "Waypoint 3PL memperluas kapasitas gudang Thurrock dan kembali menerima merchant baru",
+      "summary": "Waypoint 3PL mengumumkan pada 28 September bahwa perusahaan akan pindah ke gudang yang lebih besar di Thurrock pada 1 Desember, tetap dekat dengan London Gateway, Tilbury, dan jaringan jalan lingkar London. Pesanan akan terus diproses selama perpindahan bertahap, sementara portal klien, API, koneksi toko, dan harga tidak berubah.",
+      "implication": "Ekspansi gudang membutuhkan migrasi stok bertahap, aliran pesanan tanpa putus, serta integrasi dan penagihan yang stabil. Produk 3PL memerlukan pembatasan kapasitas, migrasi lokasi, transisi dua lokasi, peringatan SLA, dan komunikasi proaktif kepada klien.",
+      "company": "Waypoint 3PL",
+      "market": "Britania Raya / Thurrock, London Gateway, dan Tilbury",
+      "sourceLabel": "Ruang Berita Waypoint 3PL"
+    },
+    "latam-0928-ifood-ios": {
+      "title": "Aplikasi iFood 10.142.0 meningkatkan respons navigasi dan toleransi gangguan",
+      "summary": "Riwayat versi Apple App Store menunjukkan iFood 10.142.0 dirilis pada 28 September. Catatan rilis menyebut respons yang lebih cepat di beberapa alur, navigasi lebih lancar, struktur aplikasi dan toleransi gangguan yang lebih kuat, serta penyesuaian preventif untuk mengurangi interupsi.",
+      "implication": "Respons dan ketahanan alur pemesanan berdampak langsung pada konversi, pembayaran, dan keyakinan terhadap status pesanan. Tim produk perlu menghubungkan catatan rilis dengan tingkat crash, latensi halaman, kegagalan pembayaran, dan masukan dukungan.",
+      "company": "iFood",
+      "market": "Brasil / iOS",
+      "sourceLabel": "Riwayat Versi Apple App Store"
+    },
+    "cn-0928-jd-rider-app": {
+      "title": "Aplikasi JD Instant Delivery Rider 12.34.0 melanjutkan perbaikan pengalaman kurir",
+      "summary": "Riwayat versi Apple App Store menunjukkan JD Instant Delivery Rider 12.34.0 dirilis pada 28 September dengan catatan bahwa beberapa masalah pengalaman telah dioptimalkan. Tidak ada fitur khusus yang diungkap, sehingga ini merupakan sinyal ritme rilis, bukan bukti perubahan dispatch, evaluasi, atau insentif.",
+      "implication": "Rilis aplikasi kurir yang sering perlu dibandingkan dengan pengumuman dalam aplikasi, materi pelatihan, dan pemeriksaan antarmuka. Dampak pada dispatch, rute, tampilan pendapatan, atau keselamatan hanya boleh diklasifikasikan saat ada bukti eksplisit.",
+      "company": "JD Instant Delivery Rider",
+      "market": "Tiongkok daratan / iOS",
+      "sourceLabel": "Riwayat Versi Apple App Store"
     }
   },
   "vi": {
@@ -3063,6 +3159,54 @@ export const localizedItemCopies = {
       "company": "Alibaba / Taobao Instant / Freshippo / Qwen",
       "market": "Quốc gia",
       "sourceLabel": "Alibaba Nhóm · Tháng 6 năm 2026"
+    },
+    "cn-0926-jd-merchant-app": {
+      "title": "Ứng dụng JD Instant Delivery Merchant 9.65.0 cải thiện độ ổn định và độ mượt khi thao tác",
+      "summary": "Lịch sử phiên bản Apple App Store cho thấy JD Instant Delivery Merchant 9.65.0 được phát hành ngày 26 tháng 9. Ghi chú cho biết hệ thống được tối ưu để trải nghiệm của nhà bán hàng ổn định và mượt hơn, nhưng không công bố tính năng kinh doanh mới.",
+      "implication": "Độ tin cậy của ứng dụng nhà bán hàng tác động trực tiếp đến nhận đơn, lấy hàng, chuẩn bị và bàn giao cho tài xế. Việc theo dõi phiên bản cần kết hợp thông báo nền tảng mở, đào tạo nhà bán hàng và ghi chú phát hành tiếp theo.",
+      "company": "JD Instant Delivery Merchant",
+      "market": "Trung Quốc đại lục / iOS",
+      "sourceLabel": "Lịch sử Phiên bản Apple App Store"
+    },
+    "eu-0928-wolt-dayparts": {
+      "title": "Wolt tăng cường khám phá bữa sáng và bữa trưa giá hợp lý tại Thụy Điển theo từng thời điểm",
+      "summary": "Wolt thông báo ngày 28 tháng 9 rằng bữa sáng và bữa trưa giá hợp lý sẽ được hiển thị nổi bật hơn, đồng thời nhóm các nhà hàng có ưu đãi bữa trưa. Sáng kiến bao phủ Stockholm, Gothenburg, Malmö và Örebro, kết nối nhà hàng, quán cà phê, tiệm bánh và cửa hàng tạp hóa với nhu cầu trong ngày.",
+      "implication": "Trang chủ dịch vụ theo yêu cầu đang chuyển từ danh mục tĩnh sang sắp xếp nguồn cung theo thời điểm, mức giá và dịp sử dụng. Sản phẩm cần liên kết giờ mở cửa, thực đơn và tồn kho, thời gian chuẩn bị, ETA, điều kiện ưu đãi và đo lường hiệu quả đề xuất.",
+      "company": "Wolt",
+      "market": "Thụy Điển / Stockholm, Gothenburg, Malmö và Örebro",
+      "sourceLabel": "Phòng Tin tức Wolt Thụy Điển"
+    },
+    "sea-0928-inter-express-flood": {
+      "title": "Inter Express Logistics tạm dừng nhận và giao hàng tại các khu vực bị ảnh hưởng bởi lũ lụt",
+      "summary": "Inter Express Logistics đăng thông báo dịch vụ do lũ lụt ngày 28 tháng 9, yêu cầu khách hàng kiểm tra khu vực bị ảnh hưởng và tạm dừng nhận cũng như giao hàng tại đó. Việc khôi phục phụ thuộc vào các cập nhật phạm vi dịch vụ tiếp theo của công ty.",
+      "implication": "Vận hành trong lũ lụt cần vùng phục vụ động, chặn đơn và vận đơn, thông báo cho nhà bán hàng và người dùng, quy trình hư hỏng và hoàn trả đối với hàng kiểm soát nhiệt độ, cùng tiêu chí mở lại rõ ràng.",
+      "company": "Inter Express Logistics",
+      "market": "Thái Lan / Khu vực dịch vụ bị ảnh hưởng bởi lũ lụt",
+      "sourceLabel": "Thông báo Chính thức của Inter Express Logistics"
+    },
+    "eu-0928-waypoint-warehouse": {
+      "title": "Waypoint 3PL mở rộng sức chứa kho tại Thurrock và tiếp nhận lại nhà bán hàng mới",
+      "summary": "Waypoint 3PL thông báo ngày 28 tháng 9 rằng công ty sẽ chuyển đến kho lớn hơn tại Thurrock vào ngày 1 tháng 12, vẫn gần London Gateway, Tilbury và mạng đường vành đai London. Đơn hàng tiếp tục được xử lý trong quá trình chuyển kho theo giai đoạn, còn cổng khách hàng, API, kết nối cửa hàng và giá không thay đổi.",
+      "implication": "Mở rộng kho đòi hỏi di chuyển tồn kho theo giai đoạn, dòng đơn hàng không gián đoạn và tích hợp cùng thanh toán ổn định. Sản phẩm 3PL cần giới hạn công suất, di chuyển vị trí, chuyển tiếp hai cơ sở, cảnh báo SLA và chủ động thông báo cho khách hàng.",
+      "company": "Waypoint 3PL",
+      "market": "Vương quốc Anh / Thurrock, London Gateway và Tilbury",
+      "sourceLabel": "Phòng Tin tức Waypoint 3PL"
+    },
+    "latam-0928-ifood-ios": {
+      "title": "Ứng dụng iFood 10.142.0 cải thiện phản hồi điều hướng và khả năng chịu lỗi",
+      "summary": "Lịch sử phiên bản Apple App Store cho thấy iFood 10.142.0 được phát hành ngày 28 tháng 9. Ghi chú đề cập phản hồi nhanh hơn ở nhiều luồng, điều hướng mượt hơn, cấu trúc ứng dụng và khả năng chịu lỗi mạnh hơn, cùng các điều chỉnh phòng ngừa để giảm gián đoạn.",
+      "implication": "Tốc độ phản hồi và độ bền của luồng đặt hàng tác động trực tiếp đến chuyển đổi, thanh toán và niềm tin vào trạng thái đơn. Nhóm sản phẩm nên đối chiếu ghi chú phát hành với tỷ lệ lỗi, độ trễ trang, lỗi thanh toán và phản hồi hỗ trợ.",
+      "company": "iFood",
+      "market": "Brasil / iOS",
+      "sourceLabel": "Lịch sử Phiên bản Apple App Store"
+    },
+    "cn-0928-jd-rider-app": {
+      "title": "Ứng dụng JD Instant Delivery Rider 12.34.0 tiếp tục cải thiện trải nghiệm tài xế",
+      "summary": "Lịch sử phiên bản Apple App Store cho thấy JD Instant Delivery Rider 12.34.0 được phát hành ngày 28 tháng 9, với ghi chú rằng một số vấn đề trải nghiệm đã được tối ưu. Không có tính năng cụ thể được công bố, nên đây là tín hiệu về nhịp phát hành chứ không phải bằng chứng thay đổi điều phối, đánh giá hoặc thưởng.",
+      "implication": "Các bản phát hành ứng dụng tài xế thường xuyên cần được đối chiếu với thông báo trong ứng dụng, tài liệu đào tạo và kiểm tra giao diện. Chỉ nên xác định tác động đến điều phối, lộ trình, hiển thị thu nhập hoặc an toàn khi có bằng chứng rõ ràng.",
+      "company": "JD Instant Delivery Rider",
+      "market": "Trung Quốc đại lục / iOS",
+      "sourceLabel": "Lịch sử Phiên bản Apple App Store"
     }
   },
   "pt": {
@@ -4081,6 +4225,54 @@ export const localizedItemCopies = {
       "company": "Alibaba / Taobao Instant / Freshippo / Qwen",
       "market": "Nacional",
       "sourceLabel": "Alibaba Grupo · Trimestre de Junho 2026"
+    },
+    "cn-0926-jd-merchant-app": {
+      "title": "O app JD Instant Delivery Merchant 9.65.0 melhora a estabilidade e a fluidez de uso",
+      "summary": "O histórico de versões da Apple App Store mostra que o JD Instant Delivery Merchant 9.65.0 foi lançado em 26 de setembro. As notas informam otimizações do sistema para uma experiência mais estável e fluida, sem divulgar uma nova funcionalidade comercial.",
+      "implication": "A confiabilidade do app do comerciante afeta diretamente o aceite, a separação, a preparação e a entrega ao estafeta. O monitoramento de versões deve ser combinado com avisos da plataforma aberta, treinamentos e notas de versões posteriores.",
+      "company": "JD Instant Delivery Merchant",
+      "market": "China continental / iOS",
+      "sourceLabel": "Histórico de Versões da Apple App Store"
+    },
+    "eu-0928-wolt-dayparts": {
+      "title": "Wolt reforça a descoberta de café da manhã e almoço acessível na Suécia por faixa horária",
+      "summary": "Wolt anunciou em 28 de setembro que dará mais destaque ao café da manhã e ao almoço acessível, reunindo restaurantes com ofertas de almoço. A iniciativa cobre Estocolmo, Gotemburgo, Malmö e Örebro e conecta restaurantes, cafés, padarias e supermercados à demanda ao longo do dia.",
+      "implication": "As páginas iniciais sob demanda estão migrando de categorias estáticas para a organização da oferta por horário, valor e ocasião. O produto precisa conectar horário de funcionamento, cardápio e estoque, preparo, ETA, elegibilidade da oferta e atribuição das recomendações.",
+      "company": "Wolt",
+      "market": "Suécia / Estocolmo, Gotemburgo, Malmö e Örebro",
+      "sourceLabel": "Sala de Imprensa da Wolt Suécia"
+    },
+    "sea-0928-inter-express-flood": {
+      "title": "Inter Express Logistics suspende coleta e entrega nas áreas afetadas por inundações",
+      "summary": "Inter Express Logistics publicou em 28 de setembro um aviso de serviço por inundações, orientando os clientes a consultar as áreas afetadas e suspendendo nelas o recebimento e a entrega. A retomada depende das próximas atualizações da cobertura de serviço da empresa.",
+      "implication": "A operação durante inundações exige zonas de atendimento dinâmicas, bloqueio de pedidos e conhecimentos, alertas a comerciantes e usuários, procedimentos de avaria e devolução para cargas com temperatura controlada e critérios claros de reabertura.",
+      "company": "Inter Express Logistics",
+      "market": "Tailândia / Áreas de serviço afetadas por inundações",
+      "sourceLabel": "Aviso Oficial da Inter Express Logistics"
+    },
+    "eu-0928-waypoint-warehouse": {
+      "title": "Waypoint 3PL amplia a capacidade do armazém de Thurrock e volta a aceitar novos comerciantes",
+      "summary": "Waypoint 3PL anunciou em 28 de setembro que se mudará para um armazém maior em Thurrock em 1º de dezembro, mantendo-se perto de London Gateway, Tilbury e da rede viária orbital de Londres. Os pedidos continuarão durante a mudança em etapas, enquanto portal, APIs, conexões de lojas e preços permanecem inalterados.",
+      "implication": "A expansão exige migração gradual de estoque, fluxo contínuo de pedidos e integrações e cobrança estáveis. Produtos de 3PL precisam de controle de capacidade, migração de localização, transição entre duas instalações, alertas de SLA e comunicação proativa com clientes.",
+      "company": "Waypoint 3PL",
+      "market": "Reino Unido / Thurrock, London Gateway e Tilbury",
+      "sourceLabel": "Sala de Imprensa da Waypoint 3PL"
+    },
+    "latam-0928-ifood-ios": {
+      "title": "O app iFood 10.142.0 melhora a resposta da navegação e a tolerância a falhas",
+      "summary": "O histórico de versões da Apple App Store mostra que o iFood 10.142.0 foi lançado em 28 de setembro. As notas citam respostas mais rápidas em vários fluxos, navegação mais fluida, estrutura e tolerância a falhas reforçadas e ajustes preventivos para reduzir interrupções.",
+      "implication": "A resposta e a resiliência da jornada de pedido afetam diretamente conversão, pagamento e confiança no status. A equipe de produto deve cruzar as notas com taxa de falhas, latência de páginas, pagamentos malsucedidos e feedback do atendimento.",
+      "company": "iFood",
+      "market": "Brasil / iOS",
+      "sourceLabel": "Histórico de Versões da Apple App Store"
+    },
+    "cn-0928-jd-rider-app": {
+      "title": "O app JD Instant Delivery Rider 12.34.0 continua melhorando a experiência do estafeta",
+      "summary": "O histórico de versões da Apple App Store mostra que o JD Instant Delivery Rider 12.34.0 foi lançado em 28 de setembro, com a indicação de que alguns problemas de experiência foram otimizados. Nenhuma função específica foi divulgada, portanto este é um sinal de cadência de versões, não evidência de mudança em despacho, avaliação ou incentivos.",
+      "implication": "Lançamentos frequentes do app do estafeta devem ser comparados com avisos internos, materiais de treinamento e inspeção da interface. Efeitos sobre despacho, rotas, exibição de ganhos ou segurança só devem ser classificados com evidência explícita.",
+      "company": "JD Instant Delivery Rider",
+      "market": "China continental / iOS",
+      "sourceLabel": "Histórico de Versões da Apple App Store"
     }
   }
 } as const;

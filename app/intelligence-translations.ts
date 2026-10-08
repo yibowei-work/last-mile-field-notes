@@ -1075,6 +1075,86 @@ export const localizedItemCopies = {
       "company": "JD Instant Delivery Rider",
       "market": "Mainland China / iOS",
       "sourceLabel": "Apple App Store Version History"
+    },
+    "me-0927-kuwait-platform-penalties": {
+      "title": "Kuwait court annuls the delivery-platform regulation's self-created penalties while fee caps remain",
+      "summary": "A Wefaq legal update dated September 27 says Kuwait's Administrative Court annulled Article 15 of the Delivery Platforms Regulation in a case brought by Talabat. The court found that the minister could not create warnings, closures, blocks or licence-cancellation penalties without explicit statutory authority. The ruling is limited to the penalty article; commission and delivery-fee caps and platform-merchant contract rules remain in force, and the first-instance judgment can still be appealed.",
+      "implication": "Platforms should not treat the loss of one penalty article as broad deregulation. Fee, contract and consumer-protection duties still apply, so legal and product teams need separate controls for substantive obligations, enforcement authority, appeal status and future judgment changes.",
+      "company": "Kuwait Administrative Court / Talabat / Ministry of Commerce and Industry",
+      "market": "Kuwait / Nationwide",
+      "sourceLabel": "Wefaq Law Firm Legal Update"
+    },
+    "eu-0928-lieferando-cycle": {
+      "title": "Lieferando supports Austrian couriers with compliant e-bike discounts and safety training",
+      "summary": "Lieferando Austria announced on September 28 that, ahead of new E-moped rules taking effect on October 1, it is partnering with CYCLE to help couriers move to compliant e-bikes. Active freelance couriers receive a EUR40 monthly discount on a Lieferando-branded subscription bike, with up to 120 km of range and maintenance included. The platform also contributes EUR50 per road-safety course and has committed a five-figure training budget.",
+      "implication": "Vehicle-law changes directly affect available supply and courier costs. Platforms need to connect vehicle eligibility, pickup locations, subscriptions and maintenance, training completion and road-use rules so regulatory change does not create supply gaps or new safety risks.",
+      "company": "Lieferando Austria / CYCLE / Austrian Ministry for Innovation, Mobility and Infrastructure",
+      "market": "Austria / Vienna and Graz",
+      "sourceLabel": "Just Eat Takeaway.com / Lieferando Austria Newsroom"
+    },
+    "sea-0929-grab-asenso-puerto-princesa": {
+      "title": "Grab trains Puerto Princesa merchants on its AI assistant, advertising and unified payments",
+      "summary": "Grab Philippines held a full-day Grab Asenso merchant masterclass in Puerto Princesa on September 29 with the International Trade Centre. GrabFood merchants were shown GrabAds Spotlight, Tap & Scan to Pay for QR and card payments, and GrabMerchant AI Assistant for daily operations. The program will continue in regional Philippine cities through the end of 2026 and use a monitoring framework to measure business outcomes from digital adoption.",
+      "implication": "The platform is combining merchant education, AI operating advice, advertising and offline payments into one growth path. Merchant products should convert course content into executable tasks and measure impact through sales, conversion, cash flow and tool-adoption rates.",
+      "company": "Grab Philippines / International Trade Centre",
+      "market": "Philippines / Puerto Princesa",
+      "sourceLabel": "LionhearTV / Grab Philippines Press Release"
+    },
+    "me-0929-keeta-uae-year-one": {
+      "title": "Keeta reports its first-year UAE scale: all seven emirates in 90 days and tens of millions of orders",
+      "summary": "Keeta UAE General Manager Lucas Xie said on September 29 that the platform reached all seven emirates within 90 days. In its first year it served millions of customers, fulfilled tens of millions of orders and connected about 10,000 restaurant and merchant brands across more than 40,000 locations, while delivery partners travelled over 200 million kilometres. Year two will deepen demand forecasting, intelligent dispatch, route planning, automated order tracking and local operating adaptation.",
+      "implication": "Exporting China's instant-delivery capabilities requires more than copying algorithms; forecasting, training, merchant insight and regulatory collaboration must be rebuilt city by city. Expansion should track coverage speed, order density, merchant locations, courier mileage and experience consistency across emirates.",
+      "company": "Keeta UAE / Meituan",
+      "market": "United Arab Emirates / All seven emirates",
+      "sourceLabel": "Gulf News / Keeta UAE Interview"
+    },
+    "eu-0924-deliveroo-aldi-shop-deliver": {
+      "title": "Deliveroo and Aldi pilot Shop & Deliver, with couriers picking in store and completing on-demand delivery",
+      "summary": "Deliveroo announced on September 24 that it will trial its new Shop & Deliver service at eight Aldi UK stores from early October. Participation is optional for couriers; the rider app orders items for efficient picking, supports barcode scans and unavailable-item reporting, and uses a prepaid Rider Card before delivery. Expansion to more stores is planned for 2027.",
+      "implication": "Instant-retail fulfilment is expanding from store handoff to integrated courier picking, payment and delivery. Platforms need to manage pick paths, substitutions, scan checks, virtual payment cards, courier pay and store peak capacity while turning non-meal hours into new earning opportunities.",
+      "company": "Deliveroo / Aldi UK",
+      "market": "United Kingdom / Norwich, Ipswich, Tamworth, Letchworth Garden City and Kent",
+      "sourceLabel": "Deliveroo Official News"
+    },
+    "sea-0930-grab-five-star-eats": {
+      "title": "Grab standardises 5-Star Eats across Southeast Asia and includes fulfilment reliability in restaurant quality",
+      "summary": "Grab said on September 30 that it is standardising a shared baseline for 5-Star Eats and related quality labels across Southeast Asia, combining ratings, reviews, food quality and fulfilment reliability with periodic merchant reassessment. Malaysia and the Philippines already use consumer voting, Singapore is next, and Thailand's Grab Thumbs Up will align with the regional standard.",
+      "implication": "Restaurant quality labels are becoming product-governance mechanisms that connect discovery, merchant quality and fulfilment data. Platforms need explainable eligibility, periodic review, appeals and local adaptations so one-time ratings do not permanently lock supply ranking.",
+      "company": "GrabFood",
+      "market": "Malaysia / Philippines, Singapore, Thailand and regional markets",
+      "sourceLabel": "Grab Inside Grab Official Article"
+    },
+    "eu-1001-wolt-plus-weeks-romania": {
+      "title": "Wolt launches Wolt+ Weeks in Romania with free membership periods and cross-category offers",
+      "summary": "Wolt Romania announced on October 1 that it is running its first Wolt+ Weeks from October 1 to 21. Non-members can activate a free Wolt+ period, while members receive up to 50% restaurant discounts, RON 40 grocery vouchers on eligible orders and zero delivery fees subject to distance and minimum-order rules.",
+      "implication": "Subscription acquisition is expanding beyond free delivery into coordinated restaurant, grocery and retail promotions. Platforms need clear trial eligibility, renewal terms, venue and distance limits, minimum baskets and service-fee differences, then measure retention and merchant incrementality after the free period.",
+      "company": "Wolt Romania",
+      "market": "Romania / 34 cities",
+      "sourceLabel": "Wolt Romania Official News"
+    },
+    "eu-1005-jet-algorithm-transparency": {
+      "title": "JET publishes courier algorithm transparency report covering tracking, human review and pay",
+      "summary": "Just Eat Takeaway.com said on October 5 that location tracking only operates during an active run; fraud and compliance systems generate alerts but account deactivation requires a human decision and appeals are reviewed by a different person. Matching uses proximity, availability and route efficiency rather than protected traits or individual history, while equivalent deliveries carry consistent pay shown before acceptance.",
+      "implication": "Algorithm transparency now spans location, matching, pay, deactivation and appeals. Platforms should turn these principles into auditable configurations, courier-facing explanations, human-review evidence and versioned policies so public commitments match production behaviour.",
+      "company": "Just Eat Takeaway.com",
+      "market": "Europe / Just Eat Takeaway.com operating markets",
+      "sourceLabel": "Just Eat Takeaway.com Official News"
+    },
+    "eu-1005-deliveroo-coco-robots": {
+      "title": "Deliveroo introduces Coco delivery robots in the UK and plans a multi-city rollout",
+      "summary": "Deliveroo and Coco Robotics announced on October 5 that their first UK autonomous-delivery service will start in London's Canary Wharf, followed by Milton Keynes, Leeds, Stockton-on-Tees and Nottingham. The robots handle short urban trips at walking pace and process sensor and camera data on device; deployments are phased under local rules, while couriers continue to fulfil most orders.",
+      "implication": "A multimodal last-mile network must decide in real time where couriers and robots fit, while unifying merchant handoff, charging and depots, remote supervision, local speed and routing rules, accessibility data and human fallback within dispatch operations.",
+      "company": "Deliveroo / Coco Robotics",
+      "market": "United Kingdom / London Canary Wharf, then Milton Keynes, Leeds, Stockton-on-Tees and Nottingham",
+      "sourceLabel": "Deliveroo Official News"
+    },
+    "sea-1007-grab-thailand-merchant-ai": {
+      "title": "Grab Thailand says 275,000 merchants tried its AI assistant and regular users averaged 20% more orders",
+      "summary": "Grab Thailand reported on October 7 that more than 275,000 food merchants had tried the free GrabMerchant AI Assistant and nearly 55% used it at least monthly. More than 80% of merchants in the Thai Helps Thai Plus 60/40 programme used the feature, and regular users averaged 20% more orders than non-users. The assistant analyses sales, popular dishes, peak periods and ordering behaviour.",
+      "implication": "Merchant AI has reached scaled adoption and outcome measurement, but correlation is not causation. Platforms should validate incrementality through controlled cohorts, recommendation uptake and merchant segments, while converting insights into menu, marketing and operating actions rather than leaving them as data Q&A.",
+      "company": "Grab Thailand / GrabFood",
+      "market": "Thailand / Nationwide",
+      "sourceLabel": "Grab Thailand Official News"
     }
   },
   "id": {
@@ -2141,6 +2221,86 @@ export const localizedItemCopies = {
       "company": "JD Instant Delivery Rider",
       "market": "Tiongkok daratan / iOS",
       "sourceLabel": "Riwayat Versi Apple App Store"
+    },
+    "me-0927-kuwait-platform-penalties": {
+      "title": "Pengadilan Kuwait membatalkan sanksi yang dibuat sendiri dalam aturan platform pengantaran, sementara batas tarif tetap berlaku",
+      "summary": "Pembaruan hukum Wefaq tertanggal 27 September menyebut Pengadilan Administratif Kuwait membatalkan Pasal 15 Peraturan Platform Pengantaran dalam perkara yang diajukan Talabat. Pengadilan menilai menteri tidak dapat membuat sanksi peringatan, penutupan, pemblokiran, atau pencabutan izin tanpa dasar undang-undang yang tegas. Putusan hanya menyasar pasal sanksi; batas komisi dan biaya pengantaran serta aturan kontrak platform-merchant tetap berlaku, dan putusan tingkat pertama masih dapat diajukan banding.",
+      "implication": "Platform tidak boleh menganggap gugurnya satu pasal sanksi sebagai deregulasi menyeluruh. Kewajiban tarif, kontrak, dan perlindungan konsumen tetap berjalan, sehingga tim hukum dan produk perlu memisahkan kewajiban substantif, dasar penegakan, status banding, dan perubahan putusan berikutnya.",
+      "company": "Pengadilan Administratif Kuwait / Talabat / Kementerian Perdagangan dan Industri",
+      "market": "Kuwait / Nasional",
+      "sourceLabel": "Pembaruan Hukum Wefaq Law Firm"
+    },
+    "eu-0928-lieferando-cycle": {
+      "title": "Lieferando mendukung kurir Austria dengan diskon e-bike sesuai aturan dan pelatihan keselamatan",
+      "summary": "Lieferando Austria mengumumkan pada 28 September bahwa menjelang aturan baru E-moped berlaku pada 1 Oktober, perusahaan bermitra dengan CYCLE untuk membantu kurir beralih ke e-bike yang sesuai aturan. Kurir lepas aktif mendapat potongan EUR40 per bulan untuk sepeda berlangganan bermerek Lieferando, dengan jarak tempuh hingga 120 km dan pemeliharaan termasuk. Platform juga memberi subsidi EUR50 per kursus keselamatan jalan dan menyiapkan anggaran pelatihan lima digit.",
+      "implication": "Perubahan hukum kendaraan langsung memengaruhi ketersediaan pasokan dan biaya kurir. Platform perlu menghubungkan kelayakan kendaraan, lokasi pengambilan, langganan dan pemeliharaan, penyelesaian pelatihan, serta aturan penggunaan jalan agar perubahan regulasi tidak menimbulkan kekurangan pasokan atau risiko keselamatan baru.",
+      "company": "Lieferando Austria / CYCLE / Kementerian Inovasi, Mobilitas, dan Infrastruktur Austria",
+      "market": "Austria / Wina dan Graz",
+      "sourceLabel": "Just Eat Takeaway.com / Ruang Berita Lieferando Austria"
+    },
+    "sea-0929-grab-asenso-puerto-princesa": {
+      "title": "Grab melatih merchant Puerto Princesa menggunakan asisten AI, iklan, dan pembayaran terpadu",
+      "summary": "Grab Philippines mengadakan masterclass merchant Grab Asenso sehari penuh di Puerto Princesa pada 29 September bersama International Trade Centre. Merchant GrabFood diperkenalkan pada GrabAds Spotlight, Tap & Scan to Pay untuk pembayaran QR dan kartu, serta GrabMerchant AI Assistant untuk operasi harian. Program akan berlanjut di kota-kota regional Filipina hingga akhir 2026 dan memakai kerangka pemantauan untuk mengukur hasil bisnis dari adopsi digital.",
+      "implication": "Platform menggabungkan edukasi merchant, saran operasional AI, iklan, dan pembayaran luring dalam satu jalur pertumbuhan. Produk merchant perlu mengubah materi pelatihan menjadi tugas yang dapat dijalankan dan mengukur dampaknya melalui penjualan, konversi, arus kas, serta tingkat adopsi alat.",
+      "company": "Grab Philippines / International Trade Centre",
+      "market": "Filipina / Puerto Princesa",
+      "sourceLabel": "LionhearTV / Siaran Pers Grab Philippines"
+    },
+    "me-0929-keeta-uae-year-one": {
+      "title": "Keeta melaporkan skala tahun pertama di UEA: tujuh emirat dalam 90 hari dan puluhan juta pesanan",
+      "summary": "General Manager Keeta UAE Lucas Xie menyatakan pada 29 September bahwa platform menjangkau seluruh tujuh emirat dalam 90 hari. Pada tahun pertamanya Keeta melayani jutaan pelanggan, memenuhi puluhan juta pesanan, dan menghubungkan sekitar 10.000 merek restoran dan merchant di lebih dari 40.000 lokasi, sementara mitra pengantaran menempuh lebih dari 200 juta kilometer. Tahun kedua akan memperdalam prakiraan permintaan, dispatch cerdas, perencanaan rute, pelacakan pesanan otomatis, dan adaptasi operasi lokal.",
+      "implication": "Mengekspor kemampuan pengantaran instan Tiongkok membutuhkan lebih dari menyalin algoritme; prakiraan, pelatihan, wawasan merchant, dan kerja sama regulasi harus dibangun ulang per kota. Ekspansi perlu mengukur kecepatan cakupan, kepadatan pesanan, titik merchant, jarak tempuh kurir, dan konsistensi pengalaman antaremirat.",
+      "company": "Keeta UAE / Meituan",
+      "market": "Uni Emirat Arab / Seluruh tujuh emirat",
+      "sourceLabel": "Gulf News / Wawancara Keeta UAE"
+    },
+    "eu-0924-deliveroo-aldi-shop-deliver": {
+      "title": "Deliveroo dan Aldi menguji Shop & Deliver, dengan kurir berbelanja di toko lalu mengantar sesuai permintaan",
+      "summary": "Deliveroo mengumumkan pada 24 September bahwa layanan baru Shop & Deliver akan diuji di delapan gerai Aldi UK mulai awal Oktober. Partisipasi kurir bersifat opsional; aplikasi kurir mengurutkan barang agar pengambilan efisien, mendukung pemindaian dan pelaporan stok kosong, lalu pembayaran dilakukan dengan Rider Card prabayar sebelum pengantaran. Ekspansi ke lebih banyak gerai direncanakan pada 2027.",
+      "implication": "Pemenuhan ritel instan meluas dari serah-terima toko menjadi pengambilan, pembayaran, dan pengantaran terpadu oleh kurir. Platform perlu mengelola rute belanja, substitusi, validasi pindai, kartu pembayaran virtual, tarif kurir, dan kapasitas puncak toko, sekaligus menciptakan peluang pendapatan di luar jam makan.",
+      "company": "Deliveroo / Aldi UK",
+      "market": "Britania Raya / Norwich, Ipswich, Tamworth, Letchworth Garden City, dan Kent",
+      "sourceLabel": "Berita Resmi Deliveroo"
+    },
+    "sea-0930-grab-five-star-eats": {
+      "title": "Grab menyeragamkan 5-Star Eats di Asia Tenggara dan memasukkan keandalan pemenuhan ke dalam mutu restoran",
+      "summary": "Grab menyatakan pada 30 September bahwa standar dasar bersama untuk 5-Star Eats dan label kualitas terkait sedang diseragamkan di Asia Tenggara, dengan menggabungkan rating, ulasan, mutu makanan, dan keandalan pemenuhan serta penilaian ulang berkala. Malaysia dan Filipina telah memakai voting konsumen, Singapura akan menyusul, dan Grab Thumbs Up di Thailand akan disejajarkan dengan standar regional.",
+      "implication": "Label mutu restoran berubah menjadi mekanisme tata kelola produk yang menghubungkan penemuan, kualitas merchant, dan data pemenuhan. Platform memerlukan kriteria yang dapat dijelaskan, evaluasi berkala, banding, dan adaptasi lokal agar satu rating tidak mengunci peringkat pasokan secara permanen.",
+      "company": "GrabFood",
+      "market": "Malaysia / Filipina, Singapura, Thailand, dan pasar regional",
+      "sourceLabel": "Artikel Resmi Grab Inside Grab"
+    },
+    "eu-1001-wolt-plus-weeks-romania": {
+      "title": "Wolt meluncurkan Wolt+ Weeks di Rumania dengan masa keanggotaan gratis dan promo lintas kategori",
+      "summary": "Wolt Romania mengumumkan pada 1 Oktober bahwa Wolt+ Weeks pertama berlangsung pada 1–21 Oktober. Pengguna nonanggota dapat mengaktifkan masa Wolt+ gratis, sedangkan anggota memperoleh diskon restoran hingga 50%, voucher grosir RON 40 untuk pesanan yang memenuhi syarat, dan ongkir nol dengan ketentuan jarak serta minimum belanja.",
+      "implication": "Akuisisi langganan berkembang dari sekadar gratis ongkir menjadi promosi gabungan restoran, grosir, dan ritel. Platform perlu menjelaskan kelayakan uji coba, perpanjangan, batas gerai dan jarak, minimum belanja, serta perbedaan biaya layanan, lalu mengukur retensi dan pertumbuhan merchant setelah periode gratis.",
+      "company": "Wolt Romania",
+      "market": "Rumania / 34 kota",
+      "sourceLabel": "Berita Resmi Wolt Romania"
+    },
+    "eu-1005-jet-algorithm-transparency": {
+      "title": "JET menerbitkan laporan transparansi algoritme kurir tentang pelacakan, tinjauan manusia, dan bayaran",
+      "summary": "Just Eat Takeaway.com menjelaskan pada 5 Oktober bahwa pelacakan lokasi hanya aktif selama kurir menjalankan order; sistem fraud dan kepatuhan hanya membuat peringatan, sedangkan penonaktifan akun harus diputuskan manusia dan banding ditinjau orang lain. Pencocokan memakai kedekatan, ketersediaan, dan efisiensi rute, bukan atribut terlindungi atau riwayat individu; bayaran untuk pengantaran setara konsisten dan terlihat sebelum diterima.",
+      "implication": "Transparansi algoritme kini mencakup lokasi, pencocokan, bayaran, penonaktifan, dan banding. Platform perlu menerjemahkan prinsip ini ke konfigurasi yang dapat diaudit, penjelasan bagi kurir, bukti tinjauan manusia, dan kebijakan berversi agar janji publik sesuai dengan perilaku sistem produksi.",
+      "company": "Just Eat Takeaway.com",
+      "market": "Eropa / Pasar operasi Just Eat Takeaway.com",
+      "sourceLabel": "Berita Resmi Just Eat Takeaway.com"
+    },
+    "eu-1005-deliveroo-coco-robots": {
+      "title": "Deliveroo menghadirkan robot pengantaran Coco di Britania Raya dan merencanakan ekspansi multikota",
+      "summary": "Deliveroo dan Coco Robotics mengumumkan pada 5 Oktober bahwa layanan pengantaran otonom pertama mereka di Britania Raya dimulai di Canary Wharf, London, lalu diperluas ke Milton Keynes, Leeds, Stockton-on-Tees, dan Nottingham. Robot menangani perjalanan pendek di kota dengan kecepatan berjalan dan memproses data sensor serta kamera di perangkat; peluncuran bertahap mengikuti aturan lokal, sementara sebagian besar pesanan tetap dikirim kurir.",
+      "implication": "Jaringan last-mile multimoda harus menentukan secara real time peran kurir dan robot, sekaligus menyatukan serah-terima merchant, pengisian daya dan depot, supervisi jarak jauh, batas kecepatan dan rute lokal, data aksesibilitas, serta fallback manusia dalam operasi dispatch.",
+      "company": "Deliveroo / Coco Robotics",
+      "market": "Britania Raya / London Canary Wharf, lalu Milton Keynes, Leeds, Stockton-on-Tees, dan Nottingham",
+      "sourceLabel": "Berita Resmi Deliveroo"
+    },
+    "sea-1007-grab-thailand-merchant-ai": {
+      "title": "Grab Thailand menyebut 275.000 merchant mencoba asisten AI dan pengguna rutin rata-rata mendapat 20% lebih banyak pesanan",
+      "summary": "Grab Thailand melaporkan pada 7 Oktober bahwa lebih dari 275.000 merchant makanan telah mencoba GrabMerchant AI Assistant gratis dan hampir 55% menggunakannya sedikitnya sekali per bulan. Lebih dari 80% merchant dalam program Thai Helps Thai Plus 60/40 menggunakan fitur tersebut, dan pengguna rutin rata-rata memperoleh 20% lebih banyak pesanan daripada nonpengguna. Asisten menganalisis penjualan, menu populer, jam sibuk, dan perilaku pemesanan.",
+      "implication": "AI merchant telah mencapai adopsi skala besar dan pengukuran hasil, tetapi korelasi bukan kausalitas. Platform perlu memvalidasi pertumbuhan melalui kelompok kontrol, tingkat penerapan saran, dan segmen merchant, serta mengubah wawasan menjadi tindakan menu, pemasaran, dan operasi, bukan sekadar tanya-jawab data.",
+      "company": "Grab Thailand / GrabFood",
+      "market": "Thailand / Nasional",
+      "sourceLabel": "Berita Resmi Grab Thailand"
     }
   },
   "vi": {
@@ -3207,6 +3367,86 @@ export const localizedItemCopies = {
       "company": "JD Instant Delivery Rider",
       "market": "Trung Quốc đại lục / iOS",
       "sourceLabel": "Lịch sử Phiên bản Apple App Store"
+    },
+    "me-0927-kuwait-platform-penalties": {
+      "title": "Tòa Kuwait hủy điều khoản tự đặt chế tài của quy định nền tảng giao hàng, còn trần phí vẫn có hiệu lực",
+      "summary": "Bản cập nhật pháp lý của Wefaq ngày 27 tháng 9 cho biết Tòa Hành chính Kuwait đã hủy Điều 15 của Quy định Nền tảng Giao hàng trong vụ kiện do Talabat khởi xướng. Tòa cho rằng bộ trưởng không thể tự tạo chế tài cảnh cáo, đóng cửa, chặn hoặc thu hồi giấy phép nếu không có căn cứ luật định rõ ràng. Phán quyết chỉ áp dụng với điều khoản chế tài; trần hoa hồng và phí giao hàng cùng quy tắc hợp đồng nền tảng-nhà bán hàng vẫn có hiệu lực, và phán quyết sơ thẩm vẫn có thể bị kháng cáo.",
+      "implication": "Nền tảng không nên coi việc một điều khoản chế tài bị hủy là nới lỏng toàn bộ quy định. Nghĩa vụ về phí, hợp đồng và bảo vệ người tiêu dùng vẫn tiếp tục; nhóm pháp lý và sản phẩm cần tách riêng nghĩa vụ nội dung, căn cứ thực thi, trạng thái kháng cáo và thay đổi phán quyết sau này.",
+      "company": "Tòa Hành chính Kuwait / Talabat / Bộ Thương mại và Công nghiệp",
+      "market": "Kuwait / Toàn quốc",
+      "sourceLabel": "Cập nhật Pháp lý của Wefaq Law Firm"
+    },
+    "eu-0928-lieferando-cycle": {
+      "title": "Lieferando hỗ trợ tài xế Áo bằng ưu đãi xe đạp điện hợp chuẩn và đào tạo an toàn",
+      "summary": "Lieferando Austria thông báo ngày 28 tháng 9 rằng trước khi quy định E-moped mới có hiệu lực ngày 1 tháng 10, công ty hợp tác với CYCLE để giúp tài xế chuyển sang xe đạp điện đúng chuẩn. Tài xế tự do đang hoạt động được giảm EUR40 mỗi tháng khi thuê xe mang thương hiệu Lieferando, có tầm hoạt động tới 120 km và bao gồm bảo dưỡng. Nền tảng cũng hỗ trợ EUR50 cho mỗi khóa an toàn giao thông và dành ngân sách đào tạo ở mức năm chữ số.",
+      "implication": "Thay đổi pháp luật về phương tiện tác động trực tiếp đến nguồn cung và chi phí của tài xế. Nền tảng cần kết nối điều kiện phương tiện, điểm nhận xe, thuê và bảo dưỡng, hoàn thành đào tạo và quy tắc sử dụng đường để tránh thiếu hụt nguồn cung hoặc rủi ro an toàn mới.",
+      "company": "Lieferando Austria / CYCLE / Bộ Đổi mới, Di chuyển và Hạ tầng Áo",
+      "market": "Áo / Vienna và Graz",
+      "sourceLabel": "Just Eat Takeaway.com / Phòng Tin tức Lieferando Austria"
+    },
+    "sea-0929-grab-asenso-puerto-princesa": {
+      "title": "Grab đào tạo nhà bán hàng Puerto Princesa sử dụng trợ lý AI, quảng cáo và thanh toán hợp nhất",
+      "summary": "Grab Philippines tổ chức lớp chuyên sâu Grab Asenso cả ngày tại Puerto Princesa ngày 29 tháng 9 cùng International Trade Centre. Nhà bán hàng GrabFood được hướng dẫn GrabAds Spotlight, Tap & Scan to Pay cho thanh toán QR và thẻ, cùng GrabMerchant AI Assistant cho vận hành hằng ngày. Chương trình sẽ tiếp tục tại các thành phố khu vực của Philippines đến cuối năm 2026 và dùng khung giám sát để đo kết quả kinh doanh từ việc áp dụng công cụ số.",
+      "implication": "Nền tảng đang gộp đào tạo nhà bán hàng, tư vấn vận hành bằng AI, quảng cáo và thanh toán ngoại tuyến vào một lộ trình tăng trưởng. Sản phẩm cho nhà bán hàng cần chuyển nội dung khóa học thành tác vụ thực thi và đo hiệu quả qua doanh số, chuyển đổi, dòng tiền và tỷ lệ sử dụng công cụ.",
+      "company": "Grab Philippines / International Trade Centre",
+      "market": "Philippines / Puerto Princesa",
+      "sourceLabel": "LionhearTV / Thông cáo Grab Philippines"
+    },
+    "me-0929-keeta-uae-year-one": {
+      "title": "Keeta công bố quy mô năm đầu tại UAE: phủ bảy tiểu vương quốc trong 90 ngày và hàng chục triệu đơn",
+      "summary": "Tổng giám đốc Keeta UAE Lucas Xie cho biết ngày 29 tháng 9 rằng nền tảng đã phủ cả bảy tiểu vương quốc trong 90 ngày. Trong năm đầu, Keeta phục vụ hàng triệu khách hàng, hoàn tất hàng chục triệu đơn và kết nối khoảng 10.000 thương hiệu nhà hàng và nhà bán hàng tại hơn 40.000 địa điểm; đối tác giao hàng đã di chuyển hơn 200 triệu km. Năm thứ hai sẽ đẩy mạnh dự báo nhu cầu, điều phối thông minh, lập tuyến, theo dõi đơn tự động và thích ứng vận hành địa phương.",
+      "implication": "Xuất khẩu năng lực giao hàng tức thời của Trung Quốc đòi hỏi nhiều hơn việc sao chép thuật toán; dự báo, đào tạo, hiểu biết nhà bán hàng và hợp tác quản lý phải được xây dựng lại theo từng thành phố. Mở rộng cần theo dõi tốc độ phủ, mật độ đơn, điểm bán, quãng đường tài xế và tính nhất quán trải nghiệm giữa các tiểu vương quốc.",
+      "company": "Keeta UAE / Meituan",
+      "market": "Các Tiểu vương quốc Ả Rập Thống nhất / Cả bảy tiểu vương quốc",
+      "sourceLabel": "Gulf News / Phỏng vấn Keeta UAE"
+    },
+    "eu-0924-deliveroo-aldi-shop-deliver": {
+      "title": "Deliveroo và Aldi thử nghiệm Shop & Deliver, để tài xế lấy hàng trong cửa hàng rồi giao tức thời",
+      "summary": "Deliveroo thông báo ngày 24 tháng 9 rằng dịch vụ Shop & Deliver mới sẽ được thử nghiệm tại tám cửa hàng Aldi UK từ đầu tháng 10. Tài xế tự nguyện tham gia; ứng dụng sắp xếp hàng hóa để lấy nhanh, hỗ trợ quét mã và báo hết hàng, sau đó thanh toán bằng Rider Card trả trước trước khi giao. Dịch vụ dự kiến mở rộng thêm cửa hàng trong năm 2027.",
+      "implication": "Thực hiện đơn bán lẻ tức thời đang mở rộng từ bàn giao tại cửa hàng sang quy trình tài xế lấy hàng, thanh toán và giao trọn gói. Nền tảng cần quản lý tuyến lấy hàng, thay thế sản phẩm, xác minh quét mã, thẻ thanh toán ảo, tiền công tài xế và công suất giờ cao điểm, đồng thời tạo thu nhập ngoài giờ ăn.",
+      "company": "Deliveroo / Aldi UK",
+      "market": "Vương quốc Anh / Norwich, Ipswich, Tamworth, Letchworth Garden City và Kent",
+      "sourceLabel": "Tin Chính thức của Deliveroo"
+    },
+    "sea-0930-grab-five-star-eats": {
+      "title": "Grab chuẩn hóa 5-Star Eats tại Đông Nam Á và đưa độ tin cậy giao hàng vào tiêu chuẩn chất lượng nhà hàng",
+      "summary": "Grab cho biết ngày 30 tháng 9 rằng hãng đang chuẩn hóa nền tảng chung cho 5-Star Eats và các nhãn chất lượng liên quan trên toàn Đông Nam Á, kết hợp điểm số, đánh giá, chất lượng món ăn và độ tin cậy thực hiện đơn, kèm tái đánh giá định kỳ. Malaysia và Philippines đã dùng bình chọn người dùng, Singapore sẽ triển khai tiếp theo và Grab Thumbs Up tại Thái Lan sẽ được căn chỉnh với chuẩn khu vực.",
+      "implication": "Nhãn chất lượng nhà hàng đang trở thành cơ chế quản trị sản phẩm kết nối khám phá, chất lượng nhà bán hàng và dữ liệu thực hiện đơn. Nền tảng cần tiêu chí dễ giải thích, rà soát định kỳ, khiếu nại và điều chỉnh địa phương để một đánh giá không khóa thứ hạng nguồn cung lâu dài.",
+      "company": "GrabFood",
+      "market": "Malaysia / Philippines, Singapore, Thái Lan và các thị trường khu vực",
+      "sourceLabel": "Bài viết Chính thức của Grab Inside Grab"
+    },
+    "eu-1001-wolt-plus-weeks-romania": {
+      "title": "Wolt ra mắt Wolt+ Weeks tại Romania với thời gian thành viên miễn phí và ưu đãi đa ngành",
+      "summary": "Wolt Romania thông báo ngày 1 tháng 10 rằng Wolt+ Weeks đầu tiên diễn ra từ ngày 1 đến 21 tháng 10. Người chưa đăng ký có thể kích hoạt thời gian Wolt+ miễn phí; thành viên nhận giảm giá nhà hàng tới 50%, phiếu mua hàng tạp hóa 40 RON cho đơn đủ điều kiện và miễn phí giao hàng theo giới hạn khoảng cách và giá trị tối thiểu.",
+      "implication": "Thu hút thành viên đang mở rộng từ miễn phí giao hàng sang khuyến mãi phối hợp giữa nhà hàng, tạp hóa và bán lẻ. Nền tảng cần nêu rõ điều kiện dùng thử, gia hạn, giới hạn cửa hàng và khoảng cách, giá trị tối thiểu, khác biệt phí dịch vụ, rồi đo duy trì và tăng trưởng nhà bán hàng sau thời gian miễn phí.",
+      "company": "Wolt Romania",
+      "market": "Romania / 34 thành phố",
+      "sourceLabel": "Tin Chính thức của Wolt Romania"
+    },
+    "eu-1005-jet-algorithm-transparency": {
+      "title": "JET công bố báo cáo minh bạch thuật toán tài xế về định vị, xét duyệt con người và thù lao",
+      "summary": "Just Eat Takeaway.com cho biết ngày 5 tháng 10 rằng định vị chỉ hoạt động khi đang chạy đơn; hệ thống gian lận và tuân thủ chỉ tạo cảnh báo, còn vô hiệu hóa tài khoản phải do con người quyết định và khiếu nại được người khác xem lại. Ghép đơn dựa trên khoảng cách, khả dụng và hiệu quả tuyến, không dùng thuộc tính được bảo vệ hay lịch sử cá nhân; các đơn tương đương có thù lao nhất quán và hiển thị trước khi nhận.",
+      "implication": "Minh bạch thuật toán giờ bao phủ định vị, ghép đơn, thù lao, vô hiệu hóa và khiếu nại. Nền tảng cần biến các nguyên tắc này thành cấu hình có thể kiểm toán, giải thích cho tài xế, bằng chứng xét duyệt con người và chính sách có phiên bản để cam kết công khai khớp với hệ thống thực tế.",
+      "company": "Just Eat Takeaway.com",
+      "market": "Châu Âu / Các thị trường Just Eat Takeaway.com hoạt động",
+      "sourceLabel": "Tin Chính thức của Just Eat Takeaway.com"
+    },
+    "eu-1005-deliveroo-coco-robots": {
+      "title": "Deliveroo đưa robot giao hàng Coco vào Anh và lên kế hoạch mở rộng nhiều thành phố",
+      "summary": "Deliveroo và Coco Robotics thông báo ngày 5 tháng 10 rằng dịch vụ giao hàng tự động đầu tiên tại Anh sẽ bắt đầu ở Canary Wharf, London, rồi mở rộng tới Milton Keynes, Leeds, Stockton-on-Tees và Nottingham. Robot xử lý chặng ngắn đô thị với tốc độ đi bộ và xử lý dữ liệu cảm biến, camera ngay trên thiết bị; triển khai theo giai đoạn và quy định địa phương, trong khi tài xế vẫn thực hiện phần lớn đơn hàng.",
+      "implication": "Mạng lưới chặng cuối đa phương thức phải quyết định theo thời gian thực vai trò phù hợp của tài xế và robot, đồng thời thống nhất bàn giao tại cửa hàng, sạc và depot, giám sát từ xa, giới hạn tốc độ và tuyến địa phương, dữ liệu hỗ trợ tiếp cận và chuyển sang người xử lý trong vận hành điều phối.",
+      "company": "Deliveroo / Coco Robotics",
+      "market": "Vương quốc Anh / London Canary Wharf, sau đó Milton Keynes, Leeds, Stockton-on-Tees và Nottingham",
+      "sourceLabel": "Tin Chính thức của Deliveroo"
+    },
+    "sea-1007-grab-thailand-merchant-ai": {
+      "title": "Grab Thailand cho biết 275.000 nhà bán hàng đã thử trợ lý AI và người dùng thường xuyên có đơn trung bình cao hơn 20%",
+      "summary": "Grab Thailand công bố ngày 7 tháng 10 rằng hơn 275.000 nhà hàng đã thử GrabMerchant AI Assistant miễn phí và gần 55% dùng ít nhất mỗi tháng một lần. Hơn 80% nhà bán hàng trong chương trình Thai Helps Thai Plus 60/40 sử dụng tính năng này; người dùng thường xuyên có số đơn trung bình cao hơn 20% so với người không dùng. Trợ lý phân tích doanh số, món phổ biến, giờ cao điểm và hành vi đặt hàng.",
+      "implication": "AI cho nhà bán hàng đã đạt quy mô áp dụng và đo kết quả, nhưng tương quan không đồng nghĩa nhân quả. Nền tảng nên kiểm chứng mức tăng qua nhóm kiểm soát, tỷ lệ áp dụng khuyến nghị và phân khúc nhà bán hàng, đồng thời biến thông tin thành hành động về thực đơn, tiếp thị và vận hành thay vì chỉ hỏi đáp dữ liệu.",
+      "company": "Grab Thailand / GrabFood",
+      "market": "Thái Lan / Toàn quốc",
+      "sourceLabel": "Tin Chính thức của Grab Thailand"
     }
   },
   "pt": {
@@ -4273,6 +4513,86 @@ export const localizedItemCopies = {
       "company": "JD Instant Delivery Rider",
       "market": "China continental / iOS",
       "sourceLabel": "Histórico de Versões da Apple App Store"
+    },
+    "me-0927-kuwait-platform-penalties": {
+      "title": "Tribunal do Kuwait anula sanções criadas pelo regulamento das plataformas de entrega, mas mantém os limites de tarifas",
+      "summary": "Uma atualização jurídica da Wefaq de 27 de setembro informa que o Tribunal Administrativo do Kuwait anulou o Artigo 15 do Regulamento das Plataformas de Entrega em ação proposta pela Talabat. O tribunal entendeu que o ministro não poderia criar advertências, fechamentos, bloqueios ou cancelamentos de licença sem autorização legal expressa. A decisão limita-se ao artigo de sanções; os tetos de comissão e taxa de entrega e as regras contratuais entre plataforma e comerciante continuam válidos, e a sentença de primeira instância ainda pode ser objeto de recurso.",
+      "implication": "As plataformas não devem interpretar a queda de um artigo sancionatório como desregulamentação ampla. Obrigações de tarifas, contratos e proteção do consumidor continuam vigentes; equipes jurídicas e de produto precisam separar deveres materiais, base de fiscalização, situação recursal e futuras mudanças na decisão.",
+      "company": "Tribunal Administrativo do Kuwait / Talabat / Ministério do Comércio e Indústria",
+      "market": "Kuwait / Nacional",
+      "sourceLabel": "Atualização Jurídica da Wefaq Law Firm"
+    },
+    "eu-0928-lieferando-cycle": {
+      "title": "Lieferando apoia estafetas austríacos com desconto em e-bikes conformes e treinamento de segurança",
+      "summary": "A Lieferando Austria anunciou em 28 de setembro que, antes das novas regras para E-mopeds entrarem em vigor em 1º de outubro, firmou parceria com a CYCLE para ajudar estafetas a migrarem para e-bikes conformes. Prestadores autônomos ativos recebem desconto mensal de EUR40 em uma bicicleta por assinatura com a marca Lieferando, autonomia de até 120 km e manutenção incluída. A plataforma também subsidia EUR50 por curso de segurança viária e reservou um orçamento de cinco dígitos para treinamento.",
+      "implication": "Mudanças na legislação de veículos afetam diretamente a oferta disponível e o custo dos estafetas. Plataformas precisam integrar elegibilidade do veículo, pontos de retirada, assinatura e manutenção, conclusão de treinamentos e regras de circulação para evitar lacunas de oferta ou novos riscos de segurança.",
+      "company": "Lieferando Austria / CYCLE / Ministério Federal da Inovação, Mobilidade e Infraestrutura da Áustria",
+      "market": "Áustria / Viena e Graz",
+      "sourceLabel": "Just Eat Takeaway.com / Sala de Imprensa Lieferando Austria"
+    },
+    "sea-0929-grab-asenso-puerto-princesa": {
+      "title": "Grab treina comerciantes de Puerto Princesa no uso de assistente de IA, publicidade e pagamentos integrados",
+      "summary": "A Grab Philippines realizou em 29 de setembro, com o International Trade Centre, uma masterclass de dia inteiro do Grab Asenso em Puerto Princesa. Comerciantes do GrabFood conheceram o GrabAds Spotlight, o Tap & Scan to Pay para pagamentos por QR e cartão e o GrabMerchant AI Assistant para operações diárias. O programa seguirá por cidades regionais das Filipinas até o fim de 2026 e usará uma estrutura de monitoramento para medir resultados de negócio da adoção digital.",
+      "implication": "A plataforma está reunindo educação do comerciante, orientação operacional por IA, publicidade e pagamentos presenciais em uma única jornada de crescimento. O produto para comerciantes deve transformar o conteúdo dos cursos em tarefas executáveis e medir o impacto por vendas, conversão, fluxo de caixa e taxa de adoção das ferramentas.",
+      "company": "Grab Philippines / International Trade Centre",
+      "market": "Filipinas / Puerto Princesa",
+      "sourceLabel": "LionhearTV / Comunicado da Grab Philippines"
+    },
+    "me-0929-keeta-uae-year-one": {
+      "title": "Keeta divulga escala do primeiro ano nos EAU: sete emirados em 90 dias e dezenas de milhões de pedidos",
+      "summary": "O diretor-geral da Keeta UAE, Lucas Xie, afirmou em 29 de setembro que a plataforma alcançou os sete emirados em 90 dias. No primeiro ano, atendeu milhões de clientes, concluiu dezenas de milhões de pedidos e conectou cerca de 10.000 marcas de restaurantes e comerciantes em mais de 40.000 pontos; os parceiros de entrega percorreram mais de 200 milhões de quilômetros. No segundo ano, a empresa aprofundará previsão de demanda, despacho inteligente, planejamento de rotas, rastreamento automático de pedidos e adaptação operacional local.",
+      "implication": "Exportar capacidades chinesas de entrega imediata exige mais do que copiar algoritmos; previsão, treinamento, inteligência para comerciantes e colaboração regulatória precisam ser reconstruídos cidade a cidade. A expansão deve acompanhar velocidade de cobertura, densidade de pedidos, pontos comerciais, quilometragem dos estafetas e consistência da experiência entre emirados.",
+      "company": "Keeta UAE / Meituan",
+      "market": "Emirados Árabes Unidos / Todos os sete emirados",
+      "sourceLabel": "Gulf News / Entrevista com a Keeta UAE"
+    },
+    "eu-0924-deliveroo-aldi-shop-deliver": {
+      "title": "Deliveroo e Aldi testam o Shop & Deliver, com estafetas a selecionar produtos na loja e concluir a entrega imediata",
+      "summary": "A Deliveroo anunciou em 24 de setembro que testará o novo Shop & Deliver em oito lojas Aldi UK a partir do início de outubro. A participação dos estafetas é opcional; o app ordena os itens para uma seleção eficiente, permite leitura de códigos e aviso de indisponibilidade, e usa um Rider Card pré-pago antes da entrega. A expansão para mais lojas está prevista para 2027.",
+      "implication": "O cumprimento de varejo imediato está passando da entrega preparada pela loja para seleção, pagamento e entrega integrados pelo estafeta. A plataforma precisa gerir rota de seleção, substituições, validação por leitura, cartão virtual, remuneração e capacidade de pico da loja, além de criar renda fora dos horários de refeição.",
+      "company": "Deliveroo / Aldi UK",
+      "market": "Reino Unido / Norwich, Ipswich, Tamworth, Letchworth Garden City e Kent",
+      "sourceLabel": "Notícia Oficial da Deliveroo"
+    },
+    "sea-0930-grab-five-star-eats": {
+      "title": "Grab padroniza o 5-Star Eats no Sudeste Asiático e inclui confiabilidade do cumprimento na qualidade dos restaurantes",
+      "summary": "A Grab informou em 30 de setembro que está padronizando uma base comum para o 5-Star Eats e selos relacionados no Sudeste Asiático, combinando notas, avaliações, qualidade dos alimentos e confiabilidade do cumprimento com reavaliação periódica. Malásia e Filipinas já usam votação de usuários, Singapura será a próxima e o Grab Thumbs Up da Tailândia será alinhado ao padrão regional.",
+      "implication": "Selos de qualidade estão se tornando mecanismos de governança de produto que conectam descoberta, qualidade do comerciante e dados de cumprimento. A plataforma precisa de critérios explicáveis, revisão periódica, recurso e adaptações locais para que uma avaliação isolada não congele o ranking da oferta.",
+      "company": "GrabFood",
+      "market": "Malásia / Filipinas, Singapura, Tailândia e mercados regionais",
+      "sourceLabel": "Artigo Oficial Grab Inside Grab"
+    },
+    "eu-1001-wolt-plus-weeks-romania": {
+      "title": "Wolt lança Wolt+ Weeks na Romênia com período gratuito e ofertas entre categorias",
+      "summary": "A Wolt Romania anunciou em 1º de outubro que sua primeira Wolt+ Weeks ocorre de 1 a 21 de outubro. Não assinantes podem ativar um período gratuito de Wolt+; membros recebem até 50% de desconto em restaurantes, cupons de RON 40 em mercearia para pedidos elegíveis e entrega grátis conforme distância e valor mínimo.",
+      "implication": "A aquisição de assinantes está indo além da entrega grátis para promoções coordenadas entre restaurantes, mercearia e varejo. A plataforma precisa explicar teste, renovação, limites de loja e distância, cesta mínima e diferenças de taxa de serviço, e medir retenção e incremento dos comerciantes após o período gratuito.",
+      "company": "Wolt Romania",
+      "market": "Romênia / 34 cidades",
+      "sourceLabel": "Notícia Oficial da Wolt Romania"
+    },
+    "eu-1005-jet-algorithm-transparency": {
+      "title": "JET publica relatório de transparência algorítmica para estafetas sobre rastreamento, revisão humana e remuneração",
+      "summary": "A Just Eat Takeaway.com declarou em 5 de outubro que a localização só é coletada durante uma corrida ativa; sistemas de fraude e conformidade apenas geram alertas, enquanto a desativação exige decisão humana e o recurso é revisto por outra pessoa. A distribuição usa proximidade, disponibilidade e eficiência da rota, não atributos protegidos ou histórico individual; entregas equivalentes têm remuneração consistente exibida antes da aceitação.",
+      "implication": "A transparência algorítmica agora cobre localização, distribuição, remuneração, desativação e recurso. A plataforma deve transformar esses princípios em configurações auditáveis, explicações aos estafetas, provas de revisão humana e políticas versionadas para alinhar compromissos públicos e comportamento real do sistema.",
+      "company": "Just Eat Takeaway.com",
+      "market": "Europa / Mercados operados pela Just Eat Takeaway.com",
+      "sourceLabel": "Notícia Oficial da Just Eat Takeaway.com"
+    },
+    "eu-1005-deliveroo-coco-robots": {
+      "title": "Deliveroo introduz robôs de entrega Coco no Reino Unido e planeja expansão para várias cidades",
+      "summary": "Deliveroo e Coco Robotics anunciaram em 5 de outubro que o primeiro serviço autônomo no Reino Unido começará em Canary Wharf, Londres, e depois chegará a Milton Keynes, Leeds, Stockton-on-Tees e Nottingham. Os robôs fazem percursos urbanos curtos à velocidade de caminhada e processam sensores e câmaras no dispositivo; a implantação é gradual e segue regras locais, enquanto estafetas continuam a realizar a maioria dos pedidos.",
+      "implication": "Uma rede de última milha multimodal precisa decidir em tempo real onde estafetas e robôs se encaixam, unificando entrega do comerciante, recarga e depósitos, supervisão remota, limites locais de velocidade e rota, dados de acessibilidade e transição para atendimento humano na operação de despacho.",
+      "company": "Deliveroo / Coco Robotics",
+      "market": "Reino Unido / London Canary Wharf, depois Milton Keynes, Leeds, Stockton-on-Tees e Nottingham",
+      "sourceLabel": "Notícia Oficial da Deliveroo"
+    },
+    "sea-1007-grab-thailand-merchant-ai": {
+      "title": "Grab Thailand diz que 275 mil comerciantes testaram o assistente de IA e usuários frequentes tiveram em média 20% mais pedidos",
+      "summary": "A Grab Thailand informou em 7 de outubro que mais de 275 mil restaurantes testaram gratuitamente o GrabMerchant AI Assistant e quase 55% o usam ao menos uma vez por mês. Mais de 80% dos participantes do Thai Helps Thai Plus 60/40 usaram a função, e usuários frequentes tiveram em média 20% mais pedidos que não usuários. O assistente analisa vendas, pratos populares, horários de pico e comportamento de compra.",
+      "implication": "A IA para comerciantes chegou à adoção em escala e à medição de resultados, mas correlação não é causalidade. A plataforma deve validar o incremento por grupos controlados, adoção das recomendações e segmentos de comerciantes, transformando insights em ações de cardápio, marketing e operação em vez de simples perguntas e respostas.",
+      "company": "Grab Thailand / GrabFood",
+      "market": "Tailândia / Nacional",
+      "sourceLabel": "Notícia Oficial da Grab Thailand"
     }
   }
 } as const;

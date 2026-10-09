@@ -1155,6 +1155,30 @@ export const localizedItemCopies = {
       "company": "Grab Thailand / GrabFood",
       "market": "Thailand / Nationwide",
       "sourceLabel": "Grab Thailand Official News"
+    },
+    "cn-1007-meituan-xiaotuan-holiday": {
+      "title": "Meituan's Xiaotuan holiday users rose more than 60% from May Day as instant retail met urgent travel needs",
+      "summary": "Meituan reported on October 7 that Xiaotuan, its AI assistant, saw both users and interactions rise by more than 60% during the 2026 National Day holiday versus May Day and verified 750 million local-merchant information points. Meituan Instashopping orders for disposable socks and slippers doubled year on year, while out-of-town orders for oxygen canisters on Meituan Medicine rose 148.5% from the prior period.",
+      "implication": "AI trip assistance is connecting local search and in-store decisions with instant-retail replenishment. Consumer products can use location, weather, inventory and ETA to offer executable suggestions, then measure conversion from an AI recommendation through order completion.",
+      "company": "Meituan / Xiaotuan / Meituan Instashopping",
+      "market": "China / National Day travel and instant retail",
+      "sourceLabel": "Meituan Newsroom / Meituan"
+    },
+    "me-1006-fedex-dwc-ceiv-pharma": {
+      "title": "FedEx's Dubai World Central hub earns IATA CEIV Pharma certification",
+      "summary": "FedEx announced on October 6 that its Dubai World Central hub had achieved IATA CEIV Pharma certification after assessment against more than 280 operational, storage, equipment, quality and compliance criteria. The 57,000-square-metre hub includes automation, high-speed screening, dangerous-goods handling and 170 square metres of temperature-controlled storage, supported by FedEx Surround and SenseAware visibility.",
+      "implication": "Healthcare-logistics competition in the Middle East is moving beyond generic speed toward auditable temperature control, compliance and proactive intervention. Cross-border platforms need a unified cold-chain workflow covering sensor data, thresholds, human response, customer visibility and evidence of custody.",
+      "company": "FedEx",
+      "market": "United Arab Emirates / Dubai World Central",
+      "sourceLabel": "FedEx Official Newsroom"
+    },
+    "latam-1008-kodiak-charger-laredo": {
+      "title": "Kodiak and Charger launch autonomous freight on the Dallas-Laredo cross-border lane with safety drivers still onboard",
+      "summary": "Kodiak AI and Charger Logistics USA announced on October 8 that trucks equipped with the Kodiak Driver are hauling refrigerated and dry consumer freight on the 435-mile Dallas-Laredo lane; the first delivery was completed on September 8. Safety drivers remain behind the wheel until the safety case is complete. Laredo handles nearly 40% of US trade with Mexico.",
+      "implication": "Autonomous trucking is entering high-frequency retail replenishment and the US-Mexico corridor, but scaling depends on the safety case, vehicle and TMS integration, border handoffs and human fallback. Platforms should distinguish assisted autonomous operations from driverless service and track safety-driver interventions, exceptions and on-time performance.",
+      "company": "Kodiak AI / Charger Logistics USA",
+      "market": "Mexico / US-Mexico Dallas-Laredo cross-border corridor",
+      "sourceLabel": "Kodiak AI Official Investor Release"
     }
   },
   "id": {
@@ -2301,6 +2325,30 @@ export const localizedItemCopies = {
       "company": "Grab Thailand / GrabFood",
       "market": "Thailand / Nasional",
       "sourceLabel": "Berita Resmi Grab Thailand"
+    },
+    "cn-1007-meituan-xiaotuan-holiday": {
+      "title": "Pengguna Xiaotuan Meituan saat libur naik lebih dari 60% dibanding May Day, sementara ritel instan memenuhi kebutuhan perjalanan mendadak",
+      "summary": "Meituan melaporkan pada 7 Oktober bahwa pengguna dan interaksi asisten AI Xiaotuan selama libur Hari Nasional 2026 naik lebih dari 60% dibanding May Day, serta memverifikasi 750 juta informasi merchant lokal. Pesanan kaus kaki dan sandal sekali pakai di Meituan Instashopping berlipat dua secara tahunan, sementara pesanan luar kota untuk tabung oksigen di Meituan Medicine naik 148,5% dari periode sebelumnya.",
+      "implication": "Asisten perjalanan AI menghubungkan pencarian lokal dan keputusan kunjungan dengan pengisian kebutuhan melalui ritel instan. Produk konsumen dapat memakai lokasi, cuaca, stok, dan ETA untuk memberi saran yang langsung dapat dijalankan, lalu mengukur konversi dari rekomendasi AI hingga pesanan selesai.",
+      "company": "Meituan / Xiaotuan / Meituan Instashopping",
+      "market": "Tiongkok / Perjalanan Hari Nasional dan ritel instan",
+      "sourceLabel": "Pusat Berita Meituan / Meituan"
+    },
+    "me-1006-fedex-dwc-ceiv-pharma": {
+      "title": "Hub FedEx di Dubai World Central meraih sertifikasi IATA CEIV Pharma",
+      "summary": "FedEx mengumumkan pada 6 Oktober bahwa hub Dubai World Central meraih sertifikasi IATA CEIV Pharma setelah dinilai terhadap lebih dari 280 kriteria operasi, penyimpanan, peralatan, mutu, dan kepatuhan. Hub seluas 57.000 meter persegi itu memiliki otomasi, pemeriksaan berkecepatan tinggi, penanganan barang berbahaya, serta area penyimpanan terkendali suhu seluas 170 meter persegi, didukung visibilitas FedEx Surround dan SenseAware.",
+      "implication": "Persaingan logistik kesehatan di Timur Tengah bergerak dari kecepatan umum menuju pengendalian suhu, kepatuhan, dan intervensi proaktif yang dapat diaudit. Platform lintas batas memerlukan alur rantai dingin terpadu yang mencakup data sensor, ambang batas, respons manusia, visibilitas pelanggan, dan bukti penguasaan barang.",
+      "company": "FedEx",
+      "market": "Uni Emirat Arab / Dubai World Central",
+      "sourceLabel": "Ruang Berita Resmi FedEx"
+    },
+    "latam-1008-kodiak-charger-laredo": {
+      "title": "Kodiak dan Charger memulai angkutan otonom di koridor lintas batas Dallas-Laredo dengan pengemudi keselamatan tetap di kabin",
+      "summary": "Kodiak AI dan Charger Logistics USA mengumumkan pada 8 Oktober bahwa truk dengan Kodiak Driver mengangkut barang konsumen berpendingin dan kering di rute Dallas-Laredo sepanjang 435 mil; pengiriman pertama selesai pada 8 September. Pengemudi keselamatan tetap berada di balik kemudi sampai safety case selesai. Laredo menangani hampir 40% perdagangan Amerika Serikat dengan Meksiko.",
+      "implication": "Truk otonom memasuki pengisian ritel berfrekuensi tinggi dan koridor AS-Meksiko, tetapi skalanya bergantung pada safety case, integrasi kendaraan dan TMS, serah-terima di perbatasan, serta fallback manusia. Platform harus membedakan operasi otonom berbantuan dari layanan tanpa pengemudi dan memantau intervensi pengemudi keselamatan, pengecualian, serta ketepatan waktu.",
+      "company": "Kodiak AI / Charger Logistics USA",
+      "market": "Meksiko / Koridor lintas batas AS-Meksiko Dallas-Laredo",
+      "sourceLabel": "Rilis Investor Resmi Kodiak AI"
     }
   },
   "vi": {
@@ -3447,6 +3495,30 @@ export const localizedItemCopies = {
       "company": "Grab Thailand / GrabFood",
       "market": "Thái Lan / Toàn quốc",
       "sourceLabel": "Tin Chính thức của Grab Thailand"
+    },
+    "cn-1007-meituan-xiaotuan-holiday": {
+      "title": "Người dùng Xiaotuan của Meituan dịp Quốc khánh tăng hơn 60% so với kỳ nghỉ 1/5, bán lẻ tức thời đáp ứng nhu cầu du lịch phát sinh",
+      "summary": "Meituan cho biết ngày 7 tháng 10 rằng trong kỳ nghỉ Quốc khánh 2026, lượng người dùng và lượt gọi trợ lý AI Xiaotuan đều tăng hơn 60% so với kỳ nghỉ 1/5, đồng thời kiểm chứng 750 triệu thông tin nhà bán hàng địa phương. Đơn tất và dép dùng một lần trên Meituan Instashopping tăng gấp đôi so với cùng kỳ, còn đơn đặt bình oxy ngoài địa phương trên Meituan Medicine tăng 148,5% so với giai đoạn trước.",
+      "implication": "Trợ lý du lịch AI đang nối tìm kiếm địa phương và quyết định đến cửa hàng với việc bổ sung nhu yếu phẩm qua bán lẻ tức thời. Sản phẩm người dùng có thể kết hợp vị trí, thời tiết, tồn kho và ETA để đưa ra gợi ý có thể thực hiện ngay, sau đó đo chuyển đổi từ đề xuất AI đến hoàn tất đơn hàng.",
+      "company": "Meituan / Xiaotuan / Meituan Instashopping",
+      "market": "Trung Quốc / Du lịch Quốc khánh và bán lẻ tức thời",
+      "sourceLabel": "Trung tâm Tin tức Meituan / Meituan"
+    },
+    "me-1006-fedex-dwc-ceiv-pharma": {
+      "title": "Trung tâm FedEx tại Dubai World Central đạt chứng nhận IATA CEIV Pharma",
+      "summary": "FedEx thông báo ngày 6 tháng 10 rằng trung tâm Dubai World Central đã đạt chứng nhận IATA CEIV Pharma sau đánh giá hơn 280 tiêu chí về vận hành, lưu kho, thiết bị, chất lượng và tuân thủ. Cơ sở rộng 57.000 mét vuông có tự động hóa, soi chiếu tốc độ cao, xử lý hàng nguy hiểm và khu lưu trữ kiểm soát nhiệt độ 170 mét vuông, kết hợp khả năng hiển thị của FedEx Surround và SenseAware.",
+      "implication": "Cạnh tranh logistics y tế tại Trung Đông đang chuyển từ tốc độ chung sang kiểm soát nhiệt độ, tuân thủ và can thiệp chủ động có thể kiểm toán. Nền tảng xuyên biên giới cần một quy trình chuỗi lạnh thống nhất cho dữ liệu cảm biến, ngưỡng cảnh báo, xử lý của con người, khả năng hiển thị cho khách hàng và bằng chứng bàn giao.",
+      "company": "FedEx",
+      "market": "Các Tiểu vương quốc Ả Rập Thống nhất / Dubai World Central",
+      "sourceLabel": "Phòng Tin tức Chính thức FedEx"
+    },
+    "latam-1008-kodiak-charger-laredo": {
+      "title": "Kodiak và Charger khai trương vận tải tự động trên tuyến xuyên biên giới Dallas-Laredo, hiện vẫn có tài xế an toàn",
+      "summary": "Kodiak AI và Charger Logistics USA thông báo ngày 8 tháng 10 rằng các xe tải trang bị Kodiak Driver đang chở hàng tiêu dùng đông lạnh và hàng khô trên tuyến Dallas-Laredo dài 435 dặm; chuyến đầu tiên hoàn tất ngày 8 tháng 9. Tài xế an toàn vẫn ngồi sau vô-lăng cho đến khi hồ sơ an toàn hoàn tất. Laredo xử lý gần 40% thương mại của Hoa Kỳ với Mexico.",
+      "implication": "Xe tải tự động đang đi vào luồng bổ sung hàng bán lẻ tần suất cao và hành lang Mỹ-Mexico, nhưng khả năng mở rộng phụ thuộc vào hồ sơ an toàn, tích hợp xe với TMS, bàn giao tại biên giới và cơ chế con người tiếp quản. Nền tảng phải phân biệt vận hành tự động có hỗ trợ với dịch vụ không người lái, đồng thời theo dõi can thiệp của tài xế an toàn, ngoại lệ và tỷ lệ đúng giờ.",
+      "company": "Kodiak AI / Charger Logistics USA",
+      "market": "Mexico / Hành lang xuyên biên giới Mỹ-Mexico Dallas-Laredo",
+      "sourceLabel": "Công bố Nhà đầu tư Chính thức Kodiak AI"
     }
   },
   "pt": {
@@ -4593,6 +4665,30 @@ export const localizedItemCopies = {
       "company": "Grab Thailand / GrabFood",
       "market": "Tailândia / Nacional",
       "sourceLabel": "Notícia Oficial da Grab Thailand"
+    },
+    "cn-1007-meituan-xiaotuan-holiday": {
+      "title": "Usuários do Xiaotuan da Meituan no feriado cresceram mais de 60% ante o 1º de Maio, enquanto o varejo instantâneo atendeu necessidades urgentes de viagem",
+      "summary": "A Meituan informou em 7 de outubro que, no feriado do Dia Nacional de 2026, usuários e interações do assistente de IA Xiaotuan cresceram mais de 60% ante o 1º de Maio e validaram 750 milhões de informações de comerciantes locais. Pedidos de meias e chinelos descartáveis no Meituan Instashopping dobraram em um ano, e pedidos feitos fora da cidade para cilindros de oxigênio no Meituan Medicine subiram 148,5% frente ao período anterior.",
+      "implication": "A assistência de viagem por IA conecta busca local e decisões presenciais à reposição via varejo instantâneo. Produtos ao consumidor podem usar localização, clima, estoque e ETA para oferecer sugestões executáveis e medir a conversão da recomendação de IA até a conclusão do pedido.",
+      "company": "Meituan / Xiaotuan / Meituan Instashopping",
+      "market": "China / Viagens do Dia Nacional e varejo instantâneo",
+      "sourceLabel": "Central de Notícias da Meituan / Meituan"
+    },
+    "me-1006-fedex-dwc-ceiv-pharma": {
+      "title": "Hub da FedEx no Dubai World Central obtém certificação IATA CEIV Pharma",
+      "summary": "A FedEx anunciou em 6 de outubro que seu hub no Dubai World Central recebeu a certificação IATA CEIV Pharma após avaliação de mais de 280 critérios de operação, armazenagem, equipamentos, qualidade e conformidade. A instalação de 57 mil metros quadrados dispõe de automação, inspeção de alta velocidade, manuseio de cargas perigosas e 170 metros quadrados de armazenagem com temperatura controlada, apoiados pela visibilidade do FedEx Surround e SenseAware.",
+      "implication": "A concorrência em logística de saúde no Oriente Médio está avançando da velocidade genérica para controle de temperatura, conformidade e intervenção proativa auditáveis. Plataformas transfronteiriças precisam de um fluxo único de cadeia fria para dados de sensores, limites de alerta, resposta humana, visibilidade do cliente e provas de custódia.",
+      "company": "FedEx",
+      "market": "Emirados Árabes Unidos / Dubai World Central",
+      "sourceLabel": "Sala de Imprensa Oficial da FedEx"
+    },
+    "latam-1008-kodiak-charger-laredo": {
+      "title": "Kodiak e Charger iniciam frete autônomo no corredor transfronteiriço Dallas-Laredo, ainda com motoristas de segurança",
+      "summary": "A Kodiak AI e a Charger Logistics USA anunciaram em 8 de outubro que caminhões equipados com o Kodiak Driver transportam cargas refrigeradas e secas de bens de consumo na rota Dallas-Laredo de 435 milhas; a primeira entrega foi concluída em 8 de setembro. Motoristas de segurança permanecem ao volante até a conclusão do dossiê de segurança. Laredo movimenta quase 40% do comércio dos Estados Unidos com o México.",
+      "implication": "O transporte autônomo entra em fluxos frequentes de reposição do varejo e no corredor EUA-México, mas sua escala depende do dossiê de segurança, integração entre veículo e TMS, transferências na fronteira e fallback humano. Plataformas devem diferenciar operação autônoma assistida de serviço sem motorista e acompanhar intervenções, exceções e pontualidade.",
+      "company": "Kodiak AI / Charger Logistics USA",
+      "market": "México / Corredor transfronteiriço EUA-México Dallas-Laredo",
+      "sourceLabel": "Comunicado Oficial a Investidores da Kodiak AI"
     }
   }
 } as const;

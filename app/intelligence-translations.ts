@@ -1179,6 +1179,54 @@ export const localizedItemCopies = {
       "company": "Kodiak AI / Charger Logistics USA",
       "market": "Mexico / US-Mexico Dallas-Laredo cross-border corridor",
       "sourceLabel": "Kodiak AI Official Investor Release"
+    },
+    "cn-1001-meituan-algorithm-agreement": {
+      "title": "Meituan signs its annual labor-rule and algorithm agreement, expanding red-light timer pauses and pay weighting for difficult deliveries",
+      "summary": "Meituan reported on October 1 that the platform and courier representatives signed the 2026 labor-rule and algorithm consultation agreement on September 29. It covers a 30-minute delivery-time pilot, broader red-light timer pauses, higher pay weighting for heavy, bulky, stair-access and other difficult orders, plus changes to points, route-aligned dispatch, exception waivers and second-delivery subsidies.",
+      "implication": "Courier consultation is moving directly into dispatch, timing, pricing and waiver rules. The platform should turn the agreement into auditable city configurations, courier-facing explanations and appeal workflows, then measure the real effects on safety, earnings and on-time performance.",
+      "company": "Meituan / All-China Federation of Trade Unions / Courier representatives",
+      "market": "China / Beijing and pilot cities",
+      "sourceLabel": "Meituan Newsroom / Workers Daily"
+    },
+    "me-1005-carriyo-r2": {
+      "title": "Carriyo adds failed-shipment webhook retries, whole-day scheduling and booking tolerance across 28 carrier integrations",
+      "summary": "Carriyo released 2026.10-R2 on October 5. Merchants can retry failed shipment webhooks for up to 100 entities from the dashboard or API; delivery or collection dates without a time slot now cover 00:00–23:59 in local time. The release also fixes bookings with incomplete weight or dimensions across 28 carrier integrations and improves Saudi address cleanup and Shopify address synchronization.",
+      "implication": "Fulfillment software is turning interface reliability, scheduling semantics and address consistency into standard capabilities. Merchants and integrators should regression-test webhook order, whole-day windows, missing measurements, Saudi short address codes and Shopify address changes to prevent lost status events or incorrect promises.",
+      "company": "Carriyo",
+      "market": "United Arab Emirates / Cross-border merchants and carrier integrations",
+      "sourceLabel": "Carriyo Official Changelog"
+    },
+    "eu-1007-auve-airport-autonomy": {
+      "title": "Auve Tech puts a Level 4 airport shuttle into daily commercial operation without an onboard safety operator",
+      "summary": "Auve Tech reported on October 7 that its MiCa Level 4 shuttle had been authorized to run at Tallinn Airport without an onboard safety operator. It is remotely supervised and moves Magnetic MRO employees and equipment. The fleet covers about 1,000 kilometers a week at an average 99.9% autonomy rate, while one remote operator can monitor multiple vehicles.",
+      "implication": "Internal airport logistics is moving from closed testing to daily operation without a person onboard. Scaling depends not only on autonomy rates but also one-to-many remote supervision, exception takeover, safety auditability, mixed movement of people and equipment, and integration with airport operations.",
+      "company": "Auve Tech / Magnetic MRO / Tallinn Airport",
+      "market": "Estonia / Tallinn Airport",
+      "sourceLabel": "Auve Tech Official News"
+    },
+    "eu-1008-deliveroo-ebike-safety": {
+      "title": "Deliveroo launches Ride Safe, calls for a ban on dangerous conversion kits and adds speed technology to flag potentially illegal e-bikes",
+      "summary": "Deliveroo launched Ride Safe on October 8 with support from TfL, the London Fire Brigade and GMB, calling on the UK government to ban dangerous e-bike conversion kits sold to the public. The platform will update battery and conversion guidance and use speed technology to detect vehicles sustaining speeds that a legal e-bike could not reasonably reach; persistent or knowingly false vehicle registration can lead to platform removal.",
+      "implication": "Vehicle-safety governance is expanding from training and affordable-bike partnerships into algorithmic detection and account action. The platform needs explainable speed thresholds, false-positive review, vehicle evidence and appeals, while assessing battery fire risk, access to compliant vehicles and effects on courier livelihoods.",
+      "company": "Deliveroo / Transport for London / London Fire Brigade / GMB",
+      "market": "United Kingdom / London and the national courier network",
+      "sourceLabel": "Deliveroo Official News"
+    },
+    "latam-1009-argentina-mercosur-freight": {
+      "title": "Argentina incorporates updated MERCOSUR road-freight access rules, revising axle configurations and an 80-tonne fleet reference threshold",
+      "summary": "Argentina published Economy Ministry Resolution 1787/2026 on October 9, incorporating MERCOSUR/GMC Resolution 2/2026 into domestic law. It updates access principles for road freight operators and vehicle axle configurations, sets an 80-tonne dynamic reference capacity for a qualifying fleet, and asks CNRT and ANSV to implement the rules. Entry into force follows 30 days after all member-state notifications.",
+      "implication": "Cross-border carrier eligibility and fleet-capacity calculations will become more consistent, but publication does not mean immediate effect. Platforms and forwarders should track implementation by country and update carrier onboarding, vehicle master data, payload validation and route-compliance guidance.",
+      "company": "Argentina Ministry of Economy / MERCOSUR",
+      "market": "Argentina / MERCOSUR",
+      "sourceLabel": "Official Gazette of Argentina"
+    },
+    "sea-1012-dhl-cold-chain-asia": {
+      "title": "DHL adds six Europe and North America-to-Asia healthcare cold-chain air corridors, strengthening Singapore and Shanghai",
+      "summary": "DHL Global Forwarding announced six healthcare cold-chain corridors on October 12: Liege-Shanghai, Brussels-Shanghai, Brussels-Singapore, Cincinnati-Singapore, Cincinnati-Tokyo Narita and Cincinnati-Seoul Incheon. Most flights remain within the DHL network to reduce handovers, using Boeing 777 aircraft with three temperature compartments, thermal blankets and validated handling for pharmaceuticals, biologics, vaccines and clinical-trial materials.",
+      "implication": "Healthcare fulfillment into Asia is moving from general air freight to an integrated network of dedicated lanes, temperature control and fewer handovers. Platforms need to orchestrate route choice, temperature range, sensors, exception response, custody evidence and destination cold storage rather than showing only an arrival estimate.",
+      "company": "DHL Global Forwarding",
+      "market": "Singapore / Shanghai / Tokyo / Seoul",
+      "sourceLabel": "DHL Group Official News"
     }
   },
   "id": {
@@ -2349,6 +2397,54 @@ export const localizedItemCopies = {
       "company": "Kodiak AI / Charger Logistics USA",
       "market": "Meksiko / Koridor lintas batas AS-Meksiko Dallas-Laredo",
       "sourceLabel": "Rilis Investor Resmi Kodiak AI"
+    },
+    "cn-1001-meituan-algorithm-agreement": {
+      "title": "Meituan menandatangani kesepakatan tahunan tentang aturan kerja dan algoritma, memperluas penghentian penghitung waktu saat lampu merah serta bobot bayaran untuk pengantaran sulit",
+      "summary": "Meituan melaporkan pada 1 Oktober bahwa platform dan perwakilan kurir menandatangani kesepakatan konsultasi aturan kerja dan algoritma 2026 pada 29 September. Kesepakatan mencakup uji coba batas waktu pengantaran 30 menit, perluasan penghentian penghitung waktu saat lampu merah, bobot bayaran lebih tinggi untuk pesanan berat, besar, akses tangga dan pesanan sulit lainnya, serta perubahan pada poin, penugasan searah, pengecualian kondisi khusus dan subsidi pengantaran kedua.",
+      "implication": "Konsultasi kurir kini masuk langsung ke aturan penugasan, waktu, harga dan pengecualian. Platform perlu menerjemahkan kesepakatan menjadi konfigurasi kota yang dapat diaudit, penjelasan untuk kurir dan alur banding, lalu mengukur dampaknya terhadap keselamatan, pendapatan dan ketepatan waktu.",
+      "company": "Meituan / Federasi Serikat Buruh Seluruh Tiongkok / Perwakilan kurir",
+      "market": "Tiongkok / Beijing dan kota uji coba",
+      "sourceLabel": "Pusat Berita Meituan / Workers Daily"
+    },
+    "me-1005-carriyo-r2": {
+      "title": "Carriyo menambahkan percobaan ulang webhook kiriman gagal, penjadwalan sehari penuh dan toleransi pemesanan pada 28 integrasi kurir",
+      "summary": "Carriyo merilis 2026.10-R2 pada 5 Oktober. Merchant dapat mengulang webhook kiriman yang gagal untuk hingga 100 entitas dari dashboard atau API; tanggal pengantaran atau penjemputan tanpa slot waktu kini mencakup pukul 00.00–23.59 waktu setempat. Rilis ini juga memperbaiki pemesanan dengan berat atau dimensi tidak lengkap pada 28 integrasi kurir serta meningkatkan pembersihan alamat Saudi dan sinkronisasi alamat Shopify.",
+      "implication": "Perangkat lunak pemenuhan menjadikan keandalan antarmuka, makna jadwal dan konsistensi alamat sebagai kemampuan standar. Merchant dan integrator perlu menguji ulang urutan webhook, jendela sehari penuh, pengukuran yang hilang, kode alamat singkat Saudi dan perubahan alamat Shopify agar status tidak hilang atau janji pengantaran tidak keliru.",
+      "company": "Carriyo",
+      "market": "Uni Emirat Arab / Merchant lintas batas dan integrasi kurir",
+      "sourceLabel": "Catatan Perubahan Resmi Carriyo"
+    },
+    "eu-1007-auve-airport-autonomy": {
+      "title": "Auve Tech menjalankan shuttle bandara Level 4 tanpa petugas keselamatan di dalam kendaraan dalam operasi komersial harian",
+      "summary": "Auve Tech melaporkan pada 7 Oktober bahwa shuttle MiCa Level 4 telah mendapat izin beroperasi di Bandara Tallinn tanpa petugas keselamatan di dalam kendaraan. Kendaraan diawasi dari jarak jauh dan mengangkut karyawan serta peralatan Magnetic MRO. Armada menempuh sekitar 1.000 kilometer per minggu dengan tingkat otonomi rata-rata 99,9%, sementara satu operator jarak jauh dapat memantau beberapa kendaraan.",
+      "implication": "Logistik internal bandara bergerak dari pengujian tertutup menuju operasi harian tanpa orang di dalam kendaraan. Skalabilitas bergantung bukan hanya pada tingkat otonomi, tetapi juga pengawasan jarak jauh satu-ke-banyak, pengambilalihan saat pengecualian, audit keselamatan, pergerakan campuran orang dan peralatan, serta integrasi dengan operasi bandara.",
+      "company": "Auve Tech / Magnetic MRO / Tallinn Airport",
+      "market": "Estonia / Bandara Tallinn",
+      "sourceLabel": "Berita Resmi Auve Tech"
+    },
+    "eu-1008-deliveroo-ebike-safety": {
+      "title": "Deliveroo meluncurkan Ride Safe, menyerukan larangan kit konversi berbahaya dan menambahkan teknologi kecepatan untuk menandai e-bike yang mungkin ilegal",
+      "summary": "Deliveroo meluncurkan Ride Safe pada 8 Oktober dengan dukungan TfL, London Fire Brigade dan GMB, serta meminta pemerintah Inggris melarang kit konversi e-bike berbahaya yang dijual kepada publik. Platform akan memperbarui panduan baterai dan konversi serta memakai teknologi kecepatan untuk mendeteksi kendaraan yang terus melaju pada kecepatan yang tidak wajar bagi e-bike legal; pelanggaran berulang atau pendaftaran jenis kendaraan palsu dapat berujung pada pencabutan akses platform.",
+      "implication": "Tata kelola keselamatan kendaraan meluas dari pelatihan dan kemitraan kendaraan terjangkau ke deteksi algoritmik dan tindakan akun. Platform membutuhkan ambang kecepatan yang dapat dijelaskan, peninjauan salah deteksi, bukti kendaraan dan banding, sambil menilai risiko kebakaran baterai, akses kendaraan patuh dan dampaknya pada mata pencaharian kurir.",
+      "company": "Deliveroo / Transport for London / London Fire Brigade / GMB",
+      "market": "Britania Raya / London dan jaringan kurir nasional",
+      "sourceLabel": "Berita Resmi Deliveroo"
+    },
+    "latam-1009-argentina-mercosur-freight": {
+      "title": "Argentina mengadopsi aturan akses angkutan jalan MERCOSUR yang diperbarui, termasuk konfigurasi gandar dan ambang referensi armada 80 ton",
+      "summary": "Argentina menerbitkan Resolusi Kementerian Ekonomi 1787/2026 pada 9 Oktober dan memasukkan Resolusi MERCOSUR/GMC 2/2026 ke dalam hukum nasional. Aturan memperbarui prinsip akses operator angkutan jalan dan konfigurasi gandar kendaraan, menetapkan kapasitas referensi dinamis 80 ton untuk armada yang memenuhi syarat, serta meminta CNRT dan ANSV melaksanakan aturan. Pemberlakuan dimulai 30 hari setelah seluruh pemberitahuan negara anggota.",
+      "implication": "Kelayakan pengangkut lintas batas dan perhitungan kapasitas armada akan lebih konsisten, tetapi publikasi belum berarti langsung berlaku. Platform dan perusahaan ekspedisi perlu memantau pelaksanaan tiap negara serta memperbarui onboarding pengangkut, data induk kendaraan, validasi muatan dan panduan kepatuhan rute.",
+      "company": "Kementerian Ekonomi Argentina / MERCOSUR",
+      "market": "Argentina / MERCOSUR",
+      "sourceLabel": "Lembaran Negara Resmi Argentina"
+    },
+    "sea-1012-dhl-cold-chain-asia": {
+      "title": "DHL menambah enam koridor udara rantai dingin kesehatan dari Eropa dan Amerika Utara ke Asia, memperkuat Singapura dan Shanghai",
+      "summary": "DHL Global Forwarding mengumumkan enam koridor rantai dingin kesehatan pada 12 Oktober: Liege-Shanghai, Brussels-Shanghai, Brussels-Singapore, Cincinnati-Singapore, Cincinnati-Tokyo Narita dan Cincinnati-Seoul Incheon. Sebagian besar penerbangan tetap berada dalam jaringan DHL untuk mengurangi serah-terima, menggunakan Boeing 777 dengan tiga kompartemen suhu, selimut termal dan penanganan tervalidasi untuk obat, biologis, vaksin dan bahan uji klinis.",
+      "implication": "Pemenuhan layanan kesehatan menuju Asia bergerak dari kargo udara umum ke jaringan terpadu dengan rute khusus, kendali suhu dan lebih sedikit serah-terima. Platform perlu mengatur pilihan rute, rentang suhu, sensor, respons pengecualian, bukti penguasaan dan penyimpanan dingin tujuan, bukan hanya menampilkan perkiraan kedatangan.",
+      "company": "DHL Global Forwarding",
+      "market": "Singapura / Shanghai / Tokyo / Seoul",
+      "sourceLabel": "Berita Resmi DHL Group"
     }
   },
   "vi": {
@@ -3519,6 +3615,54 @@ export const localizedItemCopies = {
       "company": "Kodiak AI / Charger Logistics USA",
       "market": "Mexico / Hành lang xuyên biên giới Mỹ-Mexico Dallas-Laredo",
       "sourceLabel": "Công bố Nhà đầu tư Chính thức Kodiak AI"
+    },
+    "cn-1001-meituan-algorithm-agreement": {
+      "title": "Meituan ký thỏa thuận thường niên về quy tắc lao động và thuật toán, mở rộng dừng đồng hồ khi đèn đỏ và tăng trọng số thù lao cho đơn khó giao",
+      "summary": "Meituan cho biết ngày 1 tháng 10 rằng nền tảng và đại diện tài xế đã ký thỏa thuận tham vấn quy tắc lao động và thuật toán năm 2026 vào ngày 29 tháng 9. Thỏa thuận gồm thí điểm thời hạn giao 30 phút, mở rộng dừng đồng hồ khi đèn đỏ, tăng trọng số thù lao cho đơn nặng, cồng kềnh, phải đi cầu thang và các đơn khó khác, đồng thời điều chỉnh điểm, điều phối thuận đường, miễn trừ ngoại lệ và trợ cấp giao lần hai.",
+      "implication": "Tham vấn tài xế đang đi thẳng vào quy tắc điều phối, tính giờ, định giá và miễn trừ. Nền tảng cần chuyển thỏa thuận thành cấu hình theo thành phố có thể kiểm toán, giải thích rõ trên ứng dụng tài xế và quy trình khiếu nại, rồi đo tác động thực tế đến an toàn, thu nhập và tỷ lệ đúng giờ.",
+      "company": "Meituan / Tổng Công hội Toàn quốc Trung Quốc / Đại diện tài xế giao hàng",
+      "market": "Trung Quốc / Bắc Kinh và các thành phố thí điểm",
+      "sourceLabel": "Trung tâm Tin tức Meituan / Workers Daily"
+    },
+    "me-1005-carriyo-r2": {
+      "title": "Carriyo bổ sung thử lại webhook lô hàng lỗi, lịch cả ngày và khả năng chịu thiếu dữ liệu đặt chỗ trên 28 tích hợp hãng vận chuyển",
+      "summary": "Carriyo phát hành 2026.10-R2 ngày 5 tháng 10. Người bán có thể thử lại webhook lô hàng thất bại cho tối đa 100 đối tượng từ bảng điều khiển hoặc API; ngày giao hoặc lấy hàng không có khung giờ nay được hiểu là 00:00–23:59 theo giờ địa phương. Bản phát hành cũng sửa lỗi đặt chỗ khi thiếu trọng lượng hoặc kích thước trên 28 tích hợp hãng vận chuyển, đồng thời cải thiện làm sạch địa chỉ Saudi và đồng bộ địa chỉ Shopify.",
+      "implication": "Phần mềm hoàn tất đơn hàng đang biến độ tin cậy giao diện, ý nghĩa lịch hẹn và tính nhất quán địa chỉ thành năng lực chuẩn. Người bán và bên tích hợp cần kiểm thử thứ tự webhook, khung cả ngày, số đo bị thiếu, mã địa chỉ ngắn của Saudi và thay đổi địa chỉ Shopify để tránh mất trạng thái hoặc hứa giao sai.",
+      "company": "Carriyo",
+      "market": "Các Tiểu vương quốc Ả Rập Thống nhất / Người bán xuyên biên giới và tích hợp hãng vận chuyển",
+      "sourceLabel": "Nhật ký Thay đổi Chính thức của Carriyo"
+    },
+    "eu-1007-auve-airport-autonomy": {
+      "title": "Auve Tech đưa xe trung chuyển sân bay Cấp 4 vào vận hành thương mại hằng ngày mà không có nhân viên an toàn trên xe",
+      "summary": "Auve Tech cho biết ngày 7 tháng 10 rằng xe trung chuyển MiCa Cấp 4 đã được phép hoạt động tại Sân bay Tallinn mà không có nhân viên an toàn trên xe. Xe được giám sát từ xa và vận chuyển nhân viên cùng thiết bị của Magnetic MRO. Đội xe chạy khoảng 1.000 km mỗi tuần với tỷ lệ tự động trung bình 99,9%, trong khi một nhân viên từ xa có thể giám sát nhiều xe.",
+      "implication": "Logistics nội bộ sân bay đang chuyển từ thử nghiệm khép kín sang vận hành hằng ngày không có người trên xe. Khả năng mở rộng phụ thuộc không chỉ vào tỷ lệ tự động mà còn vào giám sát một người cho nhiều xe, tiếp quản ngoại lệ, khả năng kiểm toán an toàn, di chuyển hỗn hợp người và thiết bị, cùng tích hợp với hệ thống vận hành sân bay.",
+      "company": "Auve Tech / Magnetic MRO / Tallinn Airport",
+      "market": "Estonia / Sân bay Tallinn",
+      "sourceLabel": "Tin Chính thức của Auve Tech"
+    },
+    "eu-1008-deliveroo-ebike-safety": {
+      "title": "Deliveroo khởi động Ride Safe, kêu gọi cấm bộ chuyển đổi nguy hiểm và dùng công nghệ tốc độ để phát hiện xe đạp điện có thể trái phép",
+      "summary": "Deliveroo khởi động Ride Safe ngày 8 tháng 10 với sự ủng hộ của TfL, Sở Cứu hỏa London và GMB, kêu gọi chính phủ Anh cấm bán bộ chuyển đổi xe đạp điện nguy hiểm cho công chúng. Nền tảng sẽ cập nhật hướng dẫn về pin và chuyển đổi, đồng thời dùng công nghệ tốc độ để phát hiện xe duy trì vận tốc mà xe đạp điện hợp pháp khó đạt; vi phạm kéo dài hoặc cố ý khai sai loại xe có thể bị mất quyền truy cập nền tảng.",
+      "implication": "Quản trị an toàn phương tiện đang mở rộng từ đào tạo và hợp tác cung cấp xe giá phù hợp sang phát hiện bằng thuật toán và xử lý tài khoản. Nền tảng cần ngưỡng tốc độ có thể giải thích, rà soát báo sai, bằng chứng phương tiện và quy trình khiếu nại, đồng thời đánh giá rủi ro cháy pin, khả năng tiếp cận xe hợp chuẩn và tác động đến sinh kế tài xế.",
+      "company": "Deliveroo / Transport for London / Sở Cứu hỏa London / GMB",
+      "market": "Vương quốc Anh / London và mạng lưới tài xế toàn quốc",
+      "sourceLabel": "Tin Chính thức của Deliveroo"
+    },
+    "latam-1009-argentina-mercosur-freight": {
+      "title": "Argentina đưa quy tắc tiếp cận vận tải đường bộ MERCOSUR mới vào luật, cập nhật cấu hình trục và ngưỡng tham chiếu đội xe 80 tấn",
+      "summary": "Argentina công bố Nghị quyết 1787/2026 của Bộ Kinh tế ngày 9 tháng 10, đưa Nghị quyết MERCOSUR/GMC 2/2026 vào pháp luật trong nước. Quy định cập nhật nguyên tắc tiếp cận nghề vận tải đường bộ và cấu hình trục xe, đặt năng lực tham chiếu động 80 tấn cho đội xe đủ điều kiện, đồng thời giao CNRT và ANSV triển khai. Quy định có hiệu lực sau 30 ngày kể từ khi hoàn tất thông báo của tất cả quốc gia thành viên.",
+      "implication": "Điều kiện của hãng vận tải xuyên biên giới và cách tính năng lực đội xe sẽ nhất quán hơn, nhưng công bố chưa đồng nghĩa có hiệu lực ngay. Nền tảng và nhà giao nhận cần theo dõi tiến độ từng nước, cập nhật tiếp nhận hãng vận tải, dữ liệu xe, kiểm tra tải trọng và hướng dẫn tuân thủ tuyến.",
+      "company": "Bộ Kinh tế Argentina / MERCOSUR",
+      "market": "Argentina / MERCOSUR",
+      "sourceLabel": "Công báo Chính thức Argentina"
+    },
+    "sea-1012-dhl-cold-chain-asia": {
+      "title": "DHL bổ sung sáu hành lang hàng không chuỗi lạnh y tế từ châu Âu và Bắc Mỹ đến châu Á, tăng cường Singapore và Thượng Hải",
+      "summary": "DHL Global Forwarding công bố sáu hành lang chuỗi lạnh y tế ngày 12 tháng 10: Liege-Thượng Hải, Brussels-Thượng Hải, Brussels-Singapore, Cincinnati-Singapore, Cincinnati-Tokyo Narita và Cincinnati-Seoul Incheon. Phần lớn chuyến bay nằm trong mạng DHL để giảm bàn giao, dùng Boeing 777 với ba khoang nhiệt độ, chăn cách nhiệt và quy trình đã thẩm định cho dược phẩm, sinh phẩm, vaccine và vật liệu thử nghiệm lâm sàng.",
+      "implication": "Hoàn tất đơn hàng y tế vào châu Á đang chuyển từ hàng không chung sang mạng tích hợp gồm tuyến chuyên dụng, kiểm soát nhiệt độ và ít bàn giao hơn. Nền tảng cần điều phối lựa chọn tuyến, dải nhiệt, cảm biến, xử lý ngoại lệ, bằng chứng chuỗi kiểm soát và kho lạnh đích, thay vì chỉ hiển thị thời gian đến dự kiến.",
+      "company": "DHL Global Forwarding",
+      "market": "Singapore / Thượng Hải / Tokyo / Seoul",
+      "sourceLabel": "Tin Chính thức của DHL Group"
     }
   },
   "pt": {
@@ -4689,6 +4833,54 @@ export const localizedItemCopies = {
       "company": "Kodiak AI / Charger Logistics USA",
       "market": "México / Corredor transfronteiriço EUA-México Dallas-Laredo",
       "sourceLabel": "Comunicado Oficial a Investidores da Kodiak AI"
+    },
+    "cn-1001-meituan-algorithm-agreement": {
+      "title": "Meituan assina acordo anual sobre regras de trabalho e algoritmos, ampliando a pausa do cronômetro no sinal vermelho e o peso da remuneração para entregas difíceis",
+      "summary": "A Meituan informou em 1º de outubro que a plataforma e representantes dos entregadores assinaram em 29 de setembro o acordo de consulta de 2026 sobre regras de trabalho e algoritmos. O acordo inclui piloto de prazo de entrega de 30 minutos, expansão da pausa do cronômetro no sinal vermelho, maior peso de remuneração para pedidos pesados, volumosos, com escadas e outras entregas difíceis, além de ajustes em pontos, despacho na mesma rota, isenções e subsídio para segunda entrega.",
+      "implication": "A consulta com entregadores está entrando diretamente nas regras de despacho, tempo, preço e isenção. A plataforma deve transformar o acordo em configurações urbanas auditáveis, explicações no app e fluxos de recurso, medindo os efeitos reais sobre segurança, renda e pontualidade.",
+      "company": "Meituan / Federação Nacional dos Sindicatos da China / Representantes dos entregadores",
+      "market": "China / Pequim e cidades-piloto",
+      "sourceLabel": "Central de Notícias da Meituan / Workers Daily"
+    },
+    "me-1005-carriyo-r2": {
+      "title": "Carriyo adiciona repetição de webhooks de remessas com falha, agendamento de dia inteiro e tolerância de reserva em 28 integrações de transportadoras",
+      "summary": "A Carriyo lançou a versão 2026.10-R2 em 5 de outubro. Comerciantes podem repetir webhooks de remessas com falha para até 100 entidades pelo painel ou API; datas de entrega ou coleta sem faixa horária passam a cobrir 00:00–23:59 no horário local. A versão também corrige reservas com peso ou dimensões incompletos em 28 integrações e melhora a limpeza de endereços sauditas e a sincronização com Shopify.",
+      "implication": "O software de atendimento está transformando confiabilidade de interfaces, semântica de agendamento e consistência de endereços em capacidades padrão. Comerciantes e integradores devem testar ordem de webhooks, janelas de dia inteiro, medidas ausentes, códigos curtos de endereço saudita e mudanças de endereço no Shopify para evitar perda de status ou promessas incorretas.",
+      "company": "Carriyo",
+      "market": "Emirados Árabes Unidos / Comerciantes transfronteiriços e integrações de transportadoras",
+      "sourceLabel": "Registro Oficial de Alterações da Carriyo"
+    },
+    "eu-1007-auve-airport-autonomy": {
+      "title": "Auve Tech coloca transporte aeroportuário de Nível 4 em operação comercial diária sem operador de segurança a bordo",
+      "summary": "A Auve Tech informou em 7 de outubro que o veículo MiCa de Nível 4 foi autorizado a operar no Aeroporto de Tallinn sem operador de segurança a bordo. Ele é supervisionado remotamente e transporta funcionários e equipamentos da Magnetic MRO. A frota percorre cerca de 1.000 quilômetros por semana com autonomia média de 99,9%, enquanto um operador remoto acompanha vários veículos.",
+      "implication": "A logística interna de aeroportos está passando de testes fechados para operação diária sem pessoa a bordo. A escala depende não apenas da taxa de autonomia, mas também de supervisão remota de vários veículos, intervenção em exceções, auditoria de segurança, circulação mista de pessoas e equipamentos e integração com as operações aeroportuárias.",
+      "company": "Auve Tech / Magnetic MRO / Tallinn Airport",
+      "market": "Estônia / Aeroporto de Tallinn",
+      "sourceLabel": "Notícia Oficial da Auve Tech"
+    },
+    "eu-1008-deliveroo-ebike-safety": {
+      "title": "Deliveroo lança Ride Safe, pede proibição de kits perigosos e adiciona tecnologia de velocidade para sinalizar bicicletas elétricas possivelmente ilegais",
+      "summary": "A Deliveroo lançou Ride Safe em 8 de outubro com apoio da TfL, London Fire Brigade e GMB, pedindo ao governo britânico que proíba kits perigosos de conversão de bicicletas elétricas vendidos ao público. A plataforma atualizará orientações sobre baterias e conversões e usará tecnologia de velocidade para detectar veículos que mantêm velocidades incompatíveis com uma bicicleta elétrica legal; reincidência ou cadastro deliberadamente falso pode levar à remoção da plataforma.",
+      "implication": "A governança de segurança veicular está passando de treinamento e parcerias para veículos acessíveis à detecção algorítmica e ação sobre contas. A plataforma precisa de limites de velocidade explicáveis, revisão de falsos positivos, comprovação do veículo e recurso, avaliando também risco de incêndio, acesso a veículos conformes e impacto sobre a renda dos entregadores.",
+      "company": "Deliveroo / Transport for London / London Fire Brigade / GMB",
+      "market": "Reino Unido / Londres e rede nacional de entregadores",
+      "sourceLabel": "Notícia Oficial da Deliveroo"
+    },
+    "latam-1009-argentina-mercosur-freight": {
+      "title": "Argentina incorpora regras atualizadas do MERCOSUL para acesso ao transporte rodoviário, com novas configurações de eixos e referência de frota de 80 toneladas",
+      "summary": "A Argentina publicou em 9 de outubro a Resolução 1787/2026 do Ministério da Economia, incorporando a Resolução MERCOSUL/GMC 2/2026 ao direito interno. A norma atualiza princípios de acesso à profissão de transportador e configurações de eixos, fixa capacidade dinâmica de referência de 80 toneladas para a frota habilitada e solicita implementação pela CNRT e ANSV. A vigência começa 30 dias após as notificações de todos os Estados-membros.",
+      "implication": "A elegibilidade de transportadores transfronteiriços e o cálculo da capacidade da frota ficarão mais uniformes, mas a publicação não significa efeito imediato. Plataformas e agentes de carga devem acompanhar a implementação por país e atualizar cadastro de transportadoras, dados de veículos, validação de carga e orientações de conformidade de rotas.",
+      "company": "Ministério da Economia da Argentina / MERCOSUL",
+      "market": "Argentina / MERCOSUL",
+      "sourceLabel": "Boletim Oficial da Argentina"
+    },
+    "sea-1012-dhl-cold-chain-asia": {
+      "title": "DHL adiciona seis corredores aéreos de cadeia fria de saúde da Europa e América do Norte para a Ásia, reforçando Singapura e Xangai",
+      "summary": "A DHL Global Forwarding anunciou em 12 de outubro seis corredores de cadeia fria de saúde: Liege-Xangai, Bruxelas-Xangai, Bruxelas-Singapura, Cincinnati-Singapura, Cincinnati-Tóquio Narita e Cincinnati-Seul Incheon. A maioria dos voos permanece na rede DHL para reduzir transferências, usando Boeing 777 com três compartimentos de temperatura, mantas térmicas e manuseio validado para medicamentos, biológicos, vacinas e materiais de ensaios clínicos.",
+      "implication": "O atendimento de saúde para a Ásia está passando de carga aérea geral para uma rede integrada de rotas dedicadas, controle de temperatura e menos transferências. Plataformas precisam orquestrar escolha de rota, faixa térmica, sensores, resposta a exceções, evidência de custódia e armazenagem refrigerada no destino, não apenas mostrar previsão de chegada.",
+      "company": "DHL Global Forwarding",
+      "market": "Singapura / Xangai / Tóquio / Seul",
+      "sourceLabel": "Notícia Oficial do DHL Group"
     }
   }
 } as const;

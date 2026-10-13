@@ -29,6 +29,12 @@ jobs:
         # Linux runner (Tailwind's native bindings in particular).
         run: npm install --no-audit --no-fund
 
+      - name: Run i18n, render and data tests
+        run: npm test
+
+      - name: Run lint
+        run: npm run lint
+
       - name: Build static site
         run: npm run build
         env:

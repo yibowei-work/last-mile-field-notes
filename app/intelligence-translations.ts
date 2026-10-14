@@ -1227,6 +1227,14 @@ export const localizedItemCopies = {
       "company": "DHL Global Forwarding",
       "market": "Singapore / Shanghai / Tokyo / Seoul",
       "sourceLabel": "DHL Group Official News"
+    },
+    "sea-1012-fedex-import-tool": {
+      "title": "FedEx integrates duties and tax payments into its Asia-Pacific import tool across nine markets",
+      "summary": "FedEx announced an upgraded FedEx Import Tool on October 12 and expanded it to nine Asia-Pacific markets, including the Philippines, Singapore, Indonesia, Malaysia and Thailand. Importers can submit clearance documents, monitor shipment and customs status, receive action alerts, and pay duties and taxes by card, e-wallet or bank transfer in one platform. FedEx Ship Manager also adds Customs AI and tariff-code lookup.",
+      "implication": "Cross-border import fulfillment is combining documents, clearance status, tax payment and AI-assisted classification into one continuous workflow. Platforms and merchants should connect action alerts, payment state, tariff codes, release milestones and exception ownership to order visibility to reduce holds caused by missing information or unpaid charges.",
+      "company": "FedEx",
+      "market": "Southeast Asia / Philippines, Singapore, Indonesia, Malaysia and Thailand (also Australia, New Zealand, Japan and South Korea)",
+      "sourceLabel": "FedEx Asia Pacific official newsroom"
     }
   },
   "id": {
@@ -2445,6 +2453,14 @@ export const localizedItemCopies = {
       "company": "DHL Global Forwarding",
       "market": "Singapura / Shanghai / Tokyo / Seoul",
       "sourceLabel": "Berita Resmi DHL Group"
+    },
+    "sea-1012-fedex-import-tool": {
+      "title": "FedEx mengintegrasikan pembayaran bea dan pajak ke alat impor Asia Pasifik di sembilan pasar",
+      "summary": "FedEx mengumumkan peningkatan FedEx Import Tool pada 12 Oktober dan memperluasnya ke sembilan pasar Asia Pasifik, termasuk Filipina, Singapura, Indonesia, Malaysia, dan Thailand. Importir dapat mengirim dokumen kepabeanan, memantau status kiriman dan proses bea cukai, menerima pemberitahuan tindakan, serta membayar bea dan pajak dengan kartu, dompet digital, atau transfer bank dalam satu platform. FedEx Ship Manager juga menambahkan Customs AI dan pencarian kode tarif.",
+      "implication": "Pemenuhan impor lintas batas mulai menyatukan dokumen, status kepabeanan, pembayaran pajak, dan klasifikasi berbantuan AI dalam satu alur. Platform dan merchant perlu menghubungkan pemberitahuan tindakan, status pembayaran, kode tarif, tahap pelepasan, dan penanggung jawab pengecualian ke visibilitas pesanan agar penahanan akibat dokumen kurang atau biaya belum dibayar berkurang.",
+      "company": "FedEx",
+      "market": "Asia Tenggara / Filipina, Singapura, Indonesia, Malaysia, dan Thailand (juga Australia, Selandia Baru, Jepang, dan Korea Selatan)",
+      "sourceLabel": "Ruang berita resmi FedEx Asia Pasifik"
     }
   },
   "vi": {
@@ -3663,6 +3679,14 @@ export const localizedItemCopies = {
       "company": "DHL Global Forwarding",
       "market": "Singapore / Thượng Hải / Tokyo / Seoul",
       "sourceLabel": "Tin Chính thức của DHL Group"
+    },
+    "sea-1012-fedex-import-tool": {
+      "title": "FedEx tích hợp thanh toán thuế và phí vào công cụ nhập khẩu châu Á - Thái Bình Dương tại chín thị trường",
+      "summary": "FedEx công bố nâng cấp FedEx Import Tool ngày 12 tháng 10 và mở rộng sang chín thị trường châu Á - Thái Bình Dương, gồm Philippines, Singapore, Indonesia, Malaysia và Thái Lan. Nhà nhập khẩu có thể nộp chứng từ thông quan, theo dõi trạng thái lô hàng và hải quan, nhận cảnh báo cần xử lý, đồng thời thanh toán thuế và phí bằng thẻ, ví điện tử hoặc chuyển khoản trên một nền tảng. FedEx Ship Manager cũng bổ sung Customs AI và tra cứu mã thuế quan.",
+      "implication": "Quy trình hoàn tất nhập khẩu xuyên biên giới đang hợp nhất chứng từ, trạng thái thông quan, thanh toán thuế và phân loại có AI hỗ trợ thành một luồng liên tục. Nền tảng và nhà bán hàng nên kết nối cảnh báo việc cần làm, trạng thái thanh toán, mã thuế quan, mốc giải phóng hàng và trách nhiệm xử lý ngoại lệ với khả năng theo dõi đơn hàng để giảm lưu giữ do thiếu thông tin hoặc chưa nộp phí.",
+      "company": "FedEx",
+      "market": "Đông Nam Á / Philippines, Singapore, Indonesia, Malaysia và Thái Lan (cũng gồm Úc, New Zealand, Nhật Bản và Hàn Quốc)",
+      "sourceLabel": "Phòng tin chính thức FedEx châu Á - Thái Bình Dương"
     }
   },
   "pt": {
@@ -4881,6 +4905,14 @@ export const localizedItemCopies = {
       "company": "DHL Global Forwarding",
       "market": "Singapura / Xangai / Tóquio / Seul",
       "sourceLabel": "Notícia Oficial do DHL Group"
+    },
+    "sea-1012-fedex-import-tool": {
+      "title": "FedEx integra o pagamento de tributos à ferramenta de importação da Ásia-Pacífico em nove mercados",
+      "summary": "A FedEx anunciou em 12 de outubro uma atualização da FedEx Import Tool e a ampliou para nove mercados da Ásia-Pacífico, incluindo Filipinas, Singapura, Indonésia, Malásia e Tailândia. Importadores podem enviar documentos aduaneiros, acompanhar a remessa e o desembaraço, receber alertas de ação e pagar tributos por cartão, carteira digital ou transferência bancária em uma única plataforma. O FedEx Ship Manager também adiciona o Customs AI e a busca de códigos tarifários.",
+      "implication": "O fluxo de importação transfronteiriça começa a reunir documentos, status aduaneiro, pagamento de tributos e classificação assistida por IA em um processo contínuo. Plataformas e lojistas devem conectar alertas, status de pagamento, códigos tarifários, etapas de liberação e responsáveis por exceções à visibilidade do pedido para reduzir retenções por falta de informação ou taxas não pagas.",
+      "company": "FedEx",
+      "market": "Sudeste Asiático / Filipinas, Singapura, Indonésia, Malásia e Tailândia (também Austrália, Nova Zelândia, Japão e Coreia do Sul)",
+      "sourceLabel": "Sala de imprensa oficial da FedEx Ásia-Pacífico"
     }
   }
 } as const;

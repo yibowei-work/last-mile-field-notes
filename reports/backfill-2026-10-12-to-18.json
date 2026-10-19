@@ -1,0 +1,461 @@
+{
+  "window": {
+    "from": "2026-10-12",
+    "through": "2026-10-18",
+    "timeZone": "Asia/Shanghai"
+  },
+  "entries": [
+    {
+      "id": "cn-1014-taobao-yunji-robots",
+      "date": "2026-10-14",
+      "region": "中国",
+      "track": "平台侧",
+      "service": "履约与调度",
+      "focus": true,
+      "source": "https://finance.eastmoney.com/a/202610153896974621.html",
+      "sourceTitle": "云迹与淘宝闪购达成战略合作，盘中涨超8%，将推进外卖机器人规模化",
+      "evidence": "已打开深圳商报·读创完整转载正文（2026-10-15 17:00），正文明确公司于 10 月 14 日披露合作；10 月 14 日砍柴网与凤凰网全文交叉核验交接流程。原始电商派正文无法打开，未作为主来源。",
+      "otherSources": [
+        "https://news.ikanchai.com/2026/1014/669308.shtml",
+        "https://finance.ifeng.com/c/8xDwR4cfbhQ"
+      ],
+      "zh": [
+        "淘宝闪购与云迹合作，把楼内机器人接入外卖末端交付",
+        "10 月 14 日云迹披露与淘宝闪购达成战略合作，优先探索公寓、酒店等封闭场景。拟由骑手送至大堂接驳点，机器人接续完成乘梯、送到门口和取货通知；合作涉及产品、技术对接与运营推广。",
+        "平台应打通骑手与机器人的交接、门禁电梯、到门通知和异常转人工，并验证高峰期楼内运力及责任划分。",
+        "淘宝闪购 / 云迹科技",
+        "中国 / 公寓与酒店楼宇",
+        "深圳商报·读创 / 东方财富全文"
+      ],
+      "localized": {
+        "en": [
+          "Taobao Instant Commerce and Yunji partner on in-building robot delivery",
+          "Yunji disclosed the partnership on October 14, targeting apartments and hotels. Riders would hand off orders in lobbies for robots to complete elevator travel and doorstep delivery.",
+          "Platforms need coordinated handoffs, building access, recipient notifications and human fallback.",
+          "Taobao Instant Commerce / Yunji",
+          "China / apartments and hotels",
+          "Shenzhen Economic Daily / Eastmoney full article"
+        ],
+        "id": [
+          "Taobao Instant Commerce dan Yunji bermitra untuk pengantaran robot di dalam gedung",
+          "Yunji mengumumkan kemitraan pada 14 Oktober untuk apartemen dan hotel. Kurir menyerahkan pesanan di lobi, lalu robot melanjutkan perjalanan dengan lift hingga ke pintu penerima.",
+          "Platform perlu menyatukan serah terima, akses gedung, notifikasi penerima, dan penanganan manual saat terjadi kendala.",
+          "Taobao Instant Commerce / Yunji",
+          "Tiongkok / apartemen dan hotel",
+          "Shenzhen Economic Daily / artikel lengkap Eastmoney"
+        ],
+        "vi": [
+          "Taobao Instant Commerce hợp tác với Yunji giao hàng bằng robot trong tòa nhà",
+          "Yunji công bố hợp tác ngày 14 tháng 10, hướng đến căn hộ và khách sạn. Tài xế bàn giao tại sảnh để robot đi thang máy và giao đến cửa.",
+          "Nền tảng cần phối hợp bàn giao, quyền vào tòa nhà, thông báo nhận hàng và phương án xử lý thủ công.",
+          "Taobao Instant Commerce / Yunji",
+          "Trung Quốc / căn hộ và khách sạn",
+          "Shenzhen Economic Daily / bài đầy đủ Eastmoney"
+        ],
+        "pt": [
+          "Taobao Instant Commerce e Yunji fazem parceria para entregas por robôs dentro de edifícios",
+          "A Yunji divulgou a parceria em 14 de outubro, voltada a apartamentos e hotéis. Entregadores repassariam pedidos no saguão para robôs levarem até a porta usando elevadores.",
+          "Plataformas precisam coordenar repasses, acesso aos edifícios, avisos ao destinatário e intervenção humana.",
+          "Taobao Instant Commerce / Yunji",
+          "China / apartamentos e hotéis",
+          "Shenzhen Economic Daily / artigo completo Eastmoney"
+        ]
+      }
+    },
+    {
+      "id": "latam-1015-ifood-black-friday-retail",
+      "date": "2026-10-15",
+      "region": "拉美",
+      "track": "平台侧",
+      "service": "新业务与拓展",
+      "focus": true,
+      "source": "https://www.seudinheiro.com/2026/empresas/black-friday-60-maior-como-o-ifood-quer-provar-de-vez-que-ja-nao-e-mais-so-um-aplicativo-para-entrega-de-refeicoes-bdap/",
+      "sourceTitle": "Black Friday 60% maior: como o iFood quer provar de vez que não é mais um aplicativo de entregas de refeições",
+      "evidence": "原文明确 15 de outubro de 2026 às 16:35，并记录当天公司媒体沟通会。增长为目标而非已实现。",
+      "zh": [
+        "iFood 以黑五推动杂货、药房、宠物与礼品零售，预热从 10 月 19 日开始",
+        "iFood 在 10 月 15 日媒体沟通会上提出黑五销售增长 60% 的目标，计划从 10 月 19 日预热，以促销拓展杂货、药房、宠物及礼品。公司称非餐饮类别已占收入 35%，Turbo 在部分类别提供 20 分钟以内配送。",
+        "跨品类增长需要联动本地库存、药品与普通商品的履约规则及促销容量；应区分增长目标、公司披露指标与实际完成结果。",
+        "iFood",
+        "巴西",
+        "Seu Dinheiro / iFood 媒体沟通会"
+      ],
+      "localized": {
+        "en": [
+          "iFood uses Black Friday to expand beyond meals",
+          "At its October 15 briefing, iFood targeted 60% Black Friday sales growth and announced an October 19 warm-up across grocery, pharmacy, pet and gift categories. Growth remains a target.",
+          "Expansion requires category-specific inventory, fulfillment rules and promotional capacity.",
+          "iFood",
+          "Brazil",
+          "Seu Dinheiro / iFood media briefing"
+        ],
+        "id": [
+          "iFood memanfaatkan Black Friday untuk memperluas kategori di luar makanan",
+          "Dalam pengarahan 15 Oktober, iFood menargetkan pertumbuhan penjualan Black Friday sebesar 60% dan pemanasan mulai 19 Oktober untuk belanja harian, apotek, hewan peliharaan, dan hadiah. Pertumbuhan tersebut masih berupa target.",
+          "Ekspansi memerlukan stok, aturan pengantaran, dan kapasitas promosi yang disesuaikan dengan setiap kategori.",
+          "iFood",
+          "Brasil",
+          "Seu Dinheiro / pengarahan media iFood"
+        ],
+        "vi": [
+          "iFood dùng Black Friday để mở rộng ngoài giao đồ ăn",
+          "Tại buổi cung cấp thông tin ngày 15 tháng 10, iFood đặt mục tiêu tăng doanh số Black Friday 60% và khởi động từ ngày 19 tháng 10 với hàng tạp hóa, dược phẩm, thú cưng và quà tặng. Đây vẫn là mục tiêu.",
+          "Mở rộng cần tồn kho, quy tắc hoàn tất đơn và năng lực khuyến mại riêng cho từng ngành hàng.",
+          "iFood",
+          "Brazil",
+          "Seu Dinheiro / buổi cung cấp thông tin của iFood"
+        ],
+        "pt": [
+          "iFood aposta na Black Friday para ampliar categorias além das refeições",
+          "Em encontro com jornalistas em 15 de outubro, o iFood projetou alta de 60% nas vendas e aquecimento a partir de 19 de outubro para mercado, farmácia, pet e presentes. A alta é uma meta.",
+          "A expansão exige estoque, regras de entrega e capacidade promocional específicos por categoria.",
+          "iFood",
+          "Brasil",
+          "Seu Dinheiro / encontro com jornalistas do iFood"
+        ]
+      }
+    },
+    {
+      "id": "sea-1015-grab-scholar-malaysia",
+      "date": "2026-10-15",
+      "region": "东南亚",
+      "track": "运力端",
+      "service": "骑手管理与权益",
+      "focus": false,
+      "source": "https://www.grab.com/my/press/others/grabscholar2026/",
+      "sourceTitle": "GrabScholar 2026 Spotlights Inclusive and Accessible Education Through its Scholars",
+      "evidence": "官网显示 October 15, 2026；正文仪式为 14 October 2026，记录公告日并保留事件日期。",
+      "zh": [
+        "Grab 马来西亚公布 2026 奖学金获奖者，伙伴家庭支持覆盖学费与发展课程",
+        "Grab 10 月 15 日公告介绍前一日举行的 GrabScholar 颁奖活动及六名获奖者。与 YTAR 连续第三年合作的项目支持马来西亚公立大学本科生，包含全额学费、生活津贴和两年领导力培养，并关注司机及配送伙伴家庭。",
+        "运力权益可延伸至家庭教育与长期职业发展；平台需清晰呈现申请资格、材料审核、名额及持续支持流程。",
+        "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+        "马来西亚",
+        "Grab Malaysia 官方新闻"
+      ],
+      "localized": {
+        "en": [
+          "Grab Malaysia highlights family education support through GrabScholar",
+          "Grab announced six 2026 scholars on October 15 following an October 14 ceremony. Its YTAR partnership offers full tuition, allowances and a two-year development program, supporting partner families.",
+          "Partner benefits need clear eligibility, selection and ongoing support workflows.",
+          "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+          "Malaysia",
+          "Grab Malaysia official newsroom"
+        ],
+        "id": [
+          "Grab Malaysia menyoroti dukungan pendidikan keluarga melalui GrabScholar",
+          "Grab mengumumkan enam penerima beasiswa 2026 pada 15 Oktober setelah acara 14 Oktober. Kemitraan dengan YTAR mencakup biaya kuliah penuh, tunjangan, dan program pengembangan dua tahun bagi dukungan keluarga mitra.",
+          "Manfaat mitra memerlukan persyaratan, seleksi, dan alur pendampingan yang jelas.",
+          "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+          "Malaysia",
+          "Ruang berita resmi Grab Malaysia"
+        ],
+        "vi": [
+          "Grab Malaysia giới thiệu hỗ trợ giáo dục gia đình qua GrabScholar",
+          "Grab công bố sáu sinh viên nhận học bổng năm 2026 ngày 15 tháng 10, sau lễ ngày 14 tháng 10. Hợp tác với YTAR hỗ trợ toàn bộ học phí, phụ cấp và chương trình phát triển hai năm, hướng đến gia đình đối tác.",
+          "Phúc lợi đối tác cần điều kiện tham gia, quy trình tuyển chọn và hỗ trợ liên tục rõ ràng.",
+          "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+          "Malaysia",
+          "Phòng tin chính thức Grab Malaysia"
+        ],
+        "pt": [
+          "Grab Malaysia destaca apoio educacional às famílias com o GrabScholar",
+          "A Grab anunciou seis bolsistas de 2026 em 15 de outubro, após cerimônia no dia 14. A parceria com a YTAR oferece mensalidades integrais, auxílios e desenvolvimento por dois anos, apoiando famílias de parceiros.",
+          "Benefícios exigem critérios, seleção e acompanhamento contínuo claros.",
+          "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+          "Malásia",
+          "Sala de imprensa oficial da Grab Malaysia"
+        ]
+      }
+    },
+    {
+      "id": "eu-1013-fedex-pharma-portal",
+      "date": "2026-10-13",
+      "region": "欧洲",
+      "track": "商家端",
+      "service": "国际物流与供应链",
+      "focus": true,
+      "source": "https://newsroom.fedex.com/newsroom/europe-english/fedex-europe-enhances-temperature-controlled-logistics-for-pharmaceuticals-with-digital-booking-portal",
+      "sourceTitle": "FedEx Europe Enhances Temperature-Controlled Logistics for Pharmaceuticals with Digital Booking Portal",
+      "evidence": "官方正文 Hoofddorp, 13 October 2026；英、荷官方版本核验同一事件。",
+      "otherSources": [
+        "https://newsroom.fedex.com/newsroom/europe-benelux/fedex-europe-verbetert-temperatuurgecontroleerde-logistiek-voor-farmaceutische-producten-met-digitaal-portaal"
+      ],
+      "zh": [
+        "FedEx 在欧洲 26 个市场上线医药温控货件数字订舱门户",
+        "FedEx 10 月 13 日宣布新门户覆盖欧洲 26 个市场，可完成客户接入、预调温包装订购、发运预约和退回管理，接入 Temp-Assure Advantage。方案覆盖冷冻、冷藏及受控室温货件，并采用回收再利用的运输容器。",
+        "医药跨境产品需统一温区、包装库存、运输预约、轨迹和包装回收，避免通用寄件流程遗漏温控或合规条件。",
+        "FedEx Europe",
+        "欧洲 / 26 个市场",
+        "FedEx Europe 官方新闻"
+      ],
+      "localized": {
+        "en": [
+          "FedEx launches a pharmaceutical booking portal in 26 European markets",
+          "FedEx announced the portal on October 13 for onboarding, pre-conditioned packaging orders, shipment scheduling and returns. It provides access to Temp-Assure Advantage and reusable temperature-controlled packaging.",
+          "Connect temperature requirements, packaging stock, bookings, tracking and packaging returns.",
+          "FedEx Europe",
+          "Europe / 26 markets",
+          "FedEx Europe official newsroom"
+        ],
+        "id": [
+          "FedEx meluncurkan portal pengiriman farmasi di 26 pasar Eropa",
+          "FedEx mengumumkan portal pada 13 Oktober untuk pendaftaran pelanggan, pemesanan kemasan terkondisi, penjadwalan kiriman, dan pengembalian. Portal menyediakan akses ke Temp-Assure Advantage dan kemasan berpengatur suhu yang dapat digunakan kembali.",
+          "Hubungkan persyaratan suhu, stok kemasan, pemesanan, pelacakan, dan pengembalian kemasan.",
+          "FedEx Europe",
+          "Eropa / 26 pasar",
+          "Ruang berita resmi FedEx Europe"
+        ],
+        "vi": [
+          "FedEx ra mắt cổng đặt vận chuyển dược phẩm tại 26 thị trường châu Âu",
+          "FedEx công bố cổng ngày 13 tháng 10 để đăng ký, đặt bao bì được điều hòa nhiệt độ trước, lên lịch gửi hàng và quản lý hoàn trả. Cổng cung cấp Temp-Assure Advantage cùng bao bì kiểm soát nhiệt độ tái sử dụng.",
+          "Kết nối yêu cầu nhiệt độ, tồn kho bao bì, đặt vận chuyển, theo dõi và thu hồi bao bì.",
+          "FedEx Europe",
+          "Châu Âu / 26 thị trường",
+          "Phòng tin chính thức FedEx Europe"
+        ],
+        "pt": [
+          "FedEx lança portal de transporte farmacêutico em 26 mercados europeus",
+          "A FedEx anunciou o portal em 13 de outubro para cadastro, pedidos de embalagens pré-condicionadas, agendamento e devoluções. Ele oferece acesso ao Temp-Assure Advantage e a embalagens reutilizáveis com controle de temperatura.",
+          "Conectar requisitos térmicos, estoque de embalagens, reservas, rastreamento e devolução de recipientes.",
+          "FedEx Europe",
+          "Europa / 26 mercados",
+          "Sala de imprensa oficial da FedEx Europe"
+        ]
+      }
+    },
+    {
+      "id": "me-1015-al-sharqi-hub",
+      "date": "2026-10-15",
+      "region": "中东",
+      "track": "平台侧",
+      "service": "国际物流与供应链",
+      "focus": true,
+      "source": "https://www.tecomgroup.ae/press-release/al-sharqi-shipping-inaugurates-aed-70-million-multi-temperature-integrated-logistics-and-distribution-hub-at-dubai-industrial-city",
+      "sourceTitle": "Al Sharqi Shipping inaugurates AED 70 million multi-temperature integrated logistics and distribution hub at Dubai Industrial City",
+      "evidence": "TECOM 官方新闻正文 October 15, 2026；不使用第三方 10 月 17 日转载日。",
+      "zh": [
+        "Al Sharqi 在迪拜启用 7,000 万迪拉姆多温区仓配枢纽，服务即时零售等行业",
+        "TECOM 10 月 15 日宣布 Al Sharqi 新枢纽启用，投资 7,000 万迪拉姆，提供常温至零下 18°C 存储、38 条装卸车道及每日最多 178 辆卡车处理能力，服务食品、快消、零售与 quick-commerce 等客户。",
+        "中东即时零售补货需同时编排多温区库存、装卸时隙、车辆能力与末端配送承诺，关注新仓配节点的实际投产和服务范围。",
+        "Al Sharqi Shipping / TECOM Group",
+        "阿联酋 / Dubai Industrial City",
+        "TECOM Group 官方新闻"
+      ],
+      "localized": {
+        "en": [
+          "Al Sharqi opens an AED 70 million multi-temperature logistics hub in Dubai",
+          "TECOM announced the opening on October 15. The hub serves retail and quick commerce, with ambient-to-minus-18°C storage, 38 loading lanes and capacity to handle up to 178 trucks daily.",
+          "Coordinate temperature-specific stock, loading slots, vehicle capacity and downstream delivery promises.",
+          "Al Sharqi Shipping / TECOM Group",
+          "UAE / Dubai Industrial City",
+          "TECOM Group official newsroom"
+        ],
+        "id": [
+          "Al Sharqi membuka pusat logistik multi-suhu senilai AED 70 juta di Dubai",
+          "TECOM mengumumkan pembukaan pada 15 Oktober. Pusat ini melayani ritel dan quick commerce, dengan penyimpanan dari suhu ruang hingga minus 18°C, 38 jalur bongkar muat, dan kapasitas hingga 178 truk per hari.",
+          "Selaraskan stok per suhu, jadwal bongkar muat, kapasitas kendaraan, dan janji pengantaran berikutnya.",
+          "Al Sharqi Shipping / TECOM Group",
+          "UEA / Dubai Industrial City",
+          "Ruang berita resmi TECOM Group"
+        ],
+        "vi": [
+          "Al Sharqi mở trung tâm logistics đa nhiệt độ trị giá 70 triệu AED ở Dubai",
+          "TECOM công bố khai trương ngày 15 tháng 10. Trung tâm phục vụ bán lẻ và thương mại tức thời, lưu trữ từ nhiệt độ thường đến âm 18°C, có 38 làn bốc dỡ và năng lực tối đa 178 xe tải mỗi ngày.",
+          "Phối hợp tồn kho theo nhiệt độ, lịch bốc dỡ, năng lực xe và cam kết giao hàng tiếp theo.",
+          "Al Sharqi Shipping / TECOM Group",
+          "UAE / Dubai Industrial City",
+          "Phòng tin chính thức TECOM Group"
+        ],
+        "pt": [
+          "Al Sharqi abre centro logístico multitemperatura de AED 70 milhões em Dubai",
+          "A TECOM anunciou a abertura em 15 de outubro. O centro atende varejo e comércio rápido, com armazenamento de temperatura ambiente a menos 18°C, 38 faixas de carga e capacidade para até 178 caminhões diários.",
+          "Coordenar estoque por temperatura, horários de carga, capacidade dos veículos e prazos de entrega posteriores.",
+          "Al Sharqi Shipping / TECOM Group",
+          "Emirados Árabes Unidos / Dubai Industrial City",
+          "Sala de imprensa oficial da TECOM Group"
+        ]
+      }
+    },
+    {
+      "id": "me-1013-carriyo-shipment-tracking",
+      "date": "2026-10-13",
+      "region": "中东",
+      "track": "商家端",
+      "service": "产品与体验",
+      "focus": true,
+      "source": "https://carriyo.com/docs/changelog/2026.10-R5",
+      "sourceTitle": "Release 2026.10-R5; Release 2026.10-R6",
+      "otherSources": [
+        "https://carriyo.com/docs/changelog/2026.10-R6"
+      ],
+      "evidence": "两篇原文分别明确 Released October 13, 2026；同日发布合并记录，不使用 Updated 日期。",
+      "zh": [
+        "Carriyo 同日更新运单界面、权限及中东承运商轨迹映射",
+        "Carriyo 10 月 13 日 R5/R6 将新版运单页设为默认，旧版保留至 11 月底；重发邀请时保留商家权限范围。Ajex 轨迹新增派送、清关和货损映射，Aramex 特定缺件事件不再自动暂停运单，Empost 增加跨境退货产品码。",
+        "商家系统需要回归多商家权限、轨迹与异常状态映射、跨境退货配置，并安排新版界面的人员培训。",
+        "Carriyo / Ajex / Aramex / Empost",
+        "阿联酋 / 沙特及跨境承运商接入",
+        "Carriyo 官方更新日志"
+      ],
+      "localized": {
+        "en": [
+          "Carriyo updates shipment pages, permissions and regional carrier tracking",
+          "October 13 releases R5/R6 default to the new shipment page, preserve merchant scope on resent invitations, improve Ajex event mapping, revise an Aramex hold mapping and add an Empost cross-border returns code.",
+          "Regression-test merchant permissions, tracking exceptions and return-service configuration.",
+          "Carriyo / Ajex / Aramex / Empost",
+          "UAE / Saudi Arabia and cross-border carrier integrations",
+          "Carriyo official changelog"
+        ],
+        "id": [
+          "Carriyo memperbarui halaman kiriman, izin, dan pelacakan kurir regional",
+          "Rilis R5/R6 pada 13 Oktober menjadikan halaman kiriman baru sebagai standar, mempertahankan cakupan merchant saat undangan dikirim ulang, memperbaiki pemetaan Ajex dan Aramex, serta menambah kode retur lintas batas Empost.",
+          "Uji ulang izin merchant, pengecualian pelacakan, dan konfigurasi layanan retur.",
+          "Carriyo / Ajex / Aramex / Empost",
+          "UEA / Arab Saudi dan integrasi kurir lintas batas",
+          "Catatan rilis resmi Carriyo"
+        ],
+        "vi": [
+          "Carriyo cập nhật trang lô hàng, quyền truy cập và theo dõi hãng vận chuyển",
+          "Bản R5/R6 ngày 13 tháng 10 mặc định dùng trang lô hàng mới, giữ phạm vi nhà bán khi gửi lại lời mời, cải thiện ánh xạ Ajex và Aramex, đồng thời thêm mã hoàn hàng xuyên biên giới Empost.",
+          "Kiểm thử lại quyền nhà bán, ngoại lệ theo dõi và cấu hình dịch vụ hoàn hàng.",
+          "Carriyo / Ajex / Aramex / Empost",
+          "UAE / Ả Rập Xê Út và tích hợp vận chuyển xuyên biên giới",
+          "Nhật ký cập nhật chính thức Carriyo"
+        ],
+        "pt": [
+          "Carriyo atualiza páginas de remessas, permissões e rastreamento regional",
+          "As versões R5/R6 de 13 de outubro adotam a nova página de remessas, preservam o acesso por lojista nos convites reenviados, melhoram os eventos Ajex e Aramex e adicionam um código de devolução internacional Empost.",
+          "Testar permissões de lojistas, exceções de rastreamento e configuração dos serviços de devolução.",
+          "Carriyo / Ajex / Aramex / Empost",
+          "Emirados Árabes Unidos / Arábia Saudita e integrações internacionais",
+          "Registro oficial de alterações da Carriyo"
+        ]
+      }
+    },
+    {
+      "id": "me-1015-carriyo-integration-alerts",
+      "date": "2026-10-15",
+      "region": "中东",
+      "track": "商家端",
+      "service": "履约与调度",
+      "focus": true,
+      "source": "https://carriyo.com/docs/changelog/2026.10-R7",
+      "sourceTitle": "Release 2026.10-R7",
+      "evidence": "正文明确 Released October 15, 2026。",
+      "zh": [
+        "Carriyo 增加运单合并文档、接口失败告警及三态库存模型",
+        "Carriyo 10 月 15 日 R7 支持把标签、发票等 PDF 合并打印，并新增 Webhook、连接器失败告警和请求活动记录。库存统一为可售、在库不可售、缺货三态；MCP 移除 partially_available，跨境揽收时间窗改按揽收国时区处理。",
+        "对接方需迁移库存枚举、订阅合并文档事件，校验揽收时区并配置失败告警，减少静默漏单和错误预约。",
+        "Carriyo",
+        "阿联酋 / 跨境商家及承运商接入",
+        "Carriyo 官方更新日志"
+      ],
+      "localized": {
+        "en": [
+          "Carriyo adds combined documents, integration alerts and three inventory states",
+          "Release R7 on October 15 adds merged shipping PDFs, webhook and connector failure alerts, and activity logs. Inventory adopts three states and removes partially_available; cross-border collection slots use the pickup-country time zone.",
+          "Migrate inventory filters, configure alerts and verify collection time zones.",
+          "Carriyo",
+          "UAE / cross-border merchant and carrier integrations",
+          "Carriyo official changelog"
+        ],
+        "id": [
+          "Carriyo menambah dokumen gabungan, peringatan integrasi, dan tiga status stok",
+          "Rilis R7 pada 15 Oktober menambah PDF pengiriman gabungan, peringatan kegagalan webhook dan konektor, serta log aktivitas. Stok memakai tiga status dan menghapus partially_available; jadwal penjemputan lintas batas memakai zona waktu negara asal.",
+          "Migrasikan filter stok, atur peringatan, dan periksa zona waktu penjemputan.",
+          "Carriyo",
+          "UEA / integrasi merchant dan kurir lintas batas",
+          "Catatan rilis resmi Carriyo"
+        ],
+        "vi": [
+          "Carriyo thêm tài liệu gộp, cảnh báo tích hợp và ba trạng thái tồn kho",
+          "Bản R7 ngày 15 tháng 10 bổ sung PDF vận chuyển gộp, cảnh báo lỗi webhook và trình kết nối, cùng nhật ký hoạt động. Tồn kho dùng ba trạng thái và bỏ partially_available; lịch lấy hàng xuyên biên giới dùng múi giờ nước lấy hàng.",
+          "Chuyển đổi bộ lọc tồn kho, cấu hình cảnh báo và kiểm tra múi giờ lấy hàng.",
+          "Carriyo",
+          "UAE / tích hợp nhà bán và hãng vận chuyển xuyên biên giới",
+          "Nhật ký cập nhật chính thức Carriyo"
+        ],
+        "pt": [
+          "Carriyo adiciona documentos combinados, alertas de integração e três estados de estoque",
+          "A versão R7 de 15 de outubro inclui PDFs combinados, alertas de falha em webhooks e conectores e registros de atividade. O estoque passa a três estados, removendo partially_available; a coleta internacional usa o fuso do país de origem.",
+          "Migrar filtros de estoque, configurar alertas e verificar os fusos de coleta.",
+          "Carriyo",
+          "Emirados Árabes Unidos / integrações internacionais de lojistas e transportadoras",
+          "Registro oficial de alterações da Carriyo"
+        ]
+      }
+    },
+    {
+      "id": "cn-1018-cwdf-rider-support",
+      "date": "2026-10-18",
+      "region": "中国",
+      "track": "运力端",
+      "service": "骑手管理与权益",
+      "focus": false,
+      "source": "https://i.ifeng.com/c/8xK1QbnCgic",
+      "sourceTitle": "中国职工发展基金会关爱外卖骑手公益行动：给骑手多一层兜底，让城市多一份温度",
+      "evidence": "主办方凤凰网公益原创专访显示 2026-10-18 13:49:20；获奖事件 10 月 17 日。历史项目进展披露，未描述为新推出政策。",
+      "zh": [
+        "骑手关爱项目获公益奖，披露累计投入逾 6,100 万元及教育支持路径",
+        "凤凰网公益 10 月 18 日专访披露，中国职工发展基金会骑手关爱项目在前一日获奖。该项目自 2023 年开展，累计款物逾 6,100 万元、惠及骑手与家属 110 万人次，覆盖救助、学历与技能学习、健康及家庭关怀；这是进展披露，并非新政策上线。",
+        "运力权益运营可连接工会、基金会与平台，完善救助申请、教育报名、课程提醒及家庭支持的可达性与持续跟进。",
+        "中国职工发展基金会",
+        "中国 / 多平台骑手与家庭",
+        "凤凰网公益原创专访"
+      ],
+      "localized": {
+        "en": [
+          "Rider-support program reports education and family-care reach",
+          "An October 18 organizer interview reported the program's October 17 award and cumulative support exceeding CNY61 million and 1.1 million beneficiary instances since 2023. This is a progress disclosure, not a new policy launch.",
+          "Connect assistance applications, education enrollment and ongoing family support.",
+          "China Workers Development Foundation",
+          "China / riders and families across platforms",
+          "IFENG Charity original interview"
+        ],
+        "id": [
+          "Program dukungan kurir melaporkan jangkauan pendidikan dan pendampingan keluarga",
+          "Wawancara penyelenggara pada 18 Oktober melaporkan penghargaan 17 Oktober serta bantuan kumulatif lebih dari CNY61 juta dan 1,1 juta penerima layanan sejak 2023. Ini laporan kemajuan, bukan peluncuran kebijakan baru.",
+          "Hubungkan permohonan bantuan, pendaftaran pendidikan, dan dukungan keluarga berkelanjutan.",
+          "China Workers Development Foundation",
+          "Tiongkok / kurir lintas platform dan keluarga",
+          "Wawancara asli IFENG Charity"
+        ],
+        "vi": [
+          "Chương trình hỗ trợ tài xế công bố kết quả giáo dục và chăm sóc gia đình",
+          "Phỏng vấn ban tổ chức ngày 18 tháng 10 ghi nhận giải thưởng ngày 17 tháng 10 cùng hỗ trợ tích lũy hơn 61 triệu CNY và 1,1 triệu lượt thụ hưởng từ năm 2023. Đây là công bố tiến độ, không phải chính sách mới.",
+          "Kết nối đơn xin trợ giúp, đăng ký học và hỗ trợ gia đình liên tục.",
+          "China Workers Development Foundation",
+          "Trung Quốc / tài xế nhiều nền tảng và gia đình",
+          "Phỏng vấn gốc IFENG Charity"
+        ],
+        "pt": [
+          "Programa de apoio a entregadores divulga alcance educacional e familiar",
+          "Entrevista do organizador em 18 de outubro relatou o prêmio do dia 17 e apoio acumulado superior a CNY61 milhões e 1,1 milhão de atendimentos desde 2023. É uma atualização, não uma política nova.",
+          "Conectar pedidos de auxílio, matrículas e acompanhamento das famílias.",
+          "China Workers Development Foundation",
+          "China / entregadores de várias plataformas e famílias",
+          "Entrevista original IFENG Charity"
+        ]
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.cevalogistics.com/en/news-and-media/newsroom/press-release/next-generation-autonomous-vehicles-singapore",
+      "reason": "Official first release September 10, 2026; October coverage is not a new event."
+    },
+    {
+      "url": "https://blog.careem.com/posts/wfp-partners-with-careem-to-deliver-food-aid-in-gaza",
+      "reason": "Official article July 30, 2025; no verified new official October announcement for the separate campaign."
+    },
+    {
+      "url": "https://group.dhl.com/en/media-relations.html",
+      "reason": "Central/Eastern Europe investment first official release October 8, outside the week."
+    }
+  ],
+  "limitations": [
+    "Openly accessible dated originals only; no claim of exhaustive coverage of private WeChat or app-only notices.",
+    "No Xiaohongshu searched or used."
+  ]
+}

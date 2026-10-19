@@ -1235,6 +1235,70 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "Southeast Asia / Philippines, Singapore, Indonesia, Malaysia and Thailand (also Australia, New Zealand, Japan and South Korea)",
       "sourceLabel": "FedEx Asia Pacific official newsroom"
+    },
+    "cn-1014-taobao-yunji-robots": {
+      "title": "Taobao Instant Commerce and Yunji partner on in-building robot delivery",
+      "summary": "Yunji disclosed the partnership on October 14, targeting apartments and hotels. Riders would hand off orders in lobbies for robots to complete elevator travel and doorstep delivery.",
+      "implication": "Platforms need coordinated handoffs, building access, recipient notifications and human fallback.",
+      "company": "Taobao Instant Commerce / Yunji",
+      "market": "China / apartments and hotels",
+      "sourceLabel": "Shenzhen Economic Daily / Eastmoney full article"
+    },
+    "latam-1015-ifood-black-friday-retail": {
+      "title": "iFood uses Black Friday to expand beyond meals",
+      "summary": "At its October 15 briefing, iFood targeted 60% Black Friday sales growth and announced an October 19 warm-up across grocery, pharmacy, pet and gift categories. Growth remains a target.",
+      "implication": "Expansion requires category-specific inventory, fulfillment rules and promotional capacity.",
+      "company": "iFood",
+      "market": "Brazil",
+      "sourceLabel": "Seu Dinheiro / iFood media briefing"
+    },
+    "sea-1015-grab-scholar-malaysia": {
+      "title": "Grab Malaysia highlights family education support through GrabScholar",
+      "summary": "Grab announced six 2026 scholars on October 15 following an October 14 ceremony. Its YTAR partnership offers full tuition, allowances and a two-year development program, supporting partner families.",
+      "implication": "Partner benefits need clear eligibility, selection and ongoing support workflows.",
+      "company": "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+      "market": "Malaysia",
+      "sourceLabel": "Grab Malaysia official newsroom"
+    },
+    "eu-1013-fedex-pharma-portal": {
+      "title": "FedEx launches a pharmaceutical booking portal in 26 European markets",
+      "summary": "FedEx announced the portal on October 13 for onboarding, pre-conditioned packaging orders, shipment scheduling and returns. It provides access to Temp-Assure Advantage and reusable temperature-controlled packaging.",
+      "implication": "Connect temperature requirements, packaging stock, bookings, tracking and packaging returns.",
+      "company": "FedEx Europe",
+      "market": "Europe / 26 markets",
+      "sourceLabel": "FedEx Europe official newsroom"
+    },
+    "me-1015-al-sharqi-hub": {
+      "title": "Al Sharqi opens an AED 70 million multi-temperature logistics hub in Dubai",
+      "summary": "TECOM announced the opening on October 15. The hub serves retail and quick commerce, with ambient-to-minus-18°C storage, 38 loading lanes and capacity to handle up to 178 trucks daily.",
+      "implication": "Coordinate temperature-specific stock, loading slots, vehicle capacity and downstream delivery promises.",
+      "company": "Al Sharqi Shipping / TECOM Group",
+      "market": "UAE / Dubai Industrial City",
+      "sourceLabel": "TECOM Group official newsroom"
+    },
+    "me-1013-carriyo-shipment-tracking": {
+      "title": "Carriyo updates shipment pages, permissions and regional carrier tracking",
+      "summary": "October 13 releases R5/R6 default to the new shipment page, preserve merchant scope on resent invitations, improve Ajex event mapping, revise an Aramex hold mapping and add an Empost cross-border returns code.",
+      "implication": "Regression-test merchant permissions, tracking exceptions and return-service configuration.",
+      "company": "Carriyo / Ajex / Aramex / Empost",
+      "market": "UAE / Saudi Arabia and cross-border carrier integrations",
+      "sourceLabel": "Carriyo official changelog"
+    },
+    "me-1015-carriyo-integration-alerts": {
+      "title": "Carriyo adds combined documents, integration alerts and three inventory states",
+      "summary": "Release R7 on October 15 adds merged shipping PDFs, webhook and connector failure alerts, and activity logs. Inventory adopts three states and removes partially_available; cross-border collection slots use the pickup-country time zone.",
+      "implication": "Migrate inventory filters, configure alerts and verify collection time zones.",
+      "company": "Carriyo",
+      "market": "UAE / cross-border merchant and carrier integrations",
+      "sourceLabel": "Carriyo official changelog"
+    },
+    "cn-1018-cwdf-rider-support": {
+      "title": "Rider-support program reports education and family-care reach",
+      "summary": "An October 18 organizer interview reported the program's October 17 award and cumulative support exceeding CNY61 million and 1.1 million beneficiary instances since 2023. This is a progress disclosure, not a new policy launch.",
+      "implication": "Connect assistance applications, education enrollment and ongoing family support.",
+      "company": "China Workers Development Foundation",
+      "market": "China / riders and families across platforms",
+      "sourceLabel": "IFENG Charity original interview"
     }
   },
   "id": {
@@ -2461,6 +2525,70 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "Asia Tenggara / Filipina, Singapura, Indonesia, Malaysia, dan Thailand (juga Australia, Selandia Baru, Jepang, dan Korea Selatan)",
       "sourceLabel": "Ruang berita resmi FedEx Asia Pasifik"
+    },
+    "cn-1014-taobao-yunji-robots": {
+      "title": "Taobao Instant Commerce dan Yunji bermitra untuk pengantaran robot di dalam gedung",
+      "summary": "Yunji mengumumkan kemitraan pada 14 Oktober untuk apartemen dan hotel. Kurir menyerahkan pesanan di lobi, lalu robot melanjutkan perjalanan dengan lift hingga ke pintu penerima.",
+      "implication": "Platform perlu menyatukan serah terima, akses gedung, notifikasi penerima, dan penanganan manual saat terjadi kendala.",
+      "company": "Taobao Instant Commerce / Yunji",
+      "market": "Tiongkok / apartemen dan hotel",
+      "sourceLabel": "Shenzhen Economic Daily / artikel lengkap Eastmoney"
+    },
+    "latam-1015-ifood-black-friday-retail": {
+      "title": "iFood memanfaatkan Black Friday untuk memperluas kategori di luar makanan",
+      "summary": "Dalam pengarahan 15 Oktober, iFood menargetkan pertumbuhan penjualan Black Friday sebesar 60% dan pemanasan mulai 19 Oktober untuk belanja harian, apotek, hewan peliharaan, dan hadiah. Pertumbuhan tersebut masih berupa target.",
+      "implication": "Ekspansi memerlukan stok, aturan pengantaran, dan kapasitas promosi yang disesuaikan dengan setiap kategori.",
+      "company": "iFood",
+      "market": "Brasil",
+      "sourceLabel": "Seu Dinheiro / pengarahan media iFood"
+    },
+    "sea-1015-grab-scholar-malaysia": {
+      "title": "Grab Malaysia menyoroti dukungan pendidikan keluarga melalui GrabScholar",
+      "summary": "Grab mengumumkan enam penerima beasiswa 2026 pada 15 Oktober setelah acara 14 Oktober. Kemitraan dengan YTAR mencakup biaya kuliah penuh, tunjangan, dan program pengembangan dua tahun bagi dukungan keluarga mitra.",
+      "implication": "Manfaat mitra memerlukan persyaratan, seleksi, dan alur pendampingan yang jelas.",
+      "company": "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+      "market": "Malaysia",
+      "sourceLabel": "Ruang berita resmi Grab Malaysia"
+    },
+    "eu-1013-fedex-pharma-portal": {
+      "title": "FedEx meluncurkan portal pengiriman farmasi di 26 pasar Eropa",
+      "summary": "FedEx mengumumkan portal pada 13 Oktober untuk pendaftaran pelanggan, pemesanan kemasan terkondisi, penjadwalan kiriman, dan pengembalian. Portal menyediakan akses ke Temp-Assure Advantage dan kemasan berpengatur suhu yang dapat digunakan kembali.",
+      "implication": "Hubungkan persyaratan suhu, stok kemasan, pemesanan, pelacakan, dan pengembalian kemasan.",
+      "company": "FedEx Europe",
+      "market": "Eropa / 26 pasar",
+      "sourceLabel": "Ruang berita resmi FedEx Europe"
+    },
+    "me-1015-al-sharqi-hub": {
+      "title": "Al Sharqi membuka pusat logistik multi-suhu senilai AED 70 juta di Dubai",
+      "summary": "TECOM mengumumkan pembukaan pada 15 Oktober. Pusat ini melayani ritel dan quick commerce, dengan penyimpanan dari suhu ruang hingga minus 18°C, 38 jalur bongkar muat, dan kapasitas hingga 178 truk per hari.",
+      "implication": "Selaraskan stok per suhu, jadwal bongkar muat, kapasitas kendaraan, dan janji pengantaran berikutnya.",
+      "company": "Al Sharqi Shipping / TECOM Group",
+      "market": "UEA / Dubai Industrial City",
+      "sourceLabel": "Ruang berita resmi TECOM Group"
+    },
+    "me-1013-carriyo-shipment-tracking": {
+      "title": "Carriyo memperbarui halaman kiriman, izin, dan pelacakan kurir regional",
+      "summary": "Rilis R5/R6 pada 13 Oktober menjadikan halaman kiriman baru sebagai standar, mempertahankan cakupan merchant saat undangan dikirim ulang, memperbaiki pemetaan Ajex dan Aramex, serta menambah kode retur lintas batas Empost.",
+      "implication": "Uji ulang izin merchant, pengecualian pelacakan, dan konfigurasi layanan retur.",
+      "company": "Carriyo / Ajex / Aramex / Empost",
+      "market": "UEA / Arab Saudi dan integrasi kurir lintas batas",
+      "sourceLabel": "Catatan rilis resmi Carriyo"
+    },
+    "me-1015-carriyo-integration-alerts": {
+      "title": "Carriyo menambah dokumen gabungan, peringatan integrasi, dan tiga status stok",
+      "summary": "Rilis R7 pada 15 Oktober menambah PDF pengiriman gabungan, peringatan kegagalan webhook dan konektor, serta log aktivitas. Stok memakai tiga status dan menghapus partially_available; jadwal penjemputan lintas batas memakai zona waktu negara asal.",
+      "implication": "Migrasikan filter stok, atur peringatan, dan periksa zona waktu penjemputan.",
+      "company": "Carriyo",
+      "market": "UEA / integrasi merchant dan kurir lintas batas",
+      "sourceLabel": "Catatan rilis resmi Carriyo"
+    },
+    "cn-1018-cwdf-rider-support": {
+      "title": "Program dukungan kurir melaporkan jangkauan pendidikan dan pendampingan keluarga",
+      "summary": "Wawancara penyelenggara pada 18 Oktober melaporkan penghargaan 17 Oktober serta bantuan kumulatif lebih dari CNY61 juta dan 1,1 juta penerima layanan sejak 2023. Ini laporan kemajuan, bukan peluncuran kebijakan baru.",
+      "implication": "Hubungkan permohonan bantuan, pendaftaran pendidikan, dan dukungan keluarga berkelanjutan.",
+      "company": "China Workers Development Foundation",
+      "market": "Tiongkok / kurir lintas platform dan keluarga",
+      "sourceLabel": "Wawancara asli IFENG Charity"
     }
   },
   "vi": {
@@ -3687,6 +3815,70 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "Đông Nam Á / Philippines, Singapore, Indonesia, Malaysia và Thái Lan (cũng gồm Úc, New Zealand, Nhật Bản và Hàn Quốc)",
       "sourceLabel": "Phòng tin chính thức FedEx châu Á - Thái Bình Dương"
+    },
+    "cn-1014-taobao-yunji-robots": {
+      "title": "Taobao Instant Commerce hợp tác với Yunji giao hàng bằng robot trong tòa nhà",
+      "summary": "Yunji công bố hợp tác ngày 14 tháng 10, hướng đến căn hộ và khách sạn. Tài xế bàn giao tại sảnh để robot đi thang máy và giao đến cửa.",
+      "implication": "Nền tảng cần phối hợp bàn giao, quyền vào tòa nhà, thông báo nhận hàng và phương án xử lý thủ công.",
+      "company": "Taobao Instant Commerce / Yunji",
+      "market": "Trung Quốc / căn hộ và khách sạn",
+      "sourceLabel": "Shenzhen Economic Daily / bài đầy đủ Eastmoney"
+    },
+    "latam-1015-ifood-black-friday-retail": {
+      "title": "iFood dùng Black Friday để mở rộng ngoài giao đồ ăn",
+      "summary": "Tại buổi cung cấp thông tin ngày 15 tháng 10, iFood đặt mục tiêu tăng doanh số Black Friday 60% và khởi động từ ngày 19 tháng 10 với hàng tạp hóa, dược phẩm, thú cưng và quà tặng. Đây vẫn là mục tiêu.",
+      "implication": "Mở rộng cần tồn kho, quy tắc hoàn tất đơn và năng lực khuyến mại riêng cho từng ngành hàng.",
+      "company": "iFood",
+      "market": "Brazil",
+      "sourceLabel": "Seu Dinheiro / buổi cung cấp thông tin của iFood"
+    },
+    "sea-1015-grab-scholar-malaysia": {
+      "title": "Grab Malaysia giới thiệu hỗ trợ giáo dục gia đình qua GrabScholar",
+      "summary": "Grab công bố sáu sinh viên nhận học bổng năm 2026 ngày 15 tháng 10, sau lễ ngày 14 tháng 10. Hợp tác với YTAR hỗ trợ toàn bộ học phí, phụ cấp và chương trình phát triển hai năm, hướng đến gia đình đối tác.",
+      "implication": "Phúc lợi đối tác cần điều kiện tham gia, quy trình tuyển chọn và hỗ trợ liên tục rõ ràng.",
+      "company": "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+      "market": "Malaysia",
+      "sourceLabel": "Phòng tin chính thức Grab Malaysia"
+    },
+    "eu-1013-fedex-pharma-portal": {
+      "title": "FedEx ra mắt cổng đặt vận chuyển dược phẩm tại 26 thị trường châu Âu",
+      "summary": "FedEx công bố cổng ngày 13 tháng 10 để đăng ký, đặt bao bì được điều hòa nhiệt độ trước, lên lịch gửi hàng và quản lý hoàn trả. Cổng cung cấp Temp-Assure Advantage cùng bao bì kiểm soát nhiệt độ tái sử dụng.",
+      "implication": "Kết nối yêu cầu nhiệt độ, tồn kho bao bì, đặt vận chuyển, theo dõi và thu hồi bao bì.",
+      "company": "FedEx Europe",
+      "market": "Châu Âu / 26 thị trường",
+      "sourceLabel": "Phòng tin chính thức FedEx Europe"
+    },
+    "me-1015-al-sharqi-hub": {
+      "title": "Al Sharqi mở trung tâm logistics đa nhiệt độ trị giá 70 triệu AED ở Dubai",
+      "summary": "TECOM công bố khai trương ngày 15 tháng 10. Trung tâm phục vụ bán lẻ và thương mại tức thời, lưu trữ từ nhiệt độ thường đến âm 18°C, có 38 làn bốc dỡ và năng lực tối đa 178 xe tải mỗi ngày.",
+      "implication": "Phối hợp tồn kho theo nhiệt độ, lịch bốc dỡ, năng lực xe và cam kết giao hàng tiếp theo.",
+      "company": "Al Sharqi Shipping / TECOM Group",
+      "market": "UAE / Dubai Industrial City",
+      "sourceLabel": "Phòng tin chính thức TECOM Group"
+    },
+    "me-1013-carriyo-shipment-tracking": {
+      "title": "Carriyo cập nhật trang lô hàng, quyền truy cập và theo dõi hãng vận chuyển",
+      "summary": "Bản R5/R6 ngày 13 tháng 10 mặc định dùng trang lô hàng mới, giữ phạm vi nhà bán khi gửi lại lời mời, cải thiện ánh xạ Ajex và Aramex, đồng thời thêm mã hoàn hàng xuyên biên giới Empost.",
+      "implication": "Kiểm thử lại quyền nhà bán, ngoại lệ theo dõi và cấu hình dịch vụ hoàn hàng.",
+      "company": "Carriyo / Ajex / Aramex / Empost",
+      "market": "UAE / Ả Rập Xê Út và tích hợp vận chuyển xuyên biên giới",
+      "sourceLabel": "Nhật ký cập nhật chính thức Carriyo"
+    },
+    "me-1015-carriyo-integration-alerts": {
+      "title": "Carriyo thêm tài liệu gộp, cảnh báo tích hợp và ba trạng thái tồn kho",
+      "summary": "Bản R7 ngày 15 tháng 10 bổ sung PDF vận chuyển gộp, cảnh báo lỗi webhook và trình kết nối, cùng nhật ký hoạt động. Tồn kho dùng ba trạng thái và bỏ partially_available; lịch lấy hàng xuyên biên giới dùng múi giờ nước lấy hàng.",
+      "implication": "Chuyển đổi bộ lọc tồn kho, cấu hình cảnh báo và kiểm tra múi giờ lấy hàng.",
+      "company": "Carriyo",
+      "market": "UAE / tích hợp nhà bán và hãng vận chuyển xuyên biên giới",
+      "sourceLabel": "Nhật ký cập nhật chính thức Carriyo"
+    },
+    "cn-1018-cwdf-rider-support": {
+      "title": "Chương trình hỗ trợ tài xế công bố kết quả giáo dục và chăm sóc gia đình",
+      "summary": "Phỏng vấn ban tổ chức ngày 18 tháng 10 ghi nhận giải thưởng ngày 17 tháng 10 cùng hỗ trợ tích lũy hơn 61 triệu CNY và 1,1 triệu lượt thụ hưởng từ năm 2023. Đây là công bố tiến độ, không phải chính sách mới.",
+      "implication": "Kết nối đơn xin trợ giúp, đăng ký học và hỗ trợ gia đình liên tục.",
+      "company": "China Workers Development Foundation",
+      "market": "Trung Quốc / tài xế nhiều nền tảng và gia đình",
+      "sourceLabel": "Phỏng vấn gốc IFENG Charity"
     }
   },
   "pt": {
@@ -4913,6 +5105,70 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "Sudeste Asiático / Filipinas, Singapura, Indonésia, Malásia e Tailândia (também Austrália, Nova Zelândia, Japão e Coreia do Sul)",
       "sourceLabel": "Sala de imprensa oficial da FedEx Ásia-Pacífico"
+    },
+    "cn-1014-taobao-yunji-robots": {
+      "title": "Taobao Instant Commerce e Yunji fazem parceria para entregas por robôs dentro de edifícios",
+      "summary": "A Yunji divulgou a parceria em 14 de outubro, voltada a apartamentos e hotéis. Entregadores repassariam pedidos no saguão para robôs levarem até a porta usando elevadores.",
+      "implication": "Plataformas precisam coordenar repasses, acesso aos edifícios, avisos ao destinatário e intervenção humana.",
+      "company": "Taobao Instant Commerce / Yunji",
+      "market": "China / apartamentos e hotéis",
+      "sourceLabel": "Shenzhen Economic Daily / artigo completo Eastmoney"
+    },
+    "latam-1015-ifood-black-friday-retail": {
+      "title": "iFood aposta na Black Friday para ampliar categorias além das refeições",
+      "summary": "Em encontro com jornalistas em 15 de outubro, o iFood projetou alta de 60% nas vendas e aquecimento a partir de 19 de outubro para mercado, farmácia, pet e presentes. A alta é uma meta.",
+      "implication": "A expansão exige estoque, regras de entrega e capacidade promocional específicos por categoria.",
+      "company": "iFood",
+      "market": "Brasil",
+      "sourceLabel": "Seu Dinheiro / encontro com jornalistas do iFood"
+    },
+    "sea-1015-grab-scholar-malaysia": {
+      "title": "Grab Malaysia destaca apoio educacional às famílias com o GrabScholar",
+      "summary": "A Grab anunciou seis bolsistas de 2026 em 15 de outubro, após cerimônia no dia 14. A parceria com a YTAR oferece mensalidades integrais, auxílios e desenvolvimento por dois anos, apoiando famílias de parceiros.",
+      "implication": "Benefícios exigem critérios, seleção e acompanhamento contínuo claros.",
+      "company": "Grab Malaysia / Yayasan Tunku Abdul Rahman",
+      "market": "Malásia",
+      "sourceLabel": "Sala de imprensa oficial da Grab Malaysia"
+    },
+    "eu-1013-fedex-pharma-portal": {
+      "title": "FedEx lança portal de transporte farmacêutico em 26 mercados europeus",
+      "summary": "A FedEx anunciou o portal em 13 de outubro para cadastro, pedidos de embalagens pré-condicionadas, agendamento e devoluções. Ele oferece acesso ao Temp-Assure Advantage e a embalagens reutilizáveis com controle de temperatura.",
+      "implication": "Conectar requisitos térmicos, estoque de embalagens, reservas, rastreamento e devolução de recipientes.",
+      "company": "FedEx Europe",
+      "market": "Europa / 26 mercados",
+      "sourceLabel": "Sala de imprensa oficial da FedEx Europe"
+    },
+    "me-1015-al-sharqi-hub": {
+      "title": "Al Sharqi abre centro logístico multitemperatura de AED 70 milhões em Dubai",
+      "summary": "A TECOM anunciou a abertura em 15 de outubro. O centro atende varejo e comércio rápido, com armazenamento de temperatura ambiente a menos 18°C, 38 faixas de carga e capacidade para até 178 caminhões diários.",
+      "implication": "Coordenar estoque por temperatura, horários de carga, capacidade dos veículos e prazos de entrega posteriores.",
+      "company": "Al Sharqi Shipping / TECOM Group",
+      "market": "Emirados Árabes Unidos / Dubai Industrial City",
+      "sourceLabel": "Sala de imprensa oficial da TECOM Group"
+    },
+    "me-1013-carriyo-shipment-tracking": {
+      "title": "Carriyo atualiza páginas de remessas, permissões e rastreamento regional",
+      "summary": "As versões R5/R6 de 13 de outubro adotam a nova página de remessas, preservam o acesso por lojista nos convites reenviados, melhoram os eventos Ajex e Aramex e adicionam um código de devolução internacional Empost.",
+      "implication": "Testar permissões de lojistas, exceções de rastreamento e configuração dos serviços de devolução.",
+      "company": "Carriyo / Ajex / Aramex / Empost",
+      "market": "Emirados Árabes Unidos / Arábia Saudita e integrações internacionais",
+      "sourceLabel": "Registro oficial de alterações da Carriyo"
+    },
+    "me-1015-carriyo-integration-alerts": {
+      "title": "Carriyo adiciona documentos combinados, alertas de integração e três estados de estoque",
+      "summary": "A versão R7 de 15 de outubro inclui PDFs combinados, alertas de falha em webhooks e conectores e registros de atividade. O estoque passa a três estados, removendo partially_available; a coleta internacional usa o fuso do país de origem.",
+      "implication": "Migrar filtros de estoque, configurar alertas e verificar os fusos de coleta.",
+      "company": "Carriyo",
+      "market": "Emirados Árabes Unidos / integrações internacionais de lojistas e transportadoras",
+      "sourceLabel": "Registro oficial de alterações da Carriyo"
+    },
+    "cn-1018-cwdf-rider-support": {
+      "title": "Programa de apoio a entregadores divulga alcance educacional e familiar",
+      "summary": "Entrevista do organizador em 18 de outubro relatou o prêmio do dia 17 e apoio acumulado superior a CNY61 milhões e 1,1 milhão de atendimentos desde 2023. É uma atualização, não uma política nova.",
+      "implication": "Conectar pedidos de auxílio, matrículas e acompanhamento das famílias.",
+      "company": "China Workers Development Foundation",
+      "market": "China / entregadores de várias plataformas e famílias",
+      "sourceLabel": "Entrevista original IFENG Charity"
     }
   }
 } as const;

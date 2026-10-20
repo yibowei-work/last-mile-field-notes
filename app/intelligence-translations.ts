@@ -1299,6 +1299,14 @@ export const localizedItemCopies = {
       "company": "China Workers Development Foundation",
       "market": "China / riders and families across platforms",
       "sourceLabel": "IFENG Charity original interview"
+    },
+    "me-1019-fedex-gcc-dangerous-goods": {
+      "title": "FedEx expands dangerous-goods road transport across five GCC markets",
+      "summary": "FedEx announced the capability on October 19 across the UAE, Saudi Arabia, Bahrain, Kuwait and Oman. Regional Economy services cover eligible goods with customs clearance and shipment visibility, subject to commodity and route rules.",
+      "implication": "Validate cargo and route eligibility before quoting and booking.",
+      "company": "FedEx",
+      "market": "UAE / Saudi Arabia / Bahrain / Kuwait / Oman",
+      "sourceLabel": "FedEx official newsroom"
     }
   },
   "id": {
@@ -2589,6 +2597,14 @@ export const localizedItemCopies = {
       "company": "China Workers Development Foundation",
       "market": "Tiongkok / kurir lintas platform dan keluarga",
       "sourceLabel": "Wawancara asli IFENG Charity"
+    },
+    "me-1019-fedex-gcc-dangerous-goods": {
+      "title": "FedEx memperluas angkutan darat barang berbahaya di lima pasar GCC",
+      "summary": "FedEx mengumumkan layanan pada 19 Oktober di UEA, Arab Saudi, Bahrain, Kuwait, dan Oman. Regional Economy mencakup barang yang memenuhi syarat, proses kepabeanan, dan pelacakan, sesuai aturan komoditas dan rute.",
+      "implication": "Periksa kelayakan barang dan rute sebelum memberikan harga dan membuat pesanan.",
+      "company": "FedEx",
+      "market": "UEA / Arab Saudi / Bahrain / Kuwait / Oman",
+      "sourceLabel": "Ruang berita resmi FedEx"
     }
   },
   "vi": {
@@ -3879,6 +3895,14 @@ export const localizedItemCopies = {
       "company": "China Workers Development Foundation",
       "market": "Trung Quốc / tài xế nhiều nền tảng và gia đình",
       "sourceLabel": "Phỏng vấn gốc IFENG Charity"
+    },
+    "me-1019-fedex-gcc-dangerous-goods": {
+      "title": "FedEx mở rộng vận chuyển đường bộ hàng nguy hiểm tại năm thị trường GCC",
+      "summary": "FedEx công bố dịch vụ ngày 19 tháng 10 tại UAE, Ả Rập Xê Út, Bahrain, Kuwait và Oman. Regional Economy vận chuyển hàng đủ điều kiện, hỗ trợ thông quan và theo dõi, tùy quy định mặt hàng và tuyến đường.",
+      "implication": "Kiểm tra điều kiện hàng hóa và tuyến đường trước khi báo giá, đặt vận chuyển.",
+      "company": "FedEx",
+      "market": "UAE / Ả Rập Xê Út / Bahrain / Kuwait / Oman",
+      "sourceLabel": "Phòng tin chính thức FedEx"
     }
   },
   "pt": {
@@ -5169,6 +5193,14 @@ export const localizedItemCopies = {
       "company": "China Workers Development Foundation",
       "market": "China / entregadores de várias plataformas e famílias",
       "sourceLabel": "Entrevista original IFENG Charity"
+    },
+    "me-1019-fedex-gcc-dangerous-goods": {
+      "title": "FedEx amplia transporte rodoviário de produtos perigosos em cinco mercados do GCC",
+      "summary": "A FedEx anunciou o serviço em 19 de outubro nos Emirados Árabes Unidos, Arábia Saudita, Bahrein, Kuwait e Omã. Regional Economy transporta mercadorias elegíveis com desembaraço e rastreamento, conforme regras de produto e rota.",
+      "implication": "Validar a elegibilidade da carga e da rota antes de cotar e reservar.",
+      "company": "FedEx",
+      "market": "Emirados Árabes Unidos / Arábia Saudita / Bahrein / Kuwait / Omã",
+      "sourceLabel": "Sala de imprensa oficial da FedEx"
     }
   }
 } as const;

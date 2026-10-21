@@ -1307,6 +1307,30 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "UAE / Saudi Arabia / Bahrain / Kuwait / Oman",
       "sourceLabel": "FedEx official newsroom"
+    },
+    "cn-1020-meituan-locksmith": {
+      "title": "Meituan details Shenyang locksmith safeguards",
+      "summary": "October 20 reporting describes registration checks, service evidence and abnormal-price alerts; not a same-day launch.",
+      "implication": "Connect merchant verification, service records and charge reviews.",
+      "company": "Meituan / Shenyang police and market regulator",
+      "market": "Shenyang, China",
+      "sourceLabel": "IFENG Technology"
+    },
+    "latam-1020-ifood-caju": {
+      "title": "iFood Benefícios signs Caju acquisition agreement",
+      "summary": "Reported October 20: Cade and central-bank approvals remain pending; both businesses continue independently.",
+      "implication": "Watch benefits payments converge with local-commerce access.",
+      "company": "iFood Benefícios / Caju",
+      "market": "Brazil",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "eu-1019-ap-road-disruption": {
+      "title": "Atlantic Pacific flags European freight delays",
+      "summary": "October 19 advisory cites Italian road protests, low Rhine water and Mont Blanc night closures; no confirmed nationwide French disruption.",
+      "implication": "Recheck route-specific collection slots and ETAs.",
+      "company": "Atlantic Pacific Global Logistics",
+      "market": "France / Italy / Germany / Switzerland",
+      "sourceLabel": "Atlantic Pacific official advisory"
     }
   },
   "id": {
@@ -2605,6 +2629,30 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "UEA / Arab Saudi / Bahrain / Kuwait / Oman",
       "sourceLabel": "Ruang berita resmi FedEx"
+    },
+    "cn-1020-meituan-locksmith": {
+      "title": "Meituan memaparkan perlindungan layanan tukang kunci Shenyang",
+      "summary": "Laporan 20 Oktober menjelaskan verifikasi izin, bukti layanan dan peringatan harga; bukan peluncuran hari itu.",
+      "implication": "Hubungkan verifikasi mitra, catatan layanan dan pemeriksaan biaya.",
+      "company": "Meituan / Kepolisian dan regulator pasar Shenyang",
+      "market": "Shenyang, Tiongkok",
+      "sourceLabel": "IFENG Technology"
+    },
+    "latam-1020-ifood-caju": {
+      "title": "iFood Benefícios menandatangani kesepakatan akuisisi Caju",
+      "summary": "Dilaporkan 20 Oktober: persetujuan Cade dan bank sentral masih ditunggu; keduanya tetap beroperasi terpisah.",
+      "implication": "Pantau integrasi pembayaran tunjangan dan akses perdagangan lokal.",
+      "company": "iFood Benefícios / Caju",
+      "market": "Brasil",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "eu-1019-ap-road-disruption": {
+      "title": "Atlantic Pacific memperingatkan keterlambatan angkutan Eropa",
+      "summary": "Pemberitahuan 19 Oktober menyebut protes Italia, air Rhein rendah dan penutupan malam Mont Blanc; gangguan nasional Prancis belum dikonfirmasi.",
+      "implication": "Periksa jadwal penjemputan dan estimasi tiba per rute.",
+      "company": "Atlantic Pacific Global Logistics",
+      "market": "Prancis / Italia / Jerman / Swiss",
+      "sourceLabel": "Pemberitahuan resmi Atlantic Pacific"
     }
   },
   "vi": {
@@ -3903,6 +3951,30 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "UAE / Ả Rập Xê Út / Bahrain / Kuwait / Oman",
       "sourceLabel": "Phòng tin chính thức FedEx"
+    },
+    "cn-1020-meituan-locksmith": {
+      "title": "Meituan công bố tiến độ bảo đảm dịch vụ mở khóa tại Thẩm Dương",
+      "summary": "Bài ngày 20/10 mô tả xác minh đăng ký, bằng chứng dịch vụ và cảnh báo giá; không phải ra mắt cùng ngày.",
+      "implication": "Liên kết xác minh đối tác, hồ sơ dịch vụ và kiểm tra phí.",
+      "company": "Meituan / Công an và cơ quan quản lý thị trường Thẩm Dương",
+      "market": "Thẩm Dương, Trung Quốc",
+      "sourceLabel": "IFENG Technology"
+    },
+    "latam-1020-ifood-caju": {
+      "title": "iFood Benefícios ký thỏa thuận mua Caju",
+      "summary": "Tin ngày 20/10: còn chờ Cade và ngân hàng trung ương phê duyệt; hai bên tiếp tục hoạt động độc lập.",
+      "implication": "Theo dõi kết nối thanh toán phúc lợi với thương mại địa phương.",
+      "company": "iFood Benefícios / Caju",
+      "market": "Brazil",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "eu-1019-ap-road-disruption": {
+      "title": "Atlantic Pacific cảnh báo chậm vận tải tại châu Âu",
+      "summary": "Thông báo 19/10 nêu biểu tình ở Ý, nước sông Rhine thấp và đóng hầm Mont Blanc ban đêm; chưa xác nhận gián đoạn toàn nước Pháp.",
+      "implication": "Kiểm tra lịch lấy hàng và thời gian đến theo tuyến.",
+      "company": "Atlantic Pacific Global Logistics",
+      "market": "Pháp / Ý / Đức / Thụy Sĩ",
+      "sourceLabel": "Thông báo chính thức Atlantic Pacific"
     }
   },
   "pt": {
@@ -5201,6 +5273,30 @@ export const localizedItemCopies = {
       "company": "FedEx",
       "market": "Emirados Árabes Unidos / Arábia Saudita / Bahrein / Kuwait / Omã",
       "sourceLabel": "Sala de imprensa oficial da FedEx"
+    },
+    "cn-1020-meituan-locksmith": {
+      "title": "Meituan detalha proteções para serviços de chaveiro em Shenyang",
+      "summary": "Reportagem de 20 de outubro descreve verificação cadastral, registros e alertas de preço; não é lançamento nessa data.",
+      "implication": "Integrar verificação de parceiros, registros e análise de cobranças.",
+      "company": "Meituan / Polícia e regulador de mercado de Shenyang",
+      "market": "Shenyang, China",
+      "sourceLabel": "IFENG Technology"
+    },
+    "latam-1020-ifood-caju": {
+      "title": "iFood Benefícios assina acordo para comprar Caju",
+      "summary": "Noticiado em 20 de outubro: faltam aprovações do Cade e Banco Central; empresas seguem independentes.",
+      "implication": "Acompanhar benefícios como porta de entrada do comércio local.",
+      "company": "iFood Benefícios / Caju",
+      "market": "Brasil",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "eu-1019-ap-road-disruption": {
+      "title": "Atlantic Pacific alerta para atrasos na Europa",
+      "summary": "Aviso de 19 de outubro cita protestos italianos, baixo nível do Reno e fechamento noturno do Mont Blanc; sem interrupção nacional francesa confirmada.",
+      "implication": "Rever coletas e prazos por rota.",
+      "company": "Atlantic Pacific Global Logistics",
+      "market": "França / Itália / Alemanha / Suíça",
+      "sourceLabel": "Comunicado oficial da Atlantic Pacific"
     }
   }
 } as const;

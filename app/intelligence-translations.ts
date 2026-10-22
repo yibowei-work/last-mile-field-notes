@@ -1331,6 +1331,46 @@ export const localizedItemCopies = {
       "company": "Atlantic Pacific Global Logistics",
       "market": "France / Italy / Germany / Switzerland",
       "sourceLabel": "Atlantic Pacific official advisory"
+    },
+    "cn-1020-meituan-hangzhou-timer": {
+      "title": "Meituan plans Hangzhou timer and meal-readiness pilots",
+      "summary": "Announced October 20: red-light time allowances and merchant meal-readiness cameras are planned pilots, not a completed citywide launch.",
+      "implication": "Coordinate safety allowances, preparation signals and pickup planning.",
+      "company": "Meituan",
+      "market": "Hangzhou, China",
+      "sourceLabel": "IT Home (October 21 report)"
+    },
+    "sea-1020-davao-rider-demands": {
+      "title": "Davao riders seek higher pay and clearer batching rules",
+      "summary": "At an October 20 briefing, UDDRA sought PHP80 base pay and PHP20/km, challenging triple/quadruple batches. These are demands, not adopted rates.",
+      "implication": "Review batch pay, cancellation effects and earnings explanations.",
+      "company": "UDDRA / Grab / foodpanda / Maxim",
+      "market": "Davao, Philippines",
+      "sourceLabel": "Mindanao Times (October 21 report)"
+    },
+    "cn-1021-foodpanda-grab-review": {
+      "title": "foodpanda Taiwan sale to Grab fails to obtain approval",
+      "summary": "Delivery Hero confirmed the TFTC decision on October 21. Appeal rights remain; conditional break-fee protections apply.",
+      "implication": "Maintain approval-failure and independent-operation plans.",
+      "company": "Delivery Hero / Grab / Taiwan Fair Trade Commission",
+      "market": "Taiwan",
+      "sourceLabel": "Delivery Hero / EQS corporate disclosure"
+    },
+    "eu-1021-sennder-platform-integration": {
+      "title": "sennder completes European integration onto sennOS",
+      "summary": "October 21 disclosure describes AI-assisted matching, pricing and exceptions. The reported 45% productivity gain measures gross profit per operator.",
+      "implication": "Audit AI-assisted operations; do not equate them with autonomy.",
+      "company": "sennder / C.H. Robinson",
+      "market": "Europe / cross-border road freight",
+      "sourceLabel": "Post & Parcel"
+    },
+    "eu-1021-bpost-electric-fleet": {
+      "title": "Bpost expects 4,165 electric vans by October-end",
+      "summary": "October 21 announcement forecasts a 42% share. Nearly 900 of this year's 1,100 ordered vans are operating; others follow.",
+      "implication": "Coordinate peak capacity, charging and replacement timing.",
+      "company": "Bpost / Bnode",
+      "market": "Belgium",
+      "sourceLabel": "Bpost / Bnode official announcement"
     }
   },
   "id": {
@@ -2653,6 +2693,46 @@ export const localizedItemCopies = {
       "company": "Atlantic Pacific Global Logistics",
       "market": "Prancis / Italia / Jerman / Swiss",
       "sourceLabel": "Pemberitahuan resmi Atlantic Pacific"
+    },
+    "cn-1020-meituan-hangzhou-timer": {
+      "title": "Meituan merencanakan uji coba waktu dan kesiapan makanan di Hangzhou",
+      "summary": "Diumumkan 20 Oktober: kompensasi waktu lampu merah dan kamera kesiapan makanan masih berupa rencana uji coba, bukan peluncuran seluruh kota.",
+      "implication": "Selaraskan tambahan waktu, status persiapan dan rencana penjemputan.",
+      "company": "Meituan",
+      "market": "Hangzhou, Tiongkok",
+      "sourceLabel": "IT Home (laporan 21 Oktober)"
+    },
+    "sea-1020-davao-rider-demands": {
+      "title": "Kurir Davao menuntut upah dan aturan penggabungan lebih jelas",
+      "summary": "Pada 20 Oktober, UDDRA meminta upah dasar PHP80 dan PHP20/km serta mempertanyakan tiga/empat pesanan sekaligus. Ini tuntutan, bukan tarif berlaku.",
+      "implication": "Tinjau upah gabungan, dampak pembatalan dan penjelasan pendapatan.",
+      "company": "UDDRA / Grab / foodpanda / Maxim",
+      "market": "Davao, Filipina",
+      "sourceLabel": "Mindanao Times (laporan 21 Oktober)"
+    },
+    "cn-1021-foodpanda-grab-review": {
+      "title": "Penjualan foodpanda Taiwan kepada Grab tidak mendapat persetujuan",
+      "summary": "Delivery Hero mengonfirmasi keputusan TFTC pada 21 Oktober. Hak banding tetap ada; perlindungan biaya pembatalan bersyarat berlaku.",
+      "implication": "Siapkan rencana kegagalan persetujuan dan operasi independen.",
+      "company": "Delivery Hero / Grab / Taiwan Fair Trade Commission",
+      "market": "Taiwan",
+      "sourceLabel": "Pengumuman perusahaan Delivery Hero / EQS"
+    },
+    "eu-1021-sennder-platform-integration": {
+      "title": "sennder menyelesaikan integrasi Eropa ke sennOS",
+      "summary": "Pengungkapan 21 Oktober menjelaskan AI untuk pencocokan, harga dan pengecualian. Peningkatan produktivitas 45% mengukur laba kotor per operator.",
+      "implication": "Audit operasi berbantuan AI; jangan menyamakannya dengan otomatisasi penuh.",
+      "company": "sennder / C.H. Robinson",
+      "market": "Eropa / angkutan jalan lintas negara",
+      "sourceLabel": "Post & Parcel"
+    },
+    "eu-1021-bpost-electric-fleet": {
+      "title": "Bpost menargetkan 4.165 van listrik pada akhir Oktober",
+      "summary": "Pengumuman 21 Oktober memperkirakan pangsa 42%. Hampir 900 dari 1.100 van pesanan tahun ini sudah beroperasi; sisanya menyusul.",
+      "implication": "Selaraskan kapasitas puncak, pengisian daya dan jadwal penggantian.",
+      "company": "Bpost / Bnode",
+      "market": "Belgia",
+      "sourceLabel": "Pengumuman resmi Bpost / Bnode"
     }
   },
   "vi": {
@@ -3975,6 +4055,46 @@ export const localizedItemCopies = {
       "company": "Atlantic Pacific Global Logistics",
       "market": "Pháp / Ý / Đức / Thụy Sĩ",
       "sourceLabel": "Thông báo chính thức Atlantic Pacific"
+    },
+    "cn-1020-meituan-hangzhou-timer": {
+      "title": "Meituan lên kế hoạch thử nghiệm bù giờ và trạng thái món ăn tại Hàng Châu",
+      "summary": "Thông báo 20/10: bù thời gian đèn đỏ và camera xác nhận món ăn là kế hoạch thử nghiệm, chưa triển khai toàn thành phố.",
+      "implication": "Kết hợp bù giờ an toàn, trạng thái chuẩn bị và kế hoạch lấy hàng.",
+      "company": "Meituan",
+      "market": "Hàng Châu, Trung Quốc",
+      "sourceLabel": "IT Home (bài ngày 21/10)"
+    },
+    "sea-1020-davao-rider-demands": {
+      "title": "Tài xế Davao yêu cầu tăng thu nhập và minh bạch ghép đơn",
+      "summary": "Ngày 20/10, UDDRA đề nghị mức cơ bản PHP80 và PHP20/km, phản đối ghép ba/bốn đơn. Đây là yêu cầu, không phải biểu phí mới.",
+      "implication": "Rà soát tiền ghép đơn, tác động hủy đơn và giải thích thu nhập.",
+      "company": "UDDRA / Grab / foodpanda / Maxim",
+      "market": "Davao, Philippines",
+      "sourceLabel": "Mindanao Times (bài ngày 21/10)"
+    },
+    "cn-1021-foodpanda-grab-review": {
+      "title": "Thương vụ bán foodpanda Đài Loan cho Grab không được phê duyệt",
+      "summary": "Delivery Hero xác nhận quyết định TFTC ngày 21/10. Quyền kháng nghị vẫn còn; có bảo vệ phí chấm dứt theo điều kiện.",
+      "implication": "Duy trì phương án không được duyệt và hoạt động độc lập.",
+      "company": "Delivery Hero / Grab / Taiwan Fair Trade Commission",
+      "market": "Đài Loan",
+      "sourceLabel": "Công bố doanh nghiệp Delivery Hero / EQS"
+    },
+    "eu-1021-sennder-platform-integration": {
+      "title": "sennder hoàn tất tích hợp châu Âu lên sennOS",
+      "summary": "Công bố 21/10 mô tả AI hỗ trợ ghép tải, định giá và xử lý ngoại lệ. Mức tăng 45% đo lợi nhuận gộp mỗi nhân viên vận hành.",
+      "implication": "Kiểm toán vận hành hỗ trợ AI; không đồng nhất với tự chủ hoàn toàn.",
+      "company": "sennder / C.H. Robinson",
+      "market": "Châu Âu / vận tải đường bộ xuyên biên giới",
+      "sourceLabel": "Post & Parcel"
+    },
+    "eu-1021-bpost-electric-fleet": {
+      "title": "Bpost dự kiến có 4.165 xe tải nhẹ điện cuối tháng 10",
+      "summary": "Thông báo 21/10 dự kiến tỷ trọng 42%. Gần 900 trong 1.100 xe đặt năm nay đã hoạt động; số còn lại triển khai sau.",
+      "implication": "Phối hợp công suất cao điểm, sạc và lịch thay xe.",
+      "company": "Bpost / Bnode",
+      "market": "Bỉ",
+      "sourceLabel": "Thông báo chính thức Bpost / Bnode"
     }
   },
   "pt": {
@@ -5297,6 +5417,46 @@ export const localizedItemCopies = {
       "company": "Atlantic Pacific Global Logistics",
       "market": "França / Itália / Alemanha / Suíça",
       "sourceLabel": "Comunicado oficial da Atlantic Pacific"
+    },
+    "cn-1020-meituan-hangzhou-timer": {
+      "title": "Meituan planeja pilotos de tempo e preparo em Hangzhou",
+      "summary": "Anúncio de 20 de outubro prevê compensação por semáforos e câmeras de preparo; são pilotos planejados, não lançamento municipal concluído.",
+      "implication": "Coordenar tempo de segurança, preparo e coleta.",
+      "company": "Meituan",
+      "market": "Hangzhou, China",
+      "sourceLabel": "IT Home (reportagem de 21 de outubro)"
+    },
+    "sea-1020-davao-rider-demands": {
+      "title": "Entregadores de Davao pedem remuneração e regras claras para lotes",
+      "summary": "Em 20 de outubro, a UDDRA pediu base de PHP80 e PHP20/km e questionou lotes triplos/quádruplos. São reivindicações, não tarifas aprovadas.",
+      "implication": "Rever pagamento por lote, cancelamentos e explicações de ganhos.",
+      "company": "UDDRA / Grab / foodpanda / Maxim",
+      "market": "Davao, Filipinas",
+      "sourceLabel": "Mindanao Times (reportagem de 21 de outubro)"
+    },
+    "cn-1021-foodpanda-grab-review": {
+      "title": "Venda da foodpanda Taiwan à Grab não obtém aprovação",
+      "summary": "Delivery Hero confirmou a decisão da TFTC em 21 de outubro. Cabe recurso; existem proteções contratuais condicionais por rescisão.",
+      "implication": "Manter planos para reprovação e operação independente.",
+      "company": "Delivery Hero / Grab / Taiwan Fair Trade Commission",
+      "market": "Taiwan",
+      "sourceLabel": "Comunicado empresarial Delivery Hero / EQS"
+    },
+    "eu-1021-sennder-platform-integration": {
+      "title": "sennder conclui integração europeia na sennOS",
+      "summary": "Divulgação de 21 de outubro descreve IA no pareamento, preços e exceções. O ganho declarado de 45% mede lucro bruto por operador.",
+      "implication": "Auditar operação assistida por IA, sem confundir com autonomia.",
+      "company": "sennder / C.H. Robinson",
+      "market": "Europa / transporte rodoviário internacional",
+      "sourceLabel": "Post & Parcel"
+    },
+    "eu-1021-bpost-electric-fleet": {
+      "title": "Bpost prevê 4.165 furgões elétricos até o fim de outubro",
+      "summary": "Anúncio de 21 de outubro prevê participação de 42%. Quase 900 dos 1.100 encomendados neste ano já operam; os demais virão depois.",
+      "implication": "Coordenar capacidade de pico, recarga e substituição.",
+      "company": "Bpost / Bnode",
+      "market": "Bélgica",
+      "sourceLabel": "Comunicado oficial Bpost / Bnode"
     }
   }
 } as const;

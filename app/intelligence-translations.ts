@@ -1371,6 +1371,46 @@ export const localizedItemCopies = {
       "company": "Bpost / Bnode",
       "market": "Belgium",
       "sourceLabel": "Bpost / Bnode official announcement"
+    },
+    "me-1020-rcl-mpci": {
+      "title": "RCL issues UAE MPCI filing and surcharge advisory",
+      "summary": "October 20 notice requires complete SI/B/L drafts 48 hours before loading-port ETA; late documents risk rollover or no-load. Surcharge effective date is October 16.",
+      "implication": "Validate document deadlines and fees separately from publication date.",
+      "company": "Regional Container Lines (RCL)",
+      "market": "UAE / imports, transshipment and FROB cargo",
+      "sourceLabel": "RCL official customer advisory"
+    },
+    "eu-1020-postnl-postal-reform": {
+      "title": "PostNL seeks postal reform and 2027 compensation",
+      "summary": "October 20 release requests EUR80m and proposes three-delivery-day standard mail with Tuesday–Friday rounds. Political approval and preparation are needed; earliest 2028, not a current parcel rule.",
+      "implication": "Separate letter and parcel SLAs when planning systems and staffing.",
+      "company": "PostNL",
+      "market": "Netherlands",
+      "sourceLabel": "PostNL official newsroom"
+    },
+    "latam-1022-keeta-99food-contracts": {
+      "title": "Keeta challenges 99Food contract changes; 99Food disputes allegations",
+      "summary": "October 22 reporting describes a dispute over allowing one additional platform. 99Food says revisions comply with the interim ruling; this is not a new final judgment.",
+      "implication": "Audit actual merchant choice, contract versions and sales messaging.",
+      "company": "Keeta / 99Food",
+      "market": "Brazil",
+      "sourceLabel": "Mercado&Consumo / Estadão Conteúdo"
+    },
+    "latam-1022-dhl-peak-automation": {
+      "title": "DHL Brazil combines peak hiring, robots and OCR sorting",
+      "summary": "October 22 reporting describes about 2,600 planned temporary hires and OCR-to-WMS routing. The 37m-item holiday figure is a forecast, not completed orders.",
+      "implication": "Align warehouse capacity and outbound routes with B2B/B2C order mix.",
+      "company": "DHL Supply Chain",
+      "market": "Brazil",
+      "sourceLabel": "Mercado&Consumo on-site reporting"
+    },
+    "latam-1022-shopee-peak-hiring": {
+      "title": "Shopee Brazil outlines over 14,000 year-end openings",
+      "summary": "October 22 reporting covers permanent and temporary logistics and office jobs, not solely couriers. Logistics hiring spans 19 states and the Federal District for peak campaigns.",
+      "implication": "Link hiring conversion and training to site capacity; openings are not active fleet.",
+      "company": "Shopee",
+      "market": "Brazil / 19 states and Federal District",
+      "sourceLabel": "Mercado&Consumo / Shopee"
     }
   },
   "id": {
@@ -2733,6 +2773,46 @@ export const localizedItemCopies = {
       "company": "Bpost / Bnode",
       "market": "Belgia",
       "sourceLabel": "Pengumuman resmi Bpost / Bnode"
+    },
+    "me-1020-rcl-mpci": {
+      "title": "RCL menerbitkan pemberitahuan MPCI dan biaya tambahan UEA",
+      "summary": "Pemberitahuan 20 Oktober meminta SI/draf B/L lengkap 48 jam sebelum ETA pelabuhan muat; keterlambatan berisiko penundaan atau larangan muat. Biaya berlaku sejak 16 Oktober.",
+      "implication": "Validasi tenggat dokumen dan biaya terpisah dari tanggal publikasi.",
+      "company": "Regional Container Lines (RCL)",
+      "market": "UEA / impor, transshipment dan muatan FROB",
+      "sourceLabel": "Pemberitahuan pelanggan resmi RCL"
+    },
+    "eu-1020-postnl-postal-reform": {
+      "title": "PostNL meminta reformasi pos dan kompensasi 2027",
+      "summary": "Rilis 20 Oktober meminta EUR80 juta serta mengusulkan surat standar dalam tiga hari pengantaran, Selasa–Jumat. Perlu keputusan dan persiapan; paling cepat 2028, bukan aturan paket saat ini.",
+      "implication": "Pisahkan SLA surat dan paket dalam perencanaan sistem serta tenaga kerja.",
+      "company": "PostNL",
+      "market": "Belanda",
+      "sourceLabel": "Ruang berita resmi PostNL"
+    },
+    "latam-1022-keeta-99food-contracts": {
+      "title": "Keeta menggugat perubahan kontrak 99Food; 99Food membantah",
+      "summary": "Laporan 22 Oktober membahas izin memilih satu platform tambahan. 99Food menyatakan revisi mematuhi putusan sementara; bukan putusan final baru.",
+      "implication": "Audit pilihan nyata mitra, versi kontrak dan komunikasi penjualan.",
+      "company": "Keeta / 99Food",
+      "market": "Brasil",
+      "sourceLabel": "Mercado&Consumo / Estadão Conteúdo"
+    },
+    "latam-1022-dhl-peak-automation": {
+      "title": "DHL Brasil menggabungkan rekrutmen, robot dan sortir OCR",
+      "summary": "Laporan 22 Oktober menyebut rencana sekitar 2.600 pekerja sementara serta perutean OCR ke WMS. Angka 37 juta barang adalah proyeksi, bukan pesanan selesai.",
+      "implication": "Selaraskan kapasitas gudang dan rute keluar dengan komposisi B2B/B2C.",
+      "company": "DHL Supply Chain",
+      "market": "Brasil",
+      "sourceLabel": "Liputan lapangan Mercado&Consumo"
+    },
+    "latam-1022-shopee-peak-hiring": {
+      "title": "Shopee Brasil mengumumkan lebih dari 14.000 lowongan akhir tahun",
+      "summary": "Laporan 22 Oktober mencakup pekerjaan logistik dan kantor, tetap maupun sementara, bukan hanya kurir. Perekrutan logistik meliputi 19 negara bagian dan Distrik Federal.",
+      "implication": "Hubungkan perekrutan dan pelatihan dengan kapasitas lokasi; lowongan bukan armada aktif.",
+      "company": "Shopee",
+      "market": "Brasil / 19 negara bagian dan Distrik Federal",
+      "sourceLabel": "Mercado&Consumo / Shopee"
     }
   },
   "vi": {
@@ -4095,6 +4175,46 @@ export const localizedItemCopies = {
       "company": "Bpost / Bnode",
       "market": "Bỉ",
       "sourceLabel": "Thông báo chính thức Bpost / Bnode"
+    },
+    "me-1020-rcl-mpci": {
+      "title": "RCL thông báo khai báo MPCI và phụ phí UAE",
+      "summary": "Thông báo 20/10 yêu cầu SI/dự thảo B/L đầy đủ trước ETA cảng xếp 48 giờ; chậm có thể bị chuyển chuyến hoặc cấm xếp. Phụ phí có hiệu lực từ 16/10.",
+      "implication": "Kiểm tra hạn chứng từ và phí riêng với ngày công bố.",
+      "company": "Regional Container Lines (RCL)",
+      "market": "UAE / hàng nhập, chuyển tải và FROB",
+      "sourceLabel": "Thông báo khách hàng chính thức RCL"
+    },
+    "eu-1020-postnl-postal-reform": {
+      "title": "PostNL đề nghị cải cách bưu chính và bồi hoàn năm 2027",
+      "summary": "Thông cáo 20/10 đề nghị EUR80 triệu và thư thường trong ba ngày phát, từ thứ Ba đến thứ Sáu. Cần quyết định và chuẩn bị; sớm nhất 2028, không phải quy tắc kiện hàng hiện hành.",
+      "implication": "Tách SLA thư và kiện hàng khi lập kế hoạch hệ thống, nhân sự.",
+      "company": "PostNL",
+      "market": "Hà Lan",
+      "sourceLabel": "Phòng tin chính thức PostNL"
+    },
+    "latam-1022-keeta-99food-contracts": {
+      "title": "Keeta phản đối sửa đổi hợp đồng 99Food; 99Food bác cáo buộc",
+      "summary": "Bài 22/10 nêu tranh chấp về quyền chọn thêm một nền tảng. 99Food nói sửa đổi tuân thủ quyết định tạm thời; chưa có phán quyết chung thẩm mới.",
+      "implication": "Kiểm tra lựa chọn thực tế của đối tác, phiên bản hợp đồng và thông điệp bán hàng.",
+      "company": "Keeta / 99Food",
+      "market": "Brazil",
+      "sourceLabel": "Mercado&Consumo / Estadão Conteúdo"
+    },
+    "latam-1022-dhl-peak-automation": {
+      "title": "DHL Brazil kết hợp tuyển dụng cao điểm, robot và phân loại OCR",
+      "summary": "Bài 22/10 nêu kế hoạch khoảng 2.600 lao động thời vụ và định tuyến OCR sang WMS. Con số 37 triệu sản phẩm là dự báo, không phải đơn đã hoàn tất.",
+      "implication": "Phối hợp công suất kho và tuyến xuất hàng theo cơ cấu B2B/B2C.",
+      "company": "DHL Supply Chain",
+      "market": "Brazil",
+      "sourceLabel": "Tường thuật hiện trường Mercado&Consumo"
+    },
+    "latam-1022-shopee-peak-hiring": {
+      "title": "Shopee Brazil công bố hơn 14.000 vị trí cuối năm",
+      "summary": "Bài 22/10 gồm việc hậu cần và văn phòng, chính thức và thời vụ, không chỉ tài xế. Tuyển dụng hậu cần trải rộng 19 bang và Đặc khu Liên bang.",
+      "implication": "Gắn kết tuyển dụng, đào tạo và công suất cơ sở; vị trí tuyển chưa là đội ngũ hoạt động.",
+      "company": "Shopee",
+      "market": "Brazil / 19 bang và Đặc khu Liên bang",
+      "sourceLabel": "Mercado&Consumo / Shopee"
     }
   },
   "pt": {
@@ -5457,6 +5577,46 @@ export const localizedItemCopies = {
       "company": "Bpost / Bnode",
       "market": "Bélgica",
       "sourceLabel": "Comunicado oficial Bpost / Bnode"
+    },
+    "me-1020-rcl-mpci": {
+      "title": "RCL divulga exigências MPCI e sobretaxa nos Emirados",
+      "summary": "Aviso de 20 de outubro exige SI/minuta de B/L completos 48 horas antes da ETA no porto de embarque; atrasos podem impedir embarque. Sobretaxa vigente desde 16 de outubro.",
+      "implication": "Validar prazos e taxas separadamente da data de publicação.",
+      "company": "Regional Container Lines (RCL)",
+      "market": "Emirados Árabes Unidos / importação, transbordo e FROB",
+      "sourceLabel": "Comunicado oficial da RCL"
+    },
+    "eu-1020-postnl-postal-reform": {
+      "title": "PostNL pede reforma postal e compensação para 2027",
+      "summary": "Comunicado de 20 de outubro solicita EUR80 milhões e propõe cartas em três dias de entrega, de terça a sexta. Depende de decisões e preparação; no mínimo 2028, não regra atual para encomendas.",
+      "implication": "Separar SLAs de cartas e encomendas no planejamento.",
+      "company": "PostNL",
+      "market": "Países Baixos",
+      "sourceLabel": "Sala de imprensa oficial PostNL"
+    },
+    "latam-1022-keeta-99food-contracts": {
+      "title": "Keeta contesta aditivos da 99Food; empresa defende conformidade",
+      "summary": "Reportagem de 22 de outubro aborda permissão para mais uma plataforma. A 99Food diz cumprir a decisão provisória; não há novo julgamento definitivo.",
+      "implication": "Auditar escolha real dos restaurantes, versões contratuais e comunicação comercial.",
+      "company": "Keeta / 99Food",
+      "market": "Brasil",
+      "sourceLabel": "Mercado&Consumo / Estadão Conteúdo"
+    },
+    "latam-1022-dhl-peak-automation": {
+      "title": "DHL Brasil combina temporários, robôs e triagem OCR",
+      "summary": "Reportagem de 22 de outubro descreve cerca de 2.600 contratações previstas e roteamento de OCR ao WMS. Os 37 milhões de itens são projeção, não pedidos concluídos.",
+      "implication": "Alinhar capacidade e expedição ao mix B2B/B2C.",
+      "company": "DHL Supply Chain",
+      "market": "Brasil",
+      "sourceLabel": "Reportagem presencial Mercado&Consumo"
+    },
+    "latam-1022-shopee-peak-hiring": {
+      "title": "Shopee Brasil divulga mais de 14 mil vagas de fim de ano",
+      "summary": "Reportagem de 22 de outubro inclui postos logísticos e corporativos, efetivos e temporários, não apenas entregadores. A contratação logística abrange 19 estados e o Distrito Federal.",
+      "implication": "Relacionar contratação e treinamento à capacidade; vagas não são frota ativa.",
+      "company": "Shopee",
+      "market": "Brasil / 19 estados e Distrito Federal",
+      "sourceLabel": "Mercado&Consumo / Shopee"
     }
   }
 } as const;

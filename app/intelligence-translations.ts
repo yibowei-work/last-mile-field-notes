@@ -1411,6 +1411,46 @@ export const localizedItemCopies = {
       "company": "Shopee",
       "market": "Brazil / 19 states and Federal District",
       "sourceLabel": "Mercado&Consumo / Shopee"
+    },
+    "cn-1023-meituan-dine-weekend": {
+      "title": "Meituan previews October 24 dine-in weekend promotions",
+      "summary": "October 23 reporting outlines an app-search entry and four Friday–Sunday coupon windows, with discounts up to CNY150. Venue eligibility and coupon conditions apply.",
+      "implication": "Coordinate subsidy timing and dine-in capacity; these are not delivery discounts.",
+      "company": "Meituan",
+      "market": "China / participating venues and districts",
+      "sourceLabel": "IFENG Finance"
+    },
+    "sea-1020-singapore-haze-support": {
+      "title": "Singapore platforms describe rider support during haze",
+      "summary": "CNA's October 20 report cites Grab's no-penalty position and foodpanda's haze support and excused breaks. Riders still fear missing incentive targets; not a new October 23 rule.",
+      "implication": "Test incentive thresholds and earnings alongside safety waivers.",
+      "company": "Grab / foodpanda",
+      "market": "Singapore",
+      "sourceLabel": "CNA original reporting"
+    },
+    "cn-1022-meituan-winter-support": {
+      "title": "Meituan details winter support across 186 cities",
+      "summary": "October 22 disclosure plans supplies and clothing subsidies for over one million riders. Initial deliveries prioritize cold cities; self-heating vests are planned, not fully distributed.",
+      "implication": "Plan supplies by climate, delivery hours and arrival status.",
+      "company": "Meituan",
+      "market": "China / 186 cities",
+      "sourceLabel": "Meituan newsroom / Xinhua"
+    },
+    "me-1021-carriyo-intelligence-beta": {
+      "title": "Carriyo reports progress in its Intelligence closed beta",
+      "summary": "October 21 post describes selected accounts using Revenue at Risk and CX Score, shipment drill-downs, carrier comparisons and report sharing. No public signup or general launch.",
+      "implication": "Validate risk definitions against underlying orders before operational use.",
+      "company": "Carriyo",
+      "market": "UAE / selected Carriyo customer accounts",
+      "sourceLabel": "Carriyo official blog"
+    },
+    "latam-1019-lalamove-rio-office": {
+      "title": "Lalamove opens Rio office to test corporate-service operations",
+      "summary": "October 19 interview describes local corporate support and larger-vehicle demand. The company reports 32% growth in that category and may replicate the office model; not a new city launch.",
+      "implication": "Design city operations around consolidation, vehicle matching and business feedback.",
+      "company": "Lalamove",
+      "market": "Rio de Janeiro, Brazil",
+      "sourceLabel": "Mercado&Consumo original interview"
     }
   },
   "id": {
@@ -2813,6 +2853,46 @@ export const localizedItemCopies = {
       "company": "Shopee",
       "market": "Brasil / 19 negara bagian dan Distrik Federal",
       "sourceLabel": "Mercado&Consumo / Shopee"
+    },
+    "cn-1023-meituan-dine-weekend": {
+      "title": "Meituan mengumumkan promosi makan di tempat mulai 24 Oktober",
+      "summary": "Laporan 23 Oktober menjelaskan akses lewat pencarian aplikasi dan empat waktu kupon Jumat–Minggu, potongan hingga CNY150. Berlaku syarat kupon dan lokasi.",
+      "implication": "Selaraskan waktu subsidi dan kapasitas makan di tempat, bukan diskon pengantaran.",
+      "company": "Meituan",
+      "market": "Tiongkok / lokasi dan kawasan peserta",
+      "sourceLabel": "IFENG Finance"
+    },
+    "sea-1020-singapore-haze-support": {
+      "title": "Platform Singapura menjelaskan dukungan kurir saat kabut asap",
+      "summary": "Laporan asli CNA 20 Oktober menyebut sikap tanpa penalti Grab serta dukungan dan jeda foodpanda. Kurir masih khawatir target insentif; bukan aturan baru 23 Oktober.",
+      "implication": "Uji ambang insentif dan pendapatan bersama pengecualian keselamatan.",
+      "company": "Grab / foodpanda",
+      "market": "Singapura",
+      "sourceLabel": "Laporan asli CNA"
+    },
+    "cn-1022-meituan-winter-support": {
+      "title": "Meituan merinci dukungan musim dingin di 186 kota",
+      "summary": "Pengungkapan 22 Oktober merencanakan perlengkapan dan subsidi pakaian untuk lebih dari satu juta kurir. Pengiriman awal memprioritaskan kota dingin; rompi pemanas masih direncanakan.",
+      "implication": "Rencanakan persediaan menurut iklim, jam pengantaran dan status kedatangan.",
+      "company": "Meituan",
+      "market": "Tiongkok / 186 kota",
+      "sourceLabel": "Ruang berita Meituan / Xinhua"
+    },
+    "me-1021-carriyo-intelligence-beta": {
+      "title": "Carriyo melaporkan perkembangan beta tertutup Intelligence",
+      "summary": "Tulisan 21 Oktober menjelaskan akun terpilih memakai Revenue at Risk dan CX Score, rincian kiriman, perbandingan kurir dan berbagi laporan. Tidak ada pendaftaran publik.",
+      "implication": "Validasi definisi risiko terhadap pesanan sebelum penggunaan operasional.",
+      "company": "Carriyo",
+      "market": "UEA / akun pelanggan Carriyo terpilih",
+      "sourceLabel": "Blog resmi Carriyo"
+    },
+    "latam-1019-lalamove-rio-office": {
+      "title": "Lalamove membuka kantor Rio untuk menguji layanan korporat",
+      "summary": "Wawancara 19 Oktober membahas dukungan lokal dan permintaan kendaraan besar. Perusahaan melaporkan pertumbuhan kategori 32% dan mempertimbangkan replikasi; bukan peluncuran kota baru.",
+      "implication": "Rancang operasi kota berdasarkan konsolidasi, pemilihan kendaraan dan masukan bisnis.",
+      "company": "Lalamove",
+      "market": "Rio de Janeiro, Brasil",
+      "sourceLabel": "Wawancara asli Mercado&Consumo"
     }
   },
   "vi": {
@@ -4215,6 +4295,46 @@ export const localizedItemCopies = {
       "company": "Shopee",
       "market": "Brazil / 19 bang và Đặc khu Liên bang",
       "sourceLabel": "Mercado&Consumo / Shopee"
+    },
+    "cn-1023-meituan-dine-weekend": {
+      "title": "Meituan giới thiệu khuyến mại ăn tại chỗ ngày 24/10",
+      "summary": "Bài 23/10 nêu lối vào qua tìm kiếm ứng dụng và bốn khung phát mã thứ Sáu–Chủ nhật, giảm tối đa CNY150. Có điều kiện về quán và mã.",
+      "implication": "Phối hợp thời điểm trợ giá với công suất phục vụ tại chỗ; không phải giảm phí giao hàng.",
+      "company": "Meituan",
+      "market": "Trung Quốc / quán và khu thương mại tham gia",
+      "sourceLabel": "IFENG Finance"
+    },
+    "sea-1020-singapore-haze-support": {
+      "title": "Nền tảng Singapore nêu hỗ trợ tài xế trong khói mù",
+      "summary": "Bài gốc CNA ngày 20/10 nêu cam kết không phạt của Grab cùng hỗ trợ và nghỉ có lý do của foodpanda. Tài xế vẫn lo chỉ tiêu thưởng; không phải quy tắc mới 23/10.",
+      "implication": "Kiểm tra ngưỡng thưởng và thu nhập bên cạnh miễn trừ an toàn.",
+      "company": "Grab / foodpanda",
+      "market": "Singapore",
+      "sourceLabel": "Bài gốc CNA"
+    },
+    "cn-1022-meituan-winter-support": {
+      "title": "Meituan công bố hỗ trợ mùa đông tại 186 thành phố",
+      "summary": "Công bố 22/10 dự kiến vật tư và trợ cấp trang phục cho hơn một triệu tài xế. Đợt đầu ưu tiên vùng lạnh; áo gi-lê tự sưởi còn là kế hoạch.",
+      "implication": "Phân bổ vật tư theo khí hậu, thời gian giao và tiến độ nhận hàng.",
+      "company": "Meituan",
+      "market": "Trung Quốc / 186 thành phố",
+      "sourceLabel": "Phòng tin Meituan / Xinhua"
+    },
+    "me-1021-carriyo-intelligence-beta": {
+      "title": "Carriyo cập nhật thử nghiệm kín Intelligence",
+      "summary": "Bài 21/10 nêu tài khoản được chọn dùng Revenue at Risk và CX Score, xem chi tiết kiện hàng, so sánh hãng vận chuyển và chia sẻ báo cáo. Chưa đăng ký công khai.",
+      "implication": "Đối chiếu định nghĩa rủi ro với đơn hàng trước khi dùng trong vận hành.",
+      "company": "Carriyo",
+      "market": "UAE / tài khoản khách hàng Carriyo được chọn",
+      "sourceLabel": "Blog chính thức Carriyo"
+    },
+    "latam-1019-lalamove-rio-office": {
+      "title": "Lalamove mở văn phòng Rio để thử mô hình phục vụ doanh nghiệp",
+      "summary": "Phỏng vấn 19/10 nêu hỗ trợ địa phương và nhu cầu xe lớn. Công ty báo tăng 32% ở nhóm này và cân nhắc nhân rộng; không phải mở thành phố mới.",
+      "implication": "Thiết kế vận hành theo gom đơn, ghép loại xe và phản hồi doanh nghiệp.",
+      "company": "Lalamove",
+      "market": "Rio de Janeiro, Brazil",
+      "sourceLabel": "Phỏng vấn gốc Mercado&Consumo"
     }
   },
   "pt": {
@@ -5617,6 +5737,46 @@ export const localizedItemCopies = {
       "company": "Shopee",
       "market": "Brasil / 19 estados e Distrito Federal",
       "sourceLabel": "Mercado&Consumo / Shopee"
+    },
+    "cn-1023-meituan-dine-weekend": {
+      "title": "Meituan antecipa promoções presenciais para 24 de outubro",
+      "summary": "Reportagem de 23 de outubro descreve busca no app e quatro janelas de cupons de sexta a domingo, até CNY150 de desconto. Aplicam-se condições e locais elegíveis.",
+      "implication": "Coordenar subsídios e capacidade presencial; não são descontos de entrega.",
+      "company": "Meituan",
+      "market": "China / estabelecimentos e áreas participantes",
+      "sourceLabel": "IFENG Finance"
+    },
+    "sea-1020-singapore-haze-support": {
+      "title": "Plataformas de Singapura detalham apoio durante a névoa",
+      "summary": "Reportagem original da CNA de 20 de outubro cita ausência de penalidades na Grab e apoio e pausas da foodpanda. Entregadores temem perder metas; não é regra nova do dia 23.",
+      "implication": "Avaliar metas e ganhos junto às dispensas de segurança.",
+      "company": "Grab / foodpanda",
+      "market": "Singapura",
+      "sourceLabel": "Reportagem original CNA"
+    },
+    "cn-1022-meituan-winter-support": {
+      "title": "Meituan detalha apoio de inverno em 186 cidades",
+      "summary": "Divulgação de 22 de outubro prevê materiais e subsídios de roupas para mais de um milhão de entregadores. Primeiras remessas priorizam cidades frias; coletes aquecidos ainda são planejados.",
+      "implication": "Distribuir materiais conforme clima, jornada e chegada dos estoques.",
+      "company": "Meituan",
+      "market": "China / 186 cidades",
+      "sourceLabel": "Sala de imprensa Meituan / Xinhua"
+    },
+    "me-1021-carriyo-intelligence-beta": {
+      "title": "Carriyo atualiza beta fechado do Intelligence",
+      "summary": "Publicação de 21 de outubro descreve contas selecionadas usando Revenue at Risk e CX Score, detalhes de remessas, comparação de transportadoras e compartilhamento. Sem cadastro público.",
+      "implication": "Validar definições de risco contra pedidos antes do uso operacional.",
+      "company": "Carriyo",
+      "market": "Emirados Árabes Unidos / contas Carriyo selecionadas",
+      "sourceLabel": "Blog oficial Carriyo"
+    },
+    "latam-1019-lalamove-rio-office": {
+      "title": "Lalamove abre escritório no Rio para testar atendimento corporativo",
+      "summary": "Entrevista de 19 de outubro descreve suporte local e demanda por veículos maiores. A empresa relata alta de 32% nessa categoria e avalia replicação; não é estreia na cidade.",
+      "implication": "Orientar operação por consolidação, escolha de veículos e feedback empresarial.",
+      "company": "Lalamove",
+      "market": "Rio de Janeiro, Brasil",
+      "sourceLabel": "Entrevista original Mercado&Consumo"
     }
   }
 } as const;

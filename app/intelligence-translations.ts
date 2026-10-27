@@ -1451,6 +1451,22 @@ export const localizedItemCopies = {
       "company": "Lalamove",
       "market": "Rio de Janeiro, Brazil",
       "sourceLabel": "Mercado&Consumo original interview"
+    },
+    "latam-1025-nuvemshop-rio-crossdock": {
+      "title": "Nuvemshop opens Rio cross-dock with expected freight and delivery gains",
+      "summary": "October 25 reporting describes a new Rio de Janeiro cross-dock. Nuvemshop expects merchant freight savings of at least 20% and delivery up to five days faster for some destinations; these are projections, not a universal achieved SLA.",
+      "implication": "Tie freight quotes and ETAs to actual hub coverage; validate savings before changing merchant promises.",
+      "company": "Nuvemshop / Nuvem Envio",
+      "market": "Brazil / Rio de Janeiro",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "latam-1026-geek-seal-automation": {
+      "title": "Geek+ and Seal Sistemas partner on warehouse automation in Brazil",
+      "summary": "October 26 reporting says Geek+ will supply robots, software, integration tools and training to Seal Logistics. Seal will handle local sales, planning, implementation and support, initially for shelf-to-person picking and sorting. No completed nationwide rollout is disclosed.",
+      "implication": "Assess phased robotics integration with existing systems, staff training and acceptance tests; a signed partnership is not demonstrated productivity improvement.",
+      "company": "Geek+ / Seal Sistemas",
+      "market": "Brazil",
+      "sourceLabel": "Tecnologística"
     }
   },
   "id": {
@@ -2893,6 +2909,22 @@ export const localizedItemCopies = {
       "company": "Lalamove",
       "market": "Rio de Janeiro, Brasil",
       "sourceLabel": "Wawancara asli Mercado&Consumo"
+    },
+    "latam-1025-nuvemshop-rio-crossdock": {
+      "title": "Nuvemshop membuka pusat cross-docking di Rio dengan proyeksi penghematan ongkir",
+      "summary": "Laporan 25 Oktober membahas pusat cross-docking baru di Rio de Janeiro. Nuvemshop memperkirakan ongkir pedagang turun setidaknya 20% dan pengiriman ke tujuan tertentu hingga lima hari lebih cepat; bukan SLA seragam yang sudah tercapai.",
+      "implication": "Sesuaikan estimasi ongkir dan waktu tiba dengan cakupan pusat yang nyata; validasi penghematan sebelum mengubah janji kepada pedagang.",
+      "company": "Nuvemshop / Nuvem Envio",
+      "market": "Brasil / Rio de Janeiro",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "latam-1026-geek-seal-automation": {
+      "title": "Geek+ dan Seal Sistemas bermitra untuk otomasi gudang di Brasil",
+      "summary": "Laporan 26 Oktober menyebut Geek+ akan menyediakan robot, perangkat lunak, alat integrasi dan pelatihan untuk Seal Logistics. Seal menangani penjualan, perencanaan, implementasi dan dukungan lokal, dengan fokus awal pengambilan shelf-to-person dan penyortiran. Tidak ada pengumuman penerapan nasional yang telah selesai.",
+      "implication": "Evaluasi integrasi robot secara bertahap dengan sistem lama, pelatihan staf dan uji penerimaan; kemitraan belum membuktikan peningkatan produktivitas.",
+      "company": "Geek+ / Seal Sistemas",
+      "market": "Brasil",
+      "sourceLabel": "Tecnologística"
     }
   },
   "vi": {
@@ -4335,6 +4367,22 @@ export const localizedItemCopies = {
       "company": "Lalamove",
       "market": "Rio de Janeiro, Brazil",
       "sourceLabel": "Phỏng vấn gốc Mercado&Consumo"
+    },
+    "latam-1025-nuvemshop-rio-crossdock": {
+      "title": "Nuvemshop mở trung tâm trung chuyển tại Rio, kỳ vọng giảm cước và thời gian giao",
+      "summary": "Bài ngày 25/10 giới thiệu trung tâm cross-docking mới tại Rio de Janeiro. Nuvemshop dự kiến cước của người bán giảm ít nhất 20% và một số điểm đến nhận hàng sớm hơn tối đa năm ngày; đây là dự báo, không phải SLA đồng loạt đã đạt được.",
+      "implication": "Gắn báo giá và thời gian giao dự kiến với phạm vi trung chuyển thực tế; kiểm chứng tiết kiệm trước khi thay đổi cam kết với người bán.",
+      "company": "Nuvemshop / Nuvem Envio",
+      "market": "Brazil / Rio de Janeiro",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "latam-1026-geek-seal-automation": {
+      "title": "Geek+ hợp tác với Seal Sistemas về tự động hóa kho tại Brazil",
+      "summary": "Bài ngày 26/10 cho biết Geek+ sẽ cung cấp robot, phần mềm, công cụ tích hợp và đào tạo cho Seal Logistics. Seal phụ trách bán hàng, thiết kế, triển khai và hỗ trợ tại Brazil, trước mắt tập trung lấy hàng theo mô hình kệ đến người và phân loại. Chưa công bố triển khai hoàn tất trên toàn quốc.",
+      "implication": "Đánh giá tích hợp robot theo giai đoạn với hệ thống hiện có, đào tạo và nghiệm thu; ký hợp tác không đồng nghĩa năng suất đã tăng.",
+      "company": "Geek+ / Seal Sistemas",
+      "market": "Brazil",
+      "sourceLabel": "Tecnologística"
     }
   },
   "pt": {
@@ -5777,6 +5825,22 @@ export const localizedItemCopies = {
       "company": "Lalamove",
       "market": "Rio de Janeiro, Brasil",
       "sourceLabel": "Entrevista original Mercado&Consumo"
+    },
+    "latam-1025-nuvemshop-rio-crossdock": {
+      "title": "Nuvemshop inaugura cross-docking no Rio e projeta redução de frete",
+      "summary": "Reportagem de 25 de outubro apresenta o novo centro no Rio de Janeiro. A Nuvemshop prevê frete ao menos 20% menor para lojistas e entregas até cinco dias mais rápidas em certos destinos; são projeções, não um SLA universal já atingido.",
+      "implication": "Vincular cotações e prazos à cobertura real do centro; validar ganhos antes de alterar promessas aos lojistas.",
+      "company": "Nuvemshop / Nuvem Envio",
+      "market": "Brasil / Rio de Janeiro",
+      "sourceLabel": "Mercado&Consumo"
+    },
+    "latam-1026-geek-seal-automation": {
+      "title": "Geek+ e Seal Sistemas firmam parceria para automação de armazéns no Brasil",
+      "summary": "Reportagem de 26 de outubro informa que a Geek+ fornecerá robôs, software, ferramentas de integração e treinamento à Seal Logistics. A Seal cuidará de vendas, planejamento, implantação e suporte no Brasil, com foco inicial em Shelf-to-Person e sorting. Não há anúncio de implantação nacional concluída.",
+      "implication": "Avaliar integração gradual com sistemas existentes, treinamento e testes de aceitação; parceria assinada não comprova ganho de produtividade.",
+      "company": "Geek+ / Seal Sistemas",
+      "market": "Brasil",
+      "sourceLabel": "Tecnologística"
     }
   }
 } as const;

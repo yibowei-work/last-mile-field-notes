@@ -1467,6 +1467,30 @@ export const localizedItemCopies = {
       "company": "Geek+ / Seal Sistemas",
       "market": "Brazil",
       "sourceLabel": "Tecnologística"
+    },
+    "cn-1026-hospital-relay": {
+      "title": "SF and Meituan disclose hospital relay delivery",
+      "summary": "October 26 disclosure describes hospital handoff hubs: Meituan handles upstream dispatch, SF Intra-city the final indoor leg, and SF Express parcel services. This is not every hospital’s launch date.",
+      "implication": "Track handoffs, access permissions and responsibility by delivery leg.",
+      "company": "SF Express / SF Intra-city / Meituan",
+      "market": "Hangzhou / Hospitals",
+      "sourceLabel": "Headscm / SF Intra-city"
+    },
+    "cn-1026-meituan-dongshan-drone": {
+      "title": "Meituan opens Zhejiang drone route to Dongshan village",
+      "summary": "Sina Technology reports an October 26 launch linking Wuling plaza to village lockers. Flights take just over ten minutes; local partners handle rollout and maintenance. Flight duration is not total delivery time.",
+      "implication": "Coordinate merchants, landing sites and lockers; distinguish flight and end-to-end SLAs.",
+      "company": "Meituan Drone / Local partners",
+      "market": "Ningbo, Fenghua / Dongshan village",
+      "sourceLabel": "Sina Technology"
+    },
+    "eu-1027-expect-festive-service": {
+      "title": "Expect publishes Christmas and New Year service calendar",
+      "summary": "October 27 notice sets December 21 and 22 collection cutoffs for 72-hour and 48-hour services. December 24 has morning deliveries only; full service resumes January 4. TPN and Palletways exceptions apply.",
+      "implication": "Configure cutoffs by network and product; separate warehouse, collection and delivery calendars.",
+      "company": "Expect Logistics",
+      "market": "United Kingdom",
+      "sourceLabel": "Expect Logistics"
     }
   },
   "id": {
@@ -2925,6 +2949,30 @@ export const localizedItemCopies = {
       "company": "Geek+ / Seal Sistemas",
       "market": "Brasil",
       "sourceLabel": "Tecnologística"
+    },
+    "cn-1026-hospital-relay": {
+      "title": "SF dan Meituan mengungkap pengiriman estafet rumah sakit",
+      "summary": "Pengungkapan 26 Oktober menjelaskan pusat serah terima: Meituan mengatur pengiriman awal, SF Intra-city tahap dalam rumah sakit, SF Express layanan paket. Bukan tanggal peluncuran semua rumah sakit.",
+      "implication": "Lacak serah terima, izin akses dan tanggung jawab setiap tahap.",
+      "company": "SF Express / SF Intra-city / Meituan",
+      "market": "Hangzhou / Rumah sakit",
+      "sourceLabel": "Headscm / SF Intra-city"
+    },
+    "cn-1026-meituan-dongshan-drone": {
+      "title": "Meituan membuka rute drone Zhejiang ke Desa Dongshan",
+      "summary": "Sina Technology melaporkan peluncuran 26 Oktober dari Wuling ke loker desa. Penerbangan sekitar sepuluh menit lebih; mitra lokal menangani implementasi dan pemeliharaan. Bukan total waktu pengiriman.",
+      "implication": "Hubungkan pedagang, lokasi pendaratan dan loker; pisahkan waktu terbang dari SLA menyeluruh.",
+      "company": "Meituan Drone / Mitra lokal",
+      "market": "Ningbo, Fenghua / Desa Dongshan",
+      "sourceLabel": "Sina Technology"
+    },
+    "eu-1027-expect-festive-service": {
+      "title": "Expect merilis kalender layanan Natal dan Tahun Baru",
+      "summary": "Pengumuman 27 Oktober menetapkan batas penjemputan 21/22 Desember untuk layanan 72/48 jam. Tanggal 24 hanya pengantaran pagi; layanan penuh kembali 4 Januari. TPN dan Palletways memiliki pengecualian.",
+      "implication": "Atur batas sesuai jaringan dan produk; pisahkan kalender gudang, penjemputan dan pengantaran.",
+      "company": "Expect Logistics",
+      "market": "Britania Raya",
+      "sourceLabel": "Expect Logistics"
     }
   },
   "vi": {
@@ -4383,6 +4431,30 @@ export const localizedItemCopies = {
       "company": "Geek+ / Seal Sistemas",
       "market": "Brazil",
       "sourceLabel": "Tecnologística"
+    },
+    "cn-1026-hospital-relay": {
+      "title": "SF và Meituan công bố giao hàng tiếp sức tại bệnh viện",
+      "summary": "Thông tin ngày 26/10 nêu: Meituan điều phối chặng đầu, SF Intra-city giao trong viện, SF Express xử lý bưu kiện. Không phải mọi viện cùng khai trương ngày đó.",
+      "implication": "Theo dõi bàn giao, quyền vào viện và trách nhiệm từng chặng.",
+      "company": "SF Express / SF Intra-city / Meituan",
+      "market": "Hàng Châu / Bệnh viện",
+      "sourceLabel": "Headscm / SF Intra-city"
+    },
+    "cn-1026-meituan-dongshan-drone": {
+      "title": "Meituan mở tuyến drone Chiết Giang tới làng Đông Sơn",
+      "summary": "Sina Technology báo tuyến từ Wuling tới tủ nhận hàng khai trương 26/10. Bay hơn mười phút; đối tác địa phương triển khai và bảo trì. Không phải tổng thời gian giao.",
+      "implication": "Phối hợp cửa hàng, bãi đáp, tủ hàng; tách thời gian bay khỏi SLA toàn trình.",
+      "company": "Meituan Drone / Đối tác địa phương",
+      "market": "Ninh Ba, Phụng Hóa / Đông Sơn",
+      "sourceLabel": "Sina Technology"
+    },
+    "eu-1027-expect-festive-service": {
+      "title": "Expect công bố lịch phục vụ Giáng sinh và năm mới",
+      "summary": "Thông báo 27/10: hạn lấy hàng dịch vụ 72/48 giờ là 21/22 tháng 12. Ngày 24 chỉ giao buổi sáng; phục vụ đầy đủ từ 4/1. TPN, Palletways có ngoại lệ.",
+      "implication": "Cấu hình hạn theo mạng lưới, sản phẩm; tách lịch kho, lấy hàng và giao hàng.",
+      "company": "Expect Logistics",
+      "market": "Vương quốc Anh",
+      "sourceLabel": "Expect Logistics"
     }
   },
   "pt": {
@@ -5841,6 +5913,30 @@ export const localizedItemCopies = {
       "company": "Geek+ / Seal Sistemas",
       "market": "Brasil",
       "sourceLabel": "Tecnologística"
+    },
+    "cn-1026-hospital-relay": {
+      "title": "SF e Meituan divulgam entrega por etapas em hospitais",
+      "summary": "Divulgação de 26 de outubro: Meituan coordena a etapa inicial, SF Intra-city entrega dentro dos hospitais e SF Express atende encomendas. Não indica estreia simultânea em todos os hospitais.",
+      "implication": "Rastrear transferências, permissões de acesso e responsabilidades por etapa.",
+      "company": "SF Express / SF Intra-city / Meituan",
+      "market": "Hangzhou / Hospitais",
+      "sourceLabel": "Headscm / SF Intra-city"
+    },
+    "cn-1026-meituan-dongshan-drone": {
+      "title": "Meituan inaugura rota de drones em Zhejiang até Dongshan",
+      "summary": "Sina Technology informa estreia em 26 de outubro, de Wuling a armários na vila. Voo de pouco mais de dez minutos; parceiros locais implantam e mantêm a operação. Não é prazo total.",
+      "implication": "Coordenar lojas, pousos e armários; separar voo do prazo completo.",
+      "company": "Meituan Drone / Parceiros locais",
+      "market": "Ningbo, Fenghua / Vila Dongshan",
+      "sourceLabel": "Sina Technology"
+    },
+    "eu-1027-expect-festive-service": {
+      "title": "Expect divulga calendário de Natal e Ano-Novo",
+      "summary": "Aviso de 27 de outubro: últimas coletas dos serviços de 72/48 horas em 21/22 de dezembro. Dia 24, apenas entregas pela manhã; operação plena em 4 de janeiro. Há exceções TPN/Palletways.",
+      "implication": "Configurar cortes por rede e produto; separar calendários de armazém, coleta e entrega.",
+      "company": "Expect Logistics",
+      "market": "Reino Unido",
+      "sourceLabel": "Expect Logistics"
     }
   }
 } as const;

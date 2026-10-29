@@ -1491,6 +1491,30 @@ export const localizedItemCopies = {
       "company": "Expect Logistics",
       "market": "United Kingdom",
       "sourceLabel": "Expect Logistics"
+    },
+    "cn-1027-hangzhou-mixc-drone": {
+      "title": "Hangzhou mall drone hub links to Shansong ordering",
+      "summary": "October 28 reporting dates the Chengbei MixC hub opening to October 27. Shansong’s WeChat mini-program matches aerial capacity. Reported ten-minute flights are not end-to-end delivery guarantees.",
+      "implication": "Integrate ordering with landing coverage and air–ground handoff tracking.",
+      "company": "Hangzhou Low-altitude Company / China Resources Mixc Lifestyle / Shansong",
+      "market": "Hangzhou / Chengbei MixC",
+      "sourceLabel": "Hangzhou CPPCC / Dushi Kuaibao"
+    },
+    "latam-1027-shopee-four-crossdocks": {
+      "title": "Shopee announces four Brazilian cross-docking centres",
+      "summary": "October 28 reporting dates the announcement to October 27: centres near Recife, Rio, Vitória and Blumenau, plus Piracicaba expansion. Combined 2.4m orders/day is stated capacity, not actual throughput.",
+      "implication": "Replan linehaul and last-mile links; distinguish capacity from processed orders.",
+      "company": "Shopee Brasil",
+      "market": "Brazil / Recife, Rio de Janeiro, Vitória, Blumenau",
+      "sourceLabel": "Tecnologística"
+    },
+    "me-1028-noatum-gcc-fleet": {
+      "title": "Noatum discloses GCC fleet growth to over 850 trucks",
+      "summary": "October 28 release reports fleet doubling. Euro 5 additions arrived over six months, not one day. GPS control-tower monitoring complements the Khalifa–Fujairah rail shuttle and in-house cross-border trucking.",
+      "implication": "Link bonded routing and vehicle visibility; fleet size is not a transit guarantee.",
+      "company": "Noatum Logistics / AD Ports Group",
+      "market": "UAE / Gulf Cooperation Council",
+      "sourceLabel": "AD Ports Group"
     }
   },
   "id": {
@@ -2973,6 +2997,30 @@ export const localizedItemCopies = {
       "company": "Expect Logistics",
       "market": "Britania Raya",
       "sourceLabel": "Expect Logistics"
+    },
+    "cn-1027-hangzhou-mixc-drone": {
+      "title": "Hub drone mal Hangzhou terhubung dengan pemesanan Shansong",
+      "summary": "Laporan 28 Oktober menyebut hub Chengbei MixC dibuka 27 Oktober. Program mini WeChat Shansong mencocokkan armada udara. Penerbangan sepuluh menit bukan jaminan waktu pengiriman menyeluruh.",
+      "implication": "Hubungkan pemesanan, cakupan pendaratan dan pelacakan serah terima udara–darat.",
+      "company": "Hangzhou Low-altitude Company / China Resources Mixc Lifestyle / Shansong",
+      "market": "Hangzhou / Chengbei MixC",
+      "sourceLabel": "Hangzhou CPPCC / Dushi Kuaibao"
+    },
+    "latam-1027-shopee-four-crossdocks": {
+      "title": "Shopee mengumumkan empat pusat cross-docking Brasil",
+      "summary": "Laporan 28 Oktober menyebut pengumuman 27 Oktober: pusat dekat Recife, Rio, Vitória dan Blumenau, serta perluasan Piracicaba. Kapasitas gabungan 2,4 juta pesanan/hari bukan volume aktual.",
+      "implication": "Rencanakan ulang angkutan antarpusat dan tahap akhir; pisahkan kapasitas dari realisasi.",
+      "company": "Shopee Brasil",
+      "market": "Brasil / Recife, Rio de Janeiro, Vitória, Blumenau",
+      "sourceLabel": "Tecnologística"
+    },
+    "me-1028-noatum-gcc-fleet": {
+      "title": "Noatum melaporkan armada GCC melampaui 850 truk",
+      "summary": "Rilis 28 Oktober melaporkan armada berlipat ganda. Tambahan Euro 5 diterima selama enam bulan, bukan sehari. Pemantauan GPS melengkapi kereta Khalifa–Fujairah dan angkutan lintas batas internal.",
+      "implication": "Hubungkan rute berikat dan visibilitas kendaraan; ukuran armada bukan jaminan waktu tempuh.",
+      "company": "Noatum Logistics / AD Ports Group",
+      "market": "UEA / Dewan Kerja Sama Teluk",
+      "sourceLabel": "AD Ports Group"
     }
   },
   "vi": {
@@ -4455,6 +4503,30 @@ export const localizedItemCopies = {
       "company": "Expect Logistics",
       "market": "Vương quốc Anh",
       "sourceLabel": "Expect Logistics"
+    },
+    "cn-1027-hangzhou-mixc-drone": {
+      "title": "Trung tâm drone tại Hangzhou kết nối đặt hàng Shansong",
+      "summary": "Bài ngày 28/10 ghi trung tâm Chengbei MixC mở ngày 27/10. Tiểu ứng dụng WeChat Shansong ghép vận lực bay. Mười phút bay không bảo đảm thời gian giao toàn trình.",
+      "implication": "Kết nối đặt hàng, phạm vi bãi đáp và theo dõi bàn giao.",
+      "company": "Hangzhou Low-altitude Company / China Resources Mixc Lifestyle / Shansong",
+      "market": "Hangzhou / Chengbei MixC",
+      "sourceLabel": "Hangzhou CPPCC / Dushi Kuaibao"
+    },
+    "latam-1027-shopee-four-crossdocks": {
+      "title": "Shopee công bố bốn trung tâm trung chuyển tại Brazil",
+      "summary": "Bài 28/10 ghi thông báo ngày 27/10: bốn trung tâm gần Recife, Rio, Vitória, Blumenau và mở rộng Piracicaba. Công suất 2,4 triệu đơn/ngày không phải sản lượng thực tế.",
+      "implication": "Điều chỉnh tuyến trục và chặng cuối; tách công suất khỏi sản lượng.",
+      "company": "Shopee Brasil",
+      "market": "Brazil / Recife, Rio de Janeiro, Vitória, Blumenau",
+      "sourceLabel": "Tecnologística"
+    },
+    "me-1028-noatum-gcc-fleet": {
+      "title": "Noatum công bố đội xe GCC vượt 850 xe tải",
+      "summary": "Thông cáo 28/10 ghi đội xe tăng gấp đôi. Xe Euro 5 bổ sung trong sáu tháng, không phải một ngày. GPS kết nối điều hành, bổ trợ đường sắt Khalifa–Fujairah và vận tải xuyên biên giới.",
+      "implication": "Kết nối tuyến ngoại quan với định vị; quy mô không bảo đảm thời gian vận chuyển.",
+      "company": "Noatum Logistics / AD Ports Group",
+      "market": "UAE / Hội đồng Hợp tác Vùng Vịnh",
+      "sourceLabel": "AD Ports Group"
     }
   },
   "pt": {
@@ -5937,6 +6009,30 @@ export const localizedItemCopies = {
       "company": "Expect Logistics",
       "market": "Reino Unido",
       "sourceLabel": "Expect Logistics"
+    },
+    "cn-1027-hangzhou-mixc-drone": {
+      "title": "Hub de drones em shopping de Hangzhou integra pedidos Shansong",
+      "summary": "Reportagem de 28 de outubro data a abertura do hub Chengbei MixC em 27 de outubro. O miniaplicativo WeChat Shansong seleciona capacidade aérea. Dez minutos de voo não garantem o prazo completo.",
+      "implication": "Integrar pedidos, cobertura dos pousos e rastreamento das transferências.",
+      "company": "Hangzhou Low-altitude Company / China Resources Mixc Lifestyle / Shansong",
+      "market": "Hangzhou / Chengbei MixC",
+      "sourceLabel": "Hangzhou CPPCC / Dushi Kuaibao"
+    },
+    "latam-1027-shopee-four-crossdocks": {
+      "title": "Shopee anuncia quatro centros de cross-docking no Brasil",
+      "summary": "Reportagem de 28 de outubro atribui o anúncio a 27 de outubro: unidades perto de Recife, Rio, Vitória e Blumenau, além da ampliação em Piracicaba. 2,4 milhões de pedidos/dia é capacidade, não volume realizado.",
+      "implication": "Replanejar conexões de transferência e última milha; distinguir capacidade e processamento efetivo.",
+      "company": "Shopee Brasil",
+      "market": "Brasil / Recife, Rio de Janeiro, Vitória, Blumenau",
+      "sourceLabel": "Tecnologística"
+    },
+    "me-1028-noatum-gcc-fleet": {
+      "title": "Noatum divulga frota no GCC superior a 850 caminhões",
+      "summary": "Comunicado de 28 de outubro relata duplicação da frota. Adições Euro 5 chegaram ao longo de seis meses, não num dia. Controle GPS complementa a ferrovia Khalifa–Fujairah e transporte rodoviário transfronteiriço próprio.",
+      "implication": "Integrar rotas alfandegadas e visibilidade; tamanho da frota não garante prazo.",
+      "company": "Noatum Logistics / AD Ports Group",
+      "market": "EAU / Conselho de Cooperação do Golfo",
+      "sourceLabel": "AD Ports Group"
     }
   }
 } as const;

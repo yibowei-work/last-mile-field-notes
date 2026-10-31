@@ -1515,6 +1515,14 @@ export const localizedItemCopies = {
       "company": "Noatum Logistics / AD Ports Group",
       "market": "UAE / Gulf Cooperation Council",
       "sourceLabel": "AD Ports Group"
+    },
+    "eu-1028-aftership-france-labels": {
+      "title": "AfterShip adds French service types and Colissimo QR labels",
+      "summary": "Version 0.64.0, dated October 28, adds two Chronopost service types and Colissimo print_options.qr_code in POST /labels. An API update, not a carrier launch or price change.",
+      "implication": "Validate service enums, label parameters and return workflows before merchant rollout.",
+      "company": "AfterShip / Chronopost / Colissimo",
+      "market": "France",
+      "sourceLabel": "AfterShip Developer Docs"
     }
   },
   "id": {
@@ -3021,6 +3029,14 @@ export const localizedItemCopies = {
       "company": "Noatum Logistics / AD Ports Group",
       "market": "UEA / Dewan Kerja Sama Teluk",
       "sourceLabel": "AD Ports Group"
+    },
+    "eu-1028-aftership-france-labels": {
+      "title": "AfterShip menambah tipe layanan Prancis dan label QR Colissimo",
+      "summary": "Versi 0.64.0 bertanggal 28 Oktober menambah dua tipe layanan Chronopost dan print_options.qr_code Colissimo di POST /labels. Pembaruan API, bukan peluncuran atau perubahan tarif kurir.",
+      "implication": "Validasi enum layanan, parameter label dan alur retur sebelum dirilis ke pedagang.",
+      "company": "AfterShip / Chronopost / Colissimo",
+      "market": "Prancis",
+      "sourceLabel": "Dokumentasi Pengembang AfterShip"
     }
   },
   "vi": {
@@ -4527,6 +4543,14 @@ export const localizedItemCopies = {
       "company": "Noatum Logistics / AD Ports Group",
       "market": "UAE / Hội đồng Hợp tác Vùng Vịnh",
       "sourceLabel": "AD Ports Group"
+    },
+    "eu-1028-aftership-france-labels": {
+      "title": "AfterShip bổ sung loại dịch vụ Pháp và nhãn QR Colissimo",
+      "summary": "Phiên bản 0.64.0 ngày 28/10 thêm hai loại dịch vụ Chronopost và print_options.qr_code Colissimo tại POST /labels. Cập nhật API, không phải ra mắt hay đổi giá vận chuyển.",
+      "implication": "Kiểm thử danh mục dịch vụ, tham số nhãn và quy trình hoàn hàng.",
+      "company": "AfterShip / Chronopost / Colissimo",
+      "market": "Pháp",
+      "sourceLabel": "Tài liệu nhà phát triển AfterShip"
     }
   },
   "pt": {
@@ -6033,6 +6057,14 @@ export const localizedItemCopies = {
       "company": "Noatum Logistics / AD Ports Group",
       "market": "EAU / Conselho de Cooperação do Golfo",
       "sourceLabel": "AD Ports Group"
+    },
+    "eu-1028-aftership-france-labels": {
+      "title": "AfterShip adiciona serviços franceses e etiquetas QR Colissimo",
+      "summary": "Versão 0.64.0, de 28 de outubro, adiciona dois tipos Chronopost e print_options.qr_code Colissimo em POST /labels. Atualização de API, não lançamento ou alteração tarifária da transportadora.",
+      "implication": "Validar tipos de serviço, parâmetros das etiquetas e devoluções antes da liberação.",
+      "company": "AfterShip / Chronopost / Colissimo",
+      "market": "França",
+      "sourceLabel": "Documentação de desenvolvedores AfterShip"
     }
   }
 } as const;

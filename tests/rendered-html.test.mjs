@@ -45,3 +45,17 @@ test("server-renders localized intelligence metadata without Chinese fallback in
   assert.match(html, /Meituan Newsroom/);
   assert.doesNotMatch(`${brief}${feed}`, /Meituan无人机|麦当劳|京东物流|美团新闻中心/);
 });
+
+test("publishes the November backfill newest first and keeps excluded regions out of the brief", async () => {
+  const response = await render();
+  const html = await response.text();
+  const feed = html.match(/<section class="feed-list">([\s\S]*?)<\/section>/)?.[1] ?? "";
+  const brief = html.match(/<section class="brief-grid">([\s\S]*?)<\/section>/)?.[1] ?? "";
+  const latestSource = "https://mercadoeconsumo.com.br/08/11/2026/foodservice/99food-lanca-bag-inspirada-em-origami-para-proteger-pedidos-durante-o-delivery/";
+  const earlierSource = "https://www.broadcast.com.br/news/ifood-processa-keeta-em-sp-por-preco-predatorio-concorrente-contesta/";
+  assert.ok(feed.indexOf(latestSource) >= 0, "November 8 record must be present in the published feed");
+  assert.ok(feed.indexOf(earlierSource) > feed.indexOf(latestSource), "November 6 must follow November 8");
+  assert.match(feed, /Bag Rara/);
+  assert.doesNotMatch(brief, /Expeditors|DPD|NZ Post/);
+  assert.match(html, /11:00 Shenzhen time/);
+});

@@ -12,6 +12,7 @@
     "test": "npm run build && npm run i18n:check && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "i18n:check": "node --test tests/i18n-coverage.test.mjs",
+    "maintenance:preflight": "node scripts/maintenance-preflight.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

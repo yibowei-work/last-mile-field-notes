@@ -96,7 +96,7 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 ## Daily Intelligence Refresh
 
-The local Codex scheduled task runs at 08:30 in Shenzhen (Asia/Shanghai). It
+The local Codex scheduled task runs at 11:00 in Shenzhen (Asia/Shanghai). It
 opens original source pages, verifies publication dates, updates
 `app/page.tsx`, runs the static build, and pushes the verified result to
 `main`. `.github/workflows/deploy.yml` then builds and publishes GitHub Pages.
@@ -112,6 +112,13 @@ For unattended GitHub publication, the Codex task's permission profile must
 allow writes to this workspace including `.git`, outbound access to GitHub,
 and local loopback binding for the static prerender step. GitHub CLI must be
 logged in and the repository must have an `origin` remote.
+
+Start each maintenance run with `npm run maintenance:preflight`. This checks
+project and `.git` writes, the expected remote, and GitHub connectivity and push
+access without changing credentials or global Codex configuration. A network
+failure alone does not mean GitHub login expired. A permission grant for one
+chat turn does not prove that the next scheduled run has the same permissions.
+The app's default execution permissions must also allow this project and network.
 
 ## Learn More
 

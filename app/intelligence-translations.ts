@@ -12,6 +12,134 @@ export type LocalizedItemCopy = {
 
 export const localizedItemCopies = {
   "en": {
+    "refresh-20261109-2": {
+      "title": "Red-light waiting time excluded in three Shenzhen pilot districts",
+      "summary": "Red-light waits are recorded automatically and rounded up as extra delivery time for every concurrent order. Pilot riders will gain access in phases within one week.",
+      "implication": "Navigation status, delivery deadlines and multi-order assessments must align; this is not a full rollout across Shenzhen.",
+      "company": "Taobao Instant Commerce",
+      "market": "Shenzhen: Futian / Nanshan / Luohu",
+      "sourceLabel": "Southcn.com"
+    },
+    "refresh-20261109-3": {
+      "title": "Little Yellow Light 2.0 launched",
+      "summary": "Plans prioritize nighttime service gaps in 21 cities and 824 districts and counties, add 24-hour medical-device rapid-delivery warehouses, and explore dedicated one-to-one urgent delivery benefits at night.",
+      "implication": "Expands nighttime health supplies and delivery scenarios; broader coverage remains planned, and free urgent delivery remains exploratory.",
+      "company": "Meituan Medicine",
+      "market": "China: announced in Shanghai; expansion planned across multiple locations",
+      "sourceLabel": "Jiemian News"
+    },
+    "refresh-20261109-7": {
+      "title": "Official merchant operations plugins connected",
+      "summary": "After authorization, merchants can query operating data, compare performance and generate reviews through chat. Capabilities vary by plugin; Ocean Engine Local Ads initially supported account connection only.",
+      "implication": "Reduces data collection across dashboards; it does not establish fully automated local ad placement.",
+      "company": "Doubao Work / Douyin Local Services",
+      "market": "China",
+      "sourceLabel": "The Paper"
+    },
+    "refresh-20261109-8": {
+      "title": "First station opens on Dongyue Road",
+      "summary": "Open 06:15-23:30, with online ordering, station picking and rider delivery; orders can arrive in as little as 30 minutes.",
+      "implication": "Adds local fulfillment capacity through a neighborhood warehouse and early/late delivery; it does not cover all of Huangshi.",
+      "company": "Xiaoxiang Supermarket (Meituan)",
+      "market": "Urban Daye, Huangshi, Hubei",
+      "sourceLabel": "Hubei Daily"
+    },
+    "refresh-20261109-10": {
+      "title": "Four platforms adopt trusted-consumption labels",
+      "summary": "Connected to national trusted-consumption platform data, the initial food-delivery rollout labels about 3,000 restaurants. Labels are removed across platforms when merchants refuse to honor their commitments.",
+      "implication": "Requires trusted-label display, search discovery and coordinated cross-platform label removal.",
+      "company": "SAMR / Baidu Maps / JD.com / Taobao Instant Commerce / Meituan",
+      "market": "Beijing / Hangzhou / Jiaxing / Fuzhou / Quanzhou / Shenzhen / Foshan / Changsha / Changde",
+      "sourceLabel": "SAMR"
+    },
+    "refresh-20261109-12": {
+      "title": "Special agreement on labor rules and algorithms signed",
+      "summary": "Signed October 23 and reported October 24. Covers a 3 km/30-minute trial, wider red-light timer pauses, appeals for penalty exemptions when food preparation is slow, and human review of major penalties.",
+      "implication": "Provides a basis for changes to delivery assessments and appeals; signing does not mean every provision is live.",
+      "company": "Meituan",
+      "market": "Hubei",
+      "sourceLabel": "Jimu News"
+    },
+    "refresh-20261109-13": {
+      "title": "Miaoshou Takeout Edition / Kangaroo Manager unveiled",
+      "summary": "Unveiled at the October 22 conference and reported October 23. An AI store manager was announced free for restaurants nationwide, covering business diagnostics, store inspections, product operations and new-store operations.",
+      "implication": "Embeds business analysis in merchant workflows; nationwide free availability does not mean every merchant has activated it.",
+      "company": "Meituan",
+      "market": "China",
+      "sourceLabel": "Securities Market Weekly"
+    },
+    "refresh-20261109-14": {
+      "title": "Software category pricing and service-fee rules announced",
+      "summary": "Announced October 19, effective November 1. Instant-retail ERP: CNY 2,000/year, 0.6% service fee; product and order management: CNY 180/year each, 15% fee. Services below the guide price will be delisted.",
+      "implication": "Providers must align pricing, listing workflows and revenue models; an unchanged existing fee must not be described as an increase.",
+      "company": "Douyin Open Platform",
+      "market": "China",
+      "sourceLabel": "Douyin Open Platform"
+    },
+    "refresh-20261109-0": {
+      "title": "99Food unveils the foldable Bag Rara delivery bag",
+      "summary": "Bag Rara features adjustable dividers, waterproofing and reflective details. Plans to distribute 300 bags in December, subject to order volumes, acceptance and completion criteria.",
+      "implication": "May inform delivery equipment design and rider incentives; distribution has not been rolled out at scale.",
+      "company": "99Food",
+      "market": "Brazil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-1": {
+      "title": "iFood sues Keeta; Keeta disputes the allegations",
+      "summary": "Broadcast reports litigation over pricing and merchant exclusivity contracts. The report provides no court ruling.",
+      "implication": "Monitor subsidy, commission and merchant contract risks; allegations in litigation must not be treated as established facts.",
+      "company": "iFood / Keeta",
+      "market": "São Paulo, Brazil",
+      "sourceLabel": "Broadcast / Estadão"
+    },
+    "refresh-20261109-4": {
+      "title": "Privalia introduces next-business-day delivery for eligible products",
+      "summary": "Available from the first week of November for weekday orders placed before noon, as reported on November 5. No extra fee for the faster service; regular shipping charges remain unchanged.",
+      "implication": "Inventory, picking, dispatch and carrier cutoffs need coordination; this does not mean sitewide free shipping.",
+      "company": "Privalia",
+      "market": "São Paulo and seven surrounding cities, Brazil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-5": {
+      "title": "DPD publishes peak-season collection and delivery arrangements",
+      "summary": "Deliveries continue on November 17. Parcels actually collected by December 22 are due by December 23, weather permitting; unsuccessful deliveries on December 23 are directed to pickup lockers.",
+      "implication": "Merchants should base Christmas cutoffs on actual carrier collection, not the time customers place orders.",
+      "company": "DPD",
+      "market": "Czechia",
+      "sourceLabel": "DPD"
+    },
+    "refresh-20261109-6": {
+      "title": "NZ Post restores Express shipping to the EU for business customers",
+      "summary": "The initial October 28 notice announced suspensions of some services. The text confirms Express resumed on November 5, but does not confirm Economy/Courier resumed at the same time for 17 countries.",
+      "implication": "Business senders should adjust delivery commitments by service; personal gifts and documents were not affected by this suspension.",
+      "company": "NZ Post",
+      "market": "New Zealand to the European Union",
+      "sourceLabel": "NZ Post"
+    },
+    "refresh-20261109-9": {
+      "title": "Expeditors extends suspensions on selected Saudi routes",
+      "summary": "Expeditors reports that Emirates SkyCargo services to Riyadh and Dammam remain suspended through November 27. Jeddah has limited service; Dubai–Jeddah/Dammam trucking is available, but no Riyadh trucking alternative is currently available.",
+      "implication": "Affected orders need routing and delivery dates reconfirmed; this does not mean all carriers have suspended all Saudi services.",
+      "company": "Expeditors / Emirates SkyCargo",
+      "market": "Saudi Arabia / Dubai, United Arab Emirates",
+      "sourceLabel": "Expeditors"
+    },
+    "refresh-20261109-11": {
+      "title": "Grab discloses rider support measures for extreme weather",
+      "summary": "Grab's October 30 announcement says a seven-day loan repayment grace period in Palembang was approved from October 21. Local teams are assessing performance targets, fares and incentives, alongside mask and health support.",
+      "implication": "Provides temporary financial and operational support for riders; this is not a uniform policy in force across Southeast Asia.",
+      "company": "Grab",
+      "market": "Palembang and other Indonesian locations; also Malaysia / Singapore",
+      "sourceLabel": "Grab"
+    },
+    "refresh-20261109-15": {
+      "title": "Correios / AliExpress announces logistics partnership renewal and peak-season coordination",
+      "summary": "The October 8 announcement discloses a September signing and joint planning for Singles' Day and Black Friday, aiming to shorten delivery times, increase processing capacity and improve tracking.",
+      "implication": "Strengthens peak-season coordination between the platform and postal operator; no quantified delivery commitment or evidence of exclusive delivery rights was provided.",
+      "company": "Correios / AliExpress",
+      "market": "Brazil",
+      "sourceLabel": "Correios"
+    },
     "cn-0906-chongqing-heat": {
       "title": "Chongqing issues an orange heat alert; highs of 37–39°C expected across 19 counties",
       "summary": "Chongqing issued an orange heat alert at 10:30 on September 6. From 13:00 to 20:00, temperatures below 500 meters are expected to reach 37–39°C across 19 counties.",
@@ -1173,11 +1301,11 @@ export const localizedItemCopies = {
       "sourceLabel": "FedEx Official Newsroom"
     },
     "latam-1008-kodiak-charger-laredo": {
-      "title": "Kodiak and Charger launch autonomous freight on the Dallas-Laredo cross-border lane with safety drivers still onboard",
-      "summary": "Kodiak AI and Charger Logistics USA announced on October 8 that trucks equipped with the Kodiak Driver are hauling refrigerated and dry consumer freight on the 435-mile Dallas-Laredo lane; the first delivery was completed on September 8. Safety drivers remain behind the wheel until the safety case is complete. Laredo handles nearly 40% of US trade with Mexico.",
-      "implication": "Autonomous trucking is entering high-frequency retail replenishment and the US-Mexico corridor, but scaling depends on the safety case, vehicle and TMS integration, border handoffs and human fallback. Platforms should distinguish assisted autonomous operations from driverless service and track safety-driver interventions, exceptions and on-time performance.",
+      "title": "Kodiak and Charger disclose US domestic Dallas–Laredo autonomous freight; first delivery completed in September",
+      "summary": "The October 8 release describes refrigerated and dry freight on a 435-mile Texas lane, with the first delivery completed on September 8. Safety drivers remain onboard; driverless operations require a completed safety case. The lane connects to a US–Mexico trade gateway but does not establish autonomous crossings into Mexico.",
+      "implication": "Separate the US autonomous leg, border handoffs and Mexican last mile when assessing cross-border fulfillment; verify safety staffing, permits and TMS integration.",
       "company": "Kodiak AI / Charger Logistics USA",
-      "market": "Mexico / US-Mexico Dallas-Laredo cross-border corridor",
+      "market": "United States / Dallas–Laredo; connections to Mexican cross-border freight",
       "sourceLabel": "Kodiak AI Official Investor Release"
     },
     "cn-1001-meituan-algorithm-agreement": {
@@ -1526,6 +1654,134 @@ export const localizedItemCopies = {
     }
   },
   "id": {
+    "refresh-20261109-2": {
+      "title": "Waktu menunggu lampu merah dikecualikan di tiga distrik uji coba Shenzhen",
+      "summary": "Waktu menunggu lampu merah dicatat otomatis dan dibulatkan ke atas sebagai tambahan waktu pengantaran untuk setiap pesanan bersamaan. Akses bagi kurir uji coba dibuka bertahap dalam satu minggu.",
+      "implication": "Status navigasi, tenggat pengantaran, dan penilaian beberapa pesanan harus selaras; ini bukan peluncuran penuh di seluruh Shenzhen.",
+      "company": "Taobao Instant Commerce",
+      "market": "Shenzhen: Futian / Nanshan / Luohu",
+      "sourceLabel": "Southcn.com"
+    },
+    "refresh-20261109-3": {
+      "title": "Little Yellow Light 2.0 diluncurkan",
+      "summary": "Rencana memprioritaskan kekosongan layanan malam di 21 kota serta 824 distrik dan kabupaten, menambah gudang alat kesehatan dengan pengiriman cepat 24 jam, dan menjajaki manfaat pengantaran darurat khusus satu kurir untuk satu pelanggan pada malam hari.",
+      "implication": "Memperluas pasokan kesehatan dan layanan pengantaran malam; perluasan cakupan masih berupa rencana, dan pengantaran darurat gratis masih dijajaki.",
+      "company": "Meituan Medicine",
+      "market": "Tiongkok: diumumkan di Shanghai; perluasan direncanakan di berbagai lokasi",
+      "sourceLabel": "Jiemian News"
+    },
+    "refresh-20261109-7": {
+      "title": "Plugin resmi operasional merchant terhubung",
+      "summary": "Setelah memberikan otorisasi, merchant dapat meminta data operasional, membandingkan kinerja, dan membuat evaluasi melalui percakapan. Kemampuan tiap plugin berbeda; Ocean Engine Local Ads awalnya hanya mendukung koneksi akun.",
+      "implication": "Mengurangi pengumpulan data lintas dasbor; bukan berarti pemasangan iklan lokal sudah sepenuhnya otomatis.",
+      "company": "Doubao Work / Douyin Local Services",
+      "market": "Tiongkok",
+      "sourceLabel": "The Paper"
+    },
+    "refresh-20261109-8": {
+      "title": "Stasiun pertama dibuka di Dongyue Road",
+      "summary": "Beroperasi pukul 06:15-23:30, dengan pemesanan daring, penyiapan pesanan di stasiun, dan pengantaran oleh kurir; pesanan dapat tiba paling cepat 30 menit.",
+      "implication": "Menambah kapasitas pemenuhan lokal melalui gudang lingkungan serta pengantaran pagi dan malam; tidak mencakup seluruh Huangshi.",
+      "company": "Xiaoxiang Supermarket (Meituan)",
+      "market": "Kawasan perkotaan Daye, Huangshi, Hubei",
+      "sourceLabel": "Hubei Daily"
+    },
+    "refresh-20261109-10": {
+      "title": "Empat platform mengadopsi label konsumsi tepercaya",
+      "summary": "Terhubung dengan data platform konsumsi tepercaya nasional, tahap awal layanan pesan-antar makanan memberi label pada sekitar 3.000 restoran. Label dicabut lintas platform jika merchant menolak memenuhi komitmennya.",
+      "implication": "Memerlukan tampilan label tepercaya, penemuan melalui pencarian, dan pencabutan label lintas platform yang terkoordinasi.",
+      "company": "SAMR / Baidu Maps / JD.com / Taobao Instant Commerce / Meituan",
+      "market": "Beijing / Hangzhou / Jiaxing / Fuzhou / Quanzhou / Shenzhen / Foshan / Changsha / Changde",
+      "sourceLabel": "SAMR"
+    },
+    "refresh-20261109-12": {
+      "title": "Perjanjian khusus aturan kerja dan algoritma ditandatangani",
+      "summary": "Ditandatangani 23 Oktober dan diberitakan 24 Oktober. Mencakup uji coba 3 km/30 menit, perluasan penghentian penghitung waktu saat lampu merah, banding pembebasan penalti akibat penyiapan makanan lambat, dan peninjauan manusia atas penalti besar.",
+      "implication": "Menjadi dasar perubahan penilaian pengantaran dan banding; penandatanganan tidak berarti semua ketentuan sudah diterapkan.",
+      "company": "Meituan",
+      "market": "Hubei",
+      "sourceLabel": "Jimu News"
+    },
+    "refresh-20261109-13": {
+      "title": "Miaoshou Takeout Edition / Kangaroo Manager diperkenalkan",
+      "summary": "Diperkenalkan pada konferensi 22 Oktober dan diberitakan 23 Oktober. Manajer toko AI diumumkan gratis bagi restoran di seluruh negeri, mencakup diagnosis bisnis, inspeksi toko, pengelolaan produk, dan operasional toko baru.",
+      "implication": "Memasukkan analisis bisnis ke alur kerja merchant; ketersediaan gratis nasional tidak berarti semua merchant sudah mengaktifkannya.",
+      "company": "Meituan",
+      "market": "Tiongkok",
+      "sourceLabel": "Securities Market Weekly"
+    },
+    "refresh-20261109-14": {
+      "title": "Aturan harga kategori perangkat lunak dan biaya layanan diumumkan",
+      "summary": "Diumumkan 19 Oktober, berlaku 1 November. ERP ritel instan: CNY 2.000/tahun, biaya layanan 0,6%; pengelolaan produk dan pesanan: masing-masing CNY 180/tahun, biaya 15%. Layanan di bawah harga acuan akan diturunkan dari pasar layanan.",
+      "implication": "Penyedia harus menyesuaikan harga, alur publikasi layanan, dan model pendapatan; tarif lama yang tidak berubah tidak boleh disebut naik.",
+      "company": "Douyin Open Platform",
+      "market": "Tiongkok",
+      "sourceLabel": "Douyin Open Platform"
+    },
+    "refresh-20261109-0": {
+      "title": "99Food memperkenalkan tas pengantaran lipat Bag Rara",
+      "summary": "Dilengkapi sekat yang dapat diatur, perlindungan kedap air dan detail reflektif. Sebanyak 300 tas direncanakan dibagikan pada Desember berdasarkan volume pesanan serta kriteria penerimaan dan penyelesaian pesanan.",
+      "implication": "Dapat menjadi referensi desain perlengkapan pengantaran dan insentif kurir; distribusi belum dilakukan secara luas.",
+      "company": "99Food",
+      "market": "Brasil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-1": {
+      "title": "iFood menggugat Keeta; Keeta membantah tuduhan tersebut",
+      "summary": "Broadcast melaporkan sengketa hukum terkait penetapan harga dan kontrak eksklusivitas merchant. Laporan tidak menyebutkan adanya putusan pengadilan.",
+      "implication": "Perhatikan risiko subsidi, komisi dan kontrak merchant; tuduhan dalam gugatan tidak boleh diperlakukan sebagai fakta yang telah terbukti.",
+      "company": "iFood / Keeta",
+      "market": "São Paulo, Brasil",
+      "sourceLabel": "Broadcast / Estadão"
+    },
+    "refresh-20261109-4": {
+      "title": "Privalia meluncurkan pengantaran hari kerja berikutnya untuk produk yang memenuhi syarat",
+      "summary": "Tersedia sejak minggu pertama November untuk pesanan pada hari kerja sebelum tengah hari, menurut laporan 5 November. Layanan lebih cepat ini tanpa biaya tambahan; kebijakan ongkir reguler tetap berlaku.",
+      "implication": "Stok, penyiapan, pengiriman dan batas waktu penerimaan kurir perlu diselaraskan; bukan berarti gratis ongkir untuk seluruh situs.",
+      "company": "Privalia",
+      "market": "São Paulo dan tujuh kota sekitarnya, Brasil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-5": {
+      "title": "DPD mengumumkan jadwal penjemputan dan pengantaran musim puncak",
+      "summary": "Pengantaran tetap berlangsung pada 17 November. Paket yang benar-benar dijemput paling lambat 22 Desember akan diantar paling lambat 23 Desember jika cuaca memungkinkan; pengantaran yang gagal pada 23 Desember dialihkan ke loker pengambilan.",
+      "implication": "Merchant sebaiknya menetapkan batas pengiriman Natal berdasarkan waktu penjemputan aktual oleh kurir, bukan waktu pelanggan memesan.",
+      "company": "DPD",
+      "market": "Ceko",
+      "sourceLabel": "DPD"
+    },
+    "refresh-20261109-6": {
+      "title": "NZ Post memulihkan pengiriman Express ke Uni Eropa bagi pelanggan bisnis",
+      "summary": "Pengumuman awal 28 Oktober menyatakan penangguhan sejumlah layanan. Teks mengonfirmasi Express kembali pada 5 November, tetapi tidak mengonfirmasi pemulihan serentak Economy/Courier ke 17 negara.",
+      "implication": "Pengirim bisnis perlu menyesuaikan janji pengantaran per layanan; hadiah pribadi dan dokumen sejak awal tidak terdampak penangguhan ini.",
+      "company": "NZ Post",
+      "market": "Selandia Baru ke Uni Eropa",
+      "sourceLabel": "NZ Post"
+    },
+    "refresh-20261109-9": {
+      "title": "Expeditors memperpanjang penangguhan sejumlah rute Arab Saudi",
+      "summary": "Menurut Expeditors, layanan Emirates SkyCargo ke Riyadh dan Dammam tetap ditangguhkan hingga 27 November. Layanan Jeddah terbatas; angkutan truk Dubai–Jeddah/Dammam tersedia, tetapi alternatif truk ke Riyadh belum tersedia.",
+      "implication": "Rute dan tanggal pengantaran pesanan terdampak perlu dikonfirmasi ulang; bukan berarti semua layanan seluruh operator di Arab Saudi berhenti.",
+      "company": "Expeditors / Emirates SkyCargo",
+      "market": "Arab Saudi / Dubai, Uni Emirat Arab",
+      "sourceLabel": "Expeditors"
+    },
+    "refresh-20261109-11": {
+      "title": "Grab mengungkap dukungan bagi kurir saat cuaca ekstrem",
+      "summary": "Pengumuman Grab pada 30 Oktober menyebut kelonggaran pembayaran pinjaman selama tujuh hari di Palembang disetujui mulai 21 Oktober. Tim lokal menilai target kinerja, tarif dan insentif, serta menyediakan masker dan dukungan kesehatan.",
+      "implication": "Memberikan dukungan keuangan dan operasional sementara bagi kurir; bukan kebijakan seragam yang berlaku di seluruh Asia Tenggara.",
+      "company": "Grab",
+      "market": "Palembang dan lokasi lain di Indonesia; juga Malaysia / Singapura",
+      "sourceLabel": "Grab"
+    },
+    "refresh-20261109-15": {
+      "title": "Correios / AliExpress mengumumkan perpanjangan kemitraan logistik dan koordinasi musim puncak",
+      "summary": "Pengumuman 8 Oktober mengungkap penandatanganan pada September dan perencanaan bersama untuk 11.11 serta Black Friday, dengan sasaran mempercepat pengantaran, menambah kapasitas pemrosesan dan memperbaiki pelacakan.",
+      "implication": "Memperkuat koordinasi musim puncak antara platform dan operator pos; tidak ada janji waktu pengantaran terukur atau bukti hak pengantaran eksklusif.",
+      "company": "Correios / AliExpress",
+      "market": "Brasil",
+      "sourceLabel": "Correios"
+    },
     "cn-0906-chongqing-heat": {
       "title": "Chongqing mengeluarkan peringatan panas oranye; tingginya 3739 ° C diperkirakan di 19 wilayah",
       "summary": "Chongqing mengeluarkan peringatan panas oranye pada 10: 30 pada 6 September dari 13: 00 sampai 20: 00, suhu di bawah 500 meter diperkirakan mencapai 37- 39 ° C di 19 kabupaten.",
@@ -2687,11 +2943,11 @@ export const localizedItemCopies = {
       "sourceLabel": "Ruang Berita Resmi FedEx"
     },
     "latam-1008-kodiak-charger-laredo": {
-      "title": "Kodiak dan Charger memulai angkutan otonom di koridor lintas batas Dallas-Laredo dengan pengemudi keselamatan tetap di kabin",
-      "summary": "Kodiak AI dan Charger Logistics USA mengumumkan pada 8 Oktober bahwa truk dengan Kodiak Driver mengangkut barang konsumen berpendingin dan kering di rute Dallas-Laredo sepanjang 435 mil; pengiriman pertama selesai pada 8 September. Pengemudi keselamatan tetap berada di balik kemudi sampai safety case selesai. Laredo menangani hampir 40% perdagangan Amerika Serikat dengan Meksiko.",
-      "implication": "Truk otonom memasuki pengisian ritel berfrekuensi tinggi dan koridor AS-Meksiko, tetapi skalanya bergantung pada safety case, integrasi kendaraan dan TMS, serah-terima di perbatasan, serta fallback manusia. Platform harus membedakan operasi otonom berbantuan dari layanan tanpa pengemudi dan memantau intervensi pengemudi keselamatan, pengecualian, serta ketepatan waktu.",
+      "title": "Kodiak dan Charger mengungkap angkutan otonom domestik AS Dallas–Laredo; pengiriman pertama selesai September",
+      "summary": "Rilis 8 Oktober menjelaskan angkutan berpendingin dan kering pada rute Texas 435 mil, dengan pengiriman pertama selesai 8 September. Pengemudi keselamatan tetap di kabin; operasi tanpa pengemudi memerlukan penyelesaian kajian keselamatan. Rute terhubung ke gerbang perdagangan AS–Meksiko, bukan bukti penyeberangan otonom ke Meksiko.",
+      "implication": "Pisahkan ruas otonom AS, serah-terima perbatasan dan pengiriman akhir Meksiko; verifikasi petugas keselamatan, izin dan integrasi TMS.",
       "company": "Kodiak AI / Charger Logistics USA",
-      "market": "Meksiko / Koridor lintas batas AS-Meksiko Dallas-Laredo",
+      "market": "Amerika Serikat / Dallas–Laredo; terhubung ke angkutan lintas batas Meksiko",
       "sourceLabel": "Rilis Investor Resmi Kodiak AI"
     },
     "cn-1001-meituan-algorithm-agreement": {
@@ -3040,6 +3296,134 @@ export const localizedItemCopies = {
     }
   },
   "vi": {
+    "refresh-20261109-2": {
+      "title": "Loại thời gian chờ đèn đỏ khỏi đánh giá giao hàng tại ba quận thí điểm ở Shenzhen",
+      "summary": "Thời gian chờ đèn đỏ được tự động ghi nhận và làm tròn lên để cộng vào thời hạn của từng đơn giao đồng thời. Quyền truy cập cho tài xế thí điểm được mở theo đợt trong một tuần.",
+      "implication": "Trạng thái dẫn đường, hạn giao hàng và đánh giá nhiều đơn phải đồng bộ; đây chưa phải triển khai toàn diện trên toàn Shenzhen.",
+      "company": "Taobao Instant Commerce",
+      "market": "Shenzhen: Futian / Nanshan / Luohu",
+      "sourceLabel": "Southcn.com"
+    },
+    "refresh-20261109-3": {
+      "title": "Ra mắt Little Yellow Light 2.0",
+      "summary": "Kế hoạch ưu tiên lấp khoảng trống dịch vụ ban đêm tại 21 thành phố và 824 quận, huyện; phát triển kho thiết bị y tế giao nhanh 24 giờ và nghiên cứu quyền lợi giao khẩn ban đêm riêng một tài xế cho một khách hàng.",
+      "implication": "Mở rộng nguồn cung sức khỏe và các tình huống giao hàng ban đêm; mở rộng phạm vi vẫn là kế hoạch, còn giao khẩn miễn phí vẫn đang được nghiên cứu.",
+      "company": "Meituan Medicine",
+      "market": "Trung Quốc: công bố tại Shanghai; dự kiến mở rộng ở nhiều địa phương",
+      "sourceLabel": "Jiemian News"
+    },
+    "refresh-20261109-7": {
+      "title": "Kết nối các plugin chính thức phục vụ vận hành nhà bán hàng",
+      "summary": "Sau khi cấp quyền, nhà bán hàng có thể truy vấn dữ liệu vận hành, so sánh hiệu quả và tạo báo cáo đánh giá qua hội thoại. Khả năng tùy plugin; Ocean Engine Local Ads ban đầu chỉ hỗ trợ kết nối tài khoản.",
+      "implication": "Giảm việc thu thập dữ liệu từ nhiều bảng điều khiển; không đồng nghĩa quảng cáo địa phương đã được triển khai hoàn toàn tự động.",
+      "company": "Doubao Work / Douyin Local Services",
+      "market": "Trung Quốc",
+      "sourceLabel": "The Paper"
+    },
+    "refresh-20261109-8": {
+      "title": "Mở trạm đầu tiên trên Dongyue Road",
+      "summary": "Hoạt động từ 06:15 đến 23:30, nhận đơn trực tuyến, soạn hàng tại trạm và giao bằng tài xế; thời gian giao nhanh nhất là 30 phút.",
+      "implication": "Tăng năng lực xử lý đơn tại địa phương bằng kho gần khu dân cư và dịch vụ giao sáng sớm, tối muộn; chưa bao phủ toàn Huangshi.",
+      "company": "Xiaoxiang Supermarket (Meituan)",
+      "market": "Khu vực đô thị Daye, Huangshi, Hubei",
+      "sourceLabel": "Hubei Daily"
+    },
+    "refresh-20261109-10": {
+      "title": "Bốn nền tảng áp dụng nhãn tiêu dùng đáng tin cậy",
+      "summary": "Kết nối dữ liệu nền tảng tiêu dùng đáng tin cậy quốc gia, đợt đầu trong lĩnh vực giao đồ ăn gắn nhãn cho khoảng 3.000 nhà hàng. Nhãn bị gỡ đồng bộ trên các nền tảng nếu nhà bán hàng từ chối thực hiện cam kết.",
+      "implication": "Cần hiển thị nhãn tin cậy, hỗ trợ tìm kiếm và phối hợp gỡ nhãn giữa các nền tảng.",
+      "company": "SAMR / Baidu Maps / JD.com / Taobao Instant Commerce / Meituan",
+      "market": "Beijing / Hangzhou / Jiaxing / Fuzhou / Quanzhou / Shenzhen / Foshan / Changsha / Changde",
+      "sourceLabel": "SAMR"
+    },
+    "refresh-20261109-12": {
+      "title": "Ký thỏa thuận chuyên đề về quy tắc lao động và thuật toán",
+      "summary": "Ký ngày 23/10, được đưa tin ngày 24/10. Bao gồm thí điểm 3 km/30 phút, mở rộng tạm dừng tính giờ khi chờ đèn đỏ, khiếu nại miễn phạt do quán chuẩn bị món chậm và con người xem xét lại các mức phạt lớn.",
+      "implication": "Tạo cơ sở điều chỉnh đánh giá giao hàng và khiếu nại; ký kết không có nghĩa mọi điều khoản đã được triển khai.",
+      "company": "Meituan",
+      "market": "Hubei",
+      "sourceLabel": "Jimu News"
+    },
+    "refresh-20261109-13": {
+      "title": "Giới thiệu Miaoshou Takeout Edition / Kangaroo Manager",
+      "summary": "Giới thiệu tại hội nghị ngày 22/10, được đưa tin ngày 23/10. Công bố cung cấp miễn phí quản lý cửa hàng AI cho nhà hàng toàn quốc, hỗ trợ chẩn đoán kinh doanh, kiểm tra cửa hàng, vận hành sản phẩm và cửa hàng mới.",
+      "implication": "Đưa phân tích kinh doanh vào quy trình vận hành của nhà bán hàng; cung cấp miễn phí toàn quốc không có nghĩa mọi nhà bán hàng đã kích hoạt.",
+      "company": "Meituan",
+      "market": "Trung Quốc",
+      "sourceLabel": "Securities Market Weekly"
+    },
+    "refresh-20261109-14": {
+      "title": "Công bố quy tắc giá và phí dịch vụ theo danh mục phần mềm",
+      "summary": "Công bố ngày 19/10, hiệu lực từ 1/11. ERP bán lẻ tức thời: 2.000 CNY/năm, phí dịch vụ 0,6%; quản lý sản phẩm và đơn hàng: mỗi loại 180 CNY/năm, phí 15%. Dịch vụ thấp hơn giá hướng dẫn sẽ bị gỡ khỏi chợ dịch vụ.",
+      "implication": "Nhà cung cấp cần điều chỉnh giá, quy trình đăng dịch vụ và mô hình doanh thu; không được mô tả mức phí cũ giữ nguyên là tăng phí.",
+      "company": "Douyin Open Platform",
+      "market": "Trung Quốc",
+      "sourceLabel": "Douyin Open Platform"
+    },
+    "refresh-20261109-0": {
+      "title": "99Food giới thiệu túi giao hàng gấp gọn Bag Rara",
+      "summary": "Có vách ngăn điều chỉnh được, thiết kế chống nước và phản quang. Dự kiến phát 300 túi vào tháng 12 theo lượng đơn và các điều kiện nhận, hoàn thành đơn.",
+      "implication": "Có thể tham khảo cho thiết kế thiết bị giao hàng và chương trình khuyến khích tài xế; chưa triển khai phát rộng rãi.",
+      "company": "99Food",
+      "market": "Brazil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-1": {
+      "title": "iFood kiện Keeta; Keeta bác bỏ các cáo buộc",
+      "summary": "Broadcast đưa tin về vụ kiện liên quan đến định giá và hợp đồng độc quyền với đối tác bán hàng. Bài báo không nêu phán quyết của tòa.",
+      "implication": "Cần theo dõi rủi ro về trợ giá, hoa hồng và hợp đồng đối tác; không coi cáo buộc trong vụ kiện là sự thật đã được xác lập.",
+      "company": "iFood / Keeta",
+      "market": "São Paulo, Brazil",
+      "sourceLabel": "Broadcast / Estadão"
+    },
+    "refresh-20261109-4": {
+      "title": "Privalia triển khai giao vào ngày làm việc tiếp theo cho sản phẩm đủ điều kiện",
+      "summary": "Áp dụng từ tuần đầu tháng 11 cho đơn đặt trước buổi trưa vào ngày làm việc, theo bài báo ngày 5/11. Không thu thêm phí cho dịch vụ nhanh hơn; chính sách phí vận chuyển thông thường giữ nguyên.",
+      "implication": "Cần đồng bộ tồn kho, chuẩn bị hàng, xuất kho và giờ chốt nhận hàng của đơn vị vận chuyển; không đồng nghĩa miễn phí vận chuyển toàn sàn.",
+      "company": "Privalia",
+      "market": "São Paulo và bảy thành phố lân cận, Brazil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-5": {
+      "title": "DPD công bố lịch lấy và giao hàng mùa cao điểm",
+      "summary": "Vẫn giao hàng ngày 17/11. Kiện hàng thực tế được lấy chậm nhất ngày 22/12 sẽ được giao chậm nhất ngày 23/12 nếu thời tiết cho phép; đơn giao không thành công ngày 23/12 được chuyển vào tủ nhận hàng.",
+      "implication": "Người bán nên đặt hạn chốt gửi hàng Giáng sinh theo thời điểm đơn vị vận chuyển thực tế lấy hàng, không theo thời điểm khách đặt đơn.",
+      "company": "DPD",
+      "market": "Séc",
+      "sourceLabel": "DPD"
+    },
+    "refresh-20261109-6": {
+      "title": "NZ Post khôi phục Express đi EU cho khách hàng doanh nghiệp",
+      "summary": "Thông báo đầu tiên ngày 28/10 nêu việc tạm dừng một số dịch vụ. Nội dung xác nhận Express hoạt động lại ngày 5/11, nhưng không xác nhận Economy/Courier đi 17 nước đồng thời được khôi phục.",
+      "implication": "Doanh nghiệp gửi hàng cần điều chỉnh cam kết theo từng dịch vụ; quà tặng cá nhân và tài liệu vốn không chịu đợt tạm dừng này.",
+      "company": "NZ Post",
+      "market": "Từ New Zealand đến Liên minh châu Âu",
+      "sourceLabel": "NZ Post"
+    },
+    "refresh-20261109-9": {
+      "title": "Expeditors gia hạn tạm dừng một số tuyến Saudi Arabia",
+      "summary": "Expeditors cho biết dịch vụ Emirates SkyCargo đến Riyadh và Dammam tiếp tục tạm dừng đến ngày 27 tháng 11. Jeddah có dịch vụ hạn chế; có xe tải Dubai–Jeddah/Dammam, nhưng chưa có phương án xe tải đến Riyadh.",
+      "implication": "Cần xác nhận lại tuyến vận chuyển và ngày giao của đơn bị ảnh hưởng; không có nghĩa mọi hãng đều dừng toàn bộ dịch vụ tại Saudi Arabia.",
+      "company": "Expeditors / Emirates SkyCargo",
+      "market": "Saudi Arabia / Dubai, Các Tiểu vương quốc Ả Rập Thống nhất",
+      "sourceLabel": "Expeditors"
+    },
+    "refresh-20261109-11": {
+      "title": "Grab công bố biện pháp hỗ trợ tài xế giao hàng khi thời tiết cực đoan",
+      "summary": "Thông báo ngày 30/10 của Grab nêu việc gia hạn trả khoản vay bảy ngày tại Palembang được phê duyệt từ 21/10. Các nhóm địa phương đánh giá chỉ tiêu hiệu suất, giá cước và thưởng, đồng thời cung cấp khẩu trang và hỗ trợ sức khỏe.",
+      "implication": "Cung cấp hỗ trợ tài chính và vận hành tạm thời cho tài xế giao hàng; không phải chính sách thống nhất có hiệu lực trên toàn Đông Nam Á.",
+      "company": "Grab",
+      "market": "Palembang và các địa điểm khác tại Indonesia; cũng liên quan Malaysia / Singapore",
+      "sourceLabel": "Grab"
+    },
+    "refresh-20261109-15": {
+      "title": "Correios / AliExpress thông báo gia hạn hợp tác logistics và phối hợp mùa cao điểm",
+      "summary": "Thông báo ngày 8/10 công bố việc ký kết trong tháng 9 và lập kế hoạch chung cho 11.11, Black Friday, nhằm rút ngắn thời gian giao, tăng năng lực xử lý và cải thiện theo dõi đơn.",
+      "implication": "Tăng phối hợp mùa cao điểm giữa nền tảng và bưu chính; chưa có cam kết thời gian giao định lượng hay căn cứ về quyền giao hàng độc quyền.",
+      "company": "Correios / AliExpress",
+      "market": "Brazil",
+      "sourceLabel": "Correios"
+    },
     "cn-0906-chongqing-heat": {
       "title": "Chongqing vấn đề một báo động nhiệt độ cam; cao 37–39°C mong đợi trên 19 hạt",
       "summary": "Chongqing ban hành báo động nhiệt độ cam lúc 10 giờ 30 ngày 6 tháng 9, từ 13:00 đến 20:00, nhiệt độ dưới 500 mét là 37–39°C trên 19 hạt.",
@@ -4201,11 +4585,11 @@ export const localizedItemCopies = {
       "sourceLabel": "Phòng Tin tức Chính thức FedEx"
     },
     "latam-1008-kodiak-charger-laredo": {
-      "title": "Kodiak và Charger khai trương vận tải tự động trên tuyến xuyên biên giới Dallas-Laredo, hiện vẫn có tài xế an toàn",
-      "summary": "Kodiak AI và Charger Logistics USA thông báo ngày 8 tháng 10 rằng các xe tải trang bị Kodiak Driver đang chở hàng tiêu dùng đông lạnh và hàng khô trên tuyến Dallas-Laredo dài 435 dặm; chuyến đầu tiên hoàn tất ngày 8 tháng 9. Tài xế an toàn vẫn ngồi sau vô-lăng cho đến khi hồ sơ an toàn hoàn tất. Laredo xử lý gần 40% thương mại của Hoa Kỳ với Mexico.",
-      "implication": "Xe tải tự động đang đi vào luồng bổ sung hàng bán lẻ tần suất cao và hành lang Mỹ-Mexico, nhưng khả năng mở rộng phụ thuộc vào hồ sơ an toàn, tích hợp xe với TMS, bàn giao tại biên giới và cơ chế con người tiếp quản. Nền tảng phải phân biệt vận hành tự động có hỗ trợ với dịch vụ không người lái, đồng thời theo dõi can thiệp của tài xế an toàn, ngoại lệ và tỷ lệ đúng giờ.",
+      "title": "Kodiak và Charger công bố vận tải tự động nội địa Mỹ Dallas–Laredo; chuyến đầu hoàn tất tháng 9",
+      "summary": "Thông cáo ngày 8 tháng 10 mô tả vận chuyển hàng lạnh và hàng khô trên tuyến Texas dài 435 dặm; chuyến đầu hoàn tất ngày 8 tháng 9. Vẫn có tài xế an toàn; vận hành không người lái cần hoàn tất hồ sơ an toàn. Tuyến kết nối cửa ngõ thương mại Mỹ–Mexico, không chứng minh xe tự động vượt biên vào Mexico.",
+      "implication": "Tách chặng tự động tại Mỹ, bàn giao biên giới và giao hàng cuối tại Mexico; xác minh nhân sự an toàn, giấy phép và tích hợp TMS.",
       "company": "Kodiak AI / Charger Logistics USA",
-      "market": "Mexico / Hành lang xuyên biên giới Mỹ-Mexico Dallas-Laredo",
+      "market": "Hoa Kỳ / Dallas–Laredo; kết nối vận tải xuyên biên giới Mexico",
       "sourceLabel": "Công bố Nhà đầu tư Chính thức Kodiak AI"
     },
     "cn-1001-meituan-algorithm-agreement": {
@@ -4554,6 +4938,134 @@ export const localizedItemCopies = {
     }
   },
   "pt": {
+    "refresh-20261109-2": {
+      "title": "Espera no sinal vermelho excluída da avaliação em três distritos-piloto de Shenzhen",
+      "summary": "A espera no sinal vermelho é registrada automaticamente e arredondada para cima como tempo adicional para cada pedido entregue simultaneamente. O acesso dos entregadores-piloto será liberado em etapas dentro de uma semana.",
+      "implication": "Navegação, prazos de entrega e avaliação de múltiplos pedidos precisam estar alinhados; não se trata de implantação integral em Shenzhen.",
+      "company": "Taobao Instant Commerce",
+      "market": "Shenzhen: Futian / Nanshan / Luohu",
+      "sourceLabel": "Southcn.com"
+    },
+    "refresh-20261109-3": {
+      "title": "Lançado Little Yellow Light 2.0",
+      "summary": "O plano prioriza lacunas no atendimento noturno em 21 cidades e 824 distritos e condados, prevê depósitos de dispositivos médicos com entrega rápida 24 horas e explora benefícios de entrega urgente noturna com um entregador dedicado a cada cliente.",
+      "implication": "Amplia a oferta de produtos de saúde e as modalidades de entrega noturna; a expansão ainda é planejada e a entrega urgente gratuita permanece em estudo.",
+      "company": "Meituan Medicine",
+      "market": "China: anunciado em Shanghai; expansão planejada em várias localidades",
+      "sourceLabel": "Jiemian News"
+    },
+    "refresh-20261109-7": {
+      "title": "Conectados plugins oficiais de operação de estabelecimentos",
+      "summary": "Após autorização, os estabelecimentos podem consultar dados operacionais, comparar desempenho e gerar análises por conversa. Os recursos variam por plugin; Ocean Engine Local Ads inicialmente permitia apenas conectar a conta.",
+      "implication": "Reduz a coleta de dados em vários painéis; não significa que a veiculação de anúncios locais já seja totalmente automatizada.",
+      "company": "Doubao Work / Douyin Local Services",
+      "market": "China",
+      "sourceLabel": "The Paper"
+    },
+    "refresh-20261109-8": {
+      "title": "Primeira estação abre em Dongyue Road",
+      "summary": "Funciona das 06:15 às 23:30, com pedidos online, separação na estação e entrega por entregadores; os pedidos podem chegar em apenas 30 minutos.",
+      "implication": "Acrescenta capacidade logística local com depósito de bairro e entregas cedo e tarde; não cobre toda Huangshi.",
+      "company": "Xiaoxiang Supermarket (Meituan)",
+      "market": "Área urbana de Daye, Huangshi, Hubei",
+      "sourceLabel": "Hubei Daily"
+    },
+    "refresh-20261109-10": {
+      "title": "Quatro plataformas adotam selos de consumo confiável",
+      "summary": "Com integração aos dados da plataforma nacional de consumo confiável, a primeira etapa de delivery identifica cerca de 3.000 restaurantes. Os selos são removidos em todas as plataformas quando os estabelecimentos se recusam a cumprir seus compromissos.",
+      "implication": "Exige exibição dos selos, descoberta por busca e remoção coordenada entre plataformas.",
+      "company": "SAMR / Baidu Maps / JD.com / Taobao Instant Commerce / Meituan",
+      "market": "Beijing / Hangzhou / Jiaxing / Fuzhou / Quanzhou / Shenzhen / Foshan / Changsha / Changde",
+      "sourceLabel": "SAMR"
+    },
+    "refresh-20261109-12": {
+      "title": "Assinado acordo específico sobre regras de trabalho e algoritmos",
+      "summary": "Assinado em 23 de outubro e noticiado em 24 de outubro. Abrange teste de 3 km/30 minutos, expansão da pausa do cronômetro no sinal vermelho, recursos para isenção de penalidades por preparo demorado e revisão humana de penalidades graves.",
+      "implication": "Fundamenta mudanças na avaliação das entregas e nos recursos; a assinatura não significa que todas as cláusulas já estejam implementadas.",
+      "company": "Meituan",
+      "market": "Hubei",
+      "sourceLabel": "Jimu News"
+    },
+    "refresh-20261109-13": {
+      "title": "Apresentado Miaoshou Takeout Edition / Kangaroo Manager",
+      "summary": "Apresentado na conferência de 22 de outubro e noticiado em 23 de outubro. Foi anunciado um gerente de loja com IA gratuito para restaurantes de todo o país, com diagnóstico do negócio, inspeções, gestão de produtos e operação de novas lojas.",
+      "implication": "Integra análise de negócios aos fluxos dos estabelecimentos; a oferta gratuita nacional não significa que todos já tenham ativado o recurso.",
+      "company": "Meituan",
+      "market": "China",
+      "sourceLabel": "Securities Market Weekly"
+    },
+    "refresh-20261109-14": {
+      "title": "Anunciadas regras de preços e taxas por categoria de software",
+      "summary": "Anunciadas em 19 de outubro, vigentes em 1º de novembro. ERP de varejo instantâneo: CNY 2.000/ano, taxa de 0,6%; gestão de produtos e pedidos: CNY 180/ano cada, taxa de 15%. Serviços abaixo do preço de referência serão retirados do marketplace.",
+      "implication": "Fornecedores devem ajustar preços, fluxos de publicação e modelos de receita; uma taxa existente inalterada não pode ser descrita como aumento.",
+      "company": "Douyin Open Platform",
+      "market": "China",
+      "sourceLabel": "Douyin Open Platform"
+    },
+    "refresh-20261109-0": {
+      "title": "99Food apresenta a bolsa dobrável de entregas Bag Rara",
+      "summary": "Possui divisórias ajustáveis, proteção impermeável e detalhes refletivos. Prevê distribuir 300 unidades em dezembro, conforme volume de pedidos e critérios de aceitação e conclusão das entregas.",
+      "implication": "Pode servir de referência para equipamentos e incentivos a entregadores; a distribuição ainda não ocorreu em larga escala.",
+      "company": "99Food",
+      "market": "Brasil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-1": {
+      "title": "iFood processa Keeta; Keeta contesta as acusações",
+      "summary": "A Broadcast relata uma disputa judicial sobre preços e contratos de exclusividade com estabelecimentos. A reportagem não informa decisão judicial.",
+      "implication": "Acompanhar riscos ligados a subsídios, comissões e contratos com estabelecimentos; acusações judiciais não devem ser tratadas como fatos comprovados.",
+      "company": "iFood / Keeta",
+      "market": "São Paulo, Brasil",
+      "sourceLabel": "Broadcast / Estadão"
+    },
+    "refresh-20261109-4": {
+      "title": "Privalia lança entrega no próximo dia útil para produtos elegíveis",
+      "summary": "Disponível desde a primeira semana de novembro para compras em dias úteis antes do meio-dia, conforme reportagem de 5 de novembro. A modalidade não tem cobrança adicional; a política regular de frete permanece inalterada.",
+      "implication": "É preciso alinhar estoque, preparação, expedição e horários de corte das transportadoras; isso não significa frete grátis em todo o site.",
+      "company": "Privalia",
+      "market": "São Paulo e sete municípios vizinhos, Brasil",
+      "sourceLabel": "Mercado & Consumo"
+    },
+    "refresh-20261109-5": {
+      "title": "DPD publica os planos de coleta e entrega para a alta temporada",
+      "summary": "Haverá entregas em 17 de novembro. Encomendas efetivamente coletadas até 22 de dezembro serão entregues até dia 23, se o clima permitir; entregas não concluídas em 23 de dezembro serão encaminhadas a armários de retirada.",
+      "implication": "Lojistas devem definir o prazo de postagem para o Natal pela coleta efetiva da transportadora, não pelo horário do pedido do consumidor.",
+      "company": "DPD",
+      "market": "Tchéquia",
+      "sourceLabel": "DPD"
+    },
+    "refresh-20261109-6": {
+      "title": "NZ Post retoma o Express para a UE para clientes empresariais",
+      "summary": "O comunicado inicial de 28 de outubro anunciou a suspensão de alguns serviços. O texto confirma a retomada do Express em 5 de novembro, mas não confirma a retomada simultânea do Economy/Courier para 17 países.",
+      "implication": "Remetentes empresariais devem ajustar promessas de entrega por serviço; presentes pessoais e documentos já estavam fora do alcance da suspensão.",
+      "company": "NZ Post",
+      "market": "Da Nova Zelândia à União Europeia",
+      "sourceLabel": "NZ Post"
+    },
+    "refresh-20261109-9": {
+      "title": "Expeditors prorroga suspensões em algumas rotas sauditas",
+      "summary": "Segundo a Expeditors, os serviços da Emirates SkyCargo para Riade e Dammam seguem suspensos até 27 de novembro. Jidá tem serviço limitado; há transporte rodoviário Dubai–Jidá/Dammam, mas não há alternativa rodoviária para Riade.",
+      "implication": "Pedidos afetados exigem nova confirmação de rota e prazo; isso não significa suspensão total de todas as transportadoras na Arábia Saudita.",
+      "company": "Expeditors / Emirates SkyCargo",
+      "market": "Arábia Saudita / Dubai, Emirados Árabes Unidos",
+      "sourceLabel": "Expeditors"
+    },
+    "refresh-20261109-11": {
+      "title": "Grab divulga medidas de apoio a entregadores durante eventos climáticos extremos",
+      "summary": "O comunicado de 30 de outubro da Grab informa que uma carência de sete dias para pagar empréstimos em Palembang foi aprovada a partir de 21 de outubro. Equipes locais avaliam metas, tarifas e incentivos, além de fornecer máscaras e apoio à saúde.",
+      "implication": "Oferece apoio financeiro e operacional temporário aos entregadores; não é uma política uniforme em vigor em todo o Sudeste Asiático.",
+      "company": "Grab",
+      "market": "Palembang e outras localidades da Indonésia; também Malásia / Singapura",
+      "sourceLabel": "Grab"
+    },
+    "refresh-20261109-15": {
+      "title": "Correios / AliExpress anuncia renovação da parceria logística e coordenação para a alta temporada",
+      "summary": "O anúncio de 8 de outubro divulga a assinatura em setembro e o planejamento conjunto para o 11.11 e a Black Friday, visando reduzir prazos, ampliar a capacidade de processamento e melhorar o rastreamento.",
+      "implication": "Reforça a coordenação entre plataforma e operador postal na alta temporada; não apresenta compromisso de prazo quantificado nem fundamento para exclusividade nas entregas.",
+      "company": "Correios / AliExpress",
+      "market": "Brasil",
+      "sourceLabel": "Correios"
+    },
     "cn-0906-chongqing-heat": {
       "title": "Chongqing emite um alerta de calor laranja; altas de 37-39°C esperado em 19 condados",
       "summary": "Chongqing emitiu um alerta de calor laranja às 10:30 em 6 de setembro. Das 13:00 às 20:00, as temperaturas abaixo de 500 metros devem atingir 37-39°C em 19 condados.",
@@ -5715,11 +6227,11 @@ export const localizedItemCopies = {
       "sourceLabel": "Sala de Imprensa Oficial da FedEx"
     },
     "latam-1008-kodiak-charger-laredo": {
-      "title": "Kodiak e Charger iniciam frete autônomo no corredor transfronteiriço Dallas-Laredo, ainda com motoristas de segurança",
-      "summary": "A Kodiak AI e a Charger Logistics USA anunciaram em 8 de outubro que caminhões equipados com o Kodiak Driver transportam cargas refrigeradas e secas de bens de consumo na rota Dallas-Laredo de 435 milhas; a primeira entrega foi concluída em 8 de setembro. Motoristas de segurança permanecem ao volante até a conclusão do dossiê de segurança. Laredo movimenta quase 40% do comércio dos Estados Unidos com o México.",
-      "implication": "O transporte autônomo entra em fluxos frequentes de reposição do varejo e no corredor EUA-México, mas sua escala depende do dossiê de segurança, integração entre veículo e TMS, transferências na fronteira e fallback humano. Plataformas devem diferenciar operação autônoma assistida de serviço sem motorista e acompanhar intervenções, exceções e pontualidade.",
+      "title": "Kodiak e Charger divulgam frete autônomo doméstico nos EUA entre Dallas e Laredo; primeira entrega concluída em setembro",
+      "summary": "O comunicado de 8 de outubro descreve cargas refrigeradas e secas na rota texana de 435 milhas, com primeira entrega concluída em 8 de setembro. Há motoristas de segurança; a operação sem motorista exige conclusão do dossiê de segurança. A rota conecta um polo de comércio EUA–México, sem comprovar travessias autônomas ao México.",
+      "implication": "Separe o trecho autônomo nos EUA, as transferências na fronteira e a última milha mexicana; verifique pessoal de segurança, licenças e integração com TMS.",
       "company": "Kodiak AI / Charger Logistics USA",
-      "market": "México / Corredor transfronteiriço EUA-México Dallas-Laredo",
+      "market": "Estados Unidos / Dallas–Laredo; conexão com frete transfronteiriço mexicano",
       "sourceLabel": "Comunicado Oficial a Investidores da Kodiak AI"
     },
     "cn-1001-meituan-algorithm-agreement": {

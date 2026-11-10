@@ -1,0 +1,279 @@
+{
+  "windowStart": "2026-11-09",
+  "windowEnd": "2026-11-09",
+  "timeZone": "Asia/Shanghai",
+  "preparedAt": "2026.11.10 18:00",
+  "newRecordCount": 9,
+  "correctedRecordCount": 0,
+  "newRecordDuplicateCount": 0,
+  "researchCounts": {
+    "candidateOriginalUrls": 33,
+    "readableOriginalBodies": 25,
+    "clearlyMergedSourceGroups": 2,
+    "scopeNote": "Counts combine China (14 URLs / 11 bodies), Southeast Asia (9 URLs / 6 bodies), and parent regional research (10 URLs / 8 bodies). Parent Aliv Hub body was verified through direct HTTP after the web tool failed. Navigation pages and unrelated search results excluded; repeat reads of a URL are not extra candidates."
+  },
+  "regionalCounts": {
+    "中国": 3,
+    "东南亚": 3,
+    "拉美": 2,
+    "欧洲": 1,
+    "中东": 0
+  },
+  "dateEvidence": [
+    {
+      "id": "cn-1109-douyin-fair-competition",
+      "sourceDate": "2026-11-09 17:10:46",
+      "basis": "Guangzhou Daily original report says the reporter learned of the campaign on November 9; do not assume every provision first took effect that day."
+    },
+    {
+      "id": "cn-1109-jd-xinjiang-uav",
+      "sourceDate": "2026-11-09 17:45:08",
+      "basis": "IT Home original report explicitly says JD Logistics announced today; trial service, not all-network full rollout."
+    },
+    {
+      "id": "cn-1109-chuzhou-regulator-rider",
+      "sourceDate": "2026-11-09 12:56:31",
+      "basis": "First publication date. Body only says activity happened recently; exact event date unknown."
+    },
+    {
+      "id": "sea-1109-grab-ai-jda",
+      "sourceDate": "2026-11-09",
+      "basis": "Official joint release dated November 9; new joint development agreements are distinct from the October 8 framework."
+    },
+    {
+      "id": "sea-1109-ctp-slp-vietnam",
+      "sourceDate": "2026-11-09",
+      "basis": "Official release header and first body paragraph both dated November 9; acquisition terms agreed, closing conditional."
+    },
+    {
+      "id": "sea-1109-shopeefood-1111",
+      "sourceDate": "2026-11-09 17:31 WIB",
+      "basis": "Radar Semarang original report citing company written statement; some campaign phases predate the report, not a November 9 app-feature launch."
+    },
+    {
+      "id": "latam-1109-ifood-turbo-operations",
+      "sourceDate": "2026-11-09 05:30",
+      "basis": "UOL original interview publication date; operating metrics are self-reported, not new service launch dates."
+    },
+    {
+      "id": "latam-1109-alivhub-ifood-auth",
+      "sourceDate": "2026-11-09",
+      "basis": "Original vendor update body explicitly labels 09/11/2026; date-only precision, no fabricated timestamp or change to iFood-wide policy."
+    },
+    {
+      "id": "eu-1109-wolt-bolt-micromobility",
+      "sourceDate": "2026-11-09 08:53",
+      "basis": "ELTA report publication date. Corporate responses are new reporting; underlying ministry proposals date to late October and are not effective law."
+    }
+  ],
+  "sourcesMerged": [
+    {
+      "primary": "https://group.softbank/en/news/press/20261109_0",
+      "supporting": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000156/sbggrabsignjdastodevelopai.htm",
+      "reason": "Same joint development agreement announcement."
+    },
+    {
+      "primary": "https://radarsemarang.jawapos.com/amp/ekonomi/2611090051/shopeefood-hadirkan-promo-spesial-sepanjang-november-lewat-kampanye-1111-big-deals",
+      "supporting": "https://radarjember.jawapos.com/sinergi/2611090060/shopeefood-hadirkan-promo-spesial-sepanjang-november-lewat-kampanye-1111-big-deals",
+      "reason": "Same company campaign statement."
+    }
+  ],
+  "excludedExamples": [
+    {
+      "url": "https://www.bjnews.com.cn/detail/1793962711129759.html",
+      "reason": "JD designated-planting vegetables were already reported November 6; November 9 repost is not a new event."
+    },
+    {
+      "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+      "reason": "Official release November 2; no independently verified November 9 change."
+    },
+    {
+      "url": "https://www.grab.com/id/en/blog/grabmomen2026/",
+      "reason": "Body dated September 23; future winner announcement not confirmed as having occurred November 9."
+    },
+    {
+      "url": "https://www.trasportoeuropa.it/english/transport-and-logistics-news-9-november-2026/",
+      "reason": "Multi-story roundup; not used as the primary source for a new November 9 service change."
+    },
+    {
+      "url": "https://www.maersk.com/news/articles/2026/11/09/india-middle-east-and-africa-market-update-november",
+      "reason": "Dated market report mainly refers to earlier routing changes; no specific verified November 9 new service event selected."
+    },
+    {
+      "url": "https://imileexpress.com/developers/changelog",
+      "reason": "The opened page showed October 30 as latest visible release, inconsistent with search snippets; no November 9 change established from that body."
+    },
+    {
+      "url": "https://www.urbanairmobilitynews.com/logistics/lodd-autonomous-links-with-saudi-e-commerce-platform-noon-for-uav-cargo-logistics/",
+      "reason": "Could not establish a distinct November 9 new agreement versus pre-existing collaboration."
+    },
+    {
+      "url": "https://israel.fm/crime/road-safety-authority-takes-aim-wolt-delivery-messengers/",
+      "reason": "Original body unavailable (HTTP 403); serious regulatory allegation not admitted on a search snippet alone."
+    },
+    {
+      "url": "https://www.bemparana.com.br/publicacao/geral/ifood-prepara-maior-black-friday-de-sua-historia/",
+      "reason": "Original body inaccessible; broader Black Friday campaign already represented by October 15 record."
+    },
+    {
+      "url": "https://economynext.com/sri-lankas-hambantota-port-al-futtaim-explore-gulf-vehicle-supply-chain-ties-289273/",
+      "reason": "Mostly historical corridors and exploratory talks; no confirmed new service or binding investment selected."
+    }
+  ],
+  "records": [
+    {
+      "id": "cn-1109-douyin-fair-competition",
+      "date": "2026-11-09",
+      "region": "中国",
+      "market": "中国",
+      "company": "字节跳动 / 抖音生活服务",
+      "track": "商家端",
+      "service": "产品与体验",
+      "title": "抖音生活服务披露商家不正当竞争专项治理及安心盾反馈入口",
+      "summary": "广州日报11月9日报道，抖音生活服务治理恶意下单退款、投诉评价、消耗广告费及反向刷单，覆盖商家、关联账号和第三方机构。按情节分级处罚，严重或组织化攻击可永久清退；受攻击商家可通过抖音来客“安心盾”反馈风险。",
+      "implication": "经营指标风控需区分真实投诉与恶意攻击，并联动广告保护、风险提示、商家申诉和分级处罚；记录日为披露日，不推定所有条款均于当日开始执行。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://huacheng.gz-cmc.com/pages/2026/11/09/d0f2705830814990b06f26e05add6645.html",
+      "sourceLabel": "广州日报新花城",
+      "sourceTitle": "抖音生活服务启动商家不正当竞争专项治理"
+    },
+    {
+      "id": "cn-1109-jd-xinjiang-uav",
+      "date": "2026-11-09",
+      "region": "中国",
+      "market": "新疆 / 阿克苏—叶城",
+      "company": "京东物流 / 天域航通",
+      "track": "平台侧",
+      "service": "履约与调度",
+      "title": "京东物流披露新疆大型无人机支线试运行，用于双11货运",
+      "summary": "京东物流11月9日宣布，与天域航通推进阿克苏—叶城约450公里无人机货运试运行航线，最大商载1.9吨，单程飞行2.5小时，用于双11支线运输；公告称该模式可支持次日达。",
+      "implication": "低空支线需与枢纽分拣和地面末端衔接，并分别监测飞行时间及端到端时效；最大商载是能力上限，2.5小时不能当作门到门交付承诺。",
+      "focus": true,
+      "status": "已核验",
+      "source": "https://www.ithome.com/1/024/382.htm",
+      "sourceLabel": "IT之家 / 京东物流公告",
+      "sourceTitle": "行业首次：京东物流将无人机支线运输用于11.11大促，开通新疆航线"
+    },
+    {
+      "id": "cn-1109-chuzhou-regulator-rider",
+      "date": "2026-11-09",
+      "region": "中国",
+      "market": "安徽 / 滁州",
+      "company": "滁州市市场监管局 / 美团外卖 / 淘宝闪购",
+      "track": "行业监管",
+      "service": "履约与调度",
+      "title": "滁州披露监管人员配送体验，采集网络餐饮全链路问题",
+      "summary": "中国质量报11月9日报道，滁州监管人员近日经平台培训后实际接单配送，采集商家准入、出餐卫生、包装封签、配送箱清洁保温及纠纷处置问题，汇总书面问题表用于后续会商。原文未给出活动的具体日期。",
+      "implication": "平台可据此检查商家审核、食安记录和配送异常反馈的留痕；这是监管实践披露，不能写成11月9日开展活动或新增强制规则。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://www.cqn.com.cn/zgzlb/content/2026-11/09/content_9180021.htm",
+      "sourceLabel": "中国质量报 / 中国质量新闻网",
+      "sourceTitle": "安徽滁州监管人员换位体验配送工作实地收集网络餐饮问题"
+    },
+    {
+      "id": "sea-1109-grab-ai-jda",
+      "date": "2026-11-09",
+      "region": "东南亚",
+      "market": "马来西亚 / 沙捞越及马来半岛",
+      "company": "Grab / SoftBank Group / PETROS",
+      "track": "平台侧",
+      "service": "AI相关",
+      "title": "Grab等签署马来西亚AI基础设施联合开发协议，拟投入18.5亿美元初始资本",
+      "summary": "11月9日官方联合公告提出合计18.5亿美元初始资本，SoftBank Group、Grab及PETROS分别拟提供10亿、7.5亿和1亿美元；长期算力目标至少5GW。投资分阶段投入，取决于项目开发、客户合同等里程碑及交割条件。",
+      "implication": "可能增加区域本地AI算力供给及Grab的AI开发能力；应区分开发协议、分阶段投资和实际建成产能，不能视为配送AI功能已上线。",
+      "focus": true,
+      "status": "已核验",
+      "source": "https://group.softbank/en/news/press/20261109_0",
+      "sourceLabel": "SoftBank Group / Grab 官方联合公告",
+      "sourceTitle": "SoftBank Group and Grab Sign Joint Development Agreements to Develop AI Infrastructure in Malaysia"
+    },
+    {
+      "id": "sea-1109-ctp-slp-vietnam",
+      "date": "2026-11-09",
+      "region": "东南亚",
+      "market": "越南 / 北部与南部物流市场",
+      "company": "CTP / South-East Asia Logistics Partners（SLP）",
+      "track": "商家端",
+      "service": "国际物流与供应链",
+      "title": "CTP就约5亿美元收购SLP越南物流资产与运营平台达成条款",
+      "summary": "CTP于11月9日公告，拟收购SLP越南资产组合及运营平台100%权益，涉及7项现有资产、合计50.4万平方米净可出租面积及6处开发用地。现有客户包括J&T Express、Shopee Express和Nippon Express；交易仍需满足监管批准等条件。",
+      "implication": "若完成，可整合面向电商及第三方物流客户的仓储供应和运营资源；不能描述为已经交割或规划仓储面积已全部投入运营。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://ctp.eu/zh/news/ctp-accelerates-asian-expansion-with-agreement-to-acquire-slp-portfolio-and-operating-platform-in-vietnam-for-500-million/",
+      "sourceLabel": "CTP 官方公告",
+      "sourceTitle": "CTP accelerates Asian expansion with agreement to acquire SLP portfolio and operating platform in Vietnam for ~$500 million"
+    },
+    {
+      "id": "sea-1109-shopeefood-1111",
+      "date": "2026-11-09",
+      "region": "东南亚",
+      "market": "印度尼西亚",
+      "company": "ShopeeFood",
+      "track": "用户端",
+      "service": "商业化与费率",
+      "title": "ShopeeFood披露印尼11.11优惠及指定商家免配送费时段安排",
+      "summary": "11月9日报道援引公司书面声明：11月11日指定菜单Rp11起、最高90%折扣，受配额限制；Checkout Murah指定商家免配送费，11月1—10日每日17时起适用，11—13日扩展至全天。",
+      "implication": "优惠资格、时段、配额和商家库存需与履约能力协调；不能扩大为全平台永久免配送费，也不能把报道列出的团单、直播、预约和自提功能写成当日新上线。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://radarsemarang.jawapos.com/amp/ekonomi/2611090051/shopeefood-hadirkan-promo-spesial-sepanjang-november-lewat-kampanye-1111-big-deals",
+      "sourceLabel": "Radar Semarang / ShopeeFood 书面声明",
+      "sourceTitle": "ShopeeFood Hadirkan Promo Spesial Sepanjang November lewat Kampanye 11.11 Big Deals"
+    },
+    {
+      "id": "latam-1109-ifood-turbo-operations",
+      "date": "2026-11-09",
+      "region": "拉美",
+      "market": "巴西",
+      "company": "iFood",
+      "track": "平台侧",
+      "service": "履约与调度",
+      "title": "iFood披露Turbo分段时限、站外配送及商家AI助手规模",
+      "summary": "iFood负责人在11月9日刊发的UOL访谈中称，90%的药房配送已在20分钟内完成；现制餐食履约按最多8分钟备餐、2分钟出库、8分钟路程、2分钟交付拆分。访谈还披露Envios iFood为商家承接站外订单配送。 同文还披露，商家对话式数据助手已被6万家门店使用。",
+      "implication": "可参考分阶段时限监控及站外订单接入方式；履约率为公司披露，不能外推为全部品类的统一承诺，也不能把既有服务记为当日上线。",
+      "focus": true,
+      "status": "已核验",
+      "source": "https://economia.uol.com.br/noticias/redacao/2026/11/09/nao-tem-guerra-no-delivery-e-competicao-diz-presidente-do-ifood.ghtm",
+      "sourceLabel": "UOL Líderes / iFood 访谈",
+      "sourceTitle": "'Não tem guerra no delivery. É competição', diz presidente do iFood"
+    },
+    {
+      "id": "latam-1109-alivhub-ifood-auth",
+      "date": "2026-11-09",
+      "region": "拉美",
+      "market": "巴西",
+      "company": "Aliv Hub / iFood",
+      "track": "商家端",
+      "service": "产品与体验",
+      "title": "Aliv Hub修复切换iFood应用后新授权门店被误拒的问题",
+      "summary": "Aliv Hub于11月9日发布修复说明：商家在iFood伙伴门户新授权后切换账户应用，系统会在判定未授权前丢弃旧授权、请求新授权并重新校验，避免已授权门店无法接收订单；无需新增配置。",
+      "implication": "接单集成应在权限拒绝前重新核验授权状态，并区分令牌缓存与真实权限缺失；本条是Aliv Hub集成修复，不代表iFood全平台更改授权政策。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://alivhub.com.br/atualizacoes/trocar-o-app-do-ifood-nao-recusa-mais-a-loja-que-acabou-de-autorizar-779",
+      "sourceLabel": "Aliv Hub 官方更新",
+      "sourceTitle": "Trocar o app do iFood não recusa mais a loja que acabou de autorizar"
+    },
+    {
+      "id": "eu-1109-wolt-bolt-micromobility",
+      "date": "2026-11-09",
+      "region": "欧洲",
+      "market": "立陶宛",
+      "company": "Wolt / Bolt / 立陶宛交通主管部门",
+      "track": "行业监管",
+      "service": "骑手管理与权益",
+      "title": "Wolt、Bolt回应立陶宛微出行监管提案，强调骑手车辆合规",
+      "summary": "ELTA于11月9日报道两家公司对10月底提出的监管建议作出回应。提案涉及年龄、车辆登记及更强车辆的保险和驾照要求；Wolt称骑手需对车辆合规负责，Bolt建议同型号车辆批量登记。相关变化仍属提案，并非当日生效法规。",
+      "implication": "需跟踪提案进度，并检查运力车辆登记、培训和资质管理；不要将企业回应当作规则正式实施或宣称配送服务已受限。",
+      "focus": false,
+      "status": "已核验",
+      "source": "https://kaunas.kasvyksta.lt/verslas/ruosiami-grieztesni-ribojimai-bolt-ir-wolt-sureagavo-i-siulymus",
+      "sourceLabel": "Kas vyksta Kaune / ELTA",
+      "sourceTitle": "Ruošiami griežtesni ribojimai: „Bolt“ ir „Wolt“ sureagavo į siūlymus"
+    }
+  ],
+  "scopeNotes": "Original-body dates only, no Bing RSS, no paid OpenAI API, no Xiaohongshu. Implications are analysis. No claim of exhaustive industry coverage. This audit records verification; actual publication must be checked in GitHub Actions and on the live site."
+}

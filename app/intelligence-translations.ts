@@ -12,6 +12,78 @@ export type LocalizedItemCopy = {
 
 export const localizedItemCopies = {
   "en": {
+    "cn-1109-douyin-fair-competition": {
+      "title": "Douyin Local Services discloses unfair-competition enforcement and Anxin Shield feedback access",
+      "summary": "Guangzhou Daily reported on November 9 that Douyin Local Services targets malicious orders, refunds, complaints, reviews, ad-budget depletion and fake transactions designed to trigger rivals' risk controls. Merchants, linked accounts and third parties are covered. Penalties are tiered; severe or organized attacks may bring permanent removal. Victims can report risks through Anxin Shield in Douyin Laike.",
+      "implication": "Risk controls must distinguish genuine complaints from attacks and coordinate ad protection, alerts, merchant appeals and tiered penalties. The record date is the disclosure date, not necessarily when every provision took effect.",
+      "company": "ByteDance / Douyin Local Services",
+      "market": "China",
+      "sourceLabel": "Guangzhou Daily"
+    },
+    "cn-1109-jd-xinjiang-uav": {
+      "title": "JD Logistics discloses Xinjiang cargo-drone feeder trial for Double 11",
+      "summary": "On November 9, JD Logistics announced a trial cargo-drone route with Tianyu Hangtong between Aksu and Yecheng: about 450 km, maximum payload 1.9 tonnes and 2.5 hours per flight. It serves Double 11 feeder transport; the announcement says the model can support next-day delivery.",
+      "implication": "Low-altitude feeder routes must connect with hub sorting and ground delivery, tracking flight time separately from end-to-end lead time. Maximum payload is a capacity ceiling; 2.5 hours is not a door-to-door delivery promise.",
+      "company": "JD Logistics / Tianyu Hangtong",
+      "market": "Xinjiang / Aksu-Yecheng",
+      "sourceLabel": "IT Home / JD Logistics"
+    },
+    "cn-1109-chuzhou-regulator-rider": {
+      "title": "Chuzhou discloses regulators' delivery experience and end-to-end online food-service issue collection",
+      "summary": "China Quality Daily reported on November 9 that Chuzhou regulators recently took and delivered orders after platform training. They documented merchant admission, food-preparation hygiene, packaging seals, delivery-box cleanliness and insulation, and dispute handling in written issue sheets for later consultation. The activity's exact date was not given.",
+      "implication": "Platforms can review audit trails for merchant checks, food-safety records and delivery-incident feedback. This discloses regulatory fieldwork, not an activity held on November 9 or a new mandatory rule.",
+      "company": "Chuzhou Market Regulation Administration / Meituan Food Delivery / Taobao Instant Commerce",
+      "market": "Anhui / Chuzhou",
+      "sourceLabel": "China Quality Daily / China Quality News"
+    },
+    "sea-1109-grab-ai-jda": {
+      "title": "Grab and partners sign Malaysia AI infrastructure development agreements, proposing US$1.85 billion in initial capital",
+      "summary": "The November 9 joint announcement proposes US$1.85 billion in initial capital: US$1 billion from SoftBank Group, US$750 million from Grab and US$100 million from PETROS. The long-term compute capacity target is at least 5 GW. Funding is staged, subject to development and customer contract milestones and closing conditions.",
+      "implication": "Could expand regional AI compute supply and Grab's AI development capabilities. Development agreements, staged investment and operational capacity are distinct; this does not mean delivery AI features have launched.",
+      "company": "Grab / SoftBank Group / PETROS",
+      "market": "Malaysia / Sarawak and Peninsular Malaysia",
+      "sourceLabel": "SoftBank Group / Grab"
+    },
+    "sea-1109-ctp-slp-vietnam": {
+      "title": "CTP agrees terms for an approximately US$500 million acquisition of SLP's Vietnam logistics assets and operating platform",
+      "summary": "CTP announced on November 9 a proposed acquisition of 100% of SLP's Vietnam portfolio and operating platform, covering seven existing assets with 504,000 sqm of net lettable area and six development sites. Existing tenants include J&T Express, Shopee Express and Nippon Express. Closing remains subject to regulatory approvals and other conditions.",
+      "implication": "If completed, the deal could consolidate warehouse supply and operations for e-commerce and third-party logistics clients. It has not closed, and planned warehouse space must not be described as fully operational.",
+      "company": "CTP / South-East Asia Logistics Partners (SLP)",
+      "market": "Vietnam / Northern and southern logistics markets",
+      "sourceLabel": "CTP"
+    },
+    "sea-1109-shopeefood-1111": {
+      "title": "ShopeeFood details Indonesia's 11.11 offers and free-delivery windows at selected merchants",
+      "summary": "A November 9 report cites a company statement: selected dishes start at Rp11 on November 11, with discounts up to 90%, subject to quotas. Checkout Murah offers free delivery at selected merchants from 17:00 daily on November 1–10, extending to all day on November 11–13.",
+      "implication": "Eligibility, time windows, quotas and merchant stock need coordination with delivery capacity. This is not permanent platform-wide free delivery, and the listed group-order, livestream, scheduled-order and pickup features were not announced as new launches that day.",
+      "company": "ShopeeFood",
+      "market": "Indonesia",
+      "sourceLabel": "Radar Semarang"
+    },
+    "latam-1109-ifood-turbo-operations": {
+      "title": "iFood details Turbo stages, off-app delivery and merchant AI assistant adoption",
+      "summary": "In a UOL interview published November 9, iFood said 90% of pharmacy deliveries take no more than 20 minutes. For freshly prepared food it allocates up to 8 minutes to preparation, 2 to dispatch, 8 to travel and 2 to handover. Envios iFood also serves merchants' off-app orders. The interview also reports adoption of its conversational data assistant by 60,000 stores.",
+      "implication": "Monitor each fulfillment stage and off-app intake separately. The delivery rate is company-reported, not a promise for every category or evidence that existing services launched that day.",
+      "company": "iFood",
+      "market": "Brazil",
+      "sourceLabel": "UOL Líderes / iFood"
+    },
+    "latam-1109-alivhub-ifood-auth": {
+      "title": "Aliv Hub fixes false rejection of newly authorized iFood stores after app switching",
+      "summary": "The November 9 release says Aliv Hub now discards stale authorization, requests a fresh one and rechecks before rejecting a store after its account app is changed. This prevents newly authorized iFood stores from being unable to receive orders; no new configuration is required.",
+      "implication": "Recheck authorization before blocking order intake and distinguish cached credentials from missing permission. This is an Aliv Hub integration fix, not an iFood-wide authorization policy change.",
+      "company": "Aliv Hub / iFood",
+      "market": "Brazil",
+      "sourceLabel": "Aliv Hub"
+    },
+    "eu-1109-wolt-bolt-micromobility": {
+      "title": "Wolt and Bolt respond to Lithuania's micromobility proposals, stressing vehicle compliance",
+      "summary": "ELTA reported the companies' responses on November 9 to proposals announced in late October. These concern rider age, vehicle registration, and insurance and licensing for more powerful vehicles. Wolt stressed couriers' compliance responsibilities; Bolt proposed bulk registration of identical models. The changes remain proposals.",
+      "implication": "Track legislative progress and review fleet registration, training and credentials. Company responses do not establish that rules took effect or delivery services were restricted.",
+      "company": "Wolt / Bolt / Lithuanian transport authorities",
+      "market": "Lithuania",
+      "sourceLabel": "Kas vyksta Kaune / ELTA"
+    },
     "refresh-20261109-2": {
       "title": "Red-light waiting time excluded in three Shenzhen pilot districts",
       "summary": "Red-light waits are recorded automatically and rounded up as extra delivery time for every concurrent order. Pilot riders will gain access in phases within one week.",
@@ -1654,6 +1726,78 @@ export const localizedItemCopies = {
     }
   },
   "id": {
+    "cn-1109-douyin-fair-competition": {
+      "title": "Douyin Local Services mengungkap penindakan persaingan tidak sehat dan kanal umpan balik Anxin Shield",
+      "summary": "Guangzhou Daily pada 9 November melaporkan bahwa Douyin Local Services menindak pesanan, pengembalian dana, keluhan dan ulasan jahat, pengurasan anggaran iklan, serta transaksi palsu untuk memicu kontrol risiko pesaing. Cakupannya meliputi merchant, akun terkait, dan pihak ketiga. Sanksi bertingkat; serangan berat atau terorganisasi dapat berujung penghapusan permanen. Korban dapat melaporkan risiko melalui Anxin Shield di Douyin Laike.",
+      "implication": "Kontrol risiko harus membedakan keluhan nyata dari serangan serta mengoordinasikan perlindungan iklan, peringatan, banding merchant, dan sanksi bertingkat. Tanggal catatan adalah tanggal pengungkapan, bukan berarti semua ketentuan berlaku hari itu.",
+      "company": "ByteDance / Douyin Local Services",
+      "market": "Tiongkok",
+      "sourceLabel": "Guangzhou Daily"
+    },
+    "cn-1109-jd-xinjiang-uav": {
+      "title": "JD Logistics mengungkap uji coba rute pengumpan drone kargo di Xinjiang untuk Double 11",
+      "summary": "Pada 9 November, JD Logistics mengumumkan uji coba rute drone kargo bersama Tianyu Hangtong antara Aksu dan Yecheng: sekitar 450 km, muatan maksimum 1,9 ton, dan 2,5 jam per penerbangan. Rute ini melayani angkutan pengumpan Double 11; pengumuman menyebut modelnya dapat mendukung pengiriman keesokan hari.",
+      "implication": "Rute pengumpan udara rendah harus terhubung dengan penyortiran di pusat distribusi dan pengantaran darat; waktu terbang perlu dipantau terpisah dari waktu menyeluruh. Muatan maksimum adalah batas kapasitas; 2,5 jam bukan janji pengiriman dari pintu ke pintu.",
+      "company": "JD Logistics / Tianyu Hangtong",
+      "market": "Xinjiang / Aksu-Yecheng",
+      "sourceLabel": "IT Home / JD Logistics"
+    },
+    "cn-1109-chuzhou-regulator-rider": {
+      "title": "Chuzhou mengungkap pengalaman regulator mengantar pesanan dan pengumpulan masalah layanan makanan daring dari awal hingga akhir",
+      "summary": "China Quality Daily pada 9 November melaporkan bahwa regulator Chuzhou baru-baru ini menerima dan mengantar pesanan setelah pelatihan platform. Mereka mencatat masalah penerimaan merchant, kebersihan penyiapan makanan, segel kemasan, kebersihan dan insulasi kotak pengantaran, serta penanganan sengketa dalam formulir tertulis untuk pembahasan lanjutan. Tanggal pasti kegiatan tidak disebutkan.",
+      "implication": "Platform dapat memeriksa jejak audit verifikasi merchant, catatan keamanan pangan, dan umpan balik insiden pengantaran. Ini pengungkapan praktik lapangan regulator, bukan kegiatan yang pasti berlangsung pada 9 November atau aturan wajib baru.",
+      "company": "Administrasi Regulasi Pasar Chuzhou / Meituan Food Delivery / Taobao Instant Commerce",
+      "market": "Anhui / Chuzhou",
+      "sourceLabel": "China Quality Daily / China Quality News"
+    },
+    "sea-1109-grab-ai-jda": {
+      "title": "Grab dan mitra menandatangani perjanjian pengembangan infrastruktur AI Malaysia, mengusulkan modal awal US$1,85 miliar",
+      "summary": "Pengumuman bersama 9 November mengusulkan modal awal US$1,85 miliar: US$1 miliar dari SoftBank Group, US$750 juta dari Grab dan US$100 juta dari PETROS. Target kapasitas komputasi jangka panjang sedikitnya 5 GW. Pendanaan bertahap bergantung pada tonggak pengembangan, kontrak pelanggan dan persyaratan penyelesaian transaksi.",
+      "implication": "Berpotensi menambah pasokan komputasi AI regional dan kemampuan pengembangan AI Grab. Perjanjian pengembangan, investasi bertahap dan kapasitas yang sudah beroperasi harus dibedakan; bukan berarti fitur AI pengantaran telah diluncurkan.",
+      "company": "Grab / SoftBank Group / PETROS",
+      "market": "Malaysia / Sarawak dan Semenanjung Malaysia",
+      "sourceLabel": "SoftBank Group / Grab"
+    },
+    "sea-1109-ctp-slp-vietnam": {
+      "title": "CTP menyepakati ketentuan akuisisi aset logistik dan platform operasi SLP di Vietnam senilai sekitar US$500 juta",
+      "summary": "Pada 9 November, CTP mengumumkan rencana akuisisi 100% portofolio dan platform operasi SLP di Vietnam, mencakup tujuh aset eksisting dengan luas bersih yang dapat disewakan 504.000 m² serta enam lokasi pengembangan. Penyewa mencakup J&T Express, Shopee Express dan Nippon Express. Penyelesaian masih bergantung pada persetujuan regulator dan syarat lainnya.",
+      "implication": "Jika selesai, transaksi dapat mengintegrasikan pasokan gudang dan operasi untuk pelanggan e-commerce dan logistik pihak ketiga. Transaksi belum selesai; area gudang yang direncanakan tidak boleh disebut sudah seluruhnya beroperasi.",
+      "company": "CTP / South-East Asia Logistics Partners (SLP)",
+      "market": "Vietnam / Pasar logistik utara dan selatan",
+      "sourceLabel": "CTP"
+    },
+    "sea-1109-shopeefood-1111": {
+      "title": "ShopeeFood merinci promo 11.11 dan jadwal gratis ongkir di merchant tertentu di Indonesia",
+      "summary": "Laporan 9 November mengutip pernyataan tertulis perusahaan: menu tertentu mulai Rp11 pada 11 November, dengan diskon hingga 90% sesuai kuota. Checkout Murah menawarkan gratis ongkir di merchant tertentu mulai pukul 17.00 setiap hari pada 1–10 November, lalu sepanjang hari pada 11–13 November.",
+      "implication": "Syarat promo, jadwal, kuota dan stok merchant perlu diselaraskan dengan kapasitas pengantaran. Ini bukan gratis ongkir permanen di seluruh platform; fitur Group Order, Live Stream, Pesanan Terjadwal dan Pickup yang disebutkan bukan pengumuman peluncuran baru pada hari itu.",
+      "company": "ShopeeFood",
+      "market": "Indonesia",
+      "sourceLabel": "Radar Semarang"
+    },
+    "latam-1109-ifood-turbo-operations": {
+      "title": "iFood merinci tahapan Turbo, pengantaran di luar aplikasi dan adopsi asisten AI merchant",
+      "summary": "Dalam wawancara UOL yang terbit 9 November, iFood menyatakan 90% pengantaran apotek selesai dalam 20 menit. Untuk makanan yang baru disiapkan: maksimal 8 menit persiapan, 2 menit pengiriman dari gerai, 8 menit perjalanan dan 2 menit serah terima. Envios iFood juga melayani pesanan merchant di luar aplikasi. Wawancara itu juga menyebut asisten data percakapan telah digunakan 60.000 gerai.",
+      "implication": "Pantau setiap tahap pemenuhan dan penerimaan pesanan di luar aplikasi secara terpisah. Angka tersebut berasal dari perusahaan, bukan janji untuk semua kategori atau bukti layanan lama baru diluncurkan hari itu.",
+      "company": "iFood",
+      "market": "Brasil",
+      "sourceLabel": "UOL Líderes / iFood"
+    },
+    "latam-1109-alivhub-ifood-auth": {
+      "title": "Aliv Hub memperbaiki penolakan keliru gerai iFood yang baru diotorisasi setelah pergantian aplikasi",
+      "summary": "Rilis 9 November menyebut Aliv Hub kini membuang otorisasi lama, meminta yang baru dan memeriksa ulang sebelum menolak gerai setelah aplikasi akunnya diganti. Ini mencegah gerai iFood yang baru diotorisasi gagal menerima pesanan; tidak perlu konfigurasi baru.",
+      "implication": "Periksa ulang otorisasi sebelum memblokir penerimaan pesanan dan bedakan kredensial tersimpan dari izin yang belum diberikan. Ini perbaikan integrasi Aliv Hub, bukan perubahan kebijakan otorisasi seluruh iFood.",
+      "company": "Aliv Hub / iFood",
+      "market": "Brasil",
+      "sourceLabel": "Aliv Hub"
+    },
+    "eu-1109-wolt-bolt-micromobility": {
+      "title": "Wolt dan Bolt menanggapi usulan mikromobilitas Lithuania dan menekankan kepatuhan kendaraan",
+      "summary": "ELTA pada 9 November melaporkan tanggapan perusahaan atas usulan akhir Oktober. Isinya mencakup usia pengendara, registrasi kendaraan, serta asuransi dan lisensi untuk kendaraan lebih bertenaga. Wolt menekankan tanggung jawab kepatuhan kurir; Bolt mengusulkan registrasi massal model yang sama. Perubahan masih berupa usulan.",
+      "implication": "Pantau proses legislasi dan tinjau registrasi armada, pelatihan serta kredensial. Tanggapan perusahaan bukan bukti aturan telah berlaku atau layanan pengantaran dibatasi.",
+      "company": "Wolt / Bolt / otoritas transportasi Lithuania",
+      "market": "Lithuania",
+      "sourceLabel": "Kas vyksta Kaune / ELTA"
+    },
     "refresh-20261109-2": {
       "title": "Waktu menunggu lampu merah dikecualikan di tiga distrik uji coba Shenzhen",
       "summary": "Waktu menunggu lampu merah dicatat otomatis dan dibulatkan ke atas sebagai tambahan waktu pengantaran untuk setiap pesanan bersamaan. Akses bagi kurir uji coba dibuka bertahap dalam satu minggu.",
@@ -3296,6 +3440,78 @@ export const localizedItemCopies = {
     }
   },
   "vi": {
+    "cn-1109-douyin-fair-competition": {
+      "title": "Douyin Local Services công bố xử lý cạnh tranh không lành mạnh và kênh phản hồi Anxin Shield",
+      "summary": "Guangzhou Daily ngày 9/11 đưa tin Douyin Local Services xử lý đặt đơn, hoàn tiền, khiếu nại, đánh giá ác ý, tiêu hao ngân sách quảng cáo và giao dịch giả nhằm kích hoạt kiểm soát rủi ro của đối thủ. Phạm vi gồm nhà bán hàng, tài khoản liên quan và bên thứ ba. Chế tài theo mức độ; tấn công nghiêm trọng hoặc có tổ chức có thể bị loại vĩnh viễn. Nạn nhân có thể báo rủi ro qua Anxin Shield trong Douyin Laike.",
+      "implication": "Kiểm soát rủi ro cần phân biệt khiếu nại thật với tấn công, đồng bộ bảo vệ quảng cáo, cảnh báo, khiếu nại của nhà bán hàng và chế tài theo mức độ. Ngày ghi nhận là ngày công bố, không mặc định mọi điều khoản có hiệu lực cùng ngày.",
+      "company": "ByteDance / Douyin Local Services",
+      "market": "Trung Quốc",
+      "sourceLabel": "Guangzhou Daily"
+    },
+    "cn-1109-jd-xinjiang-uav": {
+      "title": "JD Logistics công bố thử nghiệm tuyến nhánh drone chở hàng tại Xinjiang phục vụ Double 11",
+      "summary": "Ngày 9/11, JD Logistics công bố thử nghiệm tuyến drone chở hàng cùng Tianyu Hangtong giữa Aksu và Yecheng: khoảng 450 km, tải trọng tối đa 1,9 tấn và 2,5 giờ mỗi chuyến. Tuyến phục vụ vận tải nhánh Double 11; thông báo cho biết mô hình có thể hỗ trợ giao ngày hôm sau.",
+      "implication": "Tuyến nhánh tầm thấp cần kết nối phân loại tại trung tâm và giao đường bộ, theo dõi riêng thời gian bay và thời gian toàn trình. Tải trọng tối đa là giới hạn năng lực; 2,5 giờ không phải cam kết giao tận cửa.",
+      "company": "JD Logistics / Tianyu Hangtong",
+      "market": "Xinjiang / Aksu-Yecheng",
+      "sourceLabel": "IT Home / JD Logistics"
+    },
+    "cn-1109-chuzhou-regulator-rider": {
+      "title": "Chuzhou công bố trải nghiệm giao hàng của cán bộ quản lý và thu thập vấn đề xuyên suốt dịch vụ ăn uống trực tuyến",
+      "summary": "China Quality Daily ngày 9/11 đưa tin cán bộ quản lý Chuzhou gần đây nhận và giao đơn sau đào tạo của nền tảng. Họ lập bảng vấn đề về xét duyệt nhà bán hàng, vệ sinh chuẩn bị món, niêm phong bao bì, vệ sinh và giữ nhiệt thùng giao hàng, cùng xử lý tranh chấp để thảo luận tiếp. Không nêu ngày cụ thể của hoạt động.",
+      "implication": "Nền tảng có thể kiểm tra dấu vết xét duyệt nhà bán hàng, hồ sơ an toàn thực phẩm và phản hồi sự cố giao hàng. Đây là công bố hoạt động thực địa của cơ quan quản lý, không phải hoạt động chắc chắn diễn ra ngày 9/11 hay quy định bắt buộc mới.",
+      "company": "Cơ quan Quản lý Thị trường Chuzhou / Meituan Food Delivery / Taobao Instant Commerce",
+      "market": "Anhui / Chuzhou",
+      "sourceLabel": "China Quality Daily / China Quality News"
+    },
+    "sea-1109-grab-ai-jda": {
+      "title": "Grab và đối tác ký thỏa thuận phát triển hạ tầng AI tại Malaysia, đề xuất vốn ban đầu 1,85 tỷ USD",
+      "summary": "Thông báo chung ngày 9/11 đề xuất vốn ban đầu 1,85 tỷ USD: SoftBank Group góp 1 tỷ USD, Grab 750 triệu USD và PETROS 100 triệu USD. Mục tiêu công suất tính toán dài hạn ít nhất 5 GW. Vốn được giải ngân theo giai đoạn, tùy các mốc phát triển, hợp đồng khách hàng và điều kiện hoàn tất giao dịch.",
+      "implication": "Có thể tăng nguồn cung năng lực tính toán AI trong khu vực và khả năng phát triển AI của Grab. Cần phân biệt thỏa thuận phát triển, đầu tư theo giai đoạn và công suất thực tế vận hành; không có nghĩa tính năng AI giao hàng đã ra mắt.",
+      "company": "Grab / SoftBank Group / PETROS",
+      "market": "Malaysia / Sarawak và bán đảo Malaysia",
+      "sourceLabel": "SoftBank Group / Grab"
+    },
+    "sea-1109-ctp-slp-vietnam": {
+      "title": "CTP thống nhất điều khoản mua tài sản logistics và nền tảng vận hành SLP tại Việt Nam với giá khoảng 500 triệu USD",
+      "summary": "Ngày 9/11, CTP công bố kế hoạch mua 100% danh mục tài sản và nền tảng vận hành SLP tại Việt Nam, gồm bảy tài sản hiện hữu với 504.000 m² diện tích cho thuê thuần và sáu khu đất phát triển. Khách thuê gồm J&T Express, Shopee Express và Nippon Express. Giao dịch còn tùy phê duyệt của cơ quan quản lý và các điều kiện khác.",
+      "implication": "Nếu hoàn tất, giao dịch có thể tích hợp nguồn cung kho và hoạt động phục vụ thương mại điện tử, logistics bên thứ ba. Giao dịch chưa hoàn tất; không mô tả diện tích kho dự kiến là đã vận hành toàn bộ.",
+      "company": "CTP / South-East Asia Logistics Partners (SLP)",
+      "market": "Việt Nam / Thị trường logistics miền Bắc và miền Nam",
+      "sourceLabel": "CTP"
+    },
+    "sea-1109-shopeefood-1111": {
+      "title": "ShopeeFood công bố ưu đãi 11.11 và khung giờ miễn phí giao hàng tại đối tác chọn lọc ở Indonesia",
+      "summary": "Bài báo ngày 9/11 dẫn tuyên bố bằng văn bản của công ty: món chọn lọc từ Rp11 ngày 11/11, giảm đến 90% theo hạn mức. Checkout Murah miễn phí giao hàng tại đối tác chọn lọc từ 17 giờ hằng ngày trong 1–10/11, mở rộng cả ngày trong 11–13/11.",
+      "implication": "Cần đồng bộ điều kiện ưu đãi, khung giờ, hạn mức và tồn kho với năng lực giao hàng. Không phải miễn phí giao hàng vĩnh viễn toàn nền tảng; các tính năng đặt nhóm, phát trực tiếp, đặt theo lịch và tự nhận nêu trong bài không phải thông báo ra mắt mới trong ngày.",
+      "company": "ShopeeFood",
+      "market": "Indonesia",
+      "sourceLabel": "Radar Semarang"
+    },
+    "latam-1109-ifood-turbo-operations": {
+      "title": "iFood công bố các chặng Turbo, giao đơn ngoài ứng dụng và mức sử dụng trợ lý AI",
+      "summary": "Trong phỏng vấn UOL đăng ngày 9/11, iFood cho biết 90% đơn nhà thuốc được giao trong 20 phút. Với món chế biến tại chỗ: tối đa 8 phút chuẩn bị, 2 phút xuất đơn, 8 phút di chuyển và 2 phút bàn giao. Envios iFood cũng phục vụ đơn ngoài ứng dụng của nhà bán hàng. Phỏng vấn còn cho biết 60.000 cửa hàng đã sử dụng trợ lý dữ liệu hội thoại.",
+      "implication": "Theo dõi riêng từng chặng hoàn tất đơn và việc tiếp nhận đơn ngoài ứng dụng. Tỷ lệ do công ty công bố, không phải cam kết cho mọi ngành hàng hoặc bằng chứng dịch vụ cũ mới ra mắt hôm đó.",
+      "company": "iFood",
+      "market": "Brazil",
+      "sourceLabel": "UOL Líderes / iFood"
+    },
+    "latam-1109-alivhub-ifood-auth": {
+      "title": "Aliv Hub sửa lỗi từ chối nhầm cửa hàng iFood vừa cấp quyền sau khi đổi ứng dụng",
+      "summary": "Bản cập nhật ngày 9/11 cho biết Aliv Hub bỏ quyền xác thực cũ, yêu cầu quyền mới và kiểm tra lại trước khi từ chối cửa hàng sau khi đổi ứng dụng tài khoản. Nhờ đó cửa hàng iFood vừa cấp quyền vẫn nhận được đơn; không cần cấu hình mới.",
+      "implication": "Kiểm tra lại quyền trước khi chặn nhận đơn và phân biệt thông tin xác thực lưu đệm với quyền chưa cấp. Đây là sửa lỗi tích hợp Aliv Hub, không phải thay đổi chính sách xác thực toàn iFood.",
+      "company": "Aliv Hub / iFood",
+      "market": "Brazil",
+      "sourceLabel": "Aliv Hub"
+    },
+    "eu-1109-wolt-bolt-micromobility": {
+      "title": "Wolt và Bolt phản hồi đề xuất về phương tiện di chuyển nhỏ tại Lithuania, nhấn mạnh tuân thủ",
+      "summary": "Ngày 9/11, ELTA đưa tin về phản hồi đối với đề xuất cuối tháng 10 liên quan tuổi người lái, đăng ký xe, bảo hiểm và giấy phép cho xe công suất cao hơn. Wolt nhấn mạnh trách nhiệm tuân thủ của tài xế; Bolt đề xuất đăng ký hàng loạt xe cùng mẫu. Các thay đổi vẫn là đề xuất.",
+      "implication": "Theo dõi tiến trình lập pháp và rà soát đăng ký phương tiện, đào tạo, giấy tờ tài xế. Phản hồi doanh nghiệp không có nghĩa quy định đã có hiệu lực hoặc dịch vụ giao hàng bị hạn chế.",
+      "company": "Wolt / Bolt / cơ quan giao thông Lithuania",
+      "market": "Lithuania",
+      "sourceLabel": "Kas vyksta Kaune / ELTA"
+    },
     "refresh-20261109-2": {
       "title": "Loại thời gian chờ đèn đỏ khỏi đánh giá giao hàng tại ba quận thí điểm ở Shenzhen",
       "summary": "Thời gian chờ đèn đỏ được tự động ghi nhận và làm tròn lên để cộng vào thời hạn của từng đơn giao đồng thời. Quyền truy cập cho tài xế thí điểm được mở theo đợt trong một tuần.",
@@ -4938,6 +5154,78 @@ export const localizedItemCopies = {
     }
   },
   "pt": {
+    "cn-1109-douyin-fair-competition": {
+      "title": "Douyin Local Services divulga combate à concorrência desleal e canal de denúncias Anxin Shield",
+      "summary": "Guangzhou Daily informou em 9 de novembro que Douyin Local Services combate pedidos, reembolsos, reclamações e avaliações maliciosos, consumo de verba publicitária e transações falsas para acionar controles de risco dos concorrentes. Abrange estabelecimentos, contas vinculadas e terceiros. As penas são graduais; ataques graves ou organizados podem levar à exclusão permanente. Vítimas podem relatar riscos pelo Anxin Shield no Douyin Laike.",
+      "implication": "Controles de risco devem distinguir reclamações legítimas de ataques e coordenar proteção de anúncios, alertas, recursos dos estabelecimentos e penas graduais. A data registrada é a da divulgação, não necessariamente a vigência de todas as cláusulas.",
+      "company": "ByteDance / Douyin Local Services",
+      "market": "China",
+      "sourceLabel": "Guangzhou Daily"
+    },
+    "cn-1109-jd-xinjiang-uav": {
+      "title": "JD Logistics divulga teste de rota alimentadora com drones de carga em Xinjiang para Double 11",
+      "summary": "Em 9 de novembro, JD Logistics anunciou com Tianyu Hangtong uma rota experimental de drones de carga entre Aksu e Yecheng: cerca de 450 km, carga máxima de 1,9 tonelada e 2,5 horas por voo. Atende ao transporte alimentador do Double 11; o anúncio afirma que o modelo pode permitir entrega no dia seguinte.",
+      "implication": "Rotas alimentadoras de baixa altitude precisam conectar triagem nos centros e entrega terrestre, monitorando separadamente tempo de voo e prazo total. A carga máxima é um limite de capacidade; 2,5 horas não é uma promessa de entrega porta a porta.",
+      "company": "JD Logistics / Tianyu Hangtong",
+      "market": "Xinjiang / Aksu-Yecheng",
+      "sourceLabel": "IT Home / JD Logistics"
+    },
+    "cn-1109-chuzhou-regulator-rider": {
+      "title": "Chuzhou divulga experiência de fiscais com entregas e levantamento de problemas em toda a cadeia de alimentação online",
+      "summary": "China Quality Daily informou em 9 de novembro que fiscais de Chuzhou recentemente aceitaram e entregaram pedidos após treinamento das plataformas. Registraram problemas de admissão de estabelecimentos, higiene no preparo, lacres, limpeza e isolamento térmico das caixas de entrega e resolução de conflitos em formulários para discussão posterior. A data exata da atividade não foi informada.",
+      "implication": "Plataformas podem revisar registros de verificação de estabelecimentos, segurança alimentar e relatos de incidentes de entrega. É divulgação de trabalho de campo regulatório, não confirmação de atividade em 9 de novembro nem de nova regra obrigatória.",
+      "company": "Administração de Regulação do Mercado de Chuzhou / Meituan Food Delivery / Taobao Instant Commerce",
+      "market": "Anhui / Chuzhou",
+      "sourceLabel": "China Quality Daily / China Quality News"
+    },
+    "sea-1109-grab-ai-jda": {
+      "title": "Grab e parceiros assinam acordos para infraestrutura de IA na Malásia, com capital inicial proposto de US$ 1,85 bilhão",
+      "summary": "O anúncio conjunto de 9 de novembro propõe capital inicial de US$ 1,85 bilhão: US$ 1 bilhão da SoftBank Group, US$ 750 milhões da Grab e US$ 100 milhões da PETROS. A meta de capacidade computacional de longo prazo é de pelo menos 5 GW. Aportes serão escalonados, sujeitos a marcos de desenvolvimento, contratos com clientes e condições de fechamento.",
+      "implication": "Pode ampliar a oferta regional de computação de IA e a capacidade de desenvolvimento de IA da Grab. Acordos, investimento em etapas e capacidade operacional são distintos; isso não significa que recursos de IA para entregas já foram lançados.",
+      "company": "Grab / SoftBank Group / PETROS",
+      "market": "Malásia / Sarawak e Malásia Peninsular",
+      "sourceLabel": "SoftBank Group / Grab"
+    },
+    "sea-1109-ctp-slp-vietnam": {
+      "title": "CTP acerta termos para adquirir ativos logísticos e plataforma operacional da SLP no Vietnã por cerca de US$ 500 milhões",
+      "summary": "Em 9 de novembro, a CTP anunciou a proposta de adquirir 100% do portfólio e da plataforma operacional da SLP no Vietnã: sete ativos existentes com 504 mil m² de área locável líquida e seis terrenos para desenvolvimento. Locatários incluem J&T Express, Shopee Express e Nippon Express. O fechamento depende de aprovações regulatórias e outras condições.",
+      "implication": "Se concluída, a operação pode integrar a oferta de galpões e os recursos operacionais para clientes de e-commerce e logística terceirizada. A transação ainda não foi concluída; a área planejada não deve ser descrita como integralmente operacional.",
+      "company": "CTP / South-East Asia Logistics Partners (SLP)",
+      "market": "Vietnã / Mercados logísticos do norte e do sul",
+      "sourceLabel": "CTP"
+    },
+    "sea-1109-shopeefood-1111": {
+      "title": "ShopeeFood detalha ofertas de 11.11 e horários de entrega grátis em estabelecimentos selecionados na Indonésia",
+      "summary": "Reportagem de 9 de novembro cita comunicado da empresa: pratos selecionados a partir de Rp11 em 11 de novembro, com descontos de até 90%, sujeitos a cotas. O Checkout Murah oferece entrega grátis em estabelecimentos selecionados a partir das 17h de 1 a 10 de novembro e durante todo o dia de 11 a 13 de novembro.",
+      "implication": "Elegibilidade, horários, cotas e estoque devem ser alinhados à capacidade de entrega. Não é entrega grátis permanente em toda a plataforma; os recursos citados de pedidos em grupo, transmissões ao vivo, agendamento e retirada não foram anunciados como lançamentos daquele dia.",
+      "company": "ShopeeFood",
+      "market": "Indonésia",
+      "sourceLabel": "Radar Semarang"
+    },
+    "latam-1109-ifood-turbo-operations": {
+      "title": "iFood detalha etapas do Turbo, entregas externas e adoção do assistente de IA",
+      "summary": "Em entrevista ao UOL publicada em 9 de novembro, o iFood afirmou que 90% das entregas de farmácia levam até 20 minutos. Para comida preparada na hora, divide o prazo em até 8 minutos de preparo, 2 de despacho, 8 de deslocamento e 2 de entrega. O Envios iFood também atende pedidos externos dos estabelecimentos. A entrevista também informa que 60 mil lojas usam seu assistente de dados por conversa.",
+      "implication": "Acompanhe cada etapa logística e a entrada de pedidos externos separadamente. A taxa é informada pela empresa, não uma promessa para todas as categorias nem evidência de lançamento dos serviços naquele dia.",
+      "company": "iFood",
+      "market": "Brasil",
+      "sourceLabel": "UOL Líderes / iFood"
+    },
+    "latam-1109-alivhub-ifood-auth": {
+      "title": "Aliv Hub corrige recusa indevida de lojas iFood recém-autorizadas após troca do aplicativo",
+      "summary": "A atualização de 9 de novembro informa que o Aliv Hub descarta a autorização antiga, solicita uma nova e confere novamente antes de recusar a loja após a troca do aplicativo da conta. Isso evita que lojas iFood recém-autorizadas deixem de receber pedidos; não exige nova configuração.",
+      "implication": "Confira a autorização antes de bloquear pedidos e diferencie credenciais em cache de permissão ausente. É uma correção da integração do Aliv Hub, não uma alteração da política geral do iFood.",
+      "company": "Aliv Hub / iFood",
+      "market": "Brasil",
+      "sourceLabel": "Aliv Hub"
+    },
+    "eu-1109-wolt-bolt-micromobility": {
+      "title": "Wolt e Bolt respondem a propostas de micromobilidade na Lituânia e destacam conformidade dos veículos",
+      "summary": "A ELTA noticiou em 9 de novembro as respostas às propostas do fim de outubro, que tratam de idade, registro de veículos e seguro e habilitação para modelos mais potentes. A Wolt destacou a responsabilidade dos entregadores pela conformidade; a Bolt propôs registro em lote de modelos iguais. As mudanças seguem como propostas.",
+      "implication": "Acompanhe a tramitação e revise registro da frota, treinamento e documentação. As respostas das empresas não significam que as regras entraram em vigor ou que as entregas foram restringidas.",
+      "company": "Wolt / Bolt / autoridades de transporte da Lituânia",
+      "market": "Lituânia",
+      "sourceLabel": "Kas vyksta Kaune / ELTA"
+    },
     "refresh-20261109-2": {
       "title": "Espera no sinal vermelho excluída da avaliação em três distritos-piloto de Shenzhen",
       "summary": "A espera no sinal vermelho é registrada automaticamente e arredondada para cima como tempo adicional para cada pedido entregue simultaneamente. O acesso dos entregadores-piloto será liberado em etapas dentro de uma semana.",
